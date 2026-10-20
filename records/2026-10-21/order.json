@@ -1,0 +1,60 @@
+{
+  "record_id": "2026-10-21-SOXL-01",
+  "record_date_kst": "2026-10-21",
+  "record_reference_at": "2026-10-21T00:40:44+09:00",
+  "reference_at_new_york": "2026-10-20T11:40:44-04:00",
+  "source": "user_report",
+  "reported_balance": {
+    "usd": "10208.14",
+    "krw": 13598262,
+    "balance_type": null,
+    "measured_at": null,
+    "buying_power_usd": null,
+    "fx_rate": null
+  },
+  "order": {
+    "symbol": "SOXL",
+    "side": "buy",
+    "order_type": "limit",
+    "order_type_basis": "inferred_from_user_description",
+    "limit_price_usd": "97.00",
+    "requested_quantity": 105,
+    "submitted_at": null,
+    "market_trade_date": null,
+    "time_in_force": null,
+    "trading_session": null,
+    "broker_order_id": null,
+    "broker_status": null
+  },
+  "calculation_at_order_price": {
+    "notional_usd": "10185.00",
+    "notional_to_reported_balance_pct": "99.77",
+    "hypothetical_remaining_cash_usd": "23.14",
+    "assumptions": [
+      "Reported USD balance is entirely available cash.",
+      "All 105 shares fill at exactly USD 97.00.",
+      "Fees and other cash movements are excluded."
+    ]
+  },
+  "execution": {
+    "verification_status": "unconfirmed",
+    "checked_at": null,
+    "filled_quantity": null,
+    "unfilled_quantity": null,
+    "average_fill_price_usd": null,
+    "gross_cost_usd": null,
+    "fees_usd": null,
+    "fills": null,
+    "remaining_cash_usd": null
+  },
+  "result": {
+    "sold_quantity": null,
+    "average_sell_price_usd": null,
+    "remaining_position_quantity": null,
+    "realized_pnl_usd": null,
+    "unrealized_pnl_usd": null,
+    "ending_account_value_usd": null
+  },
+  "user_note": "SOXL을 97달러에 105개 매수를 걸어놓고 잠에 들었습니다.",
+  "follow_up": "아침에 증권사 거래 내역으로 실제 체결 결과를 확인한다."
+}
