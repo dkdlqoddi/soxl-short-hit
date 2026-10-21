@@ -37,15 +37,19 @@
     ]
   },
   "execution": {
-    "verification_status": "unconfirmed",
+    "verification_status": "user_reported_no_fill",
     "checked_at": null,
-    "filled_quantity": null,
-    "unfilled_quantity": null,
+    "filled_quantity": 0,
+    "unfilled_quantity": 105,
     "average_fill_price_usd": null,
-    "gross_cost_usd": null,
+    "gross_cost_usd": "0.00",
     "fees_usd": null,
-    "fills": null,
-    "remaining_cash_usd": null
+    "fills": [],
+    "remaining_cash_usd": null,
+    "source": "user_report",
+    "scope": "original_order_during_reported_us_session",
+    "recorded_at": "2026-10-21T19:09:43+09:00",
+    "note": "미국장 미체결 결과만 기록한다. 증권사 내역·현재 주문 유효 여부·취소·만료 상태는 미확인이다."
   },
   "result": {
     "sold_quantity": null,
@@ -56,5 +60,48 @@
     "ending_account_value_usd": null
   },
   "user_note": "SOXL을 97달러에 105개 매수를 걸어놓고 잠에 들었습니다.",
-  "follow_up": "아침에 증권사 거래 내역으로 실제 체결 결과를 확인한다."
+  "follow_up": "증권사 주문 상태와 한국장 개별 거래·수수료·입출금·보유량·잔액 종류를 확인하면 상세 거래 및 손익을 추가한다.",
+  "updated_at": "2026-10-21T19:09:43+09:00",
+  "us_session_observation": {
+    "source": "user_report",
+    "market_trade_date": null,
+    "reported_price_before_rebound_usd": "98.00",
+    "rebounded": true,
+    "trades_occurred": false,
+    "official_session_low_verified": false,
+    "note": "관찰 구간과 정확한 미국 거래일 미제공. 98달러를 공식 일중 최저가로 확정하지 않는다."
+  },
+  "korea_session": {
+    "source": "user_report",
+    "record_date_kst": "2026-10-21",
+    "date_basis": "inferred_from_existing_record_and_conversation_date",
+    "trades_occurred": true,
+    "traded_symbols": null,
+    "trade_details": null,
+    "trade_count": null,
+    "fees_usd": null,
+    "cash_flows_usd": null,
+    "realized_pnl_usd": null,
+    "unrealized_pnl_usd": null,
+    "remaining_positions": null,
+    "ending_reported_balance": {
+      "usd": "10119.69",
+      "krw": 13438949,
+      "balance_type": null,
+      "measured_at": null,
+      "as_of_description": "한국장 마감 기준, 사용자 설명",
+      "fx_rate": null
+    },
+    "note": "한국장 시간대 추가 거래 사실과 마감 잔액만 제공됨. 종목·세션·개별 체결 내역은 미확인이다."
+  },
+  "balance_comparison": {
+    "basis": "initial_reported_balance_to_korea_close_reported_balance",
+    "usd_change": "-88.45",
+    "usd_change_pct": "-0.87",
+    "krw_change": -159313,
+    "krw_change_pct": "-1.17",
+    "is_confirmed_realized_pnl": false,
+    "note": "한국장 시작 직전 잔액·입출금·수수료·보유량·잔액 종류가 미확인이다. 잔액 변동을 거래 손익으로 확정하지 않는다."
+  },
+  "update_note": "미국장에서는 SOXL이 98달러까지 하락 후 반등했고 97달러 주문은 미체결로 거래가 없었다. 이후 한국장 시간대에 추가 거래했으며 마감 잔액은 10119.69달러 / 13438949원이다."
 }
