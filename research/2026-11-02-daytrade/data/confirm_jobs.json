@@ -1,0 +1,3099 @@
+[
+ {
+  "id": 1,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "top1",
+  "screen_net_pct": 212.7,
+  "screen_trades": 157
+ },
+ {
+  "id": 2,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226
+ },
+ {
+  "id": 3,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "top3",
+  "screen_net_pct": 195.6,
+  "screen_trades": 159
+ },
+ {
+  "id": 4,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 12,
+  "label": "top4",
+  "screen_net_pct": 182.0,
+  "screen_trades": 158
+ },
+ {
+  "id": 5,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 7,
+  "sellB": 17,
+  "label": "top5",
+  "screen_net_pct": 179.8,
+  "screen_trades": 226
+ },
+ {
+  "id": 6,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 17,
+  "sellB": -1,
+  "label": "top6",
+  "screen_net_pct": 179.8,
+  "screen_trades": 226
+ },
+ {
+  "id": 7,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 7,
+  "sellB": 8,
+  "label": "top7",
+  "screen_net_pct": 173.6,
+  "screen_trades": 157
+ },
+ {
+  "id": 8,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 3,
+  "sellB": 8,
+  "label": "top8",
+  "screen_net_pct": 169.6,
+  "screen_trades": 123
+ },
+ {
+  "id": 9,
+  "tf": "15",
+  "buyA": 12,
+  "buyB": 19,
+  "sellA": 10,
+  "sellB": 14,
+  "label": "robustbuy1",
+  "screen_net_pct": 98.4,
+  "screen_trades": 32
+ },
+ {
+  "id": 10,
+  "tf": "15",
+  "buyA": 4,
+  "buyB": 11,
+  "sellA": 3,
+  "sellB": 7,
+  "label": "robustbuy2",
+  "screen_net_pct": 81.3,
+  "screen_trades": 36
+ },
+ {
+  "id": 11,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 3,
+  "sellA": 8,
+  "sellB": 11,
+  "label": "robustbuy3",
+  "screen_net_pct": 153.0,
+  "screen_trades": 156
+ },
+ {
+  "id": 12,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "robustbuy4",
+  "screen_net_pct": 167.2,
+  "screen_trades": 84
+ },
+ {
+  "id": 13,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 3,
+  "sellB": 11,
+  "label": "robustbuy6",
+  "screen_net_pct": 164.1,
+  "screen_trades": 115
+ },
+ {
+  "id": 14,
+  "tf": "15",
+  "buyA": 18,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": -1,
+  "label": "robustsell1",
+  "screen_net_pct": 124.6,
+  "screen_trades": 171
+ },
+ {
+  "id": 15,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 18,
+  "sellA": 5,
+  "sellB": 9,
+  "label": "robustsell2",
+  "screen_net_pct": 117.7,
+  "screen_trades": 263
+ },
+ {
+  "id": 16,
+  "tf": "15",
+  "buyA": 9,
+  "buyB": 19,
+  "sellA": 13,
+  "sellB": -1,
+  "label": "robustsell3",
+  "screen_net_pct": 140.5,
+  "screen_trades": 58
+ },
+ {
+  "id": 17,
+  "tf": "15",
+  "buyA": 18,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": 14,
+  "label": "robustsell4",
+  "screen_net_pct": 58.6,
+  "screen_trades": 203
+ },
+ {
+  "id": 18,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 18,
+  "sellA": 9,
+  "sellB": 13,
+  "label": "robustsell5",
+  "screen_net_pct": 66.4,
+  "screen_trades": 288
+ },
+ {
+  "id": 19,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "calmar2",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83
+ },
+ {
+  "id": 20,
+  "tf": "15",
+  "buyA": 9,
+  "buyB": 19,
+  "sellA": 13,
+  "sellB": 14,
+  "label": "calmar3",
+  "screen_net_pct": 99.7,
+  "screen_trades": 61
+ },
+ {
+  "id": 21,
+  "tf": "15",
+  "buyA": 9,
+  "buyB": 19,
+  "sellA": 0,
+  "sellB": 13,
+  "label": "calmar5",
+  "screen_net_pct": 124.6,
+  "screen_trades": 60
+ },
+ {
+  "id": 22,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "best_1buy_1sell_1",
+  "screen_net_pct": 149.1,
+  "screen_trades": 158
+ },
+ {
+  "id": 23,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": -1,
+  "label": "best_1buy_1sell_2",
+  "screen_net_pct": 111.4,
+  "screen_trades": 158
+ },
+ {
+  "id": 24,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "best_1buy_2sell_1",
+  "screen_net_pct": 135.4,
+  "screen_trades": 160
+ },
+ {
+  "id": 25,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 5,
+  "sellB": 12,
+  "label": "best_1buy_2sell_2",
+  "screen_net_pct": 128.5,
+  "screen_trades": 160
+ },
+ {
+  "id": 26,
+  "tf": "15",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_firsthour_EOD",
+  "screen_net_pct": -94.0,
+  "screen_trades": 500
+ },
+ {
+  "id": 27,
+  "tf": "15",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 18,
+  "sellB": -1,
+  "label": "baseline_firsthour_4h",
+  "screen_net_pct": -93.6,
+  "screen_trades": 500
+ },
+ {
+  "id": 28,
+  "tf": "15",
+  "buyA": 16,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "baseline_CLV_TP3",
+  "screen_net_pct": -95.2,
+  "screen_trades": 612
+ },
+ {
+  "id": 29,
+  "tf": "15",
+  "buyA": 19,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_drop2_EOD",
+  "screen_net_pct": -65.5,
+  "screen_trades": 261
+ },
+ {
+  "id": 30,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "top1_var_maxHrs8.0",
+  "screen_net_pct": 212.7,
+  "screen_trades": 157,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 31,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "top1_var_maxHrs48.0",
+  "screen_net_pct": 212.7,
+  "screen_trades": 157,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 32,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_var_maxHrs8.0",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 33,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_var_maxHrs48.0",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 34,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_var_chMult1.5",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 35,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_var_chMult3.0",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 36,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "top3_var_maxHrs8.0",
+  "screen_net_pct": 195.6,
+  "screen_trades": 159,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 37,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "top3_var_maxHrs48.0",
+  "screen_net_pct": 195.6,
+  "screen_trades": 159,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 38,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top4_var_maxHrs8.0",
+  "screen_net_pct": 167.2,
+  "screen_trades": 84,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 39,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top4_var_maxHrs48.0",
+  "screen_net_pct": 167.2,
+  "screen_trades": 84,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 40,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top4_var_chMult1.5",
+  "screen_net_pct": 167.2,
+  "screen_trades": 84,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 41,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top4_var_chMult3.0",
+  "screen_net_pct": 167.2,
+  "screen_trades": 84,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 42,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top5_var_maxHrs8.0",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 43,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top5_var_maxHrs48.0",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 44,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top5_var_chMult1.5",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 45,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top5_var_chMult3.0",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 46,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top5_var_holdHrs2.0",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83,
+  "params": {
+   "holdHrs": 2.0
+  }
+ },
+ {
+  "id": 47,
+  "tf": "15",
+  "buyA": 8,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top5_var_holdHrs6.0",
+  "screen_net_pct": 140.1,
+  "screen_trades": 83,
+  "params": {
+   "holdHrs": 6.0
+  }
+ },
+ {
+  "id": 48,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "top1",
+  "screen_net_pct": 414.9,
+  "screen_trades": 84
+ },
+ {
+  "id": 49,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 6,
+  "label": "top2",
+  "screen_net_pct": 408.3,
+  "screen_trades": 80
+ },
+ {
+  "id": 50,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "top3",
+  "screen_net_pct": 400.0,
+  "screen_trades": 79
+ },
+ {
+  "id": 51,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 0,
+  "sellB": 1,
+  "label": "top4",
+  "screen_net_pct": 398.5,
+  "screen_trades": 77
+ },
+ {
+  "id": 52,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": -1,
+  "label": "top5",
+  "screen_net_pct": 398.5,
+  "screen_trades": 77
+ },
+ {
+  "id": 53,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 3,
+  "label": "top6",
+  "screen_net_pct": 398.5,
+  "screen_trades": 77
+ },
+ {
+  "id": 54,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 4,
+  "label": "top7",
+  "screen_net_pct": 363.1,
+  "screen_trades": 77
+ },
+ {
+  "id": 55,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 7,
+  "label": "top8",
+  "screen_net_pct": 339.4,
+  "screen_trades": 77
+ },
+ {
+  "id": 56,
+  "tf": "30",
+  "buyA": 6,
+  "buyB": 11,
+  "sellA": 10,
+  "sellB": -1,
+  "label": "robustbuy2",
+  "screen_net_pct": 199.0,
+  "screen_trades": 60
+ },
+ {
+  "id": 57,
+  "tf": "30",
+  "buyA": 12,
+  "buyB": 19,
+  "sellA": 3,
+  "sellB": 5,
+  "label": "robustbuy3",
+  "screen_net_pct": 145.8,
+  "screen_trades": 34
+ },
+ {
+  "id": 58,
+  "tf": "30",
+  "buyA": 4,
+  "buyB": 7,
+  "sellA": 5,
+  "sellB": 11,
+  "label": "robustbuy4",
+  "screen_net_pct": 57.5,
+  "screen_trades": 30
+ },
+ {
+  "id": 59,
+  "tf": "30",
+  "buyA": 4,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "robustbuy5",
+  "screen_net_pct": 220.9,
+  "screen_trades": 132
+ },
+ {
+  "id": 60,
+  "tf": "30",
+  "buyA": 1,
+  "buyB": 9,
+  "sellA": 1,
+  "sellB": -1,
+  "label": "robustbuy6",
+  "screen_net_pct": 169.6,
+  "screen_trades": 58
+ },
+ {
+  "id": 61,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "robustsell1",
+  "screen_net_pct": 193.6,
+  "screen_trades": 78
+ },
+ {
+  "id": 62,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 5,
+  "sellB": 6,
+  "label": "robustsell2",
+  "screen_net_pct": 172.3,
+  "screen_trades": 80
+ },
+ {
+  "id": 63,
+  "tf": "30",
+  "buyA": 6,
+  "buyB": 11,
+  "sellA": 6,
+  "sellB": 7,
+  "label": "robustsell3",
+  "screen_net_pct": 149.5,
+  "screen_trades": 66
+ },
+ {
+  "id": 64,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 6,
+  "sellB": 8,
+  "label": "robustsell4",
+  "screen_net_pct": 209.4,
+  "screen_trades": 81
+ },
+ {
+  "id": 65,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 0,
+  "sellB": 6,
+  "label": "robustsell5",
+  "screen_net_pct": 201.3,
+  "screen_trades": 78
+ },
+ {
+  "id": 66,
+  "tf": "30",
+  "buyA": 1,
+  "buyB": 9,
+  "sellA": 1,
+  "sellB": 3,
+  "label": "calmar3",
+  "screen_net_pct": 169.2,
+  "screen_trades": 58
+ },
+ {
+  "id": 67,
+  "tf": "30",
+  "buyA": 1,
+  "buyB": 9,
+  "sellA": 1,
+  "sellB": 4,
+  "label": "calmar4",
+  "screen_net_pct": 155.3,
+  "screen_trades": 59
+ },
+ {
+  "id": 68,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": -1,
+  "sellA": 1,
+  "sellB": -1,
+  "label": "best_1buy_1sell_1",
+  "screen_net_pct": 154.1,
+  "screen_trades": 135
+ },
+ {
+  "id": 69,
+  "tf": "30",
+  "buyA": 10,
+  "buyB": -1,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "best_1buy_1sell_2",
+  "screen_net_pct": 99.7,
+  "screen_trades": 185
+ },
+ {
+  "id": 70,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": -1,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "best_1buy_2sell_1",
+  "screen_net_pct": 161.2,
+  "screen_trades": 138
+ },
+ {
+  "id": 71,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": -1,
+  "sellA": 1,
+  "sellB": 3,
+  "label": "best_1buy_2sell_2",
+  "screen_net_pct": 160.1,
+  "screen_trades": 135
+ },
+ {
+  "id": 72,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 9,
+  "sellB": -1,
+  "label": "best_2buy_1sell_2",
+  "screen_net_pct": 262.0,
+  "screen_trades": 74
+ },
+ {
+  "id": 73,
+  "tf": "30",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_firsthour_EOD",
+  "screen_net_pct": -91.2,
+  "screen_trades": 500
+ },
+ {
+  "id": 74,
+  "tf": "30",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 18,
+  "sellB": -1,
+  "label": "baseline_firsthour_4h",
+  "screen_net_pct": -89.7,
+  "screen_trades": 500
+ },
+ {
+  "id": 75,
+  "tf": "30",
+  "buyA": 16,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "baseline_CLV_TP3",
+  "screen_net_pct": -88.0,
+  "screen_trades": 522
+ },
+ {
+  "id": 76,
+  "tf": "30",
+  "buyA": 19,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_drop2_EOD",
+  "screen_net_pct": -39.3,
+  "screen_trades": 272
+ },
+ {
+  "id": 77,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "top1_var_maxHrs8.0",
+  "screen_net_pct": 414.9,
+  "screen_trades": 84,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 78,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "top1_var_maxHrs48.0",
+  "screen_net_pct": 414.9,
+  "screen_trades": 84,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 79,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 6,
+  "label": "top2_var_maxHrs8.0",
+  "screen_net_pct": 408.3,
+  "screen_trades": 80,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 80,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 6,
+  "label": "top2_var_maxHrs48.0",
+  "screen_net_pct": 408.3,
+  "screen_trades": 80,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 81,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "top3_var_maxHrs8.0",
+  "screen_net_pct": 400.0,
+  "screen_trades": 79,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 82,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "top3_var_maxHrs48.0",
+  "screen_net_pct": 400.0,
+  "screen_trades": 79,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 83,
+  "tf": "30",
+  "buyA": 1,
+  "buyB": 9,
+  "sellA": 1,
+  "sellB": -1,
+  "label": "top4_var_maxHrs8.0",
+  "screen_net_pct": 169.6,
+  "screen_trades": 58,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 84,
+  "tf": "30",
+  "buyA": 1,
+  "buyB": 9,
+  "sellA": 1,
+  "sellB": -1,
+  "label": "top4_var_maxHrs48.0",
+  "screen_net_pct": 169.6,
+  "screen_trades": 58,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 85,
+  "tf": "60",
+  "buyA": 13,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "top1",
+  "screen_net_pct": 196.9,
+  "screen_trades": 111
+ },
+ {
+  "id": 86,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top2",
+  "screen_net_pct": 191.2,
+  "screen_trades": 34
+ },
+ {
+  "id": 87,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top3",
+  "screen_net_pct": 191.2,
+  "screen_trades": 63
+ },
+ {
+  "id": 88,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 5,
+  "label": "top4",
+  "screen_net_pct": 177.7,
+  "screen_trades": 69
+ },
+ {
+  "id": 89,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 7,
+  "sellB": 10,
+  "label": "top5",
+  "screen_net_pct": 172.3,
+  "screen_trades": 34
+ },
+ {
+  "id": 90,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 10,
+  "sellB": -1,
+  "label": "top6",
+  "screen_net_pct": 172.3,
+  "screen_trades": 34
+ },
+ {
+  "id": 91,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 3,
+  "sellB": 10,
+  "label": "top7",
+  "screen_net_pct": 172.3,
+  "screen_trades": 34
+ },
+ {
+  "id": 92,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 4,
+  "sellB": 10,
+  "label": "top8",
+  "screen_net_pct": 172.3,
+  "screen_trades": 34
+ },
+ {
+  "id": 93,
+  "tf": "60",
+  "buyA": 1,
+  "buyB": 14,
+  "sellA": 6,
+  "sellB": 15,
+  "label": "robustbuy3",
+  "screen_net_pct": 98.6,
+  "screen_trades": 39
+ },
+ {
+  "id": 94,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 19,
+  "sellA": 7,
+  "sellB": 10,
+  "label": "robustbuy5",
+  "screen_net_pct": 88.7,
+  "screen_trades": 94
+ },
+ {
+  "id": 95,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 1,
+  "sellB": 12,
+  "label": "robustbuy6",
+  "screen_net_pct": 77.1,
+  "screen_trades": 51
+ },
+ {
+  "id": 96,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": 10,
+  "label": "robustsell1",
+  "screen_net_pct": 172.3,
+  "screen_trades": 34
+ },
+ {
+  "id": 97,
+  "tf": "60",
+  "buyA": 15,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": 12,
+  "label": "robustsell3",
+  "screen_net_pct": 124.7,
+  "screen_trades": 145
+ },
+ {
+  "id": 98,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 8,
+  "sellB": 15,
+  "label": "robustsell4",
+  "screen_net_pct": 94.2,
+  "screen_trades": 67
+ },
+ {
+  "id": 99,
+  "tf": "60",
+  "buyA": 1,
+  "buyB": 19,
+  "sellA": 7,
+  "sellB": 15,
+  "label": "robustsell5",
+  "screen_net_pct": 99.3,
+  "screen_trades": 178
+ },
+ {
+  "id": 100,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "calmar1",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59
+ },
+ {
+  "id": 101,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 18,
+  "sellA": 6,
+  "sellB": 13,
+  "label": "calmar2",
+  "screen_net_pct": 130.5,
+  "screen_trades": 62
+ },
+ {
+  "id": 102,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 18,
+  "sellA": 9,
+  "sellB": 13,
+  "label": "calmar3",
+  "screen_net_pct": 130.5,
+  "screen_trades": 62
+ },
+ {
+  "id": 103,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 18,
+  "sellA": 13,
+  "sellB": -1,
+  "label": "calmar4",
+  "screen_net_pct": 130.5,
+  "screen_trades": 62
+ },
+ {
+  "id": 104,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 18,
+  "sellA": 0,
+  "sellB": 13,
+  "label": "calmar5",
+  "screen_net_pct": 130.5,
+  "screen_trades": 62
+ },
+ {
+  "id": 105,
+  "tf": "60",
+  "buyA": 1,
+  "buyB": -1,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "best_1buy_1sell_1",
+  "screen_net_pct": 76.9,
+  "screen_trades": 199
+ },
+ {
+  "id": 106,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "best_1buy_1sell_2",
+  "screen_net_pct": 67.7,
+  "screen_trades": 57
+ },
+ {
+  "id": 107,
+  "tf": "60",
+  "buyA": 9,
+  "buyB": -1,
+  "sellA": 13,
+  "sellB": 15,
+  "label": "best_1buy_2sell_1",
+  "screen_net_pct": 123.6,
+  "screen_trades": 105
+ },
+ {
+  "id": 108,
+  "tf": "60",
+  "buyA": 9,
+  "buyB": -1,
+  "sellA": 6,
+  "sellB": 17,
+  "label": "best_1buy_2sell_2",
+  "screen_net_pct": 103.5,
+  "screen_trades": 100
+ },
+ {
+  "id": 109,
+  "tf": "60",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_firsthour_EOD",
+  "screen_net_pct": -91.2,
+  "screen_trades": 500
+ },
+ {
+  "id": 110,
+  "tf": "60",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 18,
+  "sellB": -1,
+  "label": "baseline_firsthour_4h",
+  "screen_net_pct": -91.0,
+  "screen_trades": 500
+ },
+ {
+  "id": 111,
+  "tf": "60",
+  "buyA": 16,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "baseline_CLV_TP3",
+  "screen_net_pct": -77.8,
+  "screen_trades": 395
+ },
+ {
+  "id": 112,
+  "tf": "60",
+  "buyA": 19,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_drop2_EOD",
+  "screen_net_pct": -59.0,
+  "screen_trades": 240
+ },
+ {
+  "id": 113,
+  "tf": "60",
+  "buyA": 13,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "top1_var_maxHrs8.0",
+  "screen_net_pct": 196.9,
+  "screen_trades": 111,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 114,
+  "tf": "60",
+  "buyA": 13,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "top1_var_maxHrs48.0",
+  "screen_net_pct": 196.9,
+  "screen_trades": 111,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 115,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top2_var_maxHrs8.0",
+  "screen_net_pct": 191.2,
+  "screen_trades": 34,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 116,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top2_var_maxHrs48.0",
+  "screen_net_pct": 191.2,
+  "screen_trades": 34,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 117,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top3_var_maxHrs8.0",
+  "screen_net_pct": 191.2,
+  "screen_trades": 63,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 118,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top3_var_maxHrs48.0",
+  "screen_net_pct": 191.2,
+  "screen_trades": 63,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 119,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top4_var_maxHrs8.0",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 120,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top4_var_maxHrs48.0",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 121,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top4_var_chMult1.5",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 122,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top4_var_chMult3.0",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 123,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top4_var_holdHrs2.0",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "holdHrs": 2.0
+  }
+ },
+ {
+  "id": 124,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "top4_var_holdHrs6.0",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "holdHrs": 6.0
+  }
+ },
+ {
+  "id": 125,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 18,
+  "sellA": 6,
+  "sellB": 13,
+  "label": "top5_var_maxHrs8.0",
+  "screen_net_pct": 130.5,
+  "screen_trades": 62,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 126,
+  "tf": "60",
+  "buyA": 2,
+  "buyB": 18,
+  "sellA": 6,
+  "sellB": 13,
+  "label": "top5_var_maxHrs48.0",
+  "screen_net_pct": 130.5,
+  "screen_trades": 62,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 127,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77
+ },
+ {
+  "id": 128,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77
+ },
+ {
+  "id": 129,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77
+ },
+ {
+  "id": 130,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top4",
+  "screen_net_pct": 386.6,
+  "screen_trades": 77
+ },
+ {
+  "id": 131,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 10,
+  "sellB": 17,
+  "label": "top5",
+  "screen_net_pct": 386.6,
+  "screen_trades": 77
+ },
+ {
+  "id": 132,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 7,
+  "sellB": 17,
+  "label": "top6",
+  "screen_net_pct": 386.6,
+  "screen_trades": 77
+ },
+ {
+  "id": 133,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 17,
+  "sellB": -1,
+  "label": "top7",
+  "screen_net_pct": 386.6,
+  "screen_trades": 77
+ },
+ {
+  "id": 134,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 12,
+  "label": "top8",
+  "screen_net_pct": 382.8,
+  "screen_trades": 77
+ },
+ {
+  "id": 135,
+  "tf": "120",
+  "buyA": 2,
+  "buyB": 16,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "robustbuy2",
+  "screen_net_pct": 120.6,
+  "screen_trades": 62
+ },
+ {
+  "id": 136,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": 14,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "robustbuy3",
+  "screen_net_pct": 234.6,
+  "screen_trades": 64
+ },
+ {
+  "id": 137,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": 12,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "robustbuy4",
+  "screen_net_pct": 204.9,
+  "screen_trades": 55
+ },
+ {
+  "id": 138,
+  "tf": "120",
+  "buyA": 15,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "robustbuy5",
+  "screen_net_pct": 243.3,
+  "screen_trades": 88
+ },
+ {
+  "id": 139,
+  "tf": "120",
+  "buyA": 13,
+  "buyB": 15,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "robustbuy6",
+  "screen_net_pct": 128.5,
+  "screen_trades": 35
+ },
+ {
+  "id": 140,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 13,
+  "sellB": 17,
+  "label": "robustsell1",
+  "screen_net_pct": 206.0,
+  "screen_trades": 77
+ },
+ {
+  "id": 141,
+  "tf": "120",
+  "buyA": 15,
+  "buyB": -1,
+  "sellA": 5,
+  "sellB": 14,
+  "label": "robustsell2",
+  "screen_net_pct": 241.7,
+  "screen_trades": 88
+ },
+ {
+  "id": 142,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 14,
+  "label": "robustsell3",
+  "screen_net_pct": 183.3,
+  "screen_trades": 77
+ },
+ {
+  "id": 143,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 11,
+  "label": "calmar1",
+  "screen_net_pct": 370.9,
+  "screen_trades": 77
+ },
+ {
+  "id": 144,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 11,
+  "label": "calmar2",
+  "screen_net_pct": 358.9,
+  "screen_trades": 77
+ },
+ {
+  "id": 145,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 5,
+  "sellB": 11,
+  "label": "calmar3",
+  "screen_net_pct": 357.7,
+  "screen_trades": 77
+ },
+ {
+  "id": 146,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 7,
+  "sellB": 11,
+  "label": "calmar4",
+  "screen_net_pct": 357.7,
+  "screen_trades": 77
+ },
+ {
+  "id": 147,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 11,
+  "sellB": -1,
+  "label": "calmar5",
+  "screen_net_pct": 357.7,
+  "screen_trades": 77
+ },
+ {
+  "id": 148,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": -1,
+  "label": "best_1buy_1sell_2",
+  "screen_net_pct": 369.3,
+  "screen_trades": 77
+ },
+ {
+  "id": 149,
+  "tf": "120",
+  "buyA": 15,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "best_2buy_1sell_1",
+  "screen_net_pct": 270.5,
+  "screen_trades": 85
+ },
+ {
+  "id": 150,
+  "tf": "120",
+  "buyA": 15,
+  "buyB": 17,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "best_2buy_1sell_2",
+  "screen_net_pct": 230.3,
+  "screen_trades": 85
+ },
+ {
+  "id": 151,
+  "tf": "120",
+  "buyA": 15,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": 8,
+  "label": "best_2buy_2sell_1",
+  "screen_net_pct": 270.5,
+  "screen_trades": 85
+ },
+ {
+  "id": 152,
+  "tf": "120",
+  "buyA": 15,
+  "buyB": 17,
+  "sellA": 5,
+  "sellB": 6,
+  "label": "best_2buy_2sell_2",
+  "screen_net_pct": 268.7,
+  "screen_trades": 85
+ },
+ {
+  "id": 153,
+  "tf": "120",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_firsthour_EOD",
+  "screen_net_pct": -87.7,
+  "screen_trades": 500
+ },
+ {
+  "id": 154,
+  "tf": "120",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 18,
+  "sellB": -1,
+  "label": "baseline_firsthour_4h",
+  "screen_net_pct": -91.7,
+  "screen_trades": 500
+ },
+ {
+  "id": 155,
+  "tf": "120",
+  "buyA": 16,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "baseline_CLV_TP3",
+  "screen_net_pct": -29.3,
+  "screen_trades": 283
+ },
+ {
+  "id": 156,
+  "tf": "120",
+  "buyA": 19,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_drop2_EOD",
+  "screen_net_pct": -47.8,
+  "screen_trades": 227
+ },
+ {
+  "id": 157,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_var_maxHrs8.0",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 158,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_var_maxHrs48.0",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 159,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_var_chMult1.5",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 160,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_var_chMult3.0",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 161,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_var_maxHrs8.0",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 162,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_var_maxHrs48.0",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 163,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_var_chMult1.5",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 164,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_var_chMult3.0",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 165,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_var_maxHrs8.0",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 166,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_var_maxHrs48.0",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 167,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_var_chMult1.5",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "chMult": 1.5
+  }
+ },
+ {
+  "id": 168,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_var_chMult3.0",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "chMult": 3.0
+  }
+ },
+ {
+  "id": 169,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 11,
+  "label": "top4_var_maxHrs8.0",
+  "screen_net_pct": 370.9,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 170,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 11,
+  "label": "top4_var_maxHrs48.0",
+  "screen_net_pct": 370.9,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 171,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 11,
+  "label": "top5_var_maxHrs8.0",
+  "screen_net_pct": 358.9,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 8.0
+  }
+ },
+ {
+  "id": 172,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 11,
+  "label": "top5_var_maxHrs48.0",
+  "screen_net_pct": 358.9,
+  "screen_trades": 77,
+  "params": {
+   "maxHrs": 48.0
+  }
+ },
+ {
+  "id": 173,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 11,
+  "label": "top1",
+  "screen_net_pct": 367.5,
+  "screen_trades": 163,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 174,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "top2",
+  "screen_net_pct": 327.6,
+  "screen_trades": 145,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 175,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": -1,
+  "label": "top3",
+  "screen_net_pct": 279.0,
+  "screen_trades": 119,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 176,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 11,
+  "sellB": -1,
+  "label": "top4",
+  "screen_net_pct": 274.6,
+  "screen_trades": 163,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 177,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "top5",
+  "screen_net_pct": 258.4,
+  "screen_trades": 143,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 178,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 7,
+  "sellB": 14,
+  "label": "top6",
+  "screen_net_pct": 254.1,
+  "screen_trades": 152,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 179,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 6,
+  "sellA": 0,
+  "sellB": -1,
+  "label": "top7",
+  "screen_net_pct": 243.5,
+  "screen_trades": 38,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 180,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 15,
+  "sellA": 0,
+  "sellB": 11,
+  "label": "top8",
+  "screen_net_pct": 226.6,
+  "screen_trades": 109,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 181,
+  "tf": "5",
+  "buyA": 3,
+  "buyB": 11,
+  "sellA": 15,
+  "sellB": -1,
+  "label": "robustbuy3",
+  "screen_net_pct": 90.2,
+  "screen_trades": 39,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 182,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 19,
+  "sellA": 5,
+  "sellB": 11,
+  "label": "robustbuy4",
+  "screen_net_pct": 167.8,
+  "screen_trades": 63,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 183,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 13,
+  "sellA": 5,
+  "sellB": -1,
+  "label": "robustbuy5",
+  "screen_net_pct": 99.4,
+  "screen_trades": 34,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 184,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 11,
+  "sellA": 1,
+  "sellB": 2,
+  "label": "robustbuy6",
+  "screen_net_pct": 106.2,
+  "screen_trades": 80,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 185,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 6,
+  "sellA": 18,
+  "sellB": -1,
+  "label": "robustsell1",
+  "screen_net_pct": 122.1,
+  "screen_trades": 40,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 186,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 15,
+  "sellA": 13,
+  "sellB": 18,
+  "label": "robustsell3",
+  "screen_net_pct": 124.9,
+  "screen_trades": 109,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 187,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 19,
+  "sellA": 5,
+  "sellB": -1,
+  "label": "robustsell4",
+  "screen_net_pct": 164.4,
+  "screen_trades": 57,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 188,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 9,
+  "label": "robustsell5",
+  "screen_net_pct": 151.6,
+  "screen_trades": 146,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 189,
+  "tf": "5",
+  "buyA": 2,
+  "buyB": 11,
+  "sellA": 1,
+  "sellB": 14,
+  "label": "calmar5",
+  "screen_net_pct": 99.1,
+  "screen_trades": 79,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 190,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "best_1buy_1sell_1",
+  "screen_net_pct": 111.8,
+  "screen_trades": 150,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 191,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 11,
+  "sellB": -1,
+  "label": "best_1buy_1sell_2",
+  "screen_net_pct": 56.4,
+  "screen_trades": 181,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 192,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 7,
+  "sellB": 14,
+  "label": "best_1buy_2sell_1",
+  "screen_net_pct": 117.0,
+  "screen_trades": 163,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 193,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": -1,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "best_1buy_2sell_2",
+  "screen_net_pct": 112.2,
+  "screen_trades": 152,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 194,
+  "tf": "5",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_firsthour_EOD",
+  "screen_net_pct": -84.1,
+  "screen_trades": 250,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 195,
+  "tf": "5",
+  "buyA": 17,
+  "buyB": -1,
+  "sellA": 18,
+  "sellB": -1,
+  "label": "baseline_firsthour_4h",
+  "screen_net_pct": -83.2,
+  "screen_trades": 250,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 196,
+  "tf": "5",
+  "buyA": 16,
+  "buyB": -1,
+  "sellA": 14,
+  "sellB": -1,
+  "label": "baseline_CLV_TP3",
+  "screen_net_pct": -83.1,
+  "screen_trades": 383,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 197,
+  "tf": "5",
+  "buyA": 19,
+  "buyB": -1,
+  "sellA": 19,
+  "sellB": -1,
+  "label": "baseline_drop2_EOD",
+  "screen_net_pct": -69.1,
+  "screen_trades": 130,
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 198,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 11,
+  "label": "top1_var_maxHrs8.0",
+  "screen_net_pct": 367.5,
+  "screen_trades": 163,
+  "params": {
+   "maxHrs": 8.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 199,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 11,
+  "label": "top1_var_maxHrs48.0",
+  "screen_net_pct": 367.5,
+  "screen_trades": 163,
+  "params": {
+   "maxHrs": 48.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 200,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "top2_var_maxHrs8.0",
+  "screen_net_pct": 327.6,
+  "screen_trades": 145,
+  "params": {
+   "maxHrs": 8.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 201,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "top2_var_maxHrs48.0",
+  "screen_net_pct": 327.6,
+  "screen_trades": 145,
+  "params": {
+   "maxHrs": 48.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 202,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "top2_var_tpPct2.0",
+  "screen_net_pct": 327.6,
+  "screen_trades": 145,
+  "params": {
+   "tpPct": 2.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 203,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "top2_var_tpPct4.0",
+  "screen_net_pct": 327.6,
+  "screen_trades": 145,
+  "params": {
+   "tpPct": 4.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 204,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": 14,
+  "label": "top2_var_tpPct5.0",
+  "screen_net_pct": 327.6,
+  "screen_trades": 145,
+  "params": {
+   "tpPct": 5.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 205,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": -1,
+  "label": "top3_var_maxHrs8.0",
+  "screen_net_pct": 279.0,
+  "screen_trades": 119,
+  "params": {
+   "maxHrs": 8.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 206,
+  "tf": "5",
+  "buyA": 0,
+  "buyB": 2,
+  "sellA": 0,
+  "sellB": -1,
+  "label": "top3_var_maxHrs48.0",
+  "screen_net_pct": 279.0,
+  "screen_trades": 119,
+  "params": {
+   "maxHrs": 48.0
+  },
+  "start": "2025-11-01T00:00:00-0400"
+ },
+ {
+  "id": 1001,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "top1_sameBar",
+  "screen_net_pct": 212.7,
+  "screen_trades": 157,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1002,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "top1_cap1000x",
+  "screen_net_pct": 212.7,
+  "screen_trades": 157,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1003,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 8,
+  "sellB": -1,
+  "label": "top1_sameBar_cap1000x",
+  "screen_net_pct": 212.7,
+  "screen_trades": 157,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1004,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_sameBar",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1005,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_cap1000x",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1006,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 17,
+  "label": "top2_sameBar_cap1000x",
+  "screen_net_pct": 197.6,
+  "screen_trades": 226,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1007,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "top3_sameBar",
+  "screen_net_pct": 195.6,
+  "screen_trades": 159,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1008,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "top3_cap1000x",
+  "screen_net_pct": 195.6,
+  "screen_trades": 159,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1009,
+  "tf": "15",
+  "buyA": 0,
+  "buyB": 1,
+  "sellA": 5,
+  "sellB": 8,
+  "label": "top3_sameBar_cap1000x",
+  "screen_net_pct": 195.6,
+  "screen_trades": 159,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1010,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "top1_sameBar",
+  "screen_net_pct": 414.9,
+  "screen_trades": 84,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1011,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "top1_cap1000x",
+  "screen_net_pct": 414.9,
+  "screen_trades": 84,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1012,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 11,
+  "label": "top1_sameBar_cap1000x",
+  "screen_net_pct": 414.9,
+  "screen_trades": 84,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1013,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 6,
+  "label": "top2_sameBar",
+  "screen_net_pct": 408.3,
+  "screen_trades": 80,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1014,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 6,
+  "label": "top2_cap1000x",
+  "screen_net_pct": 408.3,
+  "screen_trades": 80,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1015,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 6,
+  "label": "top2_sameBar_cap1000x",
+  "screen_net_pct": 408.3,
+  "screen_trades": 80,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1016,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "top3_sameBar",
+  "screen_net_pct": 400.0,
+  "screen_trades": 79,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1017,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "top3_cap1000x",
+  "screen_net_pct": 400.0,
+  "screen_trades": 79,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1018,
+  "tf": "30",
+  "buyA": 3,
+  "buyB": 18,
+  "sellA": 1,
+  "sellB": 8,
+  "label": "top3_sameBar_cap1000x",
+  "screen_net_pct": 400.0,
+  "screen_trades": 79,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1019,
+  "tf": "60",
+  "buyA": 13,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "top1_sameBar",
+  "screen_net_pct": 196.9,
+  "screen_trades": 111,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1020,
+  "tf": "60",
+  "buyA": 13,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "top1_cap1000x",
+  "screen_net_pct": 196.9,
+  "screen_trades": 111,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1021,
+  "tf": "60",
+  "buyA": 13,
+  "buyB": 17,
+  "sellA": 6,
+  "sellB": -1,
+  "label": "top1_sameBar_cap1000x",
+  "screen_net_pct": 196.9,
+  "screen_trades": 111,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1022,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top2_sameBar",
+  "screen_net_pct": 191.2,
+  "screen_trades": 34,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1023,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top2_cap1000x",
+  "screen_net_pct": 191.2,
+  "screen_trades": 34,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1024,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 17,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top2_sameBar_cap1000x",
+  "screen_net_pct": 191.2,
+  "screen_trades": 34,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1025,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top3_sameBar",
+  "screen_net_pct": 191.2,
+  "screen_trades": 63,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1026,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top3_cap1000x",
+  "screen_net_pct": 191.2,
+  "screen_trades": 63,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1027,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 1,
+  "sellB": 10,
+  "label": "top3_sameBar_cap1000x",
+  "screen_net_pct": 191.2,
+  "screen_trades": 63,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1028,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "calmar1_sameBar",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1029,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "calmar1_cap1000x",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1030,
+  "tf": "60",
+  "buyA": 0,
+  "buyB": 19,
+  "sellA": 17,
+  "sellB": 18,
+  "label": "calmar1_sameBar_cap1000x",
+  "screen_net_pct": 148.5,
+  "screen_trades": 59,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1031,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_sameBar",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1032,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_cap1000x",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1033,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 12,
+  "sellB": 17,
+  "label": "top1_sameBar_cap1000x",
+  "screen_net_pct": 426.8,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1034,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_sameBar",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1035,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_cap1000x",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1036,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 17,
+  "label": "top2_sameBar_cap1000x",
+  "screen_net_pct": 409.4,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1037,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_sameBar",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1038,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_cap1000x",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1039,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 8,
+  "sellB": 17,
+  "label": "top3_sameBar_cap1000x",
+  "screen_net_pct": 387.9,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1040,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 11,
+  "label": "calmar1_sameBar",
+  "screen_net_pct": 370.9,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true
+  }
+ },
+ {
+  "id": 1041,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 11,
+  "label": "calmar1_cap1000x",
+  "screen_net_pct": 370.9,
+  "screen_trades": 77,
+  "params": {
+   "capital": 8200000
+  }
+ },
+ {
+  "id": 1042,
+  "tf": "120",
+  "buyA": 6,
+  "buyB": -1,
+  "sellA": 9,
+  "sellB": 11,
+  "label": "calmar1_sameBar_cap1000x",
+  "screen_net_pct": 370.9,
+  "screen_trades": 77,
+  "params": {
+   "sameBar": true,
+   "capital": 8200000
+  }
+ }
+]

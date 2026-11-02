@@ -1,0 +1,9 @@
+//@version=6
+indicator("logtest", overlay=false)
+plot(close)
+if barstate.islast
+    string s = str.repeat("0123456789", 3000)
+    log.info("M1 len={0} {1}", str.length(s), s)
+    log.info("M2 len={0} {1}", str.length(s), s)
+    log.info("M3 len={0} {1}", str.length(s), s)
+    log.info("END")

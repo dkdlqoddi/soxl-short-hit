@@ -1,0 +1,208 @@
+//@version=6
+// SOXL 단타 지표 조합 전략 (연구 노트 research/2026-11-02-daytrade) — 스크리닝 상위 조합을 TradingView Strategy Tester로 확인하는 용도
+// 매수: buyA AND buyB(없으면 -1)가 처음 참이 되는 봉(상승 엣지)의 종가 매수. 매도: sellA OR sellB 중 하나라도 발생하면 청산.
+// 익절·손절·트레일링·샹들리에는 봉 안에서 체결(stop/limit 주문), 지표형 매도·시간 청산·장 마감 청산은 봉 종가 체결.
+// 모든 포지션은 maxHrs(24시간) 안에 청산. 수수료 편도 0.25%.
+// 매수 조건 번호: 0 RSI14<30, 1 RSI2<10, 2 StochK<20, 3 종가<BB하단, 4 CCI<-100, 5 EMA9/21 골든크로스, 6 MACD 골든크로스,
+//   7 Supertrend 상승, 8 PSAR 상승, 9 +DI>-DI & ADX>20, 10 20봉 신고가 돌파, 11 시가 범위(30분) 돌파, 12 전일 고가 돌파,
+//   13 종가 VWAP 상향 돌파, 14 종가>VWAP, 15 거래량 2배 & 양봉, 16 저가 근처 마감(CLV<0.2), 17 장 시작 첫 1시간, 18 종가>일봉 SMA200, 19 한 봉 -2% 이상 하락
+// 매도 조건 번호: 0 RSI14>70, 1 RSI2>90, 2 StochK>80, 3 종가>BB상단, 4 CCI>100, 5 EMA9/21 데드크로스, 6 MACD 데드크로스,
+//   7 Supertrend 하락 전환, 8 PSAR 하락 전환, 9 -DI가 +DI 상향 돌파, 10 10봉 신저가 이탈, 11 종가 VWAP 하향 돌파, 12 종가 EMA9 하향 돌파, 13 한 봉 +2% 이상 상승,
+//   14 익절 +3%, 15 손절 -2%, 16 트레일링 2%, 17 샹들리에 2ATR, 18 4시간 경과, 19 장 마감 청산
+strategy("SOXL daytrade combo", "combo", overlay=true, initial_capital=8200, currency=currency.USD,
+     default_qty_type=strategy.percent_of_equity, default_qty_value=100, pyramiding=0,
+     commission_type=strategy.commission.percent, commission_value=0.25, slippage=0,
+     process_orders_on_close=true, calc_on_every_tick=false, max_bars_back=500)
+
+buyA    = input.int(16, "buy A (0-19)", minval=0, maxval=19)
+buyB    = input.int(-1, "buy B (-1 none)", minval=-1, maxval=19)
+sellA   = input.int(14, "sell A (0-19)", minval=0, maxval=19)
+sellB   = input.int(-1, "sell B (-1 none)", minval=-1, maxval=19)
+startT  = input.time(timestamp("2024-11-01T00:00:00-0400"), "start")
+endT    = input.time(timestamp("2026-11-01T00:00:00-0400"), "end")
+tpPct   = input.float(3.0, "take profit %")
+slPct   = input.float(2.0, "stop loss %")
+trPct   = input.float(2.0, "trailing stop %")
+chMult  = input.float(2.0, "chandelier ATR mult")
+holdHrs = input.float(4.0, "time exit hours")
+maxHrs  = input.float(24.0, "max hold hours")
+runId   = input.int(0, "run id (log marker)")
+sameBar = input.bool(false, "allow re-entry on the exit bar (screening semantics)")
+holdMs  = int(holdHrs * 3600000)
+maxMs   = int(maxHrs * 3600000)
+
+// ---------- indicators (identical to the screening script) ----------
+rsi14 = ta.rsi(close, 14)
+rsi2  = ta.rsi(close, 2)
+stK   = ta.sma(ta.stoch(close, high, low, 14), 3)
+[bbM, bbU, bbL] = ta.bb(close, 20, 2)
+cci20 = ta.cci(hlc3, 20)
+e9    = ta.ema(close, 9)
+e21   = ta.ema(close, 21)
+[macdL, sigL, histL] = ta.macd(close, 12, 26, 9)
+[stV, stDir] = ta.supertrend(3, 10)
+sar   = ta.sar(0.02, 0.02, 0.2)
+[diP, diM, adx] = ta.dmi(14, 14)
+hh20  = ta.highest(high, 20)[1]
+ll10  = ta.lowest(low, 10)[1]
+vw    = ta.vwap(hlc3)
+volS  = ta.sma(volume, 20)[1]
+atr14 = ta.atr(14)
+pdh     = request.security(syminfo.tickerid, "D", high[1], lookahead=barmerge.lookahead_on)
+sma200d = request.security(syminfo.tickerid, "D", ta.sma(close, 200)[1], lookahead=barmerge.lookahead_on)
+inFirstHour = not na(time(timeframe.period, "0930-1030:23456", "America/New_York"))
+inORB       = not na(time(timeframe.period, "0930-1000:23456", "America/New_York"))
+var float orbH = na
+if session.isfirstbar_regular
+    orbH := high
+else if inORB
+    orbH := math.max(nz(orbH, high), high)
+orbBreak = not inORB and not na(orbH) and close > orbH
+ret1  = close / close[1] - 1
+clv   = high > low ? (close - low) / (high - low) : 0.5
+lastBar = session.islastbar_regular
+
+buyCond(int i) =>
+    switch i
+        0 => rsi14 < 30
+        1 => rsi2 < 10
+        2 => stK < 20
+        3 => close < bbL
+        4 => cci20 < -100
+        5 => ta.crossover(e9, e21)
+        6 => ta.crossover(macdL, sigL)
+        7 => stDir < 0
+        8 => sar < close
+        9 => diP > diM and adx > 20
+        10 => close > hh20
+        11 => orbBreak
+        12 => close > pdh
+        13 => ta.crossover(close, vw)
+        14 => close > vw
+        15 => volume > 2 * volS and close > open
+        16 => clv < 0.2
+        17 => inFirstHour
+        18 => close > sma200d
+        19 => ret1 <= -0.02
+        => false
+
+sellCond(int i) =>
+    switch i
+        0 => rsi14 > 70
+        1 => rsi2 > 90
+        2 => stK > 80
+        3 => close > bbU
+        4 => cci20 > 100
+        5 => ta.crossunder(e9, e21)
+        6 => ta.crossunder(macdL, sigL)
+        7 => stDir > 0 and stDir[1] < 0
+        8 => ta.crossover(sar, close)
+        9 => ta.crossover(diM, diP)
+        10 => close < ll10
+        11 => ta.crossunder(close, vw)
+        12 => ta.crossunder(close, e9)
+        13 => ret1 >= 0.02
+        => false
+
+// every condition must be evaluated on every bar (crossover history), so compute all of them unconditionally
+bool[] cbAll = array.new<bool>(20, false)
+bool[] csAll = array.new<bool>(14, false)
+for i = 0 to 19
+    array.set(cbAll, i, buyCond(i))
+for i = 0 to 13
+    array.set(csAll, i, sellCond(i))
+
+combined = array.get(cbAll, buyA) and (buyB < 0 or array.get(cbAll, buyB))
+edge = combined and not combined[1]
+hasInd(int i) => i >= 0 and i < 14 and array.get(csAll, i)
+hasX(int code) => sellA == code or sellB == code
+hasTP = hasX(14)
+hasSL = hasX(15)
+hasTR = hasX(16)
+hasCH = hasX(17)
+hasTM = hasX(18)
+hasEOD = hasX(19)
+
+inRange = time >= startT and time < endT
+var float hiS = na
+var int eBar = na
+var int eTime = na
+inPos = strategy.position_size > 0
+
+// ---- exits (evaluated before entries) ----
+// sameBar = true: if the exit rule and a new buy signal fire on the same bar close, keep the position instead of
+// selling and re-buying (the screener sold and re-bought at the same close; the Strategy Tester cannot re-enter the
+// same ID on the exit bar, so "hold" is the executable equivalent, and it saves the round-trip fee)
+var float refPx = na
+bool closing = false
+bool buySignal = edge and inRange and not barstate.islast and not (hasEOD and lastBar)
+if inPos and bar_index > eBar
+    hiS := math.max(hiS, high)
+    bool cx = hasInd(sellA) or hasInd(sellB)
+    cx := cx or (hasTM and time >= eTime + holdMs) or (hasEOD and lastBar) or time >= eTime + maxMs or barstate.islast or not inRange
+    if cx
+        if sameBar and buySignal
+            refPx := close
+            hiS := close
+            eBar := bar_index
+            eTime := time
+        else
+            strategy.close("L", comment="close")
+            closing := true
+
+// ---- entries ----
+bool canEnter = not inPos and buySignal
+if canEnter
+    strategy.entry("L", strategy.long)
+    refPx := close
+    hiS := close
+    eBar := bar_index
+    eTime := time
+
+// ---- intrabar exit orders for the next bar (stop = max of active stop levels, limit = take profit) ----
+if (strategy.position_size > 0 and not closing) or canEnter
+    float ep = refPx
+    float stopPx = na
+    if hasSL
+        stopPx := ep * (1 - slPct / 100)
+    if hasTR
+        float t = hiS * (1 - trPct / 100)
+        stopPx := na(stopPx) ? t : math.max(stopPx, t)
+    if hasCH
+        float t = hiS - chMult * atr14
+        stopPx := na(stopPx) ? t : math.max(stopPx, t)
+    float tpPx = hasTP ? ep * (1 + tpPct / 100) : na
+    if not na(stopPx) or not na(tpPx)
+        strategy.exit("X", "L", stop=stopPx, limit=tpPx, comment_profit="tp", comment_loss="stop")
+
+plot(vw, "VWAP", color=color.new(color.orange, 0))
+
+// ---- result export through Pine Logs (same engine as the Strategy Tester) ----
+if barstate.isfirst
+    log.info("B run={0} tf={1}", runId, timeframe.period)
+var string eqs = ""
+var int eqn = 0
+if inRange and lastBar
+    eqs += str.format_time(time, "yyyy-MM-dd", "America/New_York") + ":" + str.tostring(strategy.equity, "0.##") + ":" + str.tostring(close, "0.####") + "|"
+    eqn += 1
+    if eqn >= 60
+        log.info("Q " + eqs)
+        eqs := ""
+        eqn := 0
+if barstate.islast
+    if eqn > 0
+        log.info("Q " + eqs)
+    log.info("S run={0} buyA={1} buyB={2} sellA={3} sellB={4} tf={5} netpct={6} mddpct={7} trades={8} wins={9} gp={10} gl={11} equity={12} open={13}",
+         runId, buyA, buyB, sellA, sellB, timeframe.period, str.tostring(strategy.netprofit_percent, "0.####"), str.tostring(strategy.max_drawdown_percent, "0.####"),
+         strategy.closedtrades, strategy.wintrades, str.tostring(strategy.grossprofit, "0.##"), str.tostring(strategy.grossloss, "0.##"), str.tostring(strategy.equity, "0.##"), strategy.opentrades)
+    string ts = ""
+    int tn = 0
+    if strategy.closedtrades > 0
+        for i = 0 to strategy.closedtrades - 1
+            ts += str.format_time(strategy.closedtrades.entry_time(i), "yyyy-MM-dd HH:mm", "America/New_York") + ";" + str.format_time(strategy.closedtrades.exit_time(i), "yyyy-MM-dd HH:mm", "America/New_York") + ";" + str.tostring(strategy.closedtrades.entry_price(i), "0.####") + ";" + str.tostring(strategy.closedtrades.exit_price(i), "0.####") + ";" + str.tostring(strategy.closedtrades.profit(i), "0.##") + ";" + str.tostring(strategy.closedtrades.size(i), "0.##") + ";" + strategy.closedtrades.exit_comment(i) + "|"
+            tn += 1
+            if tn >= 80 or i == strategy.closedtrades - 1
+                log.info("T " + ts)
+                ts := ""
+                tn := 0
+    log.info("E run={0} done", runId)

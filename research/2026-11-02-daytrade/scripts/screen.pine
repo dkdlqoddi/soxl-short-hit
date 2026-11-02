@@ -1,0 +1,302 @@
+//@version=6
+// SOXL 단타 지표 조합 전수 스크리닝 (연구 노트 research/2026-11-02-daytrade)
+// 매수 조건 20개(단일 20 + 2개 AND 조합 190 = 210가지) × 매도 조건 20개(단일 20 + 2개 OR 조합 190 = 210가지) = 44,100 조합을
+// 배치(batch)로 나눠 한 번에 bsz개씩 봉마다 시뮬레이션하고, 마지막 봉에서 결과를 Pine Logs로 내보낸다.
+// 체결 모델: 신호 봉 종가 체결(시장가), 익절·손절·트레일링은 봉 안에서 체결(TradingView 브로커 에뮬레이터와 같은 O→L→H→C / O→H→L→C 경로).
+// 수수료 편도 0.25%, 모든 포지션은 24시간 안에 청산.
+indicator("SOXL daytrade screen", "screen", overlay=false, max_bars_back=500)
+
+batch   = input.int(0, "batch")
+bsz     = input.int(2000, "batch size", minval=1, maxval=20000)
+feePct  = input.float(0.25, "fee % per side")
+startT  = input.time(timestamp("2024-11-01T00:00:00-0400"), "start")
+midT    = input.time(timestamp("2025-11-01T00:00:00-0400"), "mid (IS/OOS split)")
+endT    = input.time(timestamp("2026-11-01T00:00:00-0400"), "end")
+tpPct   = input.float(3.0, "take profit %")
+slPct   = input.float(2.0, "stop loss %")
+trPct   = input.float(2.0, "trailing stop %")
+chMult  = input.float(2.0, "chandelier ATR mult")
+holdHrs = input.float(4.0, "time exit hours")
+maxHrs  = input.float(24.0, "max hold hours")
+randomMode = input.bool(false, "random entries (reference)")
+seedOff    = input.int(0, "random seed offset")
+
+NB  = 20
+NS  = 20
+NBV = 210
+NSV = 210
+NIND_S = 14   // sell conditions 0..13 are indicator-based, 14..19 are money-management exits
+f   = feePct / 100.0
+holdMs = int(holdHrs * 3600000)
+maxMs  = int(maxHrs * 3600000)
+
+// ---------- variant tables ----------
+var int[] bvA = array.new<int>()
+var int[] bvB = array.new<int>()
+var int[] svA = array.new<int>()
+var int[] svB = array.new<int>()
+if barstate.isfirst
+    for i = 0 to NB - 1
+        array.push(bvA, i)
+        array.push(bvB, -1)
+    for i = 0 to NB - 2
+        for j = i + 1 to NB - 1
+            array.push(bvA, i)
+            array.push(bvB, j)
+    for i = 0 to NS - 1
+        array.push(svA, i)
+        array.push(svB, -1)
+    for i = 0 to NS - 2
+        for j = i + 1 to NS - 1
+            array.push(svA, i)
+            array.push(svB, j)
+
+// ---------- indicators ----------
+rsi14 = ta.rsi(close, 14)
+rsi2  = ta.rsi(close, 2)
+stK   = ta.sma(ta.stoch(close, high, low, 14), 3)
+[bbM, bbU, bbL] = ta.bb(close, 20, 2)
+cci20 = ta.cci(hlc3, 20)
+e9    = ta.ema(close, 9)
+e21   = ta.ema(close, 21)
+[macdL, sigL, histL] = ta.macd(close, 12, 26, 9)
+[stV, stDir] = ta.supertrend(3, 10)
+sar   = ta.sar(0.02, 0.02, 0.2)
+[diP, diM, adx] = ta.dmi(14, 14)
+hh20  = ta.highest(high, 20)[1]
+ll10  = ta.lowest(low, 10)[1]
+vw    = ta.vwap(hlc3)
+volS  = ta.sma(volume, 20)[1]
+atr14 = ta.atr(14)
+pdh     = request.security(syminfo.tickerid, "D", high[1], lookahead=barmerge.lookahead_on)
+sma200d = request.security(syminfo.tickerid, "D", ta.sma(close, 200)[1], lookahead=barmerge.lookahead_on)
+inFirstHour = not na(time(timeframe.period, "0930-1030:23456", "America/New_York"))
+inORB       = not na(time(timeframe.period, "0930-1000:23456", "America/New_York"))
+var float orbH = na
+if session.isfirstbar_regular
+    orbH := high
+else if inORB
+    orbH := math.max(nz(orbH, high), high)
+orbBreak = not inORB and not na(orbH) and close > orbH
+ret1  = close / close[1] - 1
+clv   = high > low ? (close - low) / (high - low) : 0.5
+lastBar = session.islastbar_regular
+
+// buy conditions (state booleans; entry = rising edge of the AND-combination)
+var bool[] cb = array.new<bool>(NB, false)
+array.set(cb, 0, rsi14 < 30)
+array.set(cb, 1, rsi2 < 10)
+array.set(cb, 2, stK < 20)
+array.set(cb, 3, close < bbL)
+array.set(cb, 4, cci20 < -100)
+array.set(cb, 5, ta.crossover(e9, e21))
+array.set(cb, 6, ta.crossover(macdL, sigL))
+array.set(cb, 7, stDir < 0)
+array.set(cb, 8, sar < close)
+array.set(cb, 9, diP > diM and adx > 20)
+array.set(cb, 10, close > hh20)
+array.set(cb, 11, orbBreak)
+array.set(cb, 12, close > pdh)
+array.set(cb, 13, ta.crossover(close, vw))
+array.set(cb, 14, close > vw)
+array.set(cb, 15, volume > 2 * volS and close > open)
+array.set(cb, 16, clv < 0.2)
+array.set(cb, 17, inFirstHour)
+array.set(cb, 18, close > sma200d)
+array.set(cb, 19, ret1 <= -0.02)
+// reference run: replace the 20 buy conditions by independent random bits with frequencies 0.5%..95% (Park-Miller LCG, seeded)
+var float[] rs = array.new<float>(NB, 0.0)
+var float[] rp = array.from(0.005, 0.01, 0.015, 0.02, 0.03, 0.04, 0.05, 0.07, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95)
+if randomMode
+    if barstate.isfirst
+        for i = 0 to NB - 1
+            array.set(rs, i, 12345.0 + 7919.0 * (i + 1 + seedOff * 100))
+    for i = 0 to NB - 1
+        float st = array.get(rs, i)
+        st := (16807.0 * st) % 2147483647.0
+        array.set(rs, i, st)
+        array.set(cb, i, st / 2147483647.0 < array.get(rp, i))
+
+// indicator-based sell conditions 0..13 (evaluated at bar close)
+var bool[] cs = array.new<bool>(NIND_S, false)
+array.set(cs, 0, rsi14 > 70)
+array.set(cs, 1, rsi2 > 90)
+array.set(cs, 2, stK > 80)
+array.set(cs, 3, close > bbU)
+array.set(cs, 4, cci20 > 100)
+array.set(cs, 5, ta.crossunder(e9, e21))
+array.set(cs, 6, ta.crossunder(macdL, sigL))
+array.set(cs, 7, stDir > 0 and stDir[1] < 0)
+array.set(cs, 8, ta.crossover(sar, close))
+array.set(cs, 9, ta.crossover(diM, diP))
+array.set(cs, 10, close < ll10)
+array.set(cs, 11, ta.crossunder(close, vw))
+array.set(cs, 12, ta.crossunder(close, e9))
+array.set(cs, 13, ret1 >= 0.02)
+
+// ---------- batch bookkeeping ----------
+kLo = batch * bsz
+kHi = math.min(kLo + bsz, NBV * NSV) - 1
+cnt = kHi - kLo + 1
+bvLo = int(math.floor(kLo / NSV))
+bvHi = int(math.floor(kHi / NSV))
+
+// rising edges of the buy variants used in this batch (tracked on every bar)
+var bool[] prevBuy = array.new<bool>(NBV, false)
+var bool[] edge    = array.new<bool>(NBV, false)
+if cnt > 0
+    for bv = bvLo to bvHi
+        a = array.get(bvA, bv)
+        b = array.get(bvB, bv)
+        c = array.get(cb, a) and (b < 0 or array.get(cb, b))
+        array.set(edge, bv, c and not array.get(prevBuy, bv))
+        array.set(prevBuy, bv, c)
+
+// per-combo static tables and state
+var int[]   cBV   = array.new<int>(cnt, 0)
+var int[]   cIA   = array.new<int>(cnt, -1)
+var int[]   cIB   = array.new<int>(cnt, -1)
+var bool[]  cTP   = array.new<bool>(cnt, false)
+var bool[]  cSL   = array.new<bool>(cnt, false)
+var bool[]  cTR   = array.new<bool>(cnt, false)
+var bool[]  cCH   = array.new<bool>(cnt, false)
+var bool[]  cTM   = array.new<bool>(cnt, false)
+var bool[]  cEOD  = array.new<bool>(cnt, false)
+var float[] pos   = array.new<float>(cnt, 0.0)
+var float[] entry = array.new<float>(cnt, 0.0)
+var float[] hiS   = array.new<float>(cnt, 0.0)
+var int[]   eBar  = array.new<int>(cnt, 0)
+var int[]   eTime = array.new<int>(cnt, 0)
+var float[] base  = array.new<float>(cnt, 1.0)
+var float[] eq    = array.new<float>(cnt, 1.0)
+var float[] peak  = array.new<float>(cnt, 1.0)
+var float[] mdd   = array.new<float>(cnt, 0.0)
+var float[] gp    = array.new<float>(cnt, 0.0)
+var float[] gl    = array.new<float>(cnt, 0.0)
+var int[]   ntr   = array.new<int>(cnt, 0)
+var int[]   nw    = array.new<int>(cnt, 0)
+var float[] eqMid = array.new<float>(cnt, 1.0)
+var float[] sumR  = array.new<float>(cnt, 0.0)
+var int[]   sumB  = array.new<int>(cnt, 0)
+
+if barstate.isfirst and cnt > 0
+    for i = 0 to cnt - 1
+        k  = kLo + i
+        bv = int(math.floor(k / NSV))
+        sv = k - bv * NSV
+        sA = array.get(svA, sv)
+        sB = array.get(svB, sv)
+        array.set(cBV, i, bv)
+        array.set(cIA, i, sA < NIND_S ? sA : -1)
+        array.set(cIB, i, sB >= 0 and sB < NIND_S ? sB : -1)
+        array.set(cTP, i, sA == 14 or sB == 14)
+        array.set(cSL, i, sA == 15 or sB == 15)
+        array.set(cTR, i, sA == 16 or sB == 16)
+        array.set(cCH, i, sA == 17 or sB == 17)
+        array.set(cTM, i, sA == 18 or sB == 18)
+        array.set(cEOD, i, sA == 19 or sB == 19)
+
+inRange = time >= startT and time < endT
+var bool midDone = false
+doMid = not midDone and time >= midT
+if doMid
+    midDone := true
+upBar = close >= open
+atrPrev = nz(atr14[1], atr14)
+feeMul = (1 - f) / (1 + f)
+
+if inRange and cnt > 0
+    for i = 0 to cnt - 1
+        float m = array.get(eq, i)
+        if array.get(pos, i) > 0
+            float ep = array.get(entry, i)
+            float hs = array.get(hiS, i)
+            float xp = na
+            if bar_index > array.get(eBar, i)
+                float stopPx = na
+                if array.get(cSL, i)
+                    stopPx := ep * (1 - slPct / 100)
+                if array.get(cTR, i)
+                    float t = hs * (1 - trPct / 100)
+                    stopPx := na(stopPx) ? t : math.max(stopPx, t)
+                if array.get(cCH, i)
+                    float t = hs - chMult * atrPrev
+                    stopPx := na(stopPx) ? t : math.max(stopPx, t)
+                float tpPx = array.get(cTP, i) ? ep * (1 + tpPct / 100) : na
+                bool hasStop = not na(stopPx)
+                bool hasTp = not na(tpPx)
+                if upBar
+                    if hasStop and open <= stopPx
+                        xp := open
+                    else if hasStop and low <= stopPx
+                        xp := stopPx
+                    else if hasTp and open >= tpPx
+                        xp := open
+                    else if hasTp and high >= tpPx
+                        xp := tpPx
+                else
+                    if hasTp and open >= tpPx
+                        xp := open
+                    else if hasTp and high >= tpPx
+                        xp := tpPx
+                    else if hasStop and open <= stopPx
+                        xp := open
+                    else if hasStop and low <= stopPx
+                        xp := stopPx
+                if na(xp)
+                    array.set(hiS, i, math.max(hs, high))
+                    int ia = array.get(cIA, i)
+                    int ib = array.get(cIB, i)
+                    int et = array.get(eTime, i)
+                    bool cx = (ia >= 0 and array.get(cs, ia)) or (ib >= 0 and array.get(cs, ib))
+                    cx := cx or (array.get(cTM, i) and time >= et + holdMs) or (array.get(cEOD, i) and lastBar) or time >= et + maxMs or barstate.islast
+                    if cx
+                        xp := close
+            if not na(xp)
+                float b0 = array.get(base, i)
+                float r = xp / ep * feeMul - 1
+                float e1 = b0 * (1 + r)
+                array.set(eq, i, e1)
+                m := e1
+                if e1 > b0
+                    array.set(gp, i, array.get(gp, i) + (e1 - b0))
+                    array.set(nw, i, array.get(nw, i) + 1)
+                else
+                    array.set(gl, i, array.get(gl, i) + (b0 - e1))
+                array.set(ntr, i, array.get(ntr, i) + 1)
+                array.set(sumR, i, array.get(sumR, i) + r)
+                array.set(sumB, i, array.get(sumB, i) + bar_index - array.get(eBar, i))
+                array.set(pos, i, 0.0)
+            else
+                m := array.get(base, i) * close / ep * feeMul
+        if array.get(pos, i) == 0 and not barstate.islast and array.get(edge, array.get(cBV, i)) and not (array.get(cEOD, i) and lastBar)
+            array.set(pos, i, 1.0)
+            array.set(entry, i, close)
+            array.set(hiS, i, close)
+            array.set(eBar, i, bar_index)
+            array.set(eTime, i, time)
+            array.set(base, i, array.get(eq, i))
+            m := array.get(eq, i) * feeMul
+        float pk = math.max(array.get(peak, i), m)
+        array.set(peak, i, pk)
+        float dd = 1 - m / pk
+        if dd > array.get(mdd, i)
+            array.set(mdd, i, dd)
+        if doMid
+            array.set(eqMid, i, m)
+
+plot(cnt, "cnt")
+
+if barstate.islast
+    log.info("H batch={0} kLo={1} kHi={2} bars={3} tf={4} last={5}", batch, kLo, kHi, bar_index + 1, timeframe.period, str.format_time(time, "yyyy-MM-dd HH:mm", "America/New_York"))
+    string s = ""
+    int inLine = 0
+    if cnt > 0
+        for i = 0 to cnt - 1
+            s += str.tostring(kLo + i) + ";" + str.tostring(array.get(ntr, i)) + ";" + str.tostring(array.get(nw, i)) + ";" + str.tostring(array.get(eq, i), "0.####") + ";" + str.tostring(array.get(mdd, i), "0.####") + ";" + str.tostring(array.get(gp, i), "0.####") + ";" + str.tostring(array.get(gl, i), "0.####") + ";" + str.tostring(array.get(eqMid, i), "0.####") + ";" + str.tostring(array.get(sumR, i), "0.####") + ";" + str.tostring(array.get(sumB, i)) + "|"
+            inLine += 1
+            if inLine >= 500 or i == cnt - 1
+                log.info("R " + s)
+                s := ""
+                inLine := 0
+    log.info("E batch={0} done", batch)
