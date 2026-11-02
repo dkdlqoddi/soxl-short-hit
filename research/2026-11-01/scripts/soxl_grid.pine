@@ -1,0 +1,63 @@
+//@version=6
+// SOXL 1% 그리드 매수 + 매도 규칙 비교용 전략 (연구 노트 research/2026-11-01/grid-exit-study.md)
+// 규칙 1: 보유 없음 → 시장가 매수(다음 봉 시가 체결)
+// 규칙 2·3: 마지막 체결가에서 stepPct씩 아래로 지정가 매수를 levels개 미리 걸어 둠
+// 매도: "전체 평단 +T%" = 평단가×(1+T)에 전량 매도 / "로트별 매수가 +T%" = 로트마다 자기 매수가×(1+T)에 매도
+// 수수료는 편도 0.25%(왕복 0.5%)로 전략 속성에 고정. 초기 자본 $8,200.
+strategy("SOXL 1% 그리드 매도 규칙 연구", shorttitle="SOXL grid", overlay=true,
+     pyramiding=500, initial_capital=8200, currency=currency.USD,
+     commission_type=strategy.commission.percent, commission_value=0.25,
+     default_qty_type=strategy.fixed, default_qty_value=1,
+     close_entries_rule="ANY", calc_on_every_tick=false, process_orders_on_close=false)
+
+stepPct  = input.float(1.0,  "매수 간격 % (마지막 체결가 대비)", minval=0.05, step=0.05, group="매수")
+levels   = input.int(30,     "한 봉에 미리 걸어둘 지정가 단계 수", minval=1, maxval=200, group="매수")
+sizeMode = input.string("N", "로트 크기 방식", options=["N", "주수 고정"], group="매수")
+nDepth   = input.int(100,    "N: 로트 = 현금 ÷ (N × 가격) 주. 간격 1%면 100 = 무한 하락까지 자금 충분, 50 = -50%에서 현금 소진", minval=2, group="매수")
+fixedQty = input.float(1.0,  "주수 고정일 때 로트당 주수", minval=0.001, group="매수")
+exitMode = input.string("전체 평단 +T%", "매도 규칙", options=["전체 평단 +T%", "로트별 매수가 +T%"], group="매도")
+tpPct    = input.float(7.0,  "T % (수수료 전)", minval=0.1, step=0.1, group="매도")
+startT   = input.time(timestamp("2016-10-24T00:00:00-0500"), "시작", group="기간")
+endT     = input.time(timestamp("2030-01-01T00:00:00-0500"), "종료", group="기간")
+
+var int   seq      = 0        // 주문 ID 일련번호 (항상 고유)
+var float lotQty   = 1.0      // 이번 사이클의 로트 주수
+var float lastFill = na       // 마지막 체결가 (매도돼도 유지: "마지막으로 매수한 가격")
+inRange = time >= startT and time <= endT
+perLot  = exitMode == "로트별 매수가 +T%"
+
+// 이번 봉에 새로 체결된 매수 중 가장 낮은 가격 = 새 lastFill
+float newest = na
+if strategy.opentrades > 0
+    for i = 0 to strategy.opentrades - 1
+        if strategy.opentrades.entry_time(i) == time
+            newest := na(newest) ? strategy.opentrades.entry_price(i) : math.min(newest, strategy.opentrades.entry_price(i))
+if not na(newest)
+    lastFill := newest
+
+strategy.cancel_all()
+if inRange
+    if strategy.position_size == 0
+        // 규칙 1
+        lotQty := sizeMode == "N" ? strategy.equity / (nDepth * close) : fixedQty
+        strategy.entry("E" + str.tostring(seq), strategy.long, qty=lotQty)
+        seq += 1
+    else
+        // 규칙 2·3
+        float base = na(lastFill) ? strategy.opentrades.entry_price(strategy.opentrades - 1) : lastFill
+        for j = 1 to levels
+            strategy.entry("E" + str.tostring(seq), strategy.long, qty=lotQty, limit=base * math.pow(1 - stepPct / 100, j))
+            seq += 1
+        // 매도
+        if perLot
+            for i = 0 to strategy.opentrades - 1
+                string eid = strategy.opentrades.entry_id(i)
+                strategy.exit("X" + eid, from_entry=eid, limit=strategy.opentrades.entry_price(i) * (1 + tpPct / 100))
+        else
+            strategy.exit("TP", limit=strategy.position_avg_price * (1 + tpPct / 100))
+else if strategy.position_size != 0
+    strategy.close_all()
+
+plot(strategy.position_size > 0 ? strategy.position_avg_price : na, "평단가", color=color.orange, style=plot.style_linebr)
+plot(strategy.position_size > 0 and not perLot ? strategy.position_avg_price * (1 + tpPct / 100) : na, "전체 목표가", color=color.green, style=plot.style_linebr)
+plot(strategy.position_size > 0 and not na(lastFill) ? lastFill * (1 - stepPct / 100) : na, "다음 매수가", color=color.blue, style=plot.style_linebr)
