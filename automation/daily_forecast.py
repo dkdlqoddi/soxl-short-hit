@@ -1126,8 +1126,11 @@ def meta_from_note(note: Path) -> dict:
     return {"title": title, "summary": summary}
 
 
-def load_metas(date: str, t: Ticker, reviewed_date: str | None) -> dict[str, dict[str, dict]]:
-    """오늘 날짜 폴더의 모델별 메타. 메타가 없으면 노트 제목·첫 문단으로 채움.
+def load_metas(date: str, t: Ticker, reviewed_date: str | None,
+               fallback_ids: frozenset[str] = frozenset()) -> dict[str, dict[str, dict]]:
+    """오늘 날짜 폴더의 모델별 메타. 이번 실행 작업(fallback_ids)이 메타를 안 남겼으면 노트 제목·첫 문단으로 채움.
+
+    메타 JSON도 없고 이번 실행 작업도 아닌 노트는 직접 만든 노트(이름만 같음)라 제외합니다.
 
     경로는 프롬프트로 지정한 값으로 고정합니다 (볼트 누락분은 그 경로로 보완 업로드됨).
     """
@@ -1137,8 +1140,12 @@ def load_metas(date: str, t: Ticker, reviewed_date: str | None) -> dict[str, dic
             note = REPO / f"research/{date}/{note_filename(t, kind, m)}"
             if not note.exists():
                 continue
-            meta = read_json_loose(REPO / f"research/{date}/meta/{t.lower}-{kind}-{m.repo_slug}.json")
-            meta = meta if isinstance(meta, dict) else meta_from_note(note)
+            job_id = f"{t.lower}-{kind}-{m.repo_slug}"
+            meta = read_json_loose(REPO / f"research/{date}/meta/{job_id}.json")
+            if not isinstance(meta, dict):
+                if job_id not in fallback_ids:
+                    continue
+                meta = meta_from_note(note)
             meta["repo_path"] = rel(note)
             if kind == "forecast":
                 meta["vault_path"] = f"{VAULT_STOCK}/{t.symbol}/{date}-{m.vault_slug}.md"
@@ -1298,8 +1305,9 @@ def summary_markdown(run: Run, t: Ticker, metas: dict, for_vault: bool) -> tuple
     L: list[str] = []
     if for_vault:
         L += ["---", "type: stock-forecast-summary", f"ticker: {t.symbol}", f"date: {date}", "horizon: 24h",
-              "models:", *[f"  - {n}" for n in models_used], f"consensus: {yaml_str(cons['text'])}",
-              "status: pending", f"generated_by: {yaml_str('automation/daily_forecast.py ' + run.run_id)}",
+              "models:", *[f"  - {n}" for n in models_used],
+              *([f"consensus: {yaml_str(cons['text'])}"] if fc else [f"reviewed_round: {reviewed}"]),
+              f"status: {'completed' if not fc and all_final(rv) else 'pending'}", f"generated_by: {yaml_str('automation/daily_forecast.py ' + run.run_id)}",
               "tags:", "  - stock", "  - forecast-24h", "  - ensemble-summary", f"  - {t.symbol}", "---", ""]
     title = (f"# [{t.symbol}] 24시간 주가 방향 3모델 통합 비교 ({date})" if fc
              else f"# [{t.symbol}] {reviewed} 회차 24시간 예측 복기 비교 ({date})")
@@ -1568,6 +1576,8 @@ def update_vault_readme(run: Run) -> None:
         return next((i for i in range(sec + 1, len(lines)) if lines[i].startswith("## ")), len(lines))
 
     for g in run.groups:
+        if not g.get("vault"):  # 볼트 통합 노트를 못 썼으면 목록도 건드리지 않음
+            continue
         t = g["ticker"]
         prefix = f"  - [[{strip_md(g['vault'])}|"
         lines = [ln for i, ln in enumerate(lines) if not (sec < i < section_end() and ln.startswith(prefix))]
@@ -1584,6 +1594,24 @@ def update_vault_readme(run: Run) -> None:
     run.vault.write(vpath, new)
 
 
+AUTO_SUMMARY_RE = re.compile(r"^generated_by:.*daily_forecast\.py", re.M)
+
+
+def vault_summary_target(run: Run, t: Ticker, info: dict) -> str | None:
+    """볼트 통합 비교 노트 경로. 같은 이름의 노트를 직접(다른 세션에서) 만들어 두었으면 덮어쓰지 않고 다른 이름을 씀."""
+    cands = [info["vault"]]
+    if info["metas"]["forecast"]:
+        cands.append(f"{VAULT_STOCK}/{t.symbol}/{run.date}-auto-summary.md")
+    elif info["reviewed"]:  # 복기만 한 실행: 모델별 복기 노트(<회차>-review-<모델>.md)와 짝을 맞춤
+        cands.append(f"{VAULT_STOCK}/{t.symbol}/{info['reviewed']}-review.md")
+    for p in cands:
+        cur = run.vault.read(p)
+        if cur is None or AUTO_SUMMARY_RE.search(cur):
+            return p
+        log(f"볼트 {p}는 직접 만든 노트라 덮어쓰지 않습니다")
+    return None
+
+
 def post_process(run: Run) -> None:
     if run.vault_on:
         ensure_vault_notes(run)
@@ -1591,21 +1619,28 @@ def post_process(run: Run) -> None:
         if not any(j.ticker.symbol == sym and j.state == "done" for j in run.jobs):
             continue
         prev = run.prev.get(sym)
-        metas = load_metas(run.date, t, prev.date if prev else None)
+        metas = load_metas(run.date, t, prev.date if prev else None,
+                           frozenset(j.id for j in run.jobs if j.state == "done"))
         if not (metas["forecast"] or metas["review"]):
             continue
         repo_md, info = summary_markdown(run, t, metas, for_vault=False)
         write_text(REPO / info["repo"], repo_md)
         if run.vault_on:
+            target = None
             try:
-                run.vault.write(info["vault"], summary_markdown(run, t, metas, for_vault=True)[0])
+                target = vault_summary_target(run, t, info)
+                if target:
+                    run.vault.write(target, summary_markdown(run, t, metas, for_vault=True)[0])
             except (ConnectionError, RuntimeError) as e:
-                log(f"볼트 통합 비교 노트 쓰기 실패 {info['vault']}: {e}")
+                log(f"볼트 통합 비교 노트 쓰기 실패 {target or info['vault']}: {e}")
+                target = None
+            info["vault"] = target
         if metas["review"] and prev:
             for p in update_prev_summaries(run, t, prev.date, metas["review"]):
                 log(f"직전 통합 비교 노트에 채점 기록: {p}")
         run.groups.append(info)
-        log(f"{sym} 통합 비교: {info['repo']} — {info['consensus']['text']}")
+        log(f"{sym} 통합 비교: {info['repo']} — "
+            + (info["consensus"]["text"] if metas["forecast"] else f"{info['reviewed']} 회차 복기 {len(metas['review'])}건"))
     if not run.groups:
         return
     update_repo_readme(run)
@@ -1652,7 +1687,9 @@ def commit_message(run: Run, changed: list[str]) -> str:
         summary = clip(meta.get("summary"), 200) if isinstance(meta, dict) else ""
         lines.append(f"- {j.repo_note}: {summary}" if summary else f"- {j.repo_note}")
     for g in run.groups:
-        lines.append(f"- {g['repo']}: 3모델 통합 비교 자동 생성 ({g['consensus']['text']})")
+        what = (g["consensus"]["text"] if g["metas"]["forecast"]
+                else f"{g['reviewed']} 회차 복기 {len(g['metas']['review'])}건")
+        lines.append(f"- {g['repo']}: 3모델 통합 비교 자동 생성 ({what})")
     known = {j.repo_note for j in done} | {g["repo"] for g in run.groups} | {"README.md"}
     others = [p for p in changed if p not in known]
     today = f"research/{run.date}/"
@@ -1814,6 +1851,11 @@ def orchestrate(args: argparse.Namespace) -> int:
         log("실행할 작업이 없습니다")
         return 1
     existing = [j.repo_note for j in run.jobs if (REPO / j.repo_note).exists()]
+    if run.vault and not args.overwrite and not args.dry_run:
+        try:  # 모델이 볼트에 직접 쓰므로 같은 이름의 볼트 노트(직접 만든 노트 포함)도 확인
+            existing += [f"볼트 {j.vault_note}" for j in run.jobs if run.vault.exists(j.vault_note)]
+        except ConnectionError as e:
+            log(f"볼트 노트 확인 실패, 저장소 노트만 확인합니다: {e}")
     if existing and not args.overwrite and not args.dry_run:
         log("이미 있는 노트: " + ", ".join(existing) + " — 덮어쓰려면 --overwrite")
         return 2
