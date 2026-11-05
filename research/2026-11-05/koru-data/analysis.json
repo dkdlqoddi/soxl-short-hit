@@ -1,0 +1,297 @@
+{
+  "base_price": 10.6,
+  "base_time_utc": "2026-11-04T22:33:38+00:00",
+  "base_time_kst": "2026-11-05T07:33:38+09:00",
+  "forecast_end_kst": "2026-11-06T07:33:38+09:00",
+  "historical_cut_kst": "07:30",
+  "daily_latest": {
+    "date": "2026-11-04",
+    "low": 10.225000381469727,
+    "open": 10.850000381469727,
+    "high": 11.550000190734863,
+    "close": 10.430000305175781,
+    "volume": 55103538.0,
+    "day_return": -0.05267937435501391,
+    "ma20": 12.460500001907349,
+    "close_location": 0.15471694582337372,
+    "next_close_return": null,
+    "mean_true_range14": 1.4446428843906947,
+    "close_return_sd20_pct": 9.39473496472063,
+    "daily_history_start": "2016-11-07"
+  },
+  "daily_context": {
+    "all_next_trading_day": {
+      "n": 2511,
+      "up_pct": 50.65710872162485,
+      "mean_pct": 0.14735927687940975,
+      "median_pct": 0.08971982769685471,
+      "p10_pct": -5.721812504124724,
+      "p25_pct": -2.70102884591818,
+      "p75_pct": 3.066719387836614,
+      "p90_pct": 5.837563851096594,
+      "up_pct_wilson95": [
+        48.70206558342126,
+        52.61014429890295
+      ]
+    },
+    "last60_trading_days": {
+      "n": 60,
+      "up_pct": 53.333333333333336,
+      "mean_pct": -0.46109602726089405,
+      "median_pct": 0.53816444538618,
+      "p10_pct": -11.989098589993999,
+      "p25_pct": -6.8440125071567826,
+      "p75_pct": 5.600566956253355,
+      "p90_pct": 11.095909414104971,
+      "up_pct_wilson95": [
+        40.893208671135106,
+        65.372298459012
+      ]
+    },
+    "down3pct_below_ma20": {
+      "n": 418,
+      "up_pct": 55.980861244019145,
+      "mean_pct": 0.6939868062290018,
+      "median_pct": 0.5503175551368145,
+      "p10_pct": -6.843390692712083,
+      "p25_pct": -3.039281165140331,
+      "p75_pct": 4.126277962787794,
+      "p90_pct": 7.2379852095938695,
+      "up_pct_wilson95": [
+        51.18887976682215,
+        60.663910474823055
+      ]
+    },
+    "down3pct_below_ma20_low_close": {
+      "n": 166,
+      "up_pct": 60.8433734939759,
+      "mean_pct": 1.479337300149431,
+      "median_pct": 1.022329575785963,
+      "p10_pct": -5.630715752970988,
+      "p25_pct": -2.2942710064363325,
+      "p75_pct": 4.323456611143489,
+      "p90_pct": 7.614029542958578,
+      "up_pct_wilson95": [
+        53.253215484787155,
+        67.94300499358799
+      ]
+    }
+  },
+  "afterhours_24h_context": {
+    "all_exact24h": {
+      "n": 41,
+      "up_pct": 51.21951219512195,
+      "mean_pct": -0.1063168744033238,
+      "median_pct": 0.514761916467954,
+      "p10_pct": -11.722205193326618,
+      "p25_pct": -6.175020542317178,
+      "p75_pct": 7.30864197530865,
+      "p90_pct": 9.626203208556161,
+      "up_pct_wilson95": [
+        36.48425931586519,
+        65.7458127600643
+      ]
+    },
+    "afterhours_positive": {
+      "n": 24,
+      "up_pct": 54.166666666666664,
+      "mean_pct": 0.824153562158863,
+      "median_pct": 1.4547018644455179,
+      "p10_pct": -7.268923359697006,
+      "p25_pct": -3.832923105551483,
+      "p75_pct": 7.492569124222276,
+      "p90_pct": 9.564531600676078,
+      "up_pct_wilson95": [
+        35.07455355310663,
+        72.10894164831856
+      ]
+    },
+    "down3pct_then_afterhours_positive": {
+      "n": 8,
+      "up_pct": 62.5,
+      "mean_pct": 2.7271247851395093,
+      "median_pct": 3.696021977261621,
+      "p10_pct": -5.610676097335686,
+      "p25_pct": -2.408943586316364,
+      "p75_pct": 7.202222423100663,
+      "p90_pct": 10.046759355572616,
+      "up_pct_wilson95": [
+        30.573785458380186,
+        86.3158240538479
+      ]
+    }
+  },
+  "baseline_threshold_context": {
+    "current_afterhours_premium_pct": 1.6299107368180854,
+    "n": 166,
+    "historical_next_close_return_exceeds_current_premium_pct": 42.168674698795186,
+    "median_next_close_price_if_applied_to_today_close": 10.536629283050159,
+    "note": "Illustrative close-to-close threshold comparison, not a historical after-hours strategy or forecast probability."
+  },
+  "afterhours_endpoint_lag_sensitivity": {
+    "n": 9,
+    "up_pct": 55.55555555555556,
+    "mean_pct": 0.6973841933972806,
+    "median_pct": 2.909270216962523,
+    "p10_pct": -8.048124541961851,
+    "p25_pct": -5.368814192343619,
+    "p75_pct": 6.462752836704477,
+    "p90_pct": 9.83804996447815,
+    "up_pct_wilson95": [
+      26.66473457440297,
+      81.1224570528086
+    ]
+  },
+  "snapshots": {
+    "koru_daily": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=10y&interval=1d&includePrePost=false&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.480293+00:00",
+      "last_bar_time_utc": "2026-11-04T14:30:00+00:00",
+      "last_bar_close": 10.430000305175781,
+      "regular_market_price": 10.43,
+      "regular_market_time_utc": "2026-11-04T21:00:00+00:00",
+      "previous_close": null,
+      "regular_day_high": 11.55,
+      "regular_day_low": 10.225,
+      "currency": "USD"
+    },
+    "koru_intraday": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=60d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.746191+00:00",
+      "last_bar_time_utc": "2026-11-04T22:33:38+00:00",
+      "last_bar_close": 10.6,
+      "regular_market_price": 10.43,
+      "regular_market_time_utc": "2026-11-04T21:00:00+00:00",
+      "previous_close": 11.01,
+      "regular_day_high": 11.55,
+      "regular_day_low": 10.225,
+      "currency": "USD"
+    },
+    "ewy": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.286183+00:00",
+      "last_bar_time_utc": "2026-11-04T22:26:24+00:00",
+      "last_bar_close": 153.21,
+      "regular_market_price": 152.12,
+      "regular_market_time_utc": "2026-11-04T21:00:00+00:00",
+      "previous_close": 155.06,
+      "regular_day_high": 157.49,
+      "regular_day_low": 151.36,
+      "currency": "USD"
+    },
+    "soxx": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.346757+00:00",
+      "last_bar_time_utc": "2026-11-04T22:31:14+00:00",
+      "last_bar_close": 451.951,
+      "regular_market_price": 450.41,
+      "regular_market_time_utc": "2026-11-04T21:00:01+00:00",
+      "previous_close": 465.0,
+      "regular_day_high": 469.22,
+      "regular_day_low": 441.68,
+      "currency": "USD"
+    },
+    "qcom": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.649205+00:00",
+      "last_bar_time_utc": "2026-11-04T22:33:38+00:00",
+      "last_bar_close": 159.99,
+      "regular_market_price": 173.19,
+      "regular_market_time_utc": "2026-11-04T21:00:00+00:00",
+      "previous_close": 164.43,
+      "regular_day_high": 174.0,
+      "regular_day_low": 162.756,
+      "currency": "USD"
+    },
+    "arm": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.711095+00:00",
+      "last_bar_time_utc": "2026-11-04T22:33:37+00:00",
+      "last_bar_close": 189.01,
+      "regular_market_price": 191.8,
+      "regular_market_time_utc": "2026-11-04T21:00:00+00:00",
+      "previous_close": 202.49,
+      "regular_day_high": 209.496,
+      "regular_day_low": 189.88,
+      "currency": "USD"
+    },
+    "nvda": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:40.855380+00:00",
+      "last_bar_time_utc": "2026-11-04T22:33:26+00:00",
+      "last_bar_close": 201.2674,
+      "regular_market_price": 200.13,
+      "regular_market_time_utc": "2026-11-04T21:00:01+00:00",
+      "previous_close": 206.69,
+      "regular_day_high": 206.79,
+      "regular_day_low": 199.685,
+      "currency": "USD"
+    },
+    "mu": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:41.034429+00:00",
+      "last_bar_time_utc": "2026-11-04T22:33:36+00:00",
+      "last_bar_close": 798.5,
+      "regular_market_price": 795.23,
+      "regular_market_time_utc": "2026-11-04T21:00:00+00:00",
+      "previous_close": 855.1,
+      "regular_day_high": 853.34,
+      "regular_day_low": 791.0,
+      "currency": "USD"
+    },
+    "usdkrw": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:41.073286+00:00",
+      "last_bar_time_utc": "2026-11-04T22:33:38+00:00",
+      "last_bar_close": 1340.719970703125,
+      "regular_market_price": 1340.72,
+      "regular_market_time_utc": "2026-11-04T22:33:38+00:00",
+      "previous_close": 1342.82,
+      "regular_day_high": 1346.98,
+      "regular_day_low": 1335.78,
+      "currency": "KRW"
+    },
+    "kospi": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:41.075945+00:00",
+      "last_bar_time_utc": "2026-11-04T06:00:00+00:00",
+      "last_bar_close": 5683.7998046875,
+      "regular_market_price": 5683.8,
+      "regular_market_time_utc": "2026-11-04T11:05:40+00:00",
+      "previous_close": 5648.79,
+      "regular_day_high": 0.0,
+      "regular_day_low": 0.0,
+      "currency": "KRW"
+    },
+    "samsung": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:41.171718+00:00",
+      "last_bar_time_utc": "2026-11-04T06:00:00+00:00",
+      "last_bar_close": 218000.0,
+      "regular_market_price": 218000.0,
+      "regular_market_time_utc": "2026-11-04T06:30:23+00:00",
+      "previous_close": 219500.0,
+      "regular_day_high": 0.0,
+      "regular_day_low": 0.0,
+      "currency": "KRW"
+    },
+    "skhynix": {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=5m&includePrePost=true&events=div%2Csplits",
+      "retrieved_at_utc": "2026-11-04T22:33:41.344152+00:00",
+      "last_bar_time_utc": "2026-11-04T06:00:00+00:00",
+      "last_bar_close": 1396000.0,
+      "regular_market_price": 1396000.0,
+      "regular_market_time_utc": "2026-11-04T06:30:20+00:00",
+      "previous_close": 1398000.0,
+      "regular_day_high": 0.0,
+      "regular_day_low": 0.0,
+      "currency": "KRW"
+    }
+  },
+  "limits": [
+    "Yahoo bars do not establish executable bid/ask quotes.",
+    "Daily statistics include weekends and are not 24-hour after-hours outcomes.",
+    "After-hours statistics use completed 5-minute bars near the current time, with at most 10-minute endpoint lag.",
+    "Conditions selected for current-market comparison; not out-of-sample validation."
+  ]
+}

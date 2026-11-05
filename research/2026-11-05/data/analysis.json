@@ -1,0 +1,160 @@
+{
+  "metrics": {
+    "daily_open": 70.0250015258789,
+    "previous_close": 73.12000274658203,
+    "gap_pct": -4.23276956297407,
+    "prior_ma20": 104.67449989318848,
+    "prior_14day_mean_true_range": 13.04642813546317,
+    "prior_20day_close_return_sd_pct": 9.853304801651417,
+    "first_historical_date": "2016-11-04 09:30:00-04:00",
+    "last_historical_date": "2026-11-04 09:30:00-05:00",
+    "first30": {
+      "bar_open": 70.0250015258789,
+      "close": 72.11000061035156,
+      "high": 75.28990173339844,
+      "low": 67.26000213623047,
+      "volume": 85309827,
+      "close_vs_daily_open_pct": 2.9775066605348233
+    }
+  },
+  "historical_context": {
+    "all_exact24h": {
+      "n": 1963,
+      "up_pct": 55.01782985226694,
+      "mean_pct": 0.4328237398375701,
+      "median_pct": 0.582938149801282,
+      "p10_pct": -7.541230158990104,
+      "p25_pct": -2.858855568300406,
+      "p75_pct": 3.8814876128474562,
+      "p90_pct": 7.56716813715196,
+      "up_pct_wilson95": [
+        52.809422028917886,
+        57.206636203732884
+      ]
+    },
+    "recent60_sessions": {
+      "n": 48,
+      "up_pct": 47.91666666666667,
+      "mean_pct": -0.8463196643772817,
+      "median_pct": -0.9172953314885601,
+      "p10_pct": -10.184480262835113,
+      "p25_pct": -5.143312136783057,
+      "p75_pct": 3.8705281583607087,
+      "p90_pct": 8.318575142964784,
+      "up_pct_wilson95": [
+        34.47109001578747,
+        61.67100436401562
+      ]
+    },
+    "gap_minus6_to_minus2_pct": {
+      "n": 344,
+      "up_pct": 55.52325581395349,
+      "mean_pct": 0.43910952138982223,
+      "median_pct": 0.6470828923393901,
+      "p10_pct": -7.6238576024355424,
+      "p25_pct": -3.5730680287464263,
+      "p75_pct": 4.7038640239015495,
+      "p90_pct": 8.195122227190863,
+      "up_pct_wilson95": [
+        50.23951054875787,
+        60.68500221797274
+      ]
+    },
+    "gap_minus6_to_minus2_below_ma20": {
+      "n": 155,
+      "up_pct": 56.774193548387096,
+      "mean_pct": 1.0528134531799715,
+      "median_pct": 1.5306083225598899,
+      "p10_pct": -8.000955765377782,
+      "p25_pct": -4.09816133211724,
+      "p75_pct": 5.725387143158478,
+      "p90_pct": 9.910145697257198,
+      "up_pct_wilson95": [
+        48.904533597202146,
+        64.31618440110562
+      ]
+    }
+  },
+  "snapshots": {
+    "soxl_daily": {
+      "retrieved_at_utc": "2026-11-04T15:05:05.751054+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=10y&interval=1d&includePrePost=false",
+      "price": 71.705,
+      "price_time_utc": "2026-11-04T15:05:05+00:00",
+      "previous_close": null,
+      "high": 75.29,
+      "low": 67.265,
+      "volume": 90282298
+    },
+    "soxl_intraday": {
+      "retrieved_at_utc": "2026-11-04T15:05:06.077357+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=60d&interval=5m&includePrePost=true",
+      "price": 71.75,
+      "price_time_utc": "2026-11-04T15:05:04+00:00",
+      "previous_close": 73.12,
+      "high": 75.29,
+      "low": 67.265,
+      "volume": 90278814
+    },
+    "soxx": {
+      "retrieved_at_utc": "2026-11-04T15:05:05.594400+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=1d&interval=1m&includePrePost=false",
+      "price": 461.835,
+      "price_time_utc": "2026-11-04T15:05:05+00:00",
+      "previous_close": 465.0,
+      "high": 469.22,
+      "low": 452.46,
+      "volume": 4215454
+    },
+    "nvda": {
+      "retrieved_at_utc": "2026-11-04T15:05:05.581901+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=false",
+      "price": 205.61,
+      "price_time_utc": "2026-11-04T15:05:04+00:00",
+      "previous_close": 206.69,
+      "high": 206.79,
+      "low": 200.94,
+      "volume": 32597203
+    },
+    "amd": {
+      "retrieved_at_utc": "2026-11-04T15:05:05.893013+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=1d&interval=1m&includePrePost=false",
+      "price": 496.66,
+      "price_time_utc": "2026-11-04T15:05:05+00:00",
+      "previous_close": 483.9,
+      "high": 514.61,
+      "low": 476.5,
+      "volume": 20983938
+    },
+    "qcom": {
+      "retrieved_at_utc": "2026-11-04T15:05:05.914735+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=1d&interval=1m&includePrePost=false",
+      "price": 170.43,
+      "price_time_utc": "2026-11-04T15:05:03+00:00",
+      "previous_close": 164.43,
+      "high": 172.26,
+      "low": 165.11,
+      "volume": 3233614
+    },
+    "arm": {
+      "retrieved_at_utc": "2026-11-04T15:05:06.049999+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=1d&interval=1m&includePrePost=false",
+      "price": 201.26,
+      "price_time_utc": "2026-11-04T15:05:04+00:00",
+      "previous_close": 202.49,
+      "high": 209.496,
+      "low": 199.585,
+      "volume": 1182132
+    },
+    "qqq": {
+      "retrieved_at_utc": "2026-11-04T15:05:06.222055+00:00",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=1m&includePrePost=false",
+      "price": 698.86,
+      "price_time_utc": "2026-11-04T15:05:05+00:00",
+      "previous_close": 685.28,
+      "high": 699.5,
+      "low": 687.9,
+      "volume": 14044465
+    }
+  }
+}
