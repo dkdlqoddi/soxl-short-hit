@@ -1,0 +1,393 @@
+{
+  "started_at_kst": "2026-11-05T13:22:25.493043+09:00",
+  "yfinance_version": "0.2.65",
+  "auto_adjust": false,
+  "prepost": true,
+  "symbols": [
+    {
+      "symbol": "EWY",
+      "started_at_kst": "2026-11-05T13:22:25.493882+09:00",
+      "intervals": {
+        "1m": {
+          "file": "EWY_1m.csv",
+          "rows": 3547,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.321323+09:00",
+          "bytes": 339437,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/EWY"
+        },
+        "1d": {
+          "file": "EWY_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.485309+09:00",
+          "bytes": 2955,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/EWY"
+        }
+      }
+    },
+    {
+      "symbol": "SOXX",
+      "started_at_kst": "2026-11-05T13:22:25.494246+09:00",
+      "intervals": {
+        "1m": {
+          "file": "SOXX_1m.csv",
+          "rows": 3953,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.317214+09:00",
+          "bytes": 358975,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX"
+        },
+        "1d": {
+          "file": "SOXX_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.491566+09:00",
+          "bytes": 2845,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX"
+        }
+      }
+    },
+    {
+      "symbol": "KORU",
+      "started_at_kst": "2026-11-05T13:22:25.493297+09:00",
+      "intervals": {
+        "1m": {
+          "file": "KORU_1m.csv",
+          "rows": 4660,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.345691+09:00",
+          "bytes": 402797,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU"
+        },
+        "1d": {
+          "file": "KORU_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.496843+09:00",
+          "bytes": 2946,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU"
+        }
+      }
+    },
+    {
+      "symbol": "MU",
+      "started_at_kst": "2026-11-05T13:22:26.485411+09:00",
+      "intervals": {
+        "1m": {
+          "file": "MU_1m.csv",
+          "rows": 4647,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.821647+09:00",
+          "bytes": 397654,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU"
+        },
+        "1d": {
+          "file": "MU_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.006162+09:00",
+          "bytes": 2704,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU"
+        }
+      }
+    },
+    {
+      "symbol": "QCOM",
+      "started_at_kst": "2026-11-05T13:22:26.496921+09:00",
+      "intervals": {
+        "1m": {
+          "file": "QCOM_1m.csv",
+          "rows": 2803,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.898954+09:00",
+          "bytes": 293108,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM"
+        },
+        "1d": {
+          "file": "QCOM_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.055809+09:00",
+          "bytes": 2911,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM"
+        }
+      }
+    },
+    {
+      "symbol": "AMD",
+      "started_at_kst": "2026-11-05T13:22:26.491643+09:00",
+      "intervals": {
+        "1m": {
+          "file": "AMD_1m.csv",
+          "rows": 4317,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:26.846313+09:00",
+          "bytes": 382415,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD"
+        },
+        "1d": {
+          "file": "AMD_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.073718+09:00",
+          "bytes": 2727,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD"
+        }
+      }
+    },
+    {
+      "symbol": "^GSPC",
+      "started_at_kst": "2026-11-05T13:22:27.055932+09:00",
+      "intervals": {
+        "1m": {
+          "file": "_GSPC_1m.csv",
+          "rows": 1951,
+          "period": "5d",
+          "first": "2026-10-29 09:30:00-04:00",
+          "last": "2026-11-04 16:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.240837+09:00",
+          "bytes": 220687,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^GSPC"
+        },
+        "1d": {
+          "file": "_GSPC_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.373000+09:00",
+          "bytes": 2785,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^GSPC"
+        }
+      }
+    },
+    {
+      "symbol": "ARM",
+      "started_at_kst": "2026-11-05T13:22:27.006277+09:00",
+      "intervals": {
+        "1m": {
+          "file": "ARM_1m.csv",
+          "rows": 3258,
+          "period": "5d",
+          "first": "2026-10-29 04:00:00-04:00",
+          "last": "2026-11-04 19:59:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.299055+09:00",
+          "bytes": 319701,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM"
+        },
+        "1d": {
+          "file": "ARM_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.430388+09:00",
+          "bytes": 2795,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM"
+        }
+      }
+    },
+    {
+      "symbol": "^IXIC",
+      "started_at_kst": "2026-11-05T13:22:27.073816+09:00",
+      "intervals": {
+        "1m": {
+          "file": "_IXIC_1m.csv",
+          "rows": 1951,
+          "period": "5d",
+          "first": "2026-10-29 09:30:00-04:00",
+          "last": "2026-11-04 16:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.331847+09:00",
+          "bytes": 214139,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^IXIC"
+        },
+        "1d": {
+          "file": "_IXIC_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.475793+09:00",
+          "bytes": 2624,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^IXIC"
+        }
+      }
+    },
+    {
+      "symbol": "^VIX",
+      "started_at_kst": "2026-11-05T13:22:27.373124+09:00",
+      "intervals": {
+        "1m": {
+          "file": "_VIX_1m.csv",
+          "rows": 1946,
+          "period": "5d",
+          "first": "2026-10-29 09:31:00-04:00",
+          "last": "2026-11-04 16:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.550606+09:00",
+          "bytes": 231023,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^VIX"
+        },
+        "1d": {
+          "file": "_VIX_1d.csv",
+          "rows": 23,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00-04:00",
+          "last": "2026-11-04 00:00:00-05:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.712601+09:00",
+          "bytes": 2801,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^VIX"
+        }
+      }
+    },
+    {
+      "symbol": "^KS11",
+      "started_at_kst": "2026-11-05T13:22:27.475944+09:00",
+      "intervals": {
+        "1m": {
+          "file": "_KS11_1m.csv",
+          "rows": 1680,
+          "period": "5d",
+          "first": "2026-10-30 09:00:00+09:00",
+          "last": "2026-11-05 13:02:00+09:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.711545+09:00",
+          "bytes": 183420,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^KS11"
+        },
+        "1d": {
+          "file": "_KS11_1d.csv",
+          "rows": 22,
+          "period": "1mo",
+          "first": "2026-10-06 00:00:00+09:00",
+          "last": "2026-11-05 00:00:00+09:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.870387+09:00",
+          "bytes": 2516,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/^KS11"
+        }
+      }
+    },
+    {
+      "symbol": "KRW=X",
+      "started_at_kst": "2026-11-05T13:22:27.430510+09:00",
+      "intervals": {
+        "1m": {
+          "file": "KRW_X_1m.csv",
+          "rows": 5222,
+          "period": "5d",
+          "first": "2026-10-30 00:00:00+00:00",
+          "last": "2026-11-05 04:22:00+00:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.748527+09:00",
+          "bytes": 613924,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW=X"
+        },
+        "1d": {
+          "file": "KRW_X_1d.csv",
+          "rows": 24,
+          "period": "1mo",
+          "first": "2026-10-05 00:00:00+01:00",
+          "last": "2026-11-05 00:00:00+00:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.885177+09:00",
+          "bytes": 2845,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW=X"
+        }
+      }
+    },
+    {
+      "symbol": "005930.KS",
+      "started_at_kst": "2026-11-05T13:22:27.712714+09:00",
+      "intervals": {
+        "1m": {
+          "file": "005930.KS_1m.csv",
+          "rows": 1682,
+          "period": "5d",
+          "first": "2026-10-30 09:00:00+09:00",
+          "last": "2026-11-05 13:02:00+09:00",
+          "retrieved_at_kst": "2026-11-05T13:22:27.892510+09:00",
+          "bytes": 129391,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS"
+        },
+        "1d": {
+          "file": "005930.KS_1d.csv",
+          "rows": 22,
+          "period": "1mo",
+          "first": "2026-10-06 00:00:00+09:00",
+          "last": "2026-11-05 00:00:00+09:00",
+          "retrieved_at_kst": "2026-11-05T13:22:28.053630+09:00",
+          "bytes": 1807,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS"
+        }
+      }
+    },
+    {
+      "symbol": "000660.KS",
+      "started_at_kst": "2026-11-05T13:22:27.870499+09:00",
+      "intervals": {
+        "1m": {
+          "file": "000660.KS_1m.csv",
+          "rows": 1681,
+          "period": "5d",
+          "first": "2026-10-30 09:00:00+09:00",
+          "last": "2026-11-05 13:02:00+09:00",
+          "retrieved_at_kst": "2026-11-05T13:22:28.076084+09:00",
+          "bytes": 136544,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS"
+        },
+        "1d": {
+          "file": "000660.KS_1d.csv",
+          "rows": 22,
+          "period": "1mo",
+          "first": "2026-10-06 00:00:00+09:00",
+          "last": "2026-11-05 00:00:00+09:00",
+          "retrieved_at_kst": "2026-11-05T13:22:28.226371+09:00",
+          "bytes": 1895,
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS"
+        }
+      }
+    }
+  ],
+  "naver": [
+    {
+      "url": "https://m.stock.naver.com/api/index/KOSPI/basic",
+      "retrieved_at_kst": "2026-11-05T13:22:28.228974+09:00",
+      "file": "naver_KOSPI.json",
+      "bytes": 3651
+    },
+    {
+      "url": "https://m.stock.naver.com/api/stock/005930/basic",
+      "retrieved_at_kst": "2026-11-05T13:22:28.333575+09:00",
+      "file": "naver_005930.json",
+      "bytes": 4667
+    },
+    {
+      "url": "https://m.stock.naver.com/api/stock/000660/basic",
+      "retrieved_at_kst": "2026-11-05T13:22:28.397687+09:00",
+      "file": "naver_000660.json",
+      "bytes": 4876
+    }
+  ],
+  "completed_at_kst": "2026-11-05T13:22:28.461034+09:00"
+}

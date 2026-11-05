@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-05 04:35:27 UTC",
+  "review": {
+    "path": "PERSONAL/STOCK/KORU/2026-11-04-review-codex-astra-max.md",
+    "version": "6ccbdf",
+    "readback_equal": true,
+    "content_sha256": "6ccbdf903f425fe3908976e6197182843577e78b862f9c8fdaa96b161676dce3",
+    "status": "completed"
+  },
+  "own_forecast": {
+    "path": "PERSONAL/STOCK/KORU/2026-11-04-codex-astra-max.md",
+    "version": "1fe965",
+    "ifMatch_used": "9ac05d",
+    "readback_equal": true,
+    "content_sha256": "1fe965864f894b54dec7c69ed35ca74938337a765f7c3ccba1b764bb2064c89d",
+    "status": "completed"
+  }
+}

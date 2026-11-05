@@ -1,0 +1,11 @@
+{
+  "checked_at_kst": "2026-11-05T13:25:04.005672+09:00",
+  "nasdaq": {
+    "url": "https://api.nasdaq.com/api/quote/KORU/historical?assetclass=etf&fromdate=2026-11-03&todate=2026-11-04&limit=10",
+    "file": "nasdaq_KORU_daily.json"
+  },
+  "5m": {
+    "file": "KORU_5m.csv",
+    "rows": 912
+  }
+}

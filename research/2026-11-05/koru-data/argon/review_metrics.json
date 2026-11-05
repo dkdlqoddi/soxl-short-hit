@@ -1,0 +1,85 @@
+{
+  "scores_calc": [
+    {
+      "model": "Codex Astra Max",
+      "base_time": "2026-11-04 08:43",
+      "base_price": 11.41,
+      "prev_close": 11.01,
+      "expiry_time": "2026-11-05 08:43",
+      "expiry_price": 10.38,
+      "chg_base_pct": -9.03,
+      "chg_prev_at_exp_pct": -5.72,
+      "chg_prev_reg_close_pct": -5.27
+    },
+    {
+      "model": "Antigravity Argon High",
+      "base_time": "2026-11-04 08:55",
+      "base_price": 11.3,
+      "prev_close": 11.01,
+      "expiry_time": "2026-11-05 08:55",
+      "expiry_price": 10.3297,
+      "chg_base_pct": -8.59,
+      "chg_prev_at_exp_pct": -6.18,
+      "chg_prev_reg_close_pct": -5.27
+    },
+    {
+      "model": "Claude Fable Max",
+      "base_time": "2026-11-04 09:10",
+      "base_price": 11.39,
+      "prev_close": 11.01,
+      "expiry_time": "2026-11-05 09:10",
+      "expiry_price": 10.3,
+      "chg_base_pct": -9.57,
+      "chg_prev_at_exp_pct": -6.45,
+      "chg_prev_reg_close_pct": -5.27
+    }
+  ],
+  "ewy_fv_1104": 152.16,
+  "decoupling_backtest": [
+    {
+      "condition": "Nasdaq > +0.5% (unconditional)",
+      "N": 865,
+      "koru_up_pct": 79.0,
+      "koru_mean_pct": 3.5,
+      "koru_median_pct": 3.0,
+      "ewy_up_pct": 79.5,
+      "ewy_median_pct": 1.04
+    },
+    {
+      "condition": "Nasdaq > 0% & SOXX <= -1.5% (11/4 type: IXIC +1.44%, SOXX -3.14%)",
+      "N": 16,
+      "koru_up_pct": 12.5,
+      "koru_mean_pct": -2.6,
+      "koru_median_pct": -3.06,
+      "ewy_up_pct": 18.8,
+      "ewy_median_pct": -1.05
+    },
+    {
+      "condition": "S&P500 > +0.5% & SOXX <= -1.5% (11/4 type: GSPC +1.58%, SOXX -3.14%)",
+      "N": 6,
+      "koru_up_pct": 0.0,
+      "koru_mean_pct": -3.97,
+      "koru_median_pct": -4.4,
+      "ewy_up_pct": 0.0,
+      "ewy_median_pct": -1.37
+    },
+    {
+      "condition": "Nasdaq > 0% & MU <= -3.0% (11/4 type: MU -7.00%)",
+      "N": 42,
+      "koru_up_pct": 42.9,
+      "koru_mean_pct": -0.15,
+      "koru_median_pct": -1.05,
+      "ewy_up_pct": 45.2,
+      "ewy_median_pct": -0.34
+    },
+    {
+      "condition": "2025~2026 AI regime: Nasdaq > 0% & SOXX <= -1.0%",
+      "N": 9,
+      "koru_up_pct": 55.6,
+      "koru_mean_pct": -0.0,
+      "koru_median_pct": 0.79,
+      "ewy_up_pct": 55.6,
+      "ewy_median_pct": 0.23
+    }
+  ]
+}

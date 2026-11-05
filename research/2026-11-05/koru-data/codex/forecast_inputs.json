@@ -1,0 +1,129 @@
+{
+  "source": "직전 회차 저장소·볼트 예측 본문; 이미 기입된 타 모델 사후 복기 값은 재사용하지 않음",
+  "models": [
+    {
+      "name": "Claude Fable Max",
+      "repo_path": "research/2026-11-04/koru-forecast-24h-claude.md",
+      "vault_path": "PERSONAL/STOCK/KORU/2026-11-04-claude-fable-max.md",
+      "base_time_kst": "2026-11-04 09:10",
+      "base_price": 11.39,
+      "prev_close": 11.01,
+      "expiry_kst": "2026-11-05 09:10",
+      "call": "하락 소폭 우세",
+      "up_prob": 0.45,
+      "prev_close_call": "상승 소폭 우세",
+      "prev_close_up_prob": 0.55,
+      "center": [
+        11,
+        11.4
+      ],
+      "scenarios": [
+        {
+          "prob": 0.27,
+          "range": [
+            11.6,
+            12.5
+          ],
+          "condition": "코스피 +3.5% 이상, 미국 반도체·선거 안도 랠리"
+        },
+        {
+          "prob": 0.28,
+          "range": [
+            11.1,
+            11.6
+          ],
+          "condition": "코스피 +2.5~3.5%, 미국 보합"
+        },
+        {
+          "prob": 0.3,
+          "range": [
+            10.4,
+            11.1
+          ],
+          "condition": "코스피 시가 하회·+1~2.5%, 또는 미국 호재에 매도"
+        },
+        {
+          "prob": 0.15,
+          "range": [
+            9.7,
+            10.4
+          ],
+          "condition": "코스피 +1% 미만 또는 미국 위험회피"
+        }
+      ],
+      "invalidate": "KORU 10.83 이탈 하락 강화; 11.59 회복·유지 상승 전환; 코스피 종가 5845 위 유지, 5780 아래 정리"
+    },
+    {
+      "name": "Codex Astra Max",
+      "repo_path": "research/2026-11-04/koru-forecast-24h-astra.md",
+      "vault_path": "PERSONAL/STOCK/KORU/2026-11-04-codex-astra-max.md",
+      "base_time_kst": "2026-11-04 08:43",
+      "base_price": 11.41,
+      "prev_close": 11.01,
+      "expiry_kst": "2026-11-05 08:43",
+      "call": "상승 가능성 소폭 우세",
+      "up_prob": null,
+      "prev_close_call": null,
+      "center": null,
+      "scenarios": null,
+      "invalidate": "한국장에서 삼성전자·SK하이닉스 반등 실패 시 상승 전망 약화; 반등 확인 시 유지 근거",
+      "missing": "수치 확률·중심가·가격 시나리오·정규장 종가 대비 별도 방향·명확한 가격/시각 재검토선"
+    },
+    {
+      "name": "Antigravity Argon High",
+      "repo_path": "research/2026-11-04/koru-forecast-24h-argon.md",
+      "vault_path": "PERSONAL/STOCK/KORU/2026-11-04-antigravity-argon-high.md",
+      "base_time_kst": "2026-11-04 08:55",
+      "base_price": 11.3,
+      "prev_close": 11.01,
+      "expiry_kst": "2026-11-05 08:55",
+      "call": "하락 우세",
+      "up_prob_range": [
+        0.35,
+        0.4
+      ],
+      "scenario_up_prob_sum": 0.37,
+      "prev_close_call": "약보합~소폭 하락",
+      "prev_close_up_prob": 0.45,
+      "center": [
+        10.8,
+        11.1
+      ],
+      "scenarios": [
+        {
+          "prob": 0.15,
+          "range": [
+            11.7,
+            12.4
+          ],
+          "condition": "한국 반도체 +5% 이상·외국인 순매수, 선거 안도, 퀄컴/ARM 호실적"
+        },
+        {
+          "prob": 0.22,
+          "range": [
+            11.3,
+            11.7
+          ],
+          "condition": "한국 +3~3.5%, 원/달러 1335대, 미국 반도체 강보합"
+        },
+        {
+          "prob": 0.43,
+          "range": [
+            10.6,
+            11.3
+          ],
+          "condition": "한국 +1.5~2.8%, 할증 반납, 미국 차익실현"
+        },
+        {
+          "prob": 0.2,
+          "range": [
+            9.9,
+            10.6
+          ],
+          "condition": "한국 외국인 매도로 반등 반납, 관세/금리 또는 퀄컴/ARM 약세"
+        }
+      ],
+      "invalidate": "11.56 회복·안착 시 상승 재검토; 10.83/10.37 하향 이탈 시 반등 실패"
+    }
+  ]
+}

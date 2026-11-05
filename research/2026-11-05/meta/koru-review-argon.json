@@ -1,0 +1,59 @@
+{
+  "job_id": "koru-review-argon",
+  "kind": "review",
+  "ticker": "KORU",
+  "model": "Antigravity Argon High",
+  "date": "2026-11-05",
+  "reviewed_date": "2026-11-04",
+  "repo_path": "research/2026-11-05/koru-review-argon.md",
+  "vault_path": "PERSONAL/STOCK/KORU/2026-11-04-review-antigravity-argon-high.md",
+  "vault_written": true,
+  "title": "[KORU] 2026-11-04 24시간 예측 사후 평가 — Antigravity Argon High",
+  "summary": "2026-11-04 회차 KORU 24시간 만기 실제가는 모델별 시각(11/5 08:43~09:10 KST) 기준 $10.38·$10.33·$10.30(-8.59%~-9.57%)으로 확정되었으며, 애프터마켓 선반영 부담을 계량화한 Antigravity Argon High와 Claude Fable Max가 방향을 적중했고 Codex Astra Max는 미적중했다(단, 삼성전자·SK하이닉스 반등 실패 무효화 조건은 정확히 발동). 한국장 마감 공정가치(EWY $152.16 ≈ 실제 종가 $152.12)로의 완전 수렴과 미 중간선거 블루웨이브 속 지수 안도·반도체 급락 디커플링(나스닥 +1.44% vs SOXX -3.14%·MU -7.00%)이 핵심 동인이었으며, 시나리오 조건을 나스닥이 아닌 메모리·반도체 베타와 한국장 iNAV에 직결해야 한다는 교훈을 확인했다.",
+  "scores": [
+    {
+      "model": "Claude Fable Max",
+      "note": "research/2026-11-04/koru-forecast-24h-claude.md",
+      "base_time_kst": "2026-11-04 09:10",
+      "base_price": 11.39,
+      "call": "하락 소폭 우세 (상승 약 45%, 중심 $11.0~$11.4)",
+      "expiry_kst": "2026-11-05 09:10",
+      "expiry_price": 10.30,
+      "change_pct": -9.57,
+      "verdict": "적중",
+      "comment": "기준가 대비 하락 방향·제4 시나리오($9.7~$10.4)·코스피 시가 하회 및 5,780 이탈 프리마켓 청산 규칙 모두 작동했으나 정규장 종가($11.01) 대비 상승 55% 판단은 빗나감"
+    },
+    {
+      "model": "Codex Astra Max",
+      "note": "research/2026-11-04/koru-forecast-24h-astra.md",
+      "base_time_kst": "2026-11-04 08:43",
+      "base_price": 11.41,
+      "call": "상승 가능성 소폭 우세 (확신도 낮음)",
+      "expiry_kst": "2026-11-05 08:43",
+      "expiry_price": 10.38,
+      "change_pct": -9.03,
+      "verdict": "미적중",
+      "comment": "시간외 선반영 폭의 정량 손익분기 부재로 주 방향은 빗나갔으나, 11/4 한국장 삼성전자(-0.68%)·SK하이닉스(-0.14%) 반등 실패 시 전망 약화라는 무효화 조건은 정확히 발동"
+    },
+    {
+      "model": "Antigravity Argon High",
+      "note": "research/2026-11-04/koru-forecast-24h-argon.md",
+      "base_time_kst": "2026-11-04 08:55",
+      "base_price": 11.30,
+      "call": "하락 우세 (상승 35~40%, 중심 $10.80~$11.10)",
+      "expiry_kst": "2026-11-05 08:55",
+      "expiry_price": 10.33,
+      "change_pct": -8.59,
+      "verdict": "적중",
+      "comment": "실시간 iNAV 할증(+2.95%) 산출로 기준가·직전 정규장 종가($11.01) 대비 하락과 재검토선($11.56 저항·$10.83/$10.37 이탈)을 모두 맞혔으나 중심가 대비 낙폭은 제4 시나리오($9.90~$10.60)까지 확대"
+    }
+  ],
+  "lessons": [
+    "한국 정규장 마감(15:30 KST) 시점의 KODEX MSCI Korea TR ÷ 원/달러 환율 기반 공정가치(11/4 $152.16 → 미국장 실제 종가 $152.12)를 그날 밤 EWY·KORU의 1차 수렴 앵커로 삼는다.",
+    "나스닥·S&P500 지수와 반도체(SOXX·MU)가 디커플링할 때(10년 나스닥 >0% & SOXX <=-1.5% N=16에서 KORU 상승률 12.5%, 중앙값 -3.06%) KORU 시나리오 조건은 일반 지수가 아닌 SOXX·MU에 직접 연동한다.",
+    "전날 밤 EWY가 +1.5% 이상 선반영 반등한 뒤 한국장이 갭 상승 출발할 때는 코스피 지수 착시 대신 278540.KS(MSCI Korea TR) 및 삼성전자·SK하이닉스의 시가 방어와 10:30 KST 외국인 수급을 필수 관문으로 둔다.",
+    "한국장이 부진하게 마감한 뒤 미국 이른 프리마켓(18:00~20:30 KST)에서 얇은 호가로 KORU가 SOXL을 따라 역행 급등할 경우 추격 진입이 아닌 최우선 청산 기회로 활용하고, 프리마켓 첫 5분 스파이크 틱은 노이즈로 분리한다.",
+    "중간선거·관세·에너지 정책 이벤트에서는 거시 변동성(VIX) 안도와 AI 데이터센터·메모리 섹터 규제 리스크의 비대칭성을 분리하고 고변동 레짐(ATR/종가 >14%)에서는 꼬리 시나리오 확률 가중치를 상향한다."
+  ],
+  "own_note_updated": true
+}

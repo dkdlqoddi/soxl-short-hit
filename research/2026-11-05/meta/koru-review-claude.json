@@ -1,0 +1,59 @@
+{
+  "job_id": "koru-review-claude",
+  "kind": "review",
+  "ticker": "KORU",
+  "model": "Claude Fable Max",
+  "date": "2026-11-05",
+  "reviewed_date": "2026-11-04",
+  "repo_path": "research/2026-11-05/koru-review-claude.md",
+  "vault_path": "PERSONAL/STOCK/KORU/2026-11-04-review-claude-fable-max.md",
+  "vault_written": true,
+  "title": "[KORU] 2026-11-04 24시간 예측 사후 평가 — Claude Fable Max",
+  "summary": "만기가 $10.30~10.38로 세 기준가 대비 −8.6~−9.6%. Argon 적중, Claude 부분 적중(방향은 맞고 '정규장 종가 대비 상승 55%'는 미적중), Astra 미적중. 하락의 3분의 2는 예측에 없던 미국 반도체 급락(SOXX −3.1%)이어서, 다음부터 미국 구간은 SOXX로 환산하고 선반영은 괴리(수준)로 잰다.",
+  "scores": [
+    {
+      "model": "Claude Fable Max",
+      "note": "research/2026-11-04/koru-forecast-24h-claude.md",
+      "base_time_kst": "2026-11-04 09:10",
+      "base_price": 11.39,
+      "call": "하락 소폭 우세 (상승 45%)",
+      "expiry_kst": "2026-11-05 09:10",
+      "expiry_price": 10.3,
+      "change_pct": -9.57,
+      "verdict": "부분 적중",
+      "comment": "기준가 대비 방향은 적중. 중심가 $11.0~11.4(실제 $10.30)와 '정규장 종가 대비 상승 55%'(실제 −6.45%)는 미적중. '코스피 종가 5,780 아래면 프리마켓 정리' 규칙은 유효했음(프리마켓 중앙값 $11.41)"
+    },
+    {
+      "model": "Codex Astra Max",
+      "note": "research/2026-11-04/koru-forecast-24h-astra.md",
+      "base_time_kst": "2026-11-04 08:43",
+      "base_price": 11.41,
+      "call": "상승 소폭 우세 (확률 미제시)",
+      "expiry_kst": "2026-11-05 08:43",
+      "expiry_price": 10.38,
+      "change_pct": -9.03,
+      "verdict": "미적중",
+      "comment": "선반영 크기를 재지 않았고 확률·가격대가 없음. 재검토 조건(삼성전자·SK하이닉스 반등 실패)은 종가에서 성립. 상승 논리는 20:13 KST 프리마켓 $11.57까지만 유효"
+    },
+    {
+      "model": "Antigravity Argon High",
+      "note": "research/2026-11-04/koru-forecast-24h-argon.md",
+      "base_time_kst": "2026-11-04 08:55",
+      "base_price": 11.3,
+      "call": "하락 우세 (상승 35~40%)",
+      "expiry_kst": "2026-11-05 08:55",
+      "expiry_price": 10.33,
+      "change_pct": -8.59,
+      "verdict": "적중",
+      "comment": "기준가·정규장 종가 대비 방향 모두 적중. 공정가치 괴리(+2.95%) 계량과 확률 보정이 가장 좋음(Brier 0.141). 중심가 $10.80~11.10은 만기가보다 4.4% 높아 낙폭 과소 추정"
+    }
+  ],
+  "lessons": [
+    "기준가가 요구하는 코스피 종가를 역산해 달성 확률을 분포에서 읽는다. 11/4 기준가는 코스피 +3.4%가 필요했고 갭 +2% 이상 출발일의 달성률은 33%(N=75). 전일 +4%↑·애프터 프리미엄 +2.5%↑이면 상승 30~37%, 중심 −3~−6%로 두고, 5건 미만의 최근 사례로 확률을 3%p 넘게 옮기지 않는다.",
+    "미국장 구간은 지수가 아니라 SOXX로 환산한다. EWY 시가→종가 = 0.62~0.67×SOXX(R² 0.60~0.69)이므로 KORU ≈ 2×SOXX. 11/4는 다우 +3.0%인데 SOXX −3.1%였고 EWY(−1.9%)는 반도체를 따라갔다.",
+    "선반영은 괴리(EWY ÷ 달러 환산 KODEX MSCI Korea TR, 20일 중앙값 대비)로 잰다. 괴리 +2% 이상이면 한국장은 87% 오르지만 KORU는 44%만 오르고(N=55), −2% 이하면 62% 오른다(N=66). 한국장 입력은 코스피가 아니라 MSCI Korea로 넣는다.",
+    "코스피가 갭 +2% 이상으로 출발한 뒤 시가 아래로 마감하면 그날 밤 EWY 상승은 23.5%(N=17)다. 18:10 KST 이후 프리마켓에서 정리한다(11/4 프리마켓 중앙값 $11.41 → 만기 $10.30).",
+    "겨울 시간에는 만기 직전 애프터마켓이 넥스트레이드 프리마켓·코스피 개장과 겹친다. SOXX −2% 이하인 날 08:59 KST 애프터마켓가가 종가보다 높은 비율은 37.5%(N=16)다. 정규장 종가 대비 판단은 표본에 따라 44~58%로 갈리므로 '중립'으로 적는다."
+  ],
+  "own_note_updated": true
+}

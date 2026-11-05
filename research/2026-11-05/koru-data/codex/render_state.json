@@ -1,0 +1,13 @@
+{
+  "reviewed_at_kst": "2026-11-05 13:34",
+  "reviewed_at_est": "2026-11-04 23:34",
+  "vault_ifMatch": "9ac05d",
+  "repo_original_sha256": "024f5d81c04c1e7830f8800bf50dca062cc7fa83f42b274b1b4b1252ed4b4c38",
+  "link_map": {
+    "[저장소 예측](../2026-11-04/koru-forecast-24h-claude.md)": "[[PERSONAL/STOCK/KORU/2026-11-04-claude-fable-max|Claude Fable Max 예측]]",
+    "[저장소 예측](../2026-11-04/koru-forecast-24h-astra.md)": "[[PERSONAL/STOCK/KORU/2026-11-04-codex-astra-max|Codex Astra Max 예측]]",
+    "[저장소 예측](../2026-11-04/koru-forecast-24h-argon.md)": "[[PERSONAL/STOCK/KORU/2026-11-04-antigravity-argon-high|Antigravity Argon High 예측]]",
+    "[KORU 전체 경로와 만기 확대 차트](koru-data/codex/koru_path.png)": "KORU 전체 경로와 만기 확대 차트 — 저장소 경로: `research/2026-11-05/koru-data/codex/koru_path.png`"
+  },
+  "vault_header": "> 상위 가이드: [[PERSONAL/STOCK/README|공통 정리 형식]] · 회차 통합: [[PERSONAL/STOCK/KORU/2026-11-04|2026-11-04 3모델 비교]]\n> 평가 원문: [[PERSONAL/STOCK/KORU/2026-11-04-claude-fable-max|Claude Fable Max]] · [[PERSONAL/STOCK/KORU/2026-11-04-codex-astra-max|Codex Astra Max]] · [[PERSONAL/STOCK/KORU/2026-11-04-antigravity-argon-high|Antigravity Argon High]]\n\n"
+}

@@ -1,0 +1,18 @@
+{
+  "validated_at_kst": "2026-11-05T13:35:27.522138+09:00",
+  "mode": "final",
+  "passed": true,
+  "checks": [
+    "metadata_schema",
+    "expiry_and_returns",
+    "four_score_dimensions_documented",
+    "forecast_preservation",
+    "repo_vault_body_parity",
+    "relative_links",
+    "size_limit",
+    "mcp_write_readback",
+    "completion_flags"
+  ],
+  "artifact_count": 53,
+  "max_file_bytes": 613924
+}

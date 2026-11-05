@@ -1,0 +1,23 @@
+[
+  {
+    "id": "korea_close",
+    "url": "https://www.newspim.com/news/view/20261104001137",
+    "checked_at_kst": "2026-11-05T13:26:25.751580+09:00",
+    "http_status": 200,
+    "title": "[마감시황] 코스피, 롤러코스터 장세 속 강보합…5680선 회복"
+  },
+  {
+    "id": "nxt_pre",
+    "url": "https://newspim.com/news/view/20261105000096",
+    "checked_at_kst": "2026-11-05T13:26:26.039710+09:00",
+    "http_status": 200,
+    "title": "[특징주] 심전닉스, 美 AI 데이터센터 규제 우려에 프리마켓서 동반 하락"
+  },
+  {
+    "id": "night_futures",
+    "url": "https://www.prekospi.com/",
+    "checked_at_kst": "2026-11-05T13:26:26.354673+09:00",
+    "http_status": 200,
+    "title": "코스피200 야간선물·ADR 시세와 시장 읽기 | PreKOSPI"
+  }
+]

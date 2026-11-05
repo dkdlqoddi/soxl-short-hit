@@ -1,0 +1,57 @@
+{
+ "fetched_at_kst": "2026-11-05 13:42:40",
+ "KOSPI": {
+  "stockName": "코스피",
+  "closePrice": "5,404.53",
+  "compareToPreviousClosePrice": "-279.27",
+  "fluctuationsRatio": "-4.91",
+  "localTradedAt": "2026-11-05T13:42:00+09:00",
+  "marketStatus": "OPEN"
+ },
+ "KOSDAQ": {
+  "stockName": "코스닥",
+  "closePrice": "683.53",
+  "compareToPreviousClosePrice": "-31.42",
+  "fluctuationsRatio": "-4.39",
+  "localTradedAt": "2026-11-05T13:42:00+09:00",
+  "marketStatus": "OPEN"
+ },
+ "005930": {
+  "stockName": "삼성전자",
+  "closePrice": "202,750",
+  "compareToPreviousClosePrice": "-15,250",
+  "fluctuationsRatio": "-7.00",
+  "localTradedAt": "2026-11-05T13:42:00+09:00",
+  "marketStatus": "OPEN",
+  "over": {
+   "tradingSessionType": "REGULAR_MARKET",
+   "overMarketStatus": "OPEN",
+   "overPrice": "202,500",
+   "fluctuationsRatio": "-7.11",
+   "localTradedAt": "2026-11-05T13:42:40.136+09:00"
+  }
+ },
+ "000660": {
+  "stockName": "SK하이닉스",
+  "closePrice": "1,269,000",
+  "compareToPreviousClosePrice": "-127,000",
+  "fluctuationsRatio": "-9.10",
+  "localTradedAt": "2026-11-05T13:42:23+09:00",
+  "marketStatus": "OPEN",
+  "over": {
+   "tradingSessionType": "REGULAR_MARKET",
+   "overMarketStatus": "OPEN",
+   "overPrice": "1,269,000",
+   "fluctuationsRatio": "-9.10",
+   "localTradedAt": "2026-11-05T13:42:40.169+09:00"
+  }
+ },
+ "278540": {
+  "stockName": "KODEX MSCI Korea TR",
+  "closePrice": "30,100",
+  "compareToPreviousClosePrice": "-1,660",
+  "fluctuationsRatio": "-5.23",
+  "localTradedAt": "2026-11-05T13:42:21+09:00",
+  "marketStatus": "OPEN"
+ }
+}
