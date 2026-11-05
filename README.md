@@ -49,11 +49,33 @@
 - [KORU 24시간 주가 방향 예상 (Claude Fable 5.1), 2026-11-04](research/2026-11-04/koru-forecast-24h-claude.md): 11월 4일 09:10 KST 애프터마켓 $11.39(정규장 종가 $11.01) 기준으로 24시간 뒤 하락 소폭 우세(상승 확률 약 45%, 중심 $11.0~$11.4, 확신도 낮음)로 판단. 정규장 종가 기준으로는 상승 약 55%. KORU는 EWY를 3배 추적해 코스피를 하루 앞서 움직이므로 11/3 +6.2%와 애프터마켓 +3.5%가 이미 코스피 약 +3.4% 마감을 가정한 가격임을 회귀로 보이고, 급락 뒤 첫 반등일 통계·코스피 갭 상승 뒤 시가 유지 여부(시가 위 마감이면 그날 밤 EWY 상승 70%, 아래면 29%)·중간선거 개표·퀄컴 실적을 변수로 정리.
 - [SOXL 24시간 주가 방향 예상 (AGY Argon), 2026-11-04](research/2026-11-04/soxl-forecast-24h-argon.md): 11월 4일 23:30 KST 미국 정규장 시가 $70.03(-4.23% 갭 하락) 기준으로 24시간 뒤(11/5 정규장 시가) 완만한 상승 우위(상승 확률 약 58~60%, 중심 $71.50~$74.00, 확신도 보통~낮음)로 판단(단 장중 반등가 ~$72.4 기준 보합권, 전일 종가 $73.12 대비는 상승 42~45%). 직전 11/3 예측 적중($71.63→$76.24, +6.44%) 및 중간선거 블루웨이브 반도체 로테이션 복기, 10년 일봉·VIX 급락·2년 1시간봉(개장 첫 1시간 반등 조건부) 백테스트와 퀄컴·ARM 실적 일정을 함께 정리.
 
+## 3모델 24시간 예측·복기 자동 실행
+
+`automation/daily_forecast.py`가 tmux에서 **Claude Fable Max**(`claude`), **Codex Astra Max**(`codex`), **Antigravity Argon High**(`agy`)에 같은 프롬프트(`automation/prompts/`)로 네 작업을 시킵니다. 세 모델은 각자 저장소 노트·볼트 노트(obsidian MCP)·메타 JSON을 만들고, 여러 모델이 같은 파일을 동시에 고치지 않도록 README·통합 비교 노트·git은 스크립트가 맡습니다.
+
+| 단계 | 하는 일 |
+| --- | --- |
+| 1단계 복기 | 직전 회차 SOXL·KORU 예측 노트(3모델)를 모델마다 실제 만기 가격으로 채점하고, 본인 직전 노트의 "사후 결과 복기" 절을 채움 |
+| 2단계 예측 | 1단계가 끝난 시각을 **세 모델 공통 기준 시각**으로 정하고(yfinance 1분봉 기준가 스냅샷 포함) SOXL·KORU 24시간 방향 예측 |
+| 마무리 | 볼트 누락분 업로드 → 통합 비교 노트(`research/<날짜>/<ticker>-summary.md`, 볼트 `PERSONAL/STOCK/<TICKER>/<날짜>.md`) → 전날 통합 비교 노트에 채점 기록 → 이 README "연구 노트"·볼트 아카이브 목록 → `git commit` → `git push origin main` |
+
+```bash
+python3 automation/daily_forecast.py             # tmux 세션을 띄우고 바로 돌아옴 (보통 1~3시간)
+tmux attach -t fc-<실행 ID>                      # 진행 보기: control 창 + 모델별 창(위 SOXL · 아래 KORU)
+python3 automation/daily_forecast.py --dry-run   # 계획과 프롬프트만 만들어 보기
+```
+
+자주 쓰는 옵션: `--tasks koru-review,koru-forecast`(일부 작업만), `--models claude,codex`(일부 모델만), `--no-push`(커밋까지만), `--timeout-min 150`(작업당 제한 시간), `--overwrite`(같은 날짜를 다시 실행). 모델 이름·추론 강도는 스크립트 위쪽 `CLAUDE_MODEL`·`CODEX_MODEL`·`AGY_MODEL`에서 바꿉니다. 실행 기록과 모델별 로그는 `automation/runs/<실행 ID>/`에 남고 git에는 올라가지 않습니다.
+
 ## 폴더는 이렇게 사용합니다
 
 ```text
 soxl-short-hit/
 ├── README.md                    ← 전체 사용 설명
+├── automation/                  ← 3모델 예측·복기 자동 실행
+│   ├── daily_forecast.py        ← tmux 오케스트레이터 (복기 → 예측 → 정리 → 커밋·push)
+│   ├── prompts/                 ← 세 모델 공통 프롬프트 (common·review·forecast)
+│   └── runs/                    ← 실행 기록·모델별 로그 (git 제외)
 ├── records/                     ← 매매 기록과 영상 준비
 │   ├── TEMPLATE.md              ← 다음 날 복사할 빈 양식
 │   └── 2026-10-21/
@@ -92,19 +114,27 @@ soxl-short-hit/
     │   ├── forecast-24h-astra.md  ← 24시간 주가 방향 예상 (Codex Astra)
     │   └── forecast-24h-claude.md ← 24시간 주가 방향 예상 (Claude Fable 5.1)
     ├── 2026-11-04/
-        ├── koru-forecast-24h-argon.md  ← KORU 24시간 주가 방향 예상 (AGY Argon)
-        ├── koru-forecast-24h-astra.md  ← KORU 24시간 주가 방향 예상 (Codex Astra)
-        ├── koru-forecast-24h-claude.md ← KORU 24시간 주가 방향 예상 (Claude Fable 5.1)
-        └── soxl-forecast-24h-argon.md  ← SOXL 미국장 시가 기준 24시간 예상 (AGY Argon)
-    └── 2026-11-05/
-        ├── koru-forecast-24h-argon.md ← KORU 24시간 주가 방향 예상 (AGY Argon)
-        ├── koru-forecast-24h-codex.md ← KORU 한국장 개장 전 현재가 기준 24시간 전망 (Codex)
-        ├── koru-forecast-24h-claude.md ← KORU 24시간 주가 방향 예상 (Claude Fable 5.1)
-        ├── forecast-24h-codex.md      ← SOXL 11/4 시가 기준 24시간 전망 (Codex)
-        ├── forecast-24h-claude.md     ← SOXL 11/4 시가 기준 24시간 예상 (Claude Fable 5.1)
-        ├── data/                      ← SOXL 시세·분석 데이터
-        ├── koru-data/                 ← KORU 시세·분석 데이터
-        └── scripts/                   ← 분석 스크립트
+    │   ├── koru-forecast-24h-argon.md  ← KORU 24시간 주가 방향 예상 (AGY Argon)
+    │   ├── koru-forecast-24h-astra.md  ← KORU 24시간 주가 방향 예상 (Codex Astra)
+    │   ├── koru-forecast-24h-claude.md ← KORU 24시간 주가 방향 예상 (Claude Fable 5.1)
+    │   └── soxl-forecast-24h-argon.md  ← SOXL 미국장 시가 기준 24시간 예상 (AGY Argon)
+    ├── 2026-11-05/
+    │   ├── koru-forecast-24h-argon.md ← KORU 24시간 주가 방향 예상 (AGY Argon)
+    │   ├── koru-forecast-24h-codex.md ← KORU 한국장 개장 전 현재가 기준 24시간 전망 (Codex)
+    │   ├── koru-forecast-24h-claude.md ← KORU 24시간 주가 방향 예상 (Claude Fable 5.1)
+    │   ├── forecast-24h-codex.md      ← SOXL 11/4 시가 기준 24시간 전망 (Codex)
+    │   ├── forecast-24h-claude.md     ← SOXL 11/4 시가 기준 24시간 예상 (Claude Fable 5.1)
+    │   ├── data/                      ← SOXL 시세·분석 데이터
+    │   ├── koru-data/                 ← KORU 시세·분석 데이터
+    │   └── scripts/                   ← 분석 스크립트
+    └── YYYY-MM-DD/                    ← 자동 실행 결과 (automation/daily_forecast.py)
+        ├── soxl-forecast-24h-<모델>.md ← SOXL 24시간 예측 (모델 = claude·codex·argon)
+        ├── soxl-review-<모델>.md       ← 직전 회차 SOXL 예측 복기
+        ├── koru-forecast-24h-<모델>.md ← KORU 24시간 예측
+        ├── koru-review-<모델>.md       ← 직전 회차 KORU 예측 복기
+        ├── soxl-summary.md · koru-summary.md ← 3모델 통합 비교 (자동 생성)
+        ├── meta/                      ← 모델별 메타 JSON · 공통 기준가 스냅샷
+        └── soxl-data/ · koru-data/<모델>/ ← 모델별 시세·분석 데이터와 스크립트
 ```
 
 `.md`는 읽고 수정하는 글 파일입니다. `.csv`는 엑셀 등에서 표로 열 수 있습니다.
