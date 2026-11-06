@@ -1,0 +1,132 @@
+[
+  {
+    "id": "nasdaq_soxl",
+    "url": "https://api.nasdaq.com/api/quote/SOXL/historical?assetclass=etf&fromdate=2026-11-03&todate=2026-11-05&limit=10",
+    "checked_at_kst": "2026-11-06T09:46:42.109751+09:00",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "filename": "nasdaq_soxl.json",
+    "bytes": 481,
+    "sha256": "e5ac69356e8c81bbf381bfe240116f7e1d7609d26e7b6f4458257e9d97ede9c7"
+  },
+  {
+    "id": "yahoo_soxl_query2",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SOXL?range=5d&interval=1m&includePrePost=true",
+    "checked_at_kst": "2026-11-06T09:46:42.110144+09:00",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "filename": "yahoo_soxl_query2.json",
+    "bytes": 274736,
+    "sha256": "8980fa696ca9643f85d6ccc59079676d0f9586d2a6e4fae0657ca46c513efbf4"
+  },
+  {
+    "id": "korea_kospi",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=5d&interval=1d",
+    "checked_at_kst": "2026-11-06T09:46:42.112273+09:00",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "filename": "korea_kospi.json",
+    "bytes": 1625,
+    "sha256": "5323a265f99dc8b5d0980548c8f87811455940e8b857f972b3cb65a9f430ea2a"
+  },
+  {
+    "id": "korea_samsung",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=5d&interval=1d",
+    "checked_at_kst": "2026-11-06T09:46:42.113056+09:00",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "filename": "korea_samsung.json",
+    "bytes": 1539,
+    "sha256": "465ccf316d1ed8fb9ae822dbb5f5bf041dc5bf18586d60c7ed0f8c943698466a"
+  },
+  {
+    "id": "korea_hynix",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=1d",
+    "checked_at_kst": "2026-11-06T09:46:42.113785+09:00",
+    "http_status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "filename": "korea_hynix.json",
+    "bytes": 1549,
+    "sha256": "1883cc6a7b1f228962aa15922f4f0ae6f6f39b2ce51667b82c4d251fdb1c49fd"
+  },
+  {
+    "id": "qualcomm_results",
+    "url": "https://investor.qualcomm.com/files/content_files/FY2026-4th-Quarter-Earnings-Release.pdf",
+    "checked_at_kst": "2026-11-06T09:46:42.491781+09:00",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "filename": "qualcomm_results.pdf",
+    "bytes": 160530,
+    "sha256": "6aa674a7f42a75aae351ccce55ae33ac2da34774827fdec43297f9ae6e12c4c6"
+  },
+  {
+    "id": "arm_results",
+    "url": "https://newsroom.arm.com/news/arm-q2-fye27-results",
+    "checked_at_kst": "2026-11-06T09:46:42.524748+09:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "filename": "arm_results.html",
+    "bytes": 627332,
+    "sha256": "2fe743f8ee99d66722dd05df55acdce2578c6afb20ddfa921afc1659c52f4c1d"
+  },
+  {
+    "id": "arm_filing",
+    "url": "https://investors.arm.com/node/8506/html",
+    "checked_at_kst": "2026-11-06T09:46:42.624917+09:00",
+    "http_status": 403,
+    "content_type": "text/html",
+    "filename": "arm_filing.html",
+    "bytes": 393,
+    "sha256": "47ef6c25ca34d0c0f21ea0689a91ef6aaee64cbbf7f18ffccc052ea9f30aef98"
+  },
+  {
+    "id": "soxx_split",
+    "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526430480/d156277d497.htm",
+    "checked_at_kst": "2026-11-06T09:46:42.666829+09:00",
+    "http_status": 403,
+    "content_type": "text/html",
+    "filename": "soxx_split.html",
+    "bytes": 4819,
+    "sha256": "15d29806b7c5b89ff0ddb147f3cf7777b34568a9a388657df9ef6d7e76f1882d"
+  },
+  {
+    "id": "bls_productivity",
+    "url": "https://www.bls.gov/news.release/prod2.nr0.htm",
+    "checked_at_kst": "2026-11-06T09:46:42.737215+09:00",
+    "http_status": 403,
+    "content_type": "text/html",
+    "filename": "bls_productivity.html",
+    "bytes": 1323,
+    "sha256": "5d6034eb3d2d356b5d868b1e209902b2da148f637598628bb25eb453e3574632"
+  },
+  {
+    "id": "dol_claims",
+    "url": "https://www.dol.gov/ui/data.pdf",
+    "checked_at_kst": "2026-11-06T09:46:42.819294+09:00",
+    "http_status": 403,
+    "content_type": "text/html",
+    "filename": "dol_claims.html",
+    "bytes": 382,
+    "sha256": "f8079193bdf64cd1239473b41ebe11457d7a4c18ed4de37082fdeaed43cb4f9d"
+  },
+  {
+    "id": "reuters_nov5",
+    "url": "https://www.fidelity.com/news/article/us-markets/202611051023RTRSNEWSCOMBINED_L6N46M12A_1",
+    "checked_at_kst": "2026-11-06T09:46:42.867782+09:00",
+    "http_status": 403,
+    "content_type": "text/html",
+    "filename": "reuters_nov5.html",
+    "bytes": 458,
+    "sha256": "33c39970f3c25b3de1ab929dbe32e52b86ff94458073166adceacb94d22e88f4"
+  },
+  {
+    "id": "cnbc_nov4",
+    "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+    "checked_at_kst": "2026-11-06T09:46:42.930987+09:00",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "filename": "cnbc_nov4.html",
+    "bytes": 1162904,
+    "sha256": "16c2d10507c82f56ca0d26268f1c376f32dd7145c0a79320347c0b993c624f18"
+  }
+]

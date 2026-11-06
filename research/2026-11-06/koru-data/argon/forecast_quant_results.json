@@ -1,0 +1,1672 @@
+{
+  "raw_tail_check": {
+    "KORU": {
+      "2026-11-03": {
+        "Open": 11.119999885559082,
+        "High": 11.34000015258789,
+        "Low": 10.829999923706055,
+        "Close": 11.010000228881836,
+        "Volume": 31271700
+      },
+      "2026-11-04": {
+        "Open": 10.850000381469727,
+        "High": 11.550000190734863,
+        "Low": 10.229999542236328,
+        "Close": 10.430000305175781,
+        "Volume": 58880800
+      },
+      "2026-11-05": {
+        "Open": 8.914999961853027,
+        "High": 9.069899559020996,
+        "Low": 6.465000152587891,
+        "Close": NaN,
+        "Volume": 137307895
+      }
+    },
+    "EWY": {
+      "2026-11-03": {
+        "Open": 155.5,
+        "High": 156.5500030517578,
+        "Low": 154.0500030517578,
+        "Close": 155.05999755859375,
+        "Volume": 11698500
+      },
+      "2026-11-04": {
+        "Open": 154.27999877929688,
+        "High": 157.50999450683594,
+        "Low": 151.36000061035156,
+        "Close": 152.1199951171875,
+        "Volume": 17083800
+      },
+      "2026-11-05": {
+        "Open": 144.93499755859375,
+        "High": 145.72999572753906,
+        "Low": 131.64999389648438,
+        "Close": NaN,
+        "Volume": 43478191
+      }
+    },
+    "^SOX": {
+      "2026-11-03": {
+        "Open": 10574.099609375,
+        "High": 10761.849609375,
+        "Low": 10530.6796875,
+        "Close": 10600.400390625,
+        "Volume": 0
+      },
+      "2026-11-04": {
+        "Open": 10485.8798828125,
+        "High": 10652.01953125,
+        "Low": 10064.73046875,
+        "Close": 10268.650390625,
+        "Volume": 0
+      },
+      "2026-11-05": {
+        "Open": 9806.3115234375,
+        "High": 9838.130859375,
+        "Low": 8997.3857421875,
+        "Close": 9011.1376953125,
+        "Volume": 0
+      }
+    },
+    "SOXX": {
+      "2026-11-03": {
+        "Open": 466.010009765625,
+        "High": 472.6300048828125,
+        "Low": 461.8299865722656,
+        "Close": 465.0,
+        "Volume": 13294800
+      },
+      "2026-11-04": {
+        "Open": 458.2799987792969,
+        "High": 469.2200012207031,
+        "Low": 441.67999267578125,
+        "Close": 450.4100036621094,
+        "Volume": 17564400
+      },
+      "2026-11-05": {
+        "Open": 143.0800018310547,
+        "High": 143.72549438476562,
+        "Low": 130.75,
+        "Close": NaN,
+        "Volume": 65770030
+      }
+    },
+    "SOXL": {
+      "2026-11-03": {
+        "Open": 73.76000213623047,
+        "High": 76.70999908447266,
+        "Low": 71.79000091552734,
+        "Close": 73.12000274658203,
+        "Volume": 139558400
+      },
+      "2026-11-04": {
+        "Open": 70.02999877929688,
+        "High": 75.29000091552734,
+        "Low": 62.22999954223633,
+        "Close": 66.68000030517578,
+        "Volume": 247028800
+      },
+      "2026-11-05": {
+        "Open": 56.95000076293945,
+        "High": 57.84000015258789,
+        "Low": 40.5900993347168,
+        "Close": NaN,
+        "Volume": 519607244
+      }
+    },
+    "MU": {
+      "2026-11-03": {
+        "Open": 859.9299926757812,
+        "High": 871.489990234375,
+        "Low": 845.25,
+        "Close": 855.0999755859375,
+        "Volume": 21286500
+      },
+      "2026-11-04": {
+        "Open": 823.0,
+        "High": 853.3400268554688,
+        "Low": 782.0,
+        "Close": 795.22998046875,
+        "Volume": 35906100
+      },
+      "2026-11-05": {
+        "Open": 752.6900024414062,
+        "High": 761.8104858398438,
+        "Low": 650.0,
+        "Close": NaN,
+        "Volume": 76138480
+      }
+    },
+    "NVDA": {
+      "2026-11-03": {
+        "Open": 207.9600067138672,
+        "High": 209.13999938964844,
+        "Low": 205.92999267578125,
+        "Close": 206.69000244140625,
+        "Volume": 91943400
+      },
+      "2026-11-04": {
+        "Open": 203.5,
+        "High": 206.7899932861328,
+        "Low": 199.67999267578125,
+        "Close": 200.1300048828125,
+        "Volume": 149033300
+      },
+      "2026-11-05": {
+        "Open": 196.07000732421875,
+        "High": 196.25,
+        "Low": 181.46200561523438,
+        "Close": NaN,
+        "Volume": 301617834
+      }
+    },
+    "^GSPC": {
+      "2026-11-03": {
+        "Open": 7552.919921875,
+        "High": 7594.60986328125,
+        "Low": 7545.39013671875,
+        "Close": 7568.919921875,
+        "Volume": 5481240000
+      },
+      "2026-11-04": {
+        "Open": 7635.81005859375,
+        "High": 7715.56982421875,
+        "Low": 7635.81005859375,
+        "Close": 7688.6201171875,
+        "Volume": 7390830000
+      },
+      "2026-11-05": {
+        "Open": 7678.72021484375,
+        "High": 7681.2900390625,
+        "Low": 7350.35009765625,
+        "Close": 7353.72998046875,
+        "Volume": 5039705000
+      }
+    },
+    "^IXIC": {
+      "2026-11-03": {
+        "Open": 25246.630859375,
+        "High": 25474.4609375,
+        "Low": 25246.630859375,
+        "Close": 25372.009765625,
+        "Volume": 8347090000
+      },
+      "2026-11-04": {
+        "Open": 25652.779296875,
+        "High": 26048.830078125,
+        "Low": 25602.140625,
+        "Close": 25736.509765625,
+        "Volume": 9953250000
+      },
+      "2026-11-05": {
+        "Open": 25558.109375,
+        "High": 25559.03125,
+        "Low": 24262.14453125,
+        "Close": 24314.998046875,
+        "Volume": 10902980000
+      }
+    },
+    "^VIX": {
+      "2026-11-03": {
+        "Open": 21.65999984741211,
+        "High": 21.90999984741211,
+        "Low": 20.290000915527344,
+        "Close": 20.829999923706055,
+        "Volume": 0
+      },
+      "2026-11-04": {
+        "Open": 19.200000762939453,
+        "High": 19.219999313354492,
+        "Low": 16.56999969482422,
+        "Close": 16.610000610351562,
+        "Volume": 0
+      },
+      "2026-11-05": {
+        "Open": 17.139999389648438,
+        "High": 28.360000610351562,
+        "Low": 16.700000762939453,
+        "Close": 28.18000030517578,
+        "Volume": 0
+      }
+    },
+    "KRW=X": {
+      "2026-11-04": {
+        "Open": 1342.949951171875,
+        "High": 1346.8499755859375,
+        "Low": 1335.699951171875,
+        "Close": 1342.9000244140625,
+        "Volume": 0
+      },
+      "2026-11-05": {
+        "Open": 1340.0400390625,
+        "High": 1354.1700439453125,
+        "Low": 1337.8599853515625,
+        "Close": 1340.0699462890625,
+        "Volume": 0
+      },
+      "2026-11-06": {
+        "Open": 1357.030029296875,
+        "High": 1357.97998046875,
+        "Low": 1353.97998046875,
+        "Close": 1355.280029296875,
+        "Volume": 0
+      }
+    },
+    "^KS11": {
+      "2026-11-03": {
+        "Open": 5715.18994140625,
+        "High": 5735.919921875,
+        "Low": 5615.7998046875,
+        "Close": 5648.7900390625,
+        "Volume": 207400
+      },
+      "2026-11-04": {
+        "Open": 5786.1298828125,
+        "High": 5828.1298828125,
+        "Low": 5421.72021484375,
+        "Close": 5683.7998046875,
+        "Volume": 276900
+      },
+      "2026-11-06": {
+        "Open": 5263.259765625,
+        "High": 5269.10009765625,
+        "Low": 4911.27978515625,
+        "Close": 4999.47998046875,
+        "Volume": 102060
+      }
+    },
+    "278540.KS": {
+      "2026-11-04": {
+        "Open": 32845.0,
+        "High": 32965.0,
+        "Low": 30455.0,
+        "Close": 31760.0,
+        "Volume": 26175
+      },
+      "2026-11-05": {
+        "Open": 31235.0,
+        "High": 31235.0,
+        "Low": 29720.0,
+        "Close": 30005.0,
+        "Volume": 23392
+      },
+      "2026-11-06": {
+        "Open": 27260.0,
+        "High": 28260.0,
+        "Low": 26845.0,
+        "Close": 27625.0,
+        "Volume": 10599
+      }
+    }
+  },
+  "naver_1042": {
+    "KOSPI_daily": [
+      {
+        "localTradedAt": "2026-11-06",
+        "closePrice": "5,019.11",
+        "compareToPreviousClosePrice": "-364.69",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-6.77",
+        "openPrice": "5,263.26",
+        "highPrice": "5,269.10",
+        "lowPrice": "4,911.28"
+      },
+      {
+        "localTradedAt": "2026-11-05",
+        "closePrice": "5,383.80",
+        "compareToPreviousClosePrice": "-300.00",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-5.28",
+        "openPrice": "5,580.09",
+        "highPrice": "5,586.46",
+        "lowPrice": "5,336.88"
+      }
+    ],
+    "KOSPI_chart_err": "'list' object has no attribute 'get'",
+    "278540_daily": [
+      {
+        "localTradedAt": "2026-11-06",
+        "closePrice": "27,670",
+        "compareToPreviousClosePrice": "-2,335",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-7.78",
+        "openPrice": "27,260",
+        "highPrice": "28,260",
+        "lowPrice": "26,845",
+        "accumulatedTradingVolume": 11684
+      },
+      {
+        "localTradedAt": "2026-11-05",
+        "closePrice": "30,005",
+        "compareToPreviousClosePrice": "-1,755",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-5.53",
+        "openPrice": "31,235",
+        "highPrice": "31,235",
+        "lowPrice": "29,720",
+        "accumulatedTradingVolume": 23392
+      }
+    ],
+    "278540_chart_err": "'list' object has no attribute 'get'",
+    "005930_daily": [
+      {
+        "localTradedAt": "2026-11-06",
+        "closePrice": "187,400",
+        "compareToPreviousClosePrice": "-14,100",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-7.00",
+        "openPrice": "185,000",
+        "highPrice": "189,700",
+        "lowPrice": "175,300",
+        "accumulatedTradingVolume": 25022801
+      },
+      {
+        "localTradedAt": "2026-11-05",
+        "closePrice": "201,500",
+        "compareToPreviousClosePrice": "-16,500",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-7.57",
+        "openPrice": "213,000",
+        "highPrice": "213,500",
+        "lowPrice": "199,800",
+        "accumulatedTradingVolume": 24657743
+      }
+    ],
+    "005930_chart_err": "'list' object has no attribute 'get'",
+    "000660_daily": [
+      {
+        "localTradedAt": "2026-11-06",
+        "closePrice": "1,145,000",
+        "compareToPreviousClosePrice": "-119,000",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-9.41",
+        "openPrice": "1,172,000",
+        "highPrice": "1,181,000",
+        "lowPrice": "1,070,000",
+        "accumulatedTradingVolume": 4529406
+      },
+      {
+        "localTradedAt": "2026-11-05",
+        "closePrice": "1,262,000",
+        "compareToPreviousClosePrice": "-134,000",
+        "compareToPreviousPrice": {
+          "code": "5",
+          "text": "하락",
+          "name": "FALLING"
+        },
+        "fluctuationsRatio": "-9.60",
+        "openPrice": "1,320,000",
+        "highPrice": "1,320,000",
+        "lowPrice": "1,250,000",
+        "accumulatedTradingVolume": 4281006
+      }
+    ],
+    "000660_chart_err": "'list' object has no attribute 'get'"
+  },
+  "indicators_summary": {
+    "KORU_1105": {
+      "open": NaN,
+      "high": NaN,
+      "low": NaN,
+      "close": 6.53,
+      "ret_1d_pct": -37.39,
+      "ret_2d_pct": -40.69,
+      "clv": NaN,
+      "rsi2": 4.36,
+      "rsi14": 29.77,
+      "adx14": 30.22,
+      "plus_di": 19.49,
+      "minus_di": 36.79,
+      "atr14": 1.651,
+      "atr_pct": 25.28,
+      "atr_pct_med100": 16.06,
+      "sma5": 9.79,
+      "sma20": 11.9,
+      "sma50": 17.39,
+      "sma200": 24.35,
+      "dist_sma20_pct": -45.15,
+      "bb_low": 7.16,
+      "bb_high": 16.64,
+      "pct_b": -0.067,
+      "rule_A": false,
+      "rule_E": false
+    },
+    "EWY_1105": {
+      "close": 131.65,
+      "ret_1d_pct": -13.46,
+      "clv": NaN,
+      "rsi2": 4.37,
+      "rsi14": 29.73,
+      "adx14": 26.26,
+      "plus_di": 20.71,
+      "minus_di": 34.18,
+      "atr14": 6.52,
+      "atr_pct": 4.95,
+      "sma5": 148.67,
+      "sma20": 156.47,
+      "sma50": 172.95,
+      "sma200": 163.37,
+      "bb_low": 137.77,
+      "bb_high": 175.17,
+      "pct_b": -0.164
+    }
+  },
+  "daily_bt_10y": [
+    {
+      "label": "0. 전체 거래일 (10년 기준선, 2016-11~2026-11)",
+      "cc": {
+        "N": 2512,
+        "up_pct": 50.7,
+        "mean_pct": 0.14,
+        "median_pct": 0.09,
+        "q25_pct": -2.7,
+        "q75_pct": 3.08,
+        "p10_pct": -5.76,
+        "p90_pct": 5.84,
+        "min_pct": -41.89,
+        "max_pct": 35.93
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 61.7,
+        "mean_pct": 1.22,
+        "median_pct": 1.18
+      },
+      "next_open_median_pct": 0.11,
+      "next_ks_median_pct": 0.09
+    },
+    {
+      "label": "1. KORU 당일 -10% 이하 급락일",
+      "cc": {
+        "N": 71,
+        "up_pct": 62.0,
+        "mean_pct": 1.48,
+        "median_pct": 1.56,
+        "q25_pct": -3.17,
+        "q75_pct": 7.01,
+        "p10_pct": -9.76,
+        "p90_pct": 15.37,
+        "min_pct": -41.89,
+        "max_pct": 34.77
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 66.2,
+        "mean_pct": 2.58,
+        "median_pct": 2.66
+      },
+      "next_open_median_pct": 2.65,
+      "next_ks_median_pct": -1.09
+    },
+    {
+      "label": "2. KORU 당일 -15% 이하 폭락일",
+      "cc": {
+        "N": 25,
+        "up_pct": 64.0,
+        "mean_pct": 3.31,
+        "median_pct": 1.55,
+        "q25_pct": -3.28,
+        "q75_pct": 12.94,
+        "p10_pct": -10.65,
+        "p90_pct": 16.97,
+        "min_pct": -14.63,
+        "max_pct": 21.17
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 68.0,
+        "mean_pct": 4.43,
+        "median_pct": 2.65
+      },
+      "next_open_median_pct": 6.27,
+      "next_ks_median_pct": -0.4
+    },
+    {
+      "label": "3. KORU 당일 -20% 이하 극단 폭락일 (현재 -37.39%)",
+      "cc": {
+        "N": 12,
+        "up_pct": 75.0,
+        "mean_pct": 5.74,
+        "median_pct": 6.51,
+        "q25_pct": -1.98,
+        "q75_pct": 15.6,
+        "p10_pct": -11.09,
+        "p90_pct": 17.3,
+        "min_pct": -13.21,
+        "max_pct": 21.17
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 75.0,
+        "mean_pct": 6.89,
+        "median_pct": 7.66
+      },
+      "next_open_median_pct": 9.49,
+      "next_ks_median_pct": -2.95
+    },
+    {
+      "label": "4. 규칙 A: 저가마감(CLV<0.20) & 고변동(ATR/C > 100d 중앙값)",
+      "cc": {
+        "N": 269,
+        "up_pct": 58.7,
+        "mean_pct": 1.44,
+        "median_pct": 0.77,
+        "q25_pct": -2.33,
+        "q75_pct": 3.83,
+        "p10_pct": -5.43,
+        "p90_pct": 7.34,
+        "min_pct": -17.6,
+        "max_pct": 34.77
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 69.5,
+        "mean_pct": 2.54,
+        "median_pct": 1.86
+      },
+      "next_open_median_pct": 0.49,
+      "next_ks_median_pct": -0.46
+    },
+    {
+      "label": "5. 규칙 E: 하락추세(ADX>25, -DI>+DI) & 저가마감(CLV<0.20)",
+      "cc": {
+        "N": 67,
+        "up_pct": 67.2,
+        "mean_pct": 2.44,
+        "median_pct": 2.56,
+        "q25_pct": -0.96,
+        "q75_pct": 5.7,
+        "p10_pct": -4.6,
+        "p90_pct": 10.39,
+        "min_pct": -37.39,
+        "max_pct": 34.77
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 76.1,
+        "mean_pct": 3.55,
+        "median_pct": 3.67
+      },
+      "next_open_median_pct": 1.77,
+      "next_ks_median_pct": -0.2
+    },
+    {
+      "label": "6. 일봉 RSI(2) < 5 극단 과매도 (현재 해당)",
+      "cc": {
+        "N": 159,
+        "up_pct": 52.8,
+        "mean_pct": 0.08,
+        "median_pct": 0.39,
+        "q25_pct": -3.66,
+        "q75_pct": 2.72,
+        "p10_pct": -7.22,
+        "p90_pct": 5.74,
+        "min_pct": -15.16,
+        "max_pct": 34.77
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 62.3,
+        "mean_pct": 1.16,
+        "median_pct": 1.48
+      },
+      "next_open_median_pct": 0.21,
+      "next_ks_median_pct": -0.41
+    },
+    {
+      "label": "7. 볼린저 밴드(20, 2σ) 하단 이탈 (%B < 0)",
+      "cc": {
+        "N": 129,
+        "up_pct": 54.3,
+        "mean_pct": -0.15,
+        "median_pct": 0.46,
+        "q25_pct": -4.58,
+        "q75_pct": 3.28,
+        "p10_pct": -8.03,
+        "p90_pct": 7.06,
+        "min_pct": -27.98,
+        "max_pct": 24.64
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 58.9,
+        "mean_pct": 0.93,
+        "median_pct": 1.55
+      },
+      "next_open_median_pct": 0.43,
+      "next_ks_median_pct": -0.48
+    },
+    {
+      "label": "8. [교훈3] KORU -10%↓ & EWY 선할인(괴리 <= -2%, 현재 -7.41%)",
+      "cc": {
+        "N": 37,
+        "up_pct": 75.7,
+        "mean_pct": 3.86,
+        "median_pct": 3.35,
+        "q25_pct": 0.08,
+        "q75_pct": 7.12,
+        "p10_pct": -8.5,
+        "p90_pct": 16.74,
+        "min_pct": -13.21,
+        "max_pct": 24.64
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 78.4,
+        "mean_pct": 4.99,
+        "median_pct": 4.47
+      },
+      "next_open_median_pct": 3.35,
+      "next_ks_median_pct": -1.52
+    },
+    {
+      "label": "9. [대조군] KORU -10%↓ & EWY 비할인(괴리 > -2%)",
+      "cc": {
+        "N": 34,
+        "up_pct": 47.1,
+        "mean_pct": -1.12,
+        "median_pct": -0.02,
+        "q25_pct": -5.42,
+        "q75_pct": 5.38,
+        "p10_pct": -13.38,
+        "p90_pct": 12.22,
+        "min_pct": -41.89,
+        "max_pct": 34.77
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 52.9,
+        "mean_pct": -0.05,
+        "median_pct": 1.06
+      },
+      "next_open_median_pct": 2.19,
+      "next_ks_median_pct": 0.3
+    },
+    {
+      "label": "10. [교훈1·3] KORU -10%↓ & 익일 한국 낙폭이 EWY 선할인 범위 내 방어 (현재 부합)",
+      "cc": {
+        "N": 52,
+        "up_pct": 75.0,
+        "mean_pct": 4.92,
+        "median_pct": 3.48,
+        "q25_pct": 0.06,
+        "q75_pct": 8.3,
+        "p10_pct": -3.55,
+        "p90_pct": 16.21,
+        "min_pct": -13.21,
+        "max_pct": 34.77
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 80.8,
+        "mean_pct": 6.06,
+        "median_pct": 4.6
+      },
+      "next_open_median_pct": 4.24,
+      "next_ks_median_pct": -0.12
+    },
+    {
+      "label": "11. [대조군] KORU -10%↓ & 익일 한국이 EWY 선할인보다 1.5%p+ 추가 붕괴",
+      "cc": {
+        "N": 15,
+        "up_pct": 26.7,
+        "mean_pct": -9.49,
+        "median_pct": -7.12,
+        "q25_pct": -12.93,
+        "q75_pct": -0.74,
+        "p10_pct": -30.16,
+        "p90_pct": 3.62,
+        "min_pct": -41.89,
+        "max_pct": 16.84
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 26.7,
+        "mean_pct": -8.51,
+        "median_pct": -6.11
+      },
+      "next_open_median_pct": -7.69,
+      "next_ks_median_pct": -5.46
+    },
+    {
+      "label": "12. 미국 반도체 패닉 (^SOX <= -6% & VIX >= 25, 현재 -12.25% & 28.18)",
+      "cc": {
+        "N": 12,
+        "up_pct": 58.3,
+        "mean_pct": 1.61,
+        "median_pct": 2.56,
+        "q25_pct": -5.79,
+        "q75_pct": 6.65,
+        "p10_pct": -11.17,
+        "p90_pct": 14.09,
+        "min_pct": -13.21,
+        "max_pct": 21.17
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 58.3,
+        "mean_pct": 2.71,
+        "median_pct": 3.67
+      },
+      "next_open_median_pct": 1.49,
+      "next_ks_median_pct": -1.63
+    },
+    {
+      "label": "13. 목요일 KORU -8%↓ 급락 후 맞이하는 금요일 미국장",
+      "cc": {
+        "N": 28,
+        "up_pct": 67.9,
+        "mean_pct": 0.61,
+        "median_pct": 1.38,
+        "q25_pct": -2.69,
+        "q75_pct": 3.91,
+        "p10_pct": -7.85,
+        "p90_pct": 9.31,
+        "min_pct": -41.89,
+        "max_pct": 22.61
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 71.4,
+        "mean_pct": 1.7,
+        "median_pct": 2.48
+      },
+      "next_open_median_pct": 1.98,
+      "next_ks_median_pct": -0.65
+    },
+    {
+      "label": "14. 미국 비농업 고용보고서(NFP) 발표 금요일 전체",
+      "cc": {
+        "N": 119,
+        "up_pct": 52.9,
+        "mean_pct": 0.45,
+        "median_pct": 0.61,
+        "q25_pct": -3.03,
+        "q75_pct": 3.69,
+        "p10_pct": -6.18,
+        "p90_pct": 8.28,
+        "min_pct": -41.89,
+        "max_pct": 15.56
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 65.5,
+        "mean_pct": 1.54,
+        "median_pct": 1.7
+      },
+      "next_open_median_pct": -0.15,
+      "next_ks_median_pct": 0.03
+    },
+    {
+      "label": "15. 직전 5일 -5%↓ 하락 후 맞이한 NFP 발표 금요일",
+      "cc": {
+        "N": 31,
+        "up_pct": 41.9,
+        "mean_pct": -0.91,
+        "median_pct": -0.31,
+        "q25_pct": -3.56,
+        "q75_pct": 1.79,
+        "p10_pct": -6.36,
+        "p90_pct": 3.71,
+        "min_pct": -11.31,
+        "max_pct": 10.82
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 58.1,
+        "mean_pct": 0.16,
+        "median_pct": 0.77
+      },
+      "next_open_median_pct": -1.22,
+      "next_ks_median_pct": -0.29
+    }
+  ],
+  "daily_bt_full_extremes": [
+    {
+      "label": "전체 기간 (2013-04~2026-11)",
+      "cc": {
+        "N": 3415,
+        "up_pct": 50.2,
+        "mean_pct": 0.11,
+        "median_pct": 0.04,
+        "q25_pct": -2.54,
+        "q75_pct": 2.88,
+        "p10_pct": -5.38,
+        "p90_pct": 5.37,
+        "min_pct": -41.89,
+        "max_pct": 35.93
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 62.1,
+        "mean_pct": 1.19,
+        "median_pct": 1.13
+      },
+      "next_open_median_pct": 0.06,
+      "next_ks_median_pct": 0.06
+    },
+    {
+      "label": "전체 기간 KORU <= -15%",
+      "cc": {
+        "N": 26,
+        "up_pct": 61.5,
+        "mean_pct": 2.95,
+        "median_pct": 1.53,
+        "q25_pct": -3.51,
+        "q75_pct": 11.49,
+        "p10_pct": -10.5,
+        "p90_pct": 16.86,
+        "min_pct": -14.63,
+        "max_pct": 21.17
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 65.4,
+        "mean_pct": 4.07,
+        "median_pct": 2.63
+      },
+      "next_open_median_pct": 6.04,
+      "next_ks_median_pct": -0.22
+    },
+    {
+      "label": "전체 기간 KORU <= -20%",
+      "cc": {
+        "N": 12,
+        "up_pct": 75.0,
+        "mean_pct": 5.74,
+        "median_pct": 6.51,
+        "q25_pct": -1.98,
+        "q75_pct": 15.6,
+        "p10_pct": -11.09,
+        "p90_pct": 17.3,
+        "min_pct": -13.21,
+        "max_pct": 21.17
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 75.0,
+        "mean_pct": 6.89,
+        "median_pct": 7.66
+      },
+      "next_open_median_pct": 9.49,
+      "next_ks_median_pct": -2.95
+    },
+    {
+      "label": "전체 기간 KORU <= -25%",
+      "cc": {
+        "N": 6,
+        "up_pct": 66.7,
+        "mean_pct": 3.88,
+        "median_pct": 5.14,
+        "q25_pct": -7.33,
+        "q75_pct": 13.7,
+        "p10_pct": -12.23,
+        "p90_pct": 18.74,
+        "min_pct": -13.21,
+        "max_pct": 21.17
+      },
+      "vs_base_minus_1_07pct": {
+        "up_pct": 66.7,
+        "mean_pct": 5.01,
+        "median_pct": 6.28
+      },
+      "next_open_median_pct": 1.17,
+      "next_ks_median_pct": -5.86
+    }
+  ],
+  "extreme_rows_le_minus18": [
+    {
+      "date": "2016-06-24",
+      "dow": "Fri",
+      "koru_ret_pct": -18.84,
+      "clv": 0.0,
+      "sox_ret_pct": -5.76,
+      "vix": 25.76,
+      "ewy_prem_pct": -2.09,
+      "next_ks_ret_pct": 0.08,
+      "next_open_ret_pct": -2.07,
+      "next_cc_ret_pct": -5.97,
+      "vs_minus107_ret_pct": -4.95
+    },
+    {
+      "date": "2020-03-12",
+      "dow": "Thu",
+      "koru_ret_pct": -31.61,
+      "clv": 0.585,
+      "sox_ret_pct": -10.91,
+      "vix": 75.47,
+      "ewy_prem_pct": -7.08,
+      "next_ks_ret_pct": -3.43,
+      "next_open_ret_pct": 24.53,
+      "next_cc_ret_pct": 21.17,
+      "vs_minus107_ret_pct": 22.49
+    },
+    {
+      "date": "2020-03-16",
+      "dow": "Mon",
+      "koru_ret_pct": -27.34,
+      "clv": 0.904,
+      "sox_ret_pct": -15.9,
+      "vix": 82.69,
+      "ewy_prem_pct": -8.85,
+      "next_ks_ret_pct": -2.47,
+      "next_open_ret_pct": -19.64,
+      "next_cc_ret_pct": -13.21,
+      "vs_minus107_ret_pct": -12.27
+    },
+    {
+      "date": "2020-03-18",
+      "dow": "Wed",
+      "koru_ret_pct": -27.98,
+      "clv": 0.471,
+      "sox_ret_pct": -9.79,
+      "vix": 76.45,
+      "ewy_prem_pct": -2.17,
+      "next_ks_ret_pct": -8.39,
+      "next_open_ret_pct": -8.57,
+      "next_cc_ret_pct": -11.24,
+      "vs_minus107_ret_pct": -10.28
+    },
+    {
+      "date": "2020-04-01",
+      "dow": "Wed",
+      "koru_ret_pct": -21.17,
+      "clv": 0.0,
+      "sox_ret_pct": -5.49,
+      "vix": 57.06,
+      "ewy_prem_pct": -3.29,
+      "next_ks_ret_pct": 2.34,
+      "next_open_ret_pct": 11.66,
+      "next_cc_ret_pct": 15.37,
+      "vs_minus107_ret_pct": 16.62
+    },
+    {
+      "date": "2026-03-03",
+      "dow": "Tue",
+      "koru_ret_pct": -31.1,
+      "clv": 0.702,
+      "sox_ret_pct": -4.58,
+      "vix": 23.57,
+      "ewy_prem_pct": -3.39,
+      "next_ks_ret_pct": -12.06,
+      "next_open_ret_pct": -6.61,
+      "next_cc_ret_pct": 4.38,
+      "vs_minus107_ret_pct": 5.52
+    },
+    {
+      "date": "2026-03-05",
+      "dow": "Thu",
+      "koru_ret_pct": -18.46,
+      "clv": 0.339,
+      "sox_ret_pct": -1.17,
+      "vix": 23.75,
+      "ewy_prem_pct": -4.82,
+      "next_ks_ret_pct": 0.02,
+      "next_open_ret_pct": -8.16,
+      "next_cc_ret_pct": 1.55,
+      "vs_minus107_ret_pct": 2.65
+    },
+    {
+      "date": "2026-03-12",
+      "dow": "Thu",
+      "koru_ret_pct": -20.21,
+      "clv": 0.027,
+      "sox_ret_pct": -3.43,
+      "vix": 27.29,
+      "ewy_prem_pct": -5.25,
+      "next_ks_ret_pct": -1.72,
+      "next_open_ret_pct": 9.44,
+      "next_cc_ret_pct": 0.61,
+      "vs_minus107_ret_pct": 1.7
+    },
+    {
+      "date": "2026-03-20",
+      "dow": "Fri",
+      "koru_ret_pct": -19.3,
+      "clv": 0.072,
+      "sox_ret_pct": -2.45,
+      "vix": 26.78,
+      "ewy_prem_pct": -5.89,
+      "next_ks_ret_pct": -6.49,
+      "next_open_ret_pct": 12.8,
+      "next_cc_ret_pct": 17.67,
+      "vs_minus107_ret_pct": 18.95
+    },
+    {
+      "date": "2026-05-12",
+      "dow": "Tue",
+      "koru_ret_pct": -22.56,
+      "clv": 0.402,
+      "sox_ret_pct": -3.01,
+      "vix": 17.99,
+      "ewy_prem_pct": -2.01,
+      "next_ks_ret_pct": 2.63,
+      "next_open_ret_pct": 15.38,
+      "next_cc_ret_pct": 17.41,
+      "vs_minus107_ret_pct": 18.68
+    },
+    {
+      "date": "2026-05-15",
+      "dow": "Fri",
+      "koru_ret_pct": -18.32,
+      "clv": 0.482,
+      "sox_ret_pct": -4.02,
+      "vix": 18.43,
+      "ewy_prem_pct": 0.52,
+      "next_ks_ret_pct": 0.31,
+      "next_open_ret_pct": 5.81,
+      "next_cc_ret_pct": -4.99,
+      "vs_minus107_ret_pct": -3.96
+    },
+    {
+      "date": "2026-06-05",
+      "dow": "Fri",
+      "koru_ret_pct": -41.89,
+      "clv": 0.0,
+      "sox_ret_pct": -10.26,
+      "vix": 21.51,
+      "ewy_prem_pct": -8.75,
+      "next_ks_ret_pct": -8.29,
+      "next_open_ret_pct": 19.06,
+      "next_cc_ret_pct": 16.3,
+      "vs_minus107_ret_pct": 17.56
+    },
+    {
+      "date": "2026-06-23",
+      "dow": "Tue",
+      "koru_ret_pct": -35.7,
+      "clv": 0.0,
+      "sox_ret_pct": -7.87,
+      "vix": 19.49,
+      "ewy_prem_pct": -1.88,
+      "next_ks_ret_pct": 3.26,
+      "next_open_ret_pct": 8.96,
+      "next_cc_ret_pct": 5.9,
+      "vs_minus107_ret_pct": 7.04
+    },
+    {
+      "date": "2026-07-01",
+      "dow": "Wed",
+      "koru_ret_pct": -23.21,
+      "clv": 0.0,
+      "sox_ret_pct": -6.27,
+      "vix": 16.59,
+      "ewy_prem_pct": -4.22,
+      "next_ks_ret_pct": -7.89,
+      "next_open_ret_pct": -2.86,
+      "next_cc_ret_pct": -9.76,
+      "vs_minus107_ret_pct": -8.79
+    },
+    {
+      "date": "2026-07-13",
+      "dow": "Mon",
+      "koru_ret_pct": -24.74,
+      "clv": 0.182,
+      "sox_ret_pct": -4.78,
+      "vix": 17.16,
+      "ewy_prem_pct": 1.58,
+      "next_ks_ret_pct": 0.73,
+      "next_open_ret_pct": 9.54,
+      "next_cc_ret_pct": 14.83,
+      "vs_minus107_ret_pct": 16.07
+    },
+    {
+      "date": "2026-07-24",
+      "dow": "Fri",
+      "koru_ret_pct": -18.9,
+      "clv": 0.034,
+      "sox_ret_pct": -4.25,
+      "vix": 18.58,
+      "ewy_prem_pct": -1.4,
+      "next_ks_ret_pct": 0.97,
+      "next_open_ret_pct": 6.27,
+      "next_cc_ret_pct": -3.59,
+      "vs_minus107_ret_pct": -2.54
+    },
+    {
+      "date": "2026-08-18",
+      "dow": "Tue",
+      "koru_ret_pct": -24.21,
+      "clv": 0.018,
+      "sox_ret_pct": -4.98,
+      "vix": 15.84,
+      "ewy_prem_pct": -5.13,
+      "next_ks_ret_pct": -5.8,
+      "next_open_ret_pct": 13.23,
+      "next_cc_ret_pct": 7.12,
+      "vs_minus107_ret_pct": 8.28
+    },
+    {
+      "date": "2026-09-14",
+      "dow": "Mon",
+      "koru_ret_pct": -19.51,
+      "clv": 0.155,
+      "sox_ret_pct": -5.86,
+      "vix": 17.1,
+      "ewy_prem_pct": -2.85,
+      "next_ks_ret_pct": -0.85,
+      "next_open_ret_pct": 4.15,
+      "next_cc_ret_pct": 0.16,
+      "vs_minus107_ret_pct": 1.25
+    }
+  ],
+  "oct_nov_2026_rows": [
+    {
+      "date": "2026-10-06",
+      "dow": "Tue",
+      "koru_close": 21.01,
+      "koru_ret_pct": -7.77,
+      "clv": 0.0,
+      "sox_ret_pct": 0.34,
+      "vix": 15.01,
+      "ewy_prem_pct": -0.28,
+      "next_ks_ret_pct": -1.98,
+      "next_cc_ret_pct": -4.57
+    },
+    {
+      "date": "2026-10-08",
+      "dow": "Thu",
+      "koru_close": 17.65,
+      "koru_ret_pct": -11.97,
+      "clv": 0.371,
+      "sox_ret_pct": -3.39,
+      "vix": 15.41,
+      "ewy_prem_pct": -1.47,
+      "next_ks_ret_pct": null,
+      "next_cc_ret_pct": 1.13
+    },
+    {
+      "date": "2026-10-12",
+      "dow": "Mon",
+      "koru_close": 15.74,
+      "koru_ret_pct": -11.82,
+      "clv": 0.135,
+      "sox_ret_pct": -2.67,
+      "vix": 15.21,
+      "ewy_prem_pct": -1.09,
+      "next_ks_ret_pct": -5.46,
+      "next_cc_ret_pct": -6.48
+    },
+    {
+      "date": "2026-10-13",
+      "dow": "Tue",
+      "koru_close": 14.72,
+      "koru_ret_pct": -6.48,
+      "clv": 0.96,
+      "sox_ret_pct": -0.23,
+      "vix": 15.27,
+      "ewy_prem_pct": 1.83,
+      "next_ks_ret_pct": -0.44,
+      "next_cc_ret_pct": -12.16
+    },
+    {
+      "date": "2026-10-14",
+      "dow": "Wed",
+      "koru_close": 12.93,
+      "koru_ret_pct": -12.16,
+      "clv": 0.05,
+      "sox_ret_pct": -4.3,
+      "vix": 16.87,
+      "ewy_prem_pct": -1.4,
+      "next_ks_ret_pct": -7.57,
+      "next_cc_ret_pct": -7.12
+    },
+    {
+      "date": "2026-10-15",
+      "dow": "Thu",
+      "koru_close": 12.01,
+      "koru_ret_pct": -7.12,
+      "clv": 0.963,
+      "sox_ret_pct": -0.88,
+      "vix": 16.46,
+      "ewy_prem_pct": 4.19,
+      "next_ks_ret_pct": 2.05,
+      "next_cc_ret_pct": -11.41
+    },
+    {
+      "date": "2026-10-16",
+      "dow": "Fri",
+      "koru_close": 10.64,
+      "koru_ret_pct": -11.41,
+      "clv": 0.092,
+      "sox_ret_pct": -3.83,
+      "vix": 19.99,
+      "ewy_prem_pct": -1.47,
+      "next_ks_ret_pct": 1.76,
+      "next_cc_ret_pct": 12.03
+    },
+    {
+      "date": "2026-10-22",
+      "dow": "Thu",
+      "koru_close": 10.19,
+      "koru_ret_pct": -14.66,
+      "clv": 0.164,
+      "sox_ret_pct": -6.72,
+      "vix": 19.03,
+      "ewy_prem_pct": -1.25,
+      "next_ks_ret_pct": 0.3,
+      "next_cc_ret_pct": 3.83
+    },
+    {
+      "date": "2026-10-29",
+      "dow": "Thu",
+      "koru_close": 12.73,
+      "koru_ret_pct": -7.62,
+      "clv": 0.712,
+      "sox_ret_pct": -1.42,
+      "vix": 17.2,
+      "ewy_prem_pct": 0.9,
+      "next_ks_ret_pct": -3.48,
+      "next_cc_ret_pct": -16.5
+    },
+    {
+      "date": "2026-10-30",
+      "dow": "Fri",
+      "koru_close": 10.63,
+      "koru_ret_pct": -16.5,
+      "clv": 0.51,
+      "sox_ret_pct": -7.2,
+      "vix": 19.42,
+      "ewy_prem_pct": -1.35,
+      "next_ks_ret_pct": 2.24,
+      "next_cc_ret_pct": -2.45
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "koru_close": 10.43,
+      "koru_ret_pct": -5.27,
+      "clv": 0.152,
+      "sox_ret_pct": -3.13,
+      "vix": 16.61,
+      "ewy_prem_pct": -0.63,
+      "next_ks_ret_pct": null,
+      "next_cc_ret_pct": -37.39
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "koru_close": 6.53,
+      "koru_ret_pct": -37.39,
+      "clv": NaN,
+      "sox_ret_pct": -12.25,
+      "vix": 28.18,
+      "ewy_prem_pct": -14.18,
+      "next_ks_ret_pct": null,
+      "next_cc_ret_pct": null
+    }
+  ],
+  "hourly_bt_2y": [
+    {
+      "label": "0. 2년 전체 24h (미 애프터 마감 20:00 ET → 익일 20:00 ET)",
+      "ah_to_ah": {
+        "N": 560,
+        "up_pct": 49.6,
+        "mean_pct": 0.03,
+        "median_pct": 0.0,
+        "q25_pct": -3.56,
+        "q75_pct": 3.54,
+        "p10_pct": -8.13,
+        "p90_pct": 7.61,
+        "min_pct": -37.41,
+        "max_pct": 37.78
+      },
+      "reg_to_next_ah_up_pct": 54.6,
+      "next_open_vs_ah_median_pct": -0.37
+    },
+    {
+      "label": "1. 목요일 애프터 마감 → 금요일 애프터 마감 (주말 직전 24h, 현재 동일 요일)",
+      "ah_to_ah": {
+        "N": 135,
+        "up_pct": 46.7,
+        "mean_pct": -0.5,
+        "median_pct": -0.12,
+        "q25_pct": -4.01,
+        "q75_pct": 2.6,
+        "p10_pct": -7.94,
+        "p90_pct": 7.35,
+        "min_pct": -35.26,
+        "max_pct": 24.7
+      },
+      "reg_to_next_ah_up_pct": 51.9,
+      "next_open_vs_ah_median_pct": -0.47
+    },
+    {
+      "label": "2. 직전 정규장 KORU -5%↓ 급락일 이후 24h",
+      "ah_to_ah": {
+        "N": 89,
+        "up_pct": 56.2,
+        "mean_pct": 1.74,
+        "median_pct": 1.33,
+        "q25_pct": -5.19,
+        "q75_pct": 6.87,
+        "p10_pct": -9.19,
+        "p90_pct": 13.39,
+        "min_pct": -37.41,
+        "max_pct": 37.78
+      },
+      "reg_to_next_ah_up_pct": 64.0,
+      "next_open_vs_ah_median_pct": 0.5
+    },
+    {
+      "label": "3. 직전 정규장 KORU -10%↓ 폭락일 이후 24h",
+      "ah_to_ah": {
+        "N": 31,
+        "up_pct": 51.6,
+        "mean_pct": 3.53,
+        "median_pct": 1.01,
+        "q25_pct": -5.63,
+        "q75_pct": 11.07,
+        "p10_pct": -8.13,
+        "p90_pct": 21.07,
+        "min_pct": -35.26,
+        "max_pct": 37.4
+      },
+      "reg_to_next_ah_up_pct": 61.3,
+      "next_open_vs_ah_median_pct": -0.28
+    },
+    {
+      "label": "4. 애프터 마감 시 KORU가 3×EWY 대비 -1.5%p↓ 저평가 괴리 (현재 -4.44%p)",
+      "ah_to_ah": {
+        "N": 31,
+        "up_pct": 64.5,
+        "mean_pct": 1.79,
+        "median_pct": 1.6,
+        "q25_pct": -1.28,
+        "q75_pct": 3.9,
+        "p10_pct": -3.78,
+        "p90_pct": 6.8,
+        "min_pct": -10.6,
+        "max_pct": 22.81
+      },
+      "reg_to_next_ah_up_pct": 61.3,
+      "next_open_vs_ah_median_pct": 0.49
+    },
+    {
+      "label": "5. 애프터 마감 시 KORU가 3×EWY 대비 -3.0%p↓ 심화 저평가 (현재 -4.44%p)",
+      "ah_to_ah": {
+        "N": 7,
+        "up_pct": 85.7,
+        "mean_pct": 3.91,
+        "median_pct": 4.37,
+        "q25_pct": 2.64,
+        "q75_pct": 5.38,
+        "p10_pct": 0.52,
+        "p90_pct": 6.83,
+        "min_pct": -1.48,
+        "max_pct": 8.47
+      },
+      "reg_to_next_ah_up_pct": 71.4,
+      "next_open_vs_ah_median_pct": 1.78
+    },
+    {
+      "label": "6. 애프터 EWY +0.5%↑ 반등했는데 KORU 보합/하락 역행 마감 (현재 EWY +1.12% vs KORU -1.07%)",
+      "ah_to_ah": {
+        "N": 10,
+        "up_pct": 80.0,
+        "mean_pct": 3.51,
+        "median_pct": 3.9,
+        "q25_pct": 1.27,
+        "q75_pct": 6.36,
+        "p10_pct": -1.65,
+        "p90_pct": 8.49,
+        "min_pct": -3.16,
+        "max_pct": 8.74
+      },
+      "reg_to_next_ah_up_pct": 70.0,
+      "next_open_vs_ah_median_pct": 1.44
+    },
+    {
+      "label": "7. 정규장 KORU -4%↓ 급락 후 애프터 SOXX +1.0%↑ 반등 (현재 SOXX +1.58%)",
+      "ah_to_ah": {
+        "N": 11,
+        "up_pct": 36.4,
+        "mean_pct": -2.3,
+        "median_pct": -3.17,
+        "q25_pct": -6.1,
+        "q75_pct": 1.61,
+        "p10_pct": -9.05,
+        "p90_pct": 3.32,
+        "min_pct": -14.04,
+        "max_pct": 12.15
+      },
+      "reg_to_next_ah_up_pct": 45.5,
+      "next_open_vs_ah_median_pct": -0.34
+    }
+  ],
+  "fri_ah_drift_stats": {
+    "stats": {
+      "N": 141,
+      "up_pct": 55.3,
+      "mean_pct": 0.18,
+      "median_pct": 0.1,
+      "q25_pct": -0.69,
+      "q75_pct": 1.08,
+      "p10_pct": -1.37,
+      "p90_pct": 1.99,
+      "min_pct": -5.78,
+      "max_pct": 4.23
+    },
+    "abs_median_pct": 0.83
+  },
+  "intraday_trace": {
+    "2026-11-06 06:00:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 06:00:00+09:00",
+        "close": 6.4685
+      },
+      "EWY": {
+        "ts": "2026-11-06 06:00:00+09:00",
+        "close": 132.5
+      },
+      "SOXX": {
+        "ts": "2026-11-06 06:00:00+09:00",
+        "close": 131.4121
+      },
+      "MU": {
+        "ts": "2026-11-06 06:00:00+09:00",
+        "close": 656.9155
+      },
+      "ES=F": {
+        "ts": "2026-11-06 06:00:00+09:00",
+        "close": 7375.0
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 06:00:00+09:00",
+        "close": 26686.25
+      }
+    },
+    "2026-11-06 08:19:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 08:19:00+09:00",
+        "close": 6.13
+      },
+      "EWY": {
+        "ts": "2026-11-06 08:19:00+09:00",
+        "close": 130.7
+      },
+      "SOXX": {
+        "ts": "2026-11-06 08:19:00+09:00",
+        "close": 129.0
+      },
+      "MU": {
+        "ts": "2026-11-06 08:19:00+09:00",
+        "close": 648.3188
+      },
+      "ES=F": {
+        "ts": "2026-11-06 08:19:00+09:00",
+        "close": 7326.5
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 08:19:00+09:00",
+        "close": 26391.75
+      }
+    },
+    "2026-11-06 09:03:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 09:03:00+09:00",
+        "close": 6.6197
+      },
+      "EWY": {
+        "ts": "2026-11-06 09:03:00+09:00",
+        "close": 134.29
+      },
+      "SOXX": {
+        "ts": "2026-11-06 09:03:00+09:00",
+        "close": 131.8691
+      },
+      "MU": {
+        "ts": "2026-11-06 09:03:00+09:00",
+        "close": 668.45
+      },
+      "ES=F": {
+        "ts": "2026-11-06 09:03:00+09:00",
+        "close": 7366.5
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 09:03:00+09:00",
+        "close": 26726.0
+      }
+    },
+    "2026-11-06 09:25:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 09:25:00+09:00",
+        "close": 6.73
+      },
+      "EWY": {
+        "ts": "2026-11-06 09:25:00+09:00",
+        "close": 135.3668
+      },
+      "SOXX": {
+        "ts": "2026-11-06 09:25:00+09:00",
+        "close": 133.6
+      },
+      "MU": {
+        "ts": "2026-11-06 09:25:00+09:00",
+        "close": 681.85
+      },
+      "ES=F": {
+        "ts": "2026-11-06 09:25:00+09:00",
+        "close": 7383.75
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 09:25:00+09:00",
+        "close": 26846.5
+      }
+    },
+    "2026-11-06 09:39:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 09:39:00+09:00",
+        "close": 6.8585
+      },
+      "EWY": {
+        "ts": "2026-11-06 09:39:00+09:00",
+        "close": 136.5
+      },
+      "SOXX": {
+        "ts": "2026-11-06 09:39:00+09:00",
+        "close": 135.1582
+      },
+      "MU": {
+        "ts": "2026-11-06 09:39:00+09:00",
+        "close": 688.4201
+      },
+      "ES=F": {
+        "ts": "2026-11-06 09:39:00+09:00",
+        "close": 7402.25
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 09:39:00+09:00",
+        "close": 26970.75
+      }
+    },
+    "2026-11-06 09:55:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 09:55:00+09:00",
+        "close": 6.47
+      },
+      "EWY": {
+        "ts": "2026-11-06 09:55:00+09:00",
+        "close": 133.02
+      },
+      "SOXX": {
+        "ts": "2026-11-06 09:55:00+09:00",
+        "close": 134.0
+      },
+      "MU": {
+        "ts": "2026-11-06 09:55:00+09:00",
+        "close": 680.0
+      },
+      "ES=F": {
+        "ts": "2026-11-06 09:55:00+09:00",
+        "close": 7392.25
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 09:55:00+09:00",
+        "close": 26880.25
+      }
+    },
+    "2026-11-06 09:59:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 6.4585
+      },
+      "EWY": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 133.13
+      },
+      "SOXX": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 133.98
+      },
+      "MU": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 683.4001
+      },
+      "ES=F": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 7392.25
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 26874.75
+      }
+    },
+    "2026-11-06 10:42:00+09:00": {
+      "KORU": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 6.4585
+      },
+      "EWY": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 133.13
+      },
+      "SOXX": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 133.98
+      },
+      "MU": {
+        "ts": "2026-11-06 09:59:00+09:00",
+        "close": 683.4001
+      },
+      "ES=F": {
+        "ts": "2026-11-06 10:36:00+09:00",
+        "close": 7392.0
+      },
+      "NQ=F": {
+        "ts": "2026-11-06 10:36:00+09:00",
+        "close": 26938.5
+      }
+    }
+  }
+}

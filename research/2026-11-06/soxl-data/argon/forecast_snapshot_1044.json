@@ -1,0 +1,1953 @@
+{
+  "fetched_at_kst": "2026-11-06 10:44:53",
+  "tickers": {
+    "SOXL": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 81.79,
+          "high": 84.19,
+          "low": 70.23,
+          "close": 77.05,
+          "volume": 202647700
+        },
+        {
+          "date": "2026-11-02",
+          "open": 79.45,
+          "high": 81.07,
+          "low": 67.5,
+          "close": 68.17,
+          "volume": 159340900
+        },
+        {
+          "date": "2026-11-03",
+          "open": 73.76,
+          "high": 76.71,
+          "low": 71.79,
+          "close": 73.12,
+          "volume": 139558400
+        },
+        {
+          "date": "2026-11-04",
+          "open": 70.03,
+          "high": 75.29,
+          "low": 62.23,
+          "close": 66.68,
+          "volume": 247028800
+        },
+        {
+          "date": "2026-11-05",
+          "open": 56.95,
+          "high": 57.84,
+          "low": 40.5901,
+          "close": null,
+          "volume": 519607244
+        }
+      ],
+      "nov5_reg_open": 56.95,
+      "nov5_reg_high": 57.84,
+      "nov5_reg_low": 40.59,
+      "nov5_reg_last_1m": 40.9,
+      "nov5_reg_vol": 506001713,
+      "nov5_ah_open": 40.91,
+      "nov5_ah_high": 44.82,
+      "nov5_ah_low": 38.75,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 43.5901,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 7602,
+      "at_base_1042_price": 43.5901,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 43.5901,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "SOXS": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 50.12,
+          "high": 54.85,
+          "low": 49.14,
+          "close": 52.08,
+          "volume": 97339900
+        },
+        {
+          "date": "2026-11-02",
+          "open": 50.38,
+          "high": 58.53,
+          "low": 49.31,
+          "close": 58.09,
+          "volume": 77103700
+        },
+        {
+          "date": "2026-11-03",
+          "open": 53.27,
+          "high": 54.92,
+          "low": 50.74,
+          "close": 53.64,
+          "volume": 79185400
+        },
+        {
+          "date": "2026-11-04",
+          "open": 56.05,
+          "high": 61.81,
+          "low": 52.24,
+          "close": 58.34,
+          "volume": 114978900
+        },
+        {
+          "date": "2026-11-05",
+          "open": 67.21,
+          "high": 81.4456,
+          "low": 66.32,
+          "close": null,
+          "volume": 135493630
+        }
+      ],
+      "nov5_reg_open": 67.21,
+      "nov5_reg_high": 81.4456,
+      "nov5_reg_low": 66.32,
+      "nov5_reg_last_1m": 81.27,
+      "nov5_reg_vol": 133506973,
+      "nov5_ah_open": 81.23,
+      "nov5_ah_high": 85.3,
+      "nov5_ah_low": 73.33,
+      "nov5_ah_high_time_kst": "2026-11-06 08:19",
+      "nov5_ah_low_time_kst": "2026-11-06 09:39",
+      "nov5_ah_last": 75.6499,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 24491,
+      "at_base_1042_price": 75.6499,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 75.6499,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "SOXX": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 159.7933,
+          "high": 161.13,
+          "low": 153.3667,
+          "close": 157.17,
+          "volume": 56419200
+        },
+        {
+          "date": "2026-11-02",
+          "open": 476.58,
+          "high": 479.92,
+          "low": 452.1,
+          "close": 453.65,
+          "volume": 10805300
+        },
+        {
+          "date": "2026-11-03",
+          "open": 466.01,
+          "high": 472.63,
+          "low": 461.83,
+          "close": 465.0,
+          "volume": 13294800
+        },
+        {
+          "date": "2026-11-04",
+          "open": 458.28,
+          "high": 469.22,
+          "low": 441.68,
+          "close": 450.41,
+          "volume": 17564400
+        },
+        {
+          "date": "2026-11-05",
+          "open": 143.08,
+          "high": 143.7255,
+          "low": 130.75,
+          "close": null,
+          "volume": 65770030
+        }
+      ],
+      "nov5_reg_open": 142.965,
+      "nov5_reg_high": 143.7255,
+      "nov5_reg_low": 130.75,
+      "nov5_reg_last_1m": 130.935,
+      "nov5_reg_vol": 59945824,
+      "nov5_ah_open": 130.92,
+      "nov5_ah_high": 135.1582,
+      "nov5_ah_low": 128.75,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 133.98,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 0,
+      "at_base_1042_price": 133.98,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 133.98,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "SMH": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 532.58,
+          "high": 535.32,
+          "low": 511.63,
+          "close": 522.49,
+          "volume": 17602000
+        },
+        {
+          "date": "2026-11-02",
+          "open": 529.05,
+          "high": 532.76,
+          "low": 506.44,
+          "close": 508.31,
+          "volume": 8865800
+        },
+        {
+          "date": "2026-11-03",
+          "open": 520.68,
+          "high": 524.7,
+          "low": 515.49,
+          "close": 518.52,
+          "volume": 9095800
+        },
+        {
+          "date": "2026-11-04",
+          "open": 511.17,
+          "high": 522.2,
+          "low": 497.33,
+          "close": 504.27,
+          "volume": 13413900
+        },
+        {
+          "date": "2026-11-05",
+          "open": 482.14,
+          "high": 483.89,
+          "low": 445.5945,
+          "close": null,
+          "volume": 28709942
+        }
+      ],
+      "nov5_reg_open": 481.8,
+      "nov5_reg_high": 483.89,
+      "nov5_reg_low": 445.5945,
+      "nov5_reg_last_1m": 445.91,
+      "nov5_reg_vol": 28005323,
+      "nov5_ah_open": 445.91,
+      "nov5_ah_high": 459.8,
+      "nov5_ah_low": 440.1,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:20",
+      "nov5_ah_last": 454.66,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 84793,
+      "at_base_1042_price": 454.66,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 454.66,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "NVDA": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 208.94,
+          "high": 209.06,
+          "low": 200.92,
+          "close": 204.64,
+          "volume": 168386400
+        },
+        {
+          "date": "2026-11-02",
+          "open": 207.53,
+          "high": 209.98,
+          "low": 201.66,
+          "close": 202.06,
+          "volume": 119272200
+        },
+        {
+          "date": "2026-11-03",
+          "open": 207.96,
+          "high": 209.14,
+          "low": 205.93,
+          "close": 206.69,
+          "volume": 91943400
+        },
+        {
+          "date": "2026-11-04",
+          "open": 203.5,
+          "high": 206.79,
+          "low": 199.68,
+          "close": 200.13,
+          "volume": 149033300
+        },
+        {
+          "date": "2026-11-05",
+          "open": 196.07,
+          "high": 196.25,
+          "low": 181.462,
+          "close": null,
+          "volume": 301617834
+        }
+      ],
+      "nov5_reg_open": 196.07,
+      "nov5_reg_high": 196.235,
+      "nov5_reg_low": 181.462,
+      "nov5_reg_last_1m": 181.57,
+      "nov5_reg_vol": 262672272,
+      "nov5_ah_open": 181.59,
+      "nov5_ah_high": 185.68,
+      "nov5_ah_low": 179.0,
+      "nov5_ah_high_time_kst": "2026-11-06 09:38",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 183.86,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 32082811,
+      "at_base_1042_price": 183.86,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 183.86,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "AMD": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 508.53,
+          "high": 520.4,
+          "low": 492.21,
+          "close": 504.8,
+          "volume": 39697500
+        },
+        {
+          "date": "2026-11-02",
+          "open": 510.71,
+          "high": 512.82,
+          "low": 466.07,
+          "close": 466.84,
+          "volume": 32141000
+        },
+        {
+          "date": "2026-11-03",
+          "open": 479.99,
+          "high": 497.4,
+          "low": 473.54,
+          "close": 483.9,
+          "volume": 35255100
+        },
+        {
+          "date": "2026-11-04",
+          "open": 485.25,
+          "high": 514.61,
+          "low": 476.5,
+          "close": 488.78,
+          "volume": 50984800
+        },
+        {
+          "date": "2026-11-05",
+          "open": 452.5,
+          "high": 456.2,
+          "low": 402.1,
+          "close": null,
+          "volume": 70120811
+        }
+      ],
+      "nov5_reg_open": 452.45,
+      "nov5_reg_high": 456.2,
+      "nov5_reg_low": 402.1,
+      "nov5_reg_last_1m": 402.51,
+      "nov5_reg_vol": 61995547,
+      "nov5_ah_open": 402.41,
+      "nov5_ah_high": 423.49,
+      "nov5_ah_low": 400.0,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 418.0389,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 5780212,
+      "at_base_1042_price": 418.0389,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 418.0389,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "AVGO": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 330.72,
+          "high": 331.98,
+          "low": 319.3,
+          "close": 326.08,
+          "volume": 36511800
+        },
+        {
+          "date": "2026-11-02",
+          "open": 328.37,
+          "high": 333.56,
+          "low": 321.87,
+          "close": 322.23,
+          "volume": 20326900
+        },
+        {
+          "date": "2026-11-03",
+          "open": 328.97,
+          "high": 335.74,
+          "low": 326.6,
+          "close": 332.13,
+          "volume": 17274500
+        },
+        {
+          "date": "2026-11-04",
+          "open": 326.86,
+          "high": 334.12,
+          "low": 321.74,
+          "close": 325.48,
+          "volume": 23881800
+        },
+        {
+          "date": "2026-11-05",
+          "open": 311.89,
+          "high": 314.0,
+          "low": 290.12,
+          "close": null,
+          "volume": 53372113
+        }
+      ],
+      "nov5_reg_open": 311.935,
+      "nov5_reg_high": 314.0,
+      "nov5_reg_low": 290.12,
+      "nov5_reg_last_1m": 291.38,
+      "nov5_reg_vol": 44139333,
+      "nov5_ah_open": 291.53,
+      "nov5_ah_high": 305.67,
+      "nov5_ah_low": 288.41,
+      "nov5_ah_high_time_kst": "2026-11-06 06:08",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 297.1409,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 8305629,
+      "at_base_1042_price": 297.1409,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 297.1409,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "MU": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 884.0,
+          "high": 906.54,
+          "low": 861.59,
+          "close": 884.74,
+          "volume": 30872700
+        },
+        {
+          "date": "2026-11-02",
+          "open": 890.54,
+          "high": 892.08,
+          "low": 829.24,
+          "close": 833.59,
+          "volume": 29902100
+        },
+        {
+          "date": "2026-11-03",
+          "open": 859.93,
+          "high": 871.49,
+          "low": 845.25,
+          "close": 855.1,
+          "volume": 21286500
+        },
+        {
+          "date": "2026-11-04",
+          "open": 823.0,
+          "high": 853.34,
+          "low": 782.0,
+          "close": 795.23,
+          "volume": 35906100
+        },
+        {
+          "date": "2026-11-05",
+          "open": 752.69,
+          "high": 761.8105,
+          "low": 650.0,
+          "close": null,
+          "volume": 76138480
+        }
+      ],
+      "nov5_reg_open": 752.86,
+      "nov5_reg_high": 761.8105,
+      "nov5_reg_low": 650.0,
+      "nov5_reg_last_1m": 658.7,
+      "nov5_reg_vol": 70439837,
+      "nov5_ah_open": 656.39,
+      "nov5_ah_high": 695.2589,
+      "nov5_ah_low": 648.27,
+      "nov5_ah_high_time_kst": "2026-11-06 07:00",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 683.4001,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 1601607,
+      "at_base_1042_price": 683.4001,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 683.4001,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "TSM": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 414.08,
+          "high": 418.09,
+          "low": 400.12,
+          "close": 406.13,
+          "volume": 21971100
+        },
+        {
+          "date": "2026-11-02",
+          "open": 412.52,
+          "high": 414.76,
+          "low": 398.29,
+          "close": 398.63,
+          "volume": 13190900
+        },
+        {
+          "date": "2026-11-03",
+          "open": 404.99,
+          "high": 408.37,
+          "low": 403.03,
+          "close": 404.8,
+          "volume": 9421100
+        },
+        {
+          "date": "2026-11-04",
+          "open": 400.64,
+          "high": 410.59,
+          "low": 391.61,
+          "close": 395.75,
+          "volume": 14516500
+        },
+        {
+          "date": "2026-11-05",
+          "open": 379.75,
+          "high": 380.78,
+          "low": 351.1911,
+          "close": null,
+          "volume": 42645926
+        }
+      ],
+      "nov5_reg_open": 379.75,
+      "nov5_reg_high": 380.78,
+      "nov5_reg_low": 351.1911,
+      "nov5_reg_last_1m": 352.26,
+      "nov5_reg_vol": 39248248,
+      "nov5_ah_open": 353.1,
+      "nov5_ah_high": 383.698,
+      "nov5_ah_low": 340.9277,
+      "nov5_ah_high_time_kst": "2026-11-06 06:59",
+      "nov5_ah_low_time_kst": "2026-11-06 06:54",
+      "nov5_ah_last": 360.55,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 2337544,
+      "at_base_1042_price": 360.55,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 360.55,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "ASML": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 1587.8199,
+          "high": 1609.26,
+          "low": 1535.33,
+          "close": 1565.9,
+          "volume": 2174000
+        },
+        {
+          "date": "2026-11-02",
+          "open": 1577.3199,
+          "high": 1600.8,
+          "low": 1518.0,
+          "close": 1526.14,
+          "volume": 1814700
+        },
+        {
+          "date": "2026-11-03",
+          "open": 1558.67,
+          "high": 1575.6,
+          "low": 1547.01,
+          "close": 1552.14,
+          "volume": 1190800
+        },
+        {
+          "date": "2026-11-04",
+          "open": 1512.25,
+          "high": 1532.24,
+          "low": 1478.96,
+          "close": 1496.3,
+          "volume": 1974900
+        },
+        {
+          "date": "2026-11-05",
+          "open": 1434.26,
+          "high": 1443.48,
+          "low": 1355.05,
+          "close": null,
+          "volume": 3990381
+        }
+      ],
+      "nov5_reg_open": 1434.8936,
+      "nov5_reg_high": 1443.48,
+      "nov5_reg_low": 1355.05,
+      "nov5_reg_last_1m": 1356.23,
+      "nov5_reg_vol": 3594356,
+      "nov5_ah_open": 1356.23,
+      "nov5_ah_high": 1390.0,
+      "nov5_ah_low": 1339.0,
+      "nov5_ah_high_time_kst": "2026-11-06 09:32",
+      "nov5_ah_low_time_kst": "2026-11-06 08:21",
+      "nov5_ah_last": 1382.94,
+      "nov5_ah_last_time_kst": "2026-11-06 09:57",
+      "nov5_ah_vol": 16775,
+      "at_base_1042_price": 1382.94,
+      "at_base_1042_bar_kst": "2026-11-06 09:57",
+      "latest_1m_price": 1382.94,
+      "latest_1m_bar_kst": "2026-11-06 09:57"
+    },
+    "QCOM": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 174.82,
+          "high": 176.17,
+          "low": 161.72,
+          "close": 164.79,
+          "volume": 24111900
+        },
+        {
+          "date": "2026-11-02",
+          "open": 166.44,
+          "high": 169.52,
+          "low": 161.46,
+          "close": 162.08,
+          "volume": 11020300
+        },
+        {
+          "date": "2026-11-03",
+          "open": 164.21,
+          "high": 165.28,
+          "low": 160.38,
+          "close": 164.43,
+          "volume": 11445300
+        },
+        {
+          "date": "2026-11-04",
+          "open": 166.51,
+          "high": 174.0,
+          "low": 162.75,
+          "close": 173.19,
+          "volume": 22267900
+        },
+        {
+          "date": "2026-11-05",
+          "open": 150.06,
+          "high": 160.8,
+          "low": 148.25,
+          "close": null,
+          "volume": 39975780
+        }
+      ],
+      "nov5_reg_open": 150.3,
+      "nov5_reg_high": 160.8,
+      "nov5_reg_low": 148.25,
+      "nov5_reg_last_1m": 156.885,
+      "nov5_reg_vol": 34847295,
+      "nov5_ah_open": 156.75,
+      "nov5_ah_high": 159.752,
+      "nov5_ah_low": 154.4,
+      "nov5_ah_high_time_kst": "2026-11-06 09:36",
+      "nov5_ah_low_time_kst": "2026-11-06 08:23",
+      "nov5_ah_last": 158.75,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 4300970,
+      "at_base_1042_price": 158.75,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 158.75,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "ARM": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 206.75,
+          "high": 209.0,
+          "low": 198.77,
+          "close": 205.97,
+          "volume": 10567800
+        },
+        {
+          "date": "2026-11-02",
+          "open": 207.18,
+          "high": 207.23,
+          "low": 196.115,
+          "close": 196.79,
+          "volume": 6271500
+        },
+        {
+          "date": "2026-11-03",
+          "open": 200.96,
+          "high": 206.89,
+          "low": 200.0,
+          "close": 202.49,
+          "volume": 3491900
+        },
+        {
+          "date": "2026-11-04",
+          "open": 201.98,
+          "high": 209.496,
+          "low": 189.88,
+          "close": 191.8,
+          "volume": 8875100
+        },
+        {
+          "date": "2026-11-05",
+          "open": 172.05,
+          "high": 175.83,
+          "low": 163.13,
+          "close": null,
+          "volume": 15295527
+        }
+      ],
+      "nov5_reg_open": 171.93,
+      "nov5_reg_high": 175.83,
+      "nov5_reg_low": 163.13,
+      "nov5_reg_last_1m": 166.64,
+      "nov5_reg_vol": 14335530,
+      "nov5_ah_open": 166.72,
+      "nov5_ah_high": 171.39,
+      "nov5_ah_low": 162.2,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 171.0,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 0,
+      "at_base_1042_price": 171.0,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 171.0,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "INTC": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 68.36,
+          "high": 68.77,
+          "low": 63.2,
+          "close": 65.76,
+          "volume": 455599400
+        },
+        {
+          "date": "2026-11-02",
+          "open": 65.4,
+          "high": 65.72,
+          "low": 59.4,
+          "close": 59.97,
+          "volume": 230689500
+        },
+        {
+          "date": "2026-11-03",
+          "open": 61.33,
+          "high": 62.59,
+          "low": 59.87,
+          "close": 60.55,
+          "volume": 149052100
+        },
+        {
+          "date": "2026-11-04",
+          "open": 58.67,
+          "high": 60.2,
+          "low": 56.77,
+          "close": 58.27,
+          "volume": 189308900
+        },
+        {
+          "date": "2026-11-05",
+          "open": 56.505,
+          "high": 56.7299,
+          "low": 51.71,
+          "close": null,
+          "volume": 265687785
+        }
+      ],
+      "nov5_reg_open": 56.47,
+      "nov5_reg_high": 56.7299,
+      "nov5_reg_low": 52.06,
+      "nov5_reg_last_1m": 52.125,
+      "nov5_reg_vol": 236422967,
+      "nov5_ah_open": 52.12,
+      "nov5_ah_high": 53.2,
+      "nov5_ah_low": 50.38,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 52.8686,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 15827,
+      "at_base_1042_price": 52.8686,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 52.8686,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "MRVL": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 205.78,
+          "high": 207.61,
+          "low": 190.15,
+          "close": 196.4,
+          "volume": 43190100
+        },
+        {
+          "date": "2026-11-02",
+          "open": 191.56,
+          "high": 192.31,
+          "low": 168.52,
+          "close": 171.41,
+          "volume": 61467100
+        },
+        {
+          "date": "2026-11-03",
+          "open": 174.28,
+          "high": 177.31,
+          "low": 167.4,
+          "close": 171.97,
+          "volume": 39412100
+        },
+        {
+          "date": "2026-11-04",
+          "open": 165.26,
+          "high": 166.32,
+          "low": 154.78,
+          "close": 159.8,
+          "volume": 46568100
+        },
+        {
+          "date": "2026-11-05",
+          "open": 151.405,
+          "high": 152.15,
+          "low": 132.63,
+          "close": null,
+          "volume": 65671403
+        }
+      ],
+      "nov5_reg_open": 151.405,
+      "nov5_reg_high": 152.15,
+      "nov5_reg_low": 132.63,
+      "nov5_reg_last_1m": 133.4,
+      "nov5_reg_vol": 56500996,
+      "nov5_ah_open": 133.04,
+      "nov5_ah_high": 140.08,
+      "nov5_ah_low": 130.1622,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 138.8007,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 5877595,
+      "at_base_1042_price": 138.8007,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 138.8007,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "TXN": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 307.63,
+          "high": 308.0,
+          "low": 294.7,
+          "close": 300.84,
+          "volume": 12998300
+        },
+        {
+          "date": "2026-11-02",
+          "open": 304.1,
+          "high": 311.52,
+          "low": 301.24,
+          "close": 302.02,
+          "volume": 11078400
+        },
+        {
+          "date": "2026-11-03",
+          "open": 309.83,
+          "high": 316.75,
+          "low": 305.18,
+          "close": 312.49,
+          "volume": 9905100
+        },
+        {
+          "date": "2026-11-04",
+          "open": 313.44,
+          "high": 317.2,
+          "low": 303.9,
+          "close": 311.49,
+          "volume": 10154100
+        },
+        {
+          "date": "2026-11-05",
+          "open": 301.92,
+          "high": 307.0,
+          "low": 277.866,
+          "close": null,
+          "volume": 18962670
+        }
+      ],
+      "nov5_reg_open": 303.46,
+      "nov5_reg_high": 307.0,
+      "nov5_reg_low": 277.866,
+      "nov5_reg_last_1m": 278.14,
+      "nov5_reg_vol": 14250662,
+      "nov5_ah_open": 278.15,
+      "nov5_ah_high": 284.68,
+      "nov5_ah_low": 274.4,
+      "nov5_ah_high_time_kst": "2026-11-06 09:10",
+      "nov5_ah_low_time_kst": "2026-11-06 07:32",
+      "nov5_ah_last": 282.26,
+      "nov5_ah_last_time_kst": "2026-11-06 09:55",
+      "nov5_ah_vol": 3551664,
+      "at_base_1042_price": 282.26,
+      "at_base_1042_bar_kst": "2026-11-06 09:55",
+      "latest_1m_price": 282.26,
+      "latest_1m_bar_kst": "2026-11-06 09:55"
+    },
+    "AMAT": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 396.79,
+          "high": 405.2,
+          "low": 382.62,
+          "close": 390.09,
+          "volume": 10276900
+        },
+        {
+          "date": "2026-11-02",
+          "open": 395.27,
+          "high": 399.19,
+          "low": 373.25,
+          "close": 374.53,
+          "volume": 7844400
+        },
+        {
+          "date": "2026-11-03",
+          "open": 387.07,
+          "high": 390.0,
+          "low": 378.72,
+          "close": 381.92,
+          "volume": 5589700
+        },
+        {
+          "date": "2026-11-04",
+          "open": 373.43,
+          "high": 383.65,
+          "low": 362.93,
+          "close": 369.4,
+          "volume": 7901700
+        },
+        {
+          "date": "2026-11-05",
+          "open": 347.595,
+          "high": 349.99,
+          "low": 316.95,
+          "close": null,
+          "volume": 16936369
+        }
+      ],
+      "nov5_reg_open": 347.595,
+      "nov5_reg_high": 349.99,
+      "nov5_reg_low": 316.95,
+      "nov5_reg_last_1m": 319.33,
+      "nov5_reg_vol": 13793004,
+      "nov5_ah_open": 319.25,
+      "nov5_ah_high": 331.7576,
+      "nov5_ah_low": 316.0,
+      "nov5_ah_high_time_kst": "2026-11-06 09:36",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 325.5,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 3027723,
+      "at_base_1042_price": 325.5,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 325.5,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "LRCX": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 239.45,
+          "high": 244.48,
+          "low": 232.61,
+          "close": 239.11,
+          "volume": 18724300
+        },
+        {
+          "date": "2026-11-02",
+          "open": 243.16,
+          "high": 243.56,
+          "low": 224.58,
+          "close": 227.56,
+          "volume": 11387100
+        },
+        {
+          "date": "2026-11-03",
+          "open": 235.02,
+          "high": 237.28,
+          "low": 228.48,
+          "close": 230.72,
+          "volume": 10754200
+        },
+        {
+          "date": "2026-11-04",
+          "open": 227.79,
+          "high": 233.05,
+          "low": 218.5,
+          "close": 221.43,
+          "volume": 14578400
+        },
+        {
+          "date": "2026-11-05",
+          "open": 207.02,
+          "high": 210.05,
+          "low": 184.24,
+          "close": null,
+          "volume": 31193724
+        }
+      ],
+      "nov5_reg_open": 207.9,
+      "nov5_reg_high": 210.05,
+      "nov5_reg_low": 184.24,
+      "nov5_reg_last_1m": 184.59,
+      "nov5_reg_vol": 25355282,
+      "nov5_ah_open": 184.55,
+      "nov5_ah_high": 197.76,
+      "nov5_ah_low": 183.33,
+      "nov5_ah_high_time_kst": "2026-11-06 09:42",
+      "nov5_ah_low_time_kst": "2026-11-06 06:02",
+      "nov5_ah_last": 196.88,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 5466655,
+      "at_base_1042_price": 196.88,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 196.88,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "KLAC": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 159.54,
+          "high": 164.25,
+          "low": 156.03,
+          "close": 157.91,
+          "volume": 22412900
+        },
+        {
+          "date": "2026-11-02",
+          "open": 160.92,
+          "high": 162.13,
+          "low": 152.75,
+          "close": 153.11,
+          "volume": 15158400
+        },
+        {
+          "date": "2026-11-03",
+          "open": 158.22,
+          "high": 158.51,
+          "low": 154.14,
+          "close": 156.2,
+          "volume": 11809700
+        },
+        {
+          "date": "2026-11-04",
+          "open": 153.78,
+          "high": 157.0,
+          "low": 147.39,
+          "close": 149.79,
+          "volume": 15930300
+        },
+        {
+          "date": "2026-11-05",
+          "open": 141.93,
+          "high": 142.84,
+          "low": 128.165,
+          "close": null,
+          "volume": 34365807
+        }
+      ],
+      "nov5_reg_open": 142.16,
+      "nov5_reg_high": 142.84,
+      "nov5_reg_low": 128.165,
+      "nov5_reg_last_1m": 129.63,
+      "nov5_reg_vol": 22913874,
+      "nov5_ah_open": 129.8,
+      "nov5_ah_high": 134.6351,
+      "nov5_ah_low": 127.7543,
+      "nov5_ah_high_time_kst": "2026-11-06 09:42",
+      "nov5_ah_low_time_kst": "2026-11-06 08:20",
+      "nov5_ah_last": 132.5,
+      "nov5_ah_last_time_kst": "2026-11-06 09:50",
+      "nov5_ah_vol": 0,
+      "at_base_1042_price": 132.5,
+      "at_base_1042_bar_kst": "2026-11-06 09:50",
+      "latest_1m_price": 132.5,
+      "latest_1m_bar_kst": "2026-11-06 09:50"
+    },
+    "QQQ": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 697.21,
+          "high": 698.63,
+          "low": 683.45,
+          "close": 690.49,
+          "volume": 85242100
+        },
+        {
+          "date": "2026-11-02",
+          "open": 695.32,
+          "high": 699.43,
+          "low": 680.33,
+          "close": 681.09,
+          "volume": 54743700
+        },
+        {
+          "date": "2026-11-03",
+          "open": 684.39,
+          "high": 688.69,
+          "low": 683.18,
+          "close": 685.28,
+          "volume": 37524400
+        },
+        {
+          "date": "2026-11-04",
+          "open": 688.43,
+          "high": 701.45,
+          "low": 687.87,
+          "close": 691.95,
+          "volume": 62365900
+        },
+        {
+          "date": "2026-11-05",
+          "open": 683.12,
+          "high": 683.64,
+          "low": 647.05,
+          "close": null,
+          "volume": 125582100
+        }
+      ],
+      "nov5_reg_open": 683.17,
+      "nov5_reg_high": 683.64,
+      "nov5_reg_low": 647.27,
+      "nov5_reg_last_1m": 647.77,
+      "nov5_reg_vol": 117978385,
+      "nov5_ah_open": 647.8,
+      "nov5_ah_high": 653.59,
+      "nov5_ah_low": 639.0,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 651.1567,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 2012959,
+      "at_base_1042_price": 651.1567,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 651.1567,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "SPY": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 761.38,
+          "high": 761.46,
+          "low": 750.36,
+          "close": 755.72,
+          "volume": 77696500
+        },
+        {
+          "date": "2026-11-02",
+          "open": 759.45,
+          "high": 763.86,
+          "low": 751.6,
+          "close": 752.1,
+          "volume": 50804300
+        },
+        {
+          "date": "2026-11-03",
+          "open": 752.73,
+          "high": 757.07,
+          "low": 752.39,
+          "close": 754.35,
+          "volume": 32891600
+        },
+        {
+          "date": "2026-11-04",
+          "open": 762.99,
+          "high": 775.64,
+          "low": 762.64,
+          "close": 766.81,
+          "volume": 62126400
+        },
+        {
+          "date": "2026-11-05",
+          "open": 765.47,
+          "high": 765.97,
+          "low": 732.71,
+          "close": null,
+          "volume": 120886017
+        }
+      ],
+      "nov5_reg_open": 765.47,
+      "nov5_reg_high": 765.97,
+      "nov5_reg_low": 732.71,
+      "nov5_reg_last_1m": 733.13,
+      "nov5_reg_vol": 105444903,
+      "nov5_ah_open": 733.08,
+      "nov5_ah_high": 766.4342,
+      "nov5_ah_low": 693.9749,
+      "nov5_ah_high_time_kst": "2026-11-06 06:00",
+      "nov5_ah_low_time_kst": "2026-11-06 06:43",
+      "nov5_ah_last": 734.253,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 2657499,
+      "at_base_1042_price": 734.253,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 734.253,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "NQ=F": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 29180.0,
+          "high": 29180.0,
+          "low": 28232.75,
+          "close": 28534.0,
+          "volume": 1049656
+        },
+        {
+          "date": "2026-11-02",
+          "open": 28587.75,
+          "high": 28891.25,
+          "low": 28101.75,
+          "close": 28127.5,
+          "volume": 759285
+        },
+        {
+          "date": "2026-11-03",
+          "open": 28201.0,
+          "high": 28449.5,
+          "low": 28038.25,
+          "close": 28305.75,
+          "volume": 653606
+        },
+        {
+          "date": "2026-11-04",
+          "open": 28410.0,
+          "high": 28969.0,
+          "low": 27615.75,
+          "close": 28566.75,
+          "volume": 653606
+        },
+        {
+          "date": "2026-11-05",
+          "open": 26640.25,
+          "high": 26993.25,
+          "low": 26366.5,
+          "close": 26952.75,
+          "volume": 69079
+        }
+      ],
+      "nov5_reg_open": 28203.25,
+      "nov5_reg_high": 28228.25,
+      "nov5_reg_low": 26718.0,
+      "nov5_reg_last_1m": 26744.0,
+      "nov5_reg_vol": 987094,
+      "nov5_ah_open": 26744.75,
+      "nov5_ah_high": 26993.25,
+      "nov5_ah_low": 26366.5,
+      "nov5_ah_high_time_kst": "2026-11-06 10:07",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 26952.75,
+      "nov5_ah_last_time_kst": "2026-11-06 10:35",
+      "nov5_ah_vol": 116979,
+      "at_base_1042_price": 26952.75,
+      "at_base_1042_bar_kst": "2026-11-06 10:35",
+      "latest_1m_price": 26952.75,
+      "latest_1m_bar_kst": "2026-11-06 10:35"
+    },
+    "ES=F": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 7709.25,
+          "high": 7713.0,
+          "low": 7558.25,
+          "close": 7614.0,
+          "volume": 2539896
+        },
+        {
+          "date": "2026-11-02",
+          "open": 7626.0,
+          "high": 7693.75,
+          "low": 7570.75,
+          "close": 7574.5,
+          "volume": 2002583
+        },
+        {
+          "date": "2026-11-03",
+          "open": 7584.0,
+          "high": 7623.75,
+          "low": 7546.0,
+          "close": 7596.75,
+          "volume": 1645013
+        },
+        {
+          "date": "2026-11-04",
+          "open": 7610.25,
+          "high": 7746.25,
+          "low": 7490.0,
+          "close": 7720.5,
+          "volume": 1645013
+        },
+        {
+          "date": "2026-11-05",
+          "open": 7359.0,
+          "high": 7403.75,
+          "low": 7322.25,
+          "close": 7394.0,
+          "volume": 97802
+        }
+      ],
+      "nov5_reg_open": 7707.5,
+      "nov5_reg_high": 7712.5,
+      "nov5_reg_low": 7377.25,
+      "nov5_reg_last_1m": 7381.25,
+      "nov5_reg_vol": 2893166,
+      "nov5_ah_open": 7381.25,
+      "nov5_ah_high": 7403.75,
+      "nov5_ah_low": 7322.25,
+      "nov5_ah_high_time_kst": "2026-11-06 09:41",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 7394.0,
+      "nov5_ah_last_time_kst": "2026-11-06 10:35",
+      "nov5_ah_vol": 230950,
+      "at_base_1042_price": 7394.0,
+      "at_base_1042_bar_kst": "2026-11-06 10:35",
+      "latest_1m_price": 7394.0,
+      "latest_1m_bar_kst": "2026-11-06 10:35"
+    },
+    "^VIX": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 18.43,
+          "high": 23.93,
+          "low": 18.03,
+          "close": 19.42,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-02",
+          "open": 19.05,
+          "high": 21.77,
+          "low": 18.03,
+          "close": 21.15,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-03",
+          "open": 21.66,
+          "high": 21.91,
+          "low": 20.29,
+          "close": 20.83,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-04",
+          "open": 19.2,
+          "high": 19.22,
+          "low": 16.57,
+          "close": 16.61,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 17.14,
+          "high": 28.36,
+          "low": 16.7,
+          "close": 28.18,
+          "volume": 0
+        }
+      ],
+      "nov5_reg_open": 17.28,
+      "nov5_reg_high": 28.09,
+      "nov5_reg_low": 17.28,
+      "nov5_reg_last_1m": 27.59,
+      "nov5_reg_vol": 0,
+      "nov5_ah_open": 27.46,
+      "nov5_ah_high": 28.36,
+      "nov5_ah_low": 27.46,
+      "nov5_ah_high_time_kst": "2026-11-06 06:06",
+      "nov5_ah_low_time_kst": "2026-11-06 06:00",
+      "nov5_ah_last": 28.18,
+      "nov5_ah_last_time_kst": "2026-11-06 06:15",
+      "nov5_ah_vol": 0,
+      "at_base_1042_price": 28.18,
+      "at_base_1042_bar_kst": "2026-11-06 06:15",
+      "latest_1m_price": 28.18,
+      "latest_1m_bar_kst": "2026-11-06 06:15"
+    },
+    "^TNX": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 4.921,
+          "high": 4.958,
+          "low": 4.908,
+          "close": 4.929,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-02",
+          "open": 4.904,
+          "high": 4.921,
+          "low": 4.869,
+          "close": 4.894,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-03",
+          "open": 4.931,
+          "high": 4.968,
+          "low": 4.894,
+          "close": 4.952,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-04",
+          "open": 4.919,
+          "high": 4.964,
+          "low": 4.884,
+          "close": 4.894,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 4.904,
+          "high": 4.917,
+          "low": 4.814,
+          "close": 4.837,
+          "volume": 0
+        }
+      ],
+      "nov5_reg_open": 4.917,
+      "nov5_reg_high": 4.917,
+      "nov5_reg_low": 4.814,
+      "nov5_reg_last_1m": 4.837,
+      "nov5_reg_vol": 0,
+      "at_base_1042_price": 4.837,
+      "at_base_1042_bar_kst": "2026-11-06 04:59",
+      "latest_1m_price": 4.837,
+      "latest_1m_bar_kst": "2026-11-06 04:59"
+    },
+    "KRW=X": {
+      "daily_tail": [
+        {
+          "date": "2026-11-02",
+          "open": 1334.23,
+          "high": 1346.58,
+          "low": 1334.23,
+          "close": 1325.52,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-03",
+          "open": 1345.54,
+          "high": 1346.21,
+          "low": 1336.66,
+          "close": 1344.8101,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-04",
+          "open": 1342.95,
+          "high": 1346.85,
+          "low": 1335.7,
+          "close": 1342.9,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 1340.04,
+          "high": 1354.17,
+          "low": 1337.86,
+          "close": 1340.0699,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-06",
+          "open": 1357.03,
+          "high": 1357.98,
+          "low": 1353.98,
+          "close": 1354.98,
+          "volume": 0
+        }
+      ],
+      "nov5_reg_open": 1345.5,
+      "nov5_reg_high": 1357.22,
+      "nov5_reg_low": 1344.6801,
+      "nov5_reg_last_1m": 1356.26,
+      "nov5_reg_vol": 0,
+      "nov5_ah_open": 1356.5601,
+      "nov5_ah_high": 1357.98,
+      "nov5_ah_low": 1353.98,
+      "nov5_ah_high_time_kst": "2026-11-06 09:00",
+      "nov5_ah_low_time_kst": "2026-11-06 09:05",
+      "nov5_ah_last": 1355.38,
+      "nov5_ah_last_time_kst": "2026-11-06 10:42",
+      "nov5_ah_vol": 0,
+      "at_base_1042_price": 1355.38,
+      "at_base_1042_bar_kst": "2026-11-06 10:42",
+      "latest_1m_price": 1355.08,
+      "latest_1m_bar_kst": "2026-11-06 10:45"
+    },
+    "DX-Y.NYB": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 101.88,
+          "high": 102.09,
+          "low": 101.54,
+          "close": 101.88,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-02",
+          "open": 101.97,
+          "high": 101.99,
+          "low": 101.43,
+          "close": 101.75,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-03",
+          "open": 101.73,
+          "high": 101.94,
+          "low": 101.62,
+          "close": 101.87,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-04",
+          "open": 101.7,
+          "high": 101.7,
+          "low": 101.1,
+          "close": 101.51,
+          "volume": 0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 101.494,
+          "high": 101.636,
+          "low": 101.553,
+          "close": 101.626,
+          "volume": 0
+        }
+      ],
+      "nov5_reg_open": 101.642,
+      "nov5_reg_high": 101.706,
+      "nov5_reg_low": 101.373,
+      "nov5_reg_last_1m": 101.595,
+      "nov5_reg_vol": 0,
+      "nov5_ah_open": 101.596,
+      "nov5_ah_high": 101.636,
+      "nov5_ah_low": 101.494,
+      "nov5_ah_high_time_kst": "2026-11-06 10:17",
+      "nov5_ah_low_time_kst": "2026-11-06 09:33",
+      "nov5_ah_last": 101.624,
+      "nov5_ah_last_time_kst": "2026-11-06 10:35",
+      "nov5_ah_vol": 0,
+      "at_base_1042_price": 101.624,
+      "at_base_1042_bar_kst": "2026-11-06 10:35",
+      "latest_1m_price": 101.624,
+      "latest_1m_bar_kst": "2026-11-06 10:35"
+    },
+    "EWY": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 153.89,
+          "high": 155.04,
+          "low": 150.69,
+          "close": 152.89,
+          "volume": 22507600
+        },
+        {
+          "date": "2026-11-02",
+          "open": 158.37,
+          "high": 158.91,
+          "low": 151.48,
+          "close": 151.62,
+          "volume": 15079000
+        },
+        {
+          "date": "2026-11-03",
+          "open": 155.5,
+          "high": 156.55,
+          "low": 154.05,
+          "close": 155.06,
+          "volume": 11698500
+        },
+        {
+          "date": "2026-11-04",
+          "open": 154.28,
+          "high": 157.51,
+          "low": 151.36,
+          "close": 152.12,
+          "volume": 17083800
+        },
+        {
+          "date": "2026-11-05",
+          "open": 144.935,
+          "high": 145.73,
+          "low": 131.65,
+          "close": null,
+          "volume": 43478191
+        }
+      ],
+      "nov5_reg_open": 144.935,
+      "nov5_reg_high": 145.73,
+      "nov5_reg_low": 132.5,
+      "nov5_reg_last_1m": 132.92,
+      "nov5_reg_vol": 33566097,
+      "nov5_ah_open": 132.98,
+      "nov5_ah_high": 137.8812,
+      "nov5_ah_low": 130.7,
+      "nov5_ah_high_time_kst": "2026-11-06 06:00",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 133.13,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 6673133,
+      "at_base_1042_price": 133.13,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 133.13,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    },
+    "KORU": {
+      "daily_tail": [
+        {
+          "date": "2026-10-30",
+          "open": 10.84,
+          "high": 11.13,
+          "low": 10.11,
+          "close": 10.63,
+          "volume": 44950500
+        },
+        {
+          "date": "2026-11-02",
+          "open": 11.75,
+          "high": 11.86,
+          "low": 10.32,
+          "close": 10.37,
+          "volume": 36278100
+        },
+        {
+          "date": "2026-11-03",
+          "open": 11.12,
+          "high": 11.34,
+          "low": 10.83,
+          "close": 11.01,
+          "volume": 31271700
+        },
+        {
+          "date": "2026-11-04",
+          "open": 10.85,
+          "high": 11.55,
+          "low": 10.23,
+          "close": 10.43,
+          "volume": 58880800
+        },
+        {
+          "date": "2026-11-05",
+          "open": 8.915,
+          "high": 9.0699,
+          "low": 6.465,
+          "close": null,
+          "volume": 137307895
+        }
+      ],
+      "nov5_reg_open": 8.915,
+      "nov5_reg_high": 9.0699,
+      "nov5_reg_low": 6.46,
+      "nov5_reg_last_1m": 6.51,
+      "nov5_reg_vol": 124175842,
+      "nov5_ah_open": 6.53,
+      "nov5_ah_high": 6.95,
+      "nov5_ah_low": 6.07,
+      "nov5_ah_high_time_kst": "2026-11-06 09:39",
+      "nov5_ah_low_time_kst": "2026-11-06 08:19",
+      "nov5_ah_last": 6.4585,
+      "nov5_ah_last_time_kst": "2026-11-06 09:59",
+      "nov5_ah_vol": 123654,
+      "at_base_1042_price": 6.4585,
+      "at_base_1042_bar_kst": "2026-11-06 09:59",
+      "latest_1m_price": 6.4585,
+      "latest_1m_bar_kst": "2026-11-06 09:59"
+    }
+  },
+  "nasdaq_official_recent": {
+    "SOXL": [
+      {
+        "date": "11/04/2026",
+        "close": "66.68",
+        "volume": "247,028,800",
+        "open": "70.025",
+        "high": "75.2899",
+        "low": "62.23"
+      },
+      {
+        "date": "11/03/2026",
+        "close": "73.12",
+        "volume": "139,558,400",
+        "open": "73.755",
+        "high": "76.71",
+        "low": "71.79"
+      },
+      {
+        "date": "11/02/2026",
+        "close": "68.17",
+        "volume": "159,340,900",
+        "open": "79.445",
+        "high": "81.07",
+        "low": "67.50"
+      },
+      {
+        "date": "10/30/2026",
+        "close": "77.05",
+        "volume": "202,647,700",
+        "open": "81.79",
+        "high": "84.19",
+        "low": "70.23"
+      },
+      {
+        "date": "10/29/2026",
+        "close": "102.39",
+        "volume": "98,115,010",
+        "open": "101.36",
+        "high": "105.4399",
+        "low": "97.95"
+      },
+      {
+        "date": "10/28/2026",
+        "close": "107.35",
+        "volume": "89,591,150",
+        "open": "103.97",
+        "high": "108.60",
+        "low": "101.3185"
+      },
+      {
+        "date": "10/27/2026",
+        "close": "101.08",
+        "volume": "95,217,440",
+        "open": "95.04",
+        "high": "102.20",
+        "low": "94.10"
+      },
+      {
+        "date": "10/26/2026",
+        "close": "90.50",
+        "volume": "101,281,500",
+        "open": "85.88",
+        "high": "93.15",
+        "low": "84.22"
+      },
+      {
+        "date": "10/23/2026",
+        "close": "83.56",
+        "volume": "92,699,420",
+        "open": "81.64",
+        "high": "87.61",
+        "low": "80.83"
+      },
+      {
+        "date": "10/22/2026",
+        "close": "82.11",
+        "volume": "180,752,900",
+        "open": "90.59",
+        "high": "93.40",
+        "low": "80.215"
+      }
+    ],
+    "SOXX": [
+      {
+        "date": "11/04/2026",
+        "close": "450.41",
+        "volume": "17,564,410",
+        "open": "458.28",
+        "high": "469.22",
+        "low": "441.68"
+      },
+      {
+        "date": "11/03/2026",
+        "close": "465.00",
+        "volume": "13,294,760",
+        "open": "466.01",
+        "high": "472.63",
+        "low": "461.83"
+      },
+      {
+        "date": "11/02/2026",
+        "close": "453.65",
+        "volume": "10,805,260",
+        "open": "476.575",
+        "high": "479.9189",
+        "low": "452.10"
+      },
+      {
+        "date": "10/30/2026",
+        "close": "471.51",
+        "volume": "18,806,410",
+        "open": "479.38",
+        "high": "483.39",
+        "low": "460.10"
+      },
+      {
+        "date": "10/29/2026",
+        "close": "513.86",
+        "volume": "6,482,019",
+        "open": "512.03",
+        "high": "518.74",
+        "low": "506.59"
+      },
+      {
+        "date": "10/28/2026",
+        "close": "521.94",
+        "volume": "8,392,190",
+        "open": "515.71",
+        "high": "523.93",
+        "low": "511.66"
+      },
+      {
+        "date": "10/27/2026",
+        "close": "511.06",
+        "volume": "8,684,834",
+        "open": "499.84",
+        "high": "513.16",
+        "low": "498.35"
+      },
+      {
+        "date": "10/26/2026",
+        "close": "491.83",
+        "volume": "9,260,768",
+        "open": "482.84",
+        "high": "496.93",
+        "low": "479.87"
+      },
+      {
+        "date": "10/23/2026",
+        "close": "478.20",
+        "volume": "8,637,034",
+        "open": "474.74",
+        "high": "485.04",
+        "low": "473.10"
+      },
+      {
+        "date": "10/22/2026",
+        "close": "475.69",
+        "volume": "15,033,620",
+        "open": "489.73",
+        "high": "494.00",
+        "low": "472.21"
+      }
+    ],
+    "SMH": [
+      {
+        "date": "11/04/2026",
+        "close": "504.27",
+        "volume": "13,413,950",
+        "open": "511.17",
+        "high": "522.20",
+        "low": "497.33"
+      },
+      {
+        "date": "11/03/2026",
+        "close": "518.52",
+        "volume": "9,095,755",
+        "open": "520.68",
+        "high": "524.70",
+        "low": "515.49"
+      },
+      {
+        "date": "11/02/2026",
+        "close": "508.31",
+        "volume": "8,865,784",
+        "open": "529.05",
+        "high": "532.76",
+        "low": "506.44"
+      },
+      {
+        "date": "10/30/2026",
+        "close": "522.49",
+        "volume": "17,601,980",
+        "open": "532.58",
+        "high": "535.32",
+        "low": "511.63"
+      },
+      {
+        "date": "10/29/2026",
+        "close": "561.67",
+        "volume": "6,017,507",
+        "open": "558.925",
+        "high": "565.865",
+        "low": "555.5006"
+      },
+      {
+        "date": "10/28/2026",
+        "close": "567.67",
+        "volume": "6,556,103",
+        "open": "564.32",
+        "high": "571.00",
+        "low": "560.515"
+      },
+      {
+        "date": "10/27/2026",
+        "close": "557.98",
+        "volume": "8,067,128",
+        "open": "549.17",
+        "high": "559.81",
+        "low": "546.665"
+      },
+      {
+        "date": "10/26/2026",
+        "close": "541.62",
+        "volume": "10,188,230",
+        "open": "531.345",
+        "high": "545.34",
+        "low": "530.20"
+      },
+      {
+        "date": "10/23/2026",
+        "close": "527.20",
+        "volume": "7,469,014",
+        "open": "522.605",
+        "high": "533.3411",
+        "low": "521.33"
+      },
+      {
+        "date": "10/22/2026",
+        "close": "523.35",
+        "volume": "15,251,960",
+        "open": "536.85",
+        "high": "540.86",
+        "low": "520.53"
+      }
+    ]
+  }
+}

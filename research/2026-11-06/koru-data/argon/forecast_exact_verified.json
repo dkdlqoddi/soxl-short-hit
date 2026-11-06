@@ -1,0 +1,296 @@
+{
+  "naver_exact_intraday": {
+    "KOSPI": {
+      "at_0903_cb": {
+        "localDate": "20261106",
+        "closePrice": 4987.0,
+        "openPrice": 5263.26,
+        "highPrice": 5269.1,
+        "lowPrice": 4911.28,
+        "accumulatedTradingVolume": 109885,
+        "foreignRetentionRate": 0.0
+      },
+      "at_0939_peak": {
+        "localDate": "20261106",
+        "closePrice": 4987.0,
+        "openPrice": 5263.26,
+        "highPrice": 5269.1,
+        "lowPrice": 4911.28,
+        "accumulatedTradingVolume": 109885,
+        "foreignRetentionRate": 0.0
+      },
+      "at_0959_us_ah_end": {
+        "localDate": "20261106",
+        "closePrice": 4987.0,
+        "openPrice": 5263.26,
+        "highPrice": 5269.1,
+        "lowPrice": 4911.28,
+        "accumulatedTradingVolume": 109885,
+        "foreignRetentionRate": 0.0
+      },
+      "at_1042_base": {
+        "localDate": "20261106",
+        "closePrice": 4987.0,
+        "openPrice": 5263.26,
+        "highPrice": 5269.1,
+        "lowPrice": 4911.28,
+        "accumulatedTradingVolume": 109885,
+        "foreignRetentionRate": 0.0
+      },
+      "latest": {
+        "localDate": "20261106",
+        "closePrice": 4987.0,
+        "openPrice": 5263.26,
+        "highPrice": 5269.1,
+        "lowPrice": 4911.28,
+        "accumulatedTradingVolume": 109885,
+        "foreignRetentionRate": 0.0
+      }
+    },
+    "KOSDAQ": {
+      "at_0903_cb": {
+        "localDate": "20261106",
+        "closePrice": 637.82,
+        "openPrice": 654.43,
+        "highPrice": 654.43,
+        "lowPrice": 629.17,
+        "accumulatedTradingVolume": 220936,
+        "foreignRetentionRate": 0.0
+      },
+      "at_0939_peak": {
+        "localDate": "20261106",
+        "closePrice": 637.82,
+        "openPrice": 654.43,
+        "highPrice": 654.43,
+        "lowPrice": 629.17,
+        "accumulatedTradingVolume": 220936,
+        "foreignRetentionRate": 0.0
+      },
+      "at_0959_us_ah_end": {
+        "localDate": "20261106",
+        "closePrice": 637.82,
+        "openPrice": 654.43,
+        "highPrice": 654.43,
+        "lowPrice": 629.17,
+        "accumulatedTradingVolume": 220936,
+        "foreignRetentionRate": 0.0
+      },
+      "at_1042_base": {
+        "localDate": "20261106",
+        "closePrice": 637.82,
+        "openPrice": 654.43,
+        "highPrice": 654.43,
+        "lowPrice": 629.17,
+        "accumulatedTradingVolume": 220936,
+        "foreignRetentionRate": 0.0
+      },
+      "latest": {
+        "localDate": "20261106",
+        "closePrice": 637.82,
+        "openPrice": 654.43,
+        "highPrice": 654.43,
+        "lowPrice": 629.17,
+        "accumulatedTradingVolume": 220936,
+        "foreignRetentionRate": 0.0
+      }
+    },
+    "278540": {
+      "at_0903_cb": {
+        "localDate": "20261106",
+        "closePrice": 27785.0,
+        "openPrice": 27260.0,
+        "highPrice": 28260.0,
+        "lowPrice": 26845.0,
+        "accumulatedTradingVolume": 11692,
+        "foreignRetentionRate": 1.07
+      },
+      "at_0939_peak": {
+        "localDate": "20261106",
+        "closePrice": 27785.0,
+        "openPrice": 27260.0,
+        "highPrice": 28260.0,
+        "lowPrice": 26845.0,
+        "accumulatedTradingVolume": 11692,
+        "foreignRetentionRate": 1.07
+      },
+      "at_0959_us_ah_end": {
+        "localDate": "20261106",
+        "closePrice": 27785.0,
+        "openPrice": 27260.0,
+        "highPrice": 28260.0,
+        "lowPrice": 26845.0,
+        "accumulatedTradingVolume": 11692,
+        "foreignRetentionRate": 1.07
+      },
+      "at_1042_base": {
+        "localDate": "20261106",
+        "closePrice": 27785.0,
+        "openPrice": 27260.0,
+        "highPrice": 28260.0,
+        "lowPrice": 26845.0,
+        "accumulatedTradingVolume": 11692,
+        "foreignRetentionRate": 1.07
+      },
+      "latest": {
+        "localDate": "20261106",
+        "closePrice": 27785.0,
+        "openPrice": 27260.0,
+        "highPrice": 28260.0,
+        "lowPrice": 26845.0,
+        "accumulatedTradingVolume": 11692,
+        "foreignRetentionRate": 1.07
+      }
+    },
+    "005930": {
+      "at_0903_cb": {
+        "localDate": "20261106",
+        "closePrice": 186500.0,
+        "openPrice": 180000.0,
+        "highPrice": 189600.0,
+        "lowPrice": 179200.0,
+        "accumulatedTradingVolume": 13311623,
+        "foreignRetentionRate": 45.95
+      },
+      "at_0939_peak": {
+        "localDate": "20261106",
+        "closePrice": 186500.0,
+        "openPrice": 180000.0,
+        "highPrice": 189600.0,
+        "lowPrice": 179200.0,
+        "accumulatedTradingVolume": 13311623,
+        "foreignRetentionRate": 45.95
+      },
+      "at_0959_us_ah_end": {
+        "localDate": "20261106",
+        "closePrice": 186500.0,
+        "openPrice": 180000.0,
+        "highPrice": 189600.0,
+        "lowPrice": 179200.0,
+        "accumulatedTradingVolume": 13311623,
+        "foreignRetentionRate": 45.95
+      },
+      "at_1042_base": {
+        "localDate": "20261106",
+        "closePrice": 186500.0,
+        "openPrice": 180000.0,
+        "highPrice": 189600.0,
+        "lowPrice": 179200.0,
+        "accumulatedTradingVolume": 13311623,
+        "foreignRetentionRate": 45.95
+      },
+      "latest": {
+        "localDate": "20261106",
+        "closePrice": 186500.0,
+        "openPrice": 180000.0,
+        "highPrice": 189600.0,
+        "lowPrice": 179200.0,
+        "accumulatedTradingVolume": 13311623,
+        "foreignRetentionRate": 45.95
+      }
+    },
+    "000660": {
+      "at_0903_cb": {
+        "localDate": "20261106",
+        "closePrice": 1148000.0,
+        "openPrice": 1089000.0,
+        "highPrice": 1181000.0,
+        "lowPrice": 1089000.0,
+        "accumulatedTradingVolume": 2445163,
+        "foreignRetentionRate": 48.27
+      },
+      "at_0939_peak": {
+        "localDate": "20261106",
+        "closePrice": 1148000.0,
+        "openPrice": 1089000.0,
+        "highPrice": 1181000.0,
+        "lowPrice": 1089000.0,
+        "accumulatedTradingVolume": 2445163,
+        "foreignRetentionRate": 48.27
+      },
+      "at_0959_us_ah_end": {
+        "localDate": "20261106",
+        "closePrice": 1148000.0,
+        "openPrice": 1089000.0,
+        "highPrice": 1181000.0,
+        "lowPrice": 1089000.0,
+        "accumulatedTradingVolume": 2445163,
+        "foreignRetentionRate": 48.27
+      },
+      "at_1042_base": {
+        "localDate": "20261106",
+        "closePrice": 1148000.0,
+        "openPrice": 1089000.0,
+        "highPrice": 1181000.0,
+        "lowPrice": 1089000.0,
+        "accumulatedTradingVolume": 2445163,
+        "foreignRetentionRate": 48.27
+      },
+      "latest": {
+        "localDate": "20261106",
+        "closePrice": 1148000.0,
+        "openPrice": 1089000.0,
+        "highPrice": 1181000.0,
+        "lowPrice": 1089000.0,
+        "accumulatedTradingVolume": 2445163,
+        "foreignRetentionRate": 48.27
+      }
+    }
+  },
+  "koru_1105_clean": {
+    "open": 8.915,
+    "high": 9.0699,
+    "low": 6.465,
+    "close": 6.53,
+    "ret_1d_pct": -37.39,
+    "ret_2d_pct": -40.69,
+    "ret_5d_pct": -48.7,
+    "clv": 0.025,
+    "rsi2": 4.36,
+    "rsi14": 29.77,
+    "adx14": 31.33,
+    "plus_di": 17.71,
+    "minus_di": 48.25,
+    "atr14": 1.8163,
+    "atr_pct": 27.81,
+    "atr_med100_pct": 16.06,
+    "sma5": 9.79,
+    "sma20": 11.9,
+    "sma50": 17.39,
+    "sma200": 24.35,
+    "dist_sma20_pct": -45.15,
+    "bb_low": 7.16,
+    "bb_high": 16.64,
+    "pct_b": -0.067,
+    "rule_A": true,
+    "rule_E": true
+  },
+  "ewy_1105_clean": {
+    "open": 144.935,
+    "high": 145.73,
+    "low": 131.65,
+    "close": 131.65,
+    "ret_1d_pct": -13.46,
+    "ret_2d_pct": -15.1,
+    "ret_5d_pct": -18.65,
+    "clv": 0.0,
+    "rsi2": 4.37,
+    "rsi14": 29.73,
+    "adx14": 27.78,
+    "plus_di": 17.97,
+    "minus_di": 48.38,
+    "atr14": 7.5175,
+    "atr_pct": 5.71,
+    "atr_med100_pct": 4.5,
+    "sma5": 148.67,
+    "sma20": 156.47,
+    "sma50": 172.95,
+    "sma200": 163.37,
+    "dist_sma20_pct": -15.86,
+    "bb_low": 137.77,
+    "bb_high": 175.17,
+    "pct_b": -0.164,
+    "rule_A": true,
+    "rule_E": true
+  },
+  "bls_url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+}

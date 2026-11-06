@@ -1,0 +1,189 @@
+[
+  {
+    "model": "Claude Fable Max",
+    "slug": "claude",
+    "base_time": "2026-11-05 07:38:00",
+    "base_price": 10.62,
+    "expiry": "2026-11-06 07:40:00",
+    "up_prob": 45,
+    "center": [
+      10.1,
+      10.7
+    ],
+    "full_range": [
+      8.8,
+      11.5
+    ],
+    "regular_call": "상승 소폭 우세·약 55%",
+    "call": "하락 소폭 우세 (상승 약 45%)",
+    "scenarios": [
+      {
+        "name": "A",
+        "prob": 30,
+        "range": [
+          10.8,
+          11.5
+        ]
+      },
+      {
+        "name": "B",
+        "prob": 28,
+        "range": [
+          10.4,
+          10.8
+        ]
+      },
+      {
+        "name": "C",
+        "prob": 29,
+        "range": [
+          9.6,
+          10.4
+        ]
+      },
+      {
+        "name": "D",
+        "prob": 13,
+        "range": [
+          8.8,
+          9.6
+        ]
+      }
+    ],
+    "downside_levels": [
+      10.225
+    ],
+    "upside_levels": [
+      10.85
+    ],
+    "other_conditions": "코스피 5,570 아래+외국인 순매도 시 하락 강화; 5,620 위+반도체 회복 시 상승 전환. SOXX 첫 1시간 반등 실패.",
+    "note": "research/2026-11-05/koru-forecast-24h-claude.md",
+    "prev_close": 10.43,
+    "original_sha256": "c5c094ba43e4000e01241b6e49f94d948114bf220d91f65a500221c1866c661b"
+  },
+  {
+    "model": "Codex Astra Max",
+    "slug": "codex",
+    "base_time": "2026-11-05 07:33:38",
+    "base_price": 10.6,
+    "expiry": "2026-11-06 07:33:38",
+    "up_prob": 45,
+    "center": [
+      10.3,
+      10.55
+    ],
+    "full_range": [
+      9.2,
+      11.8
+    ],
+    "regular_call": "중립, 중심 -1.25~+1.15%",
+    "call": "중립에 가까운 약한 하락 우세 (상승 약 45%)",
+    "scenarios": [
+      {
+        "name": "등락",
+        "prob": 40,
+        "range": [
+          10.2,
+          10.8
+        ],
+        "classification": [
+          10.07,
+          11.13
+        ]
+      },
+      {
+        "name": "하락 재개",
+        "prob": 35,
+        "range": [
+          9.2,
+          10.0
+        ],
+        "classification": "만기 <10.07; 하한 없음"
+      },
+      {
+        "name": "반등 지속",
+        "prob": 25,
+        "range": [
+          11.2,
+          11.8
+        ],
+        "classification": "만기 >11.13"
+      }
+    ],
+    "downside_levels": [
+      10.23,
+      10.0
+    ],
+    "upside_levels": [
+      11.01
+    ],
+    "other_conditions": "EWY <151.36 동행, 정규장 15분봉 2개 연속 종가 확인. 상승 철회 KORU >11.01 및 EWY >155.06. USD/KRW >1350 부담, <1335 반등 지지.",
+    "note": "research/2026-11-05/koru-forecast-24h-codex.md",
+    "prev_close": 10.43,
+    "original_sha256": "44d770ba89d85cafcba18537486069f656ea8e8c68361846e68dab00d5b14724"
+  },
+  {
+    "model": "Antigravity Argon High",
+    "slug": "argon",
+    "base_time": "2026-11-05 07:31:00",
+    "base_price": 10.58,
+    "expiry": "2026-11-06 07:31:00",
+    "up_prob": 44,
+    "center": [
+      10.15,
+      10.6
+    ],
+    "full_range": [
+      9.1,
+      11.9
+    ],
+    "regular_call": "중립~보합 경합, 상승 약 50~52%",
+    "call": "하락 소폭 우세 (상승 약 44%)",
+    "scenarios": [
+      {
+        "name": "강한 반등",
+        "prob": 16,
+        "range": [
+          11.1,
+          11.9
+        ]
+      },
+      {
+        "name": "저가 방어",
+        "prob": 28,
+        "range": [
+          10.58,
+          11.1
+        ]
+      },
+      {
+        "name": "소폭 되밀림",
+        "prob": 36,
+        "range": [
+          9.95,
+          10.58
+        ]
+      },
+      {
+        "name": "투매 연장",
+        "prob": 20,
+        "range": [
+          9.1,
+          9.95
+        ]
+      }
+    ],
+    "downside_levels": [
+      10.23,
+      10.03
+    ],
+    "upside_levels": [
+      10.85,
+      11.03
+    ],
+    "other_conditions": "코스피 5700 회복과 KORU 10.85~11.03 안착 시 상승 전환. 10.23/10.03 이탈 시 하락 가속.",
+    "note": "research/2026-11-05/koru-forecast-24h-argon.md",
+    "prev_close": 10.43,
+    "original_sha256": "db3ead30598fc07570471e0f2d04ec4c06fea8105857f627cc64b45190dcd50b"
+  }
+]

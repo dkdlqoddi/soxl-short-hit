@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "seven_standard_sections",
+    "repo_vault_body_identical",
+    "fixed_base_and_expiry",
+    "scenario_probabilities_sum_100",
+    "meta_json_finite_and_vault_written",
+    "all_new_files_below_10MB",
+    "vault_read_content_verified"
+  ],
+  "max_file_bytes": 1196164
+}

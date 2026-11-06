@@ -1,0 +1,67 @@
+{
+  "intraday": {
+    "reg_5m_sma120": 53.4,
+    "ext_5m_sma120": 44.29,
+    "ext_5m_ema9": 43.39,
+    "ext_5m_ema21": 42.61,
+    "reg_15m_rsi14": 27.88,
+    "reg_15m_rsi2": 3.73,
+    "reg_30m_rsi14": 25.47,
+    "reg_30m_rsi2": 10.12,
+    "reg_30m_macd": [
+      -6.869,
+      -6.587,
+      -0.282
+    ],
+    "reg_1h_rsi14": 18.76,
+    "reg_1h_macd": [
+      -9.626,
+      -7.938,
+      -1.689
+    ],
+    "ext_1h_rsi14": 26.87,
+    "ext_1h_macd": [
+      -7.194,
+      -6.711,
+      -0.483
+    ],
+    "reg_2h_rsi14": 18.86,
+    "reg_2h_macd": [
+      -11.657,
+      -9.071,
+      -2.586
+    ],
+    "reg_2h_ema9": 54.74,
+    "nov5_reg_vwap": 48.37,
+    "nov5_ah_vwap": 41.22,
+    "nov5_ah_volume": 7602
+  },
+  "inav": {
+    "soxl_reg_close": 40.87,
+    "soxl_base_0959": 43.59,
+    "soxl_ah_chg_pct": 6.66,
+    "soxx_ah_chg_pct": 1.58,
+    "inav_from_soxx_official": 42.8,
+    "prem_vs_soxx_official_pct": 1.84,
+    "smh_ah_chg_pct": 1.55,
+    "inav_from_smh": 42.77,
+    "basket_13_ah_chg_pct": 2.27,
+    "inav_from_basket_0959": 43.65,
+    "prem_vs_basket_0959_pct": -0.13,
+    "nq_0959_to_1042_chg_pct": 0.29,
+    "inav_at_1042_with_nq": 44.13,
+    "prem_at_1042_with_nq_pct": -1.22
+  },
+  "post_check": {
+    "checked_at_kst": "2026-11-06 10:52:24",
+    "nq_f": 26889.75,
+    "es_f": 7382.25,
+    "krw_x": 1355.2,
+    "kospi": "5,019.11",
+    "kospi_pct": "-6.77",
+    "samsung": "187,600",
+    "samsung_pct": "-6.90",
+    "skhynix": "1,148,000",
+    "skhynix_pct": "-9.18"
+  }
+}

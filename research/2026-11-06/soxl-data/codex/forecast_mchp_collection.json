@@ -1,0 +1,28 @@
+[
+  {
+    "symbol": "MCHP",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:49:11.671599+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHP?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 2187,
+    "first": "2026-10-30 08:01:00+00:00",
+    "last": "2026-11-06 00:55:28+00:00",
+    "events": {},
+    "sha256": "4598076226c30ba381d35f0372e967de68f9430a5ea70985cad96f4c06219806",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/MCHP_5d_1m.json"
+  },
+  {
+    "symbol": "MCHP",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:49:13.831527+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHP?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "c92e3717e1828f4d9bc29e077d2d4b0f3e1933d0efd0a578d64f3af327b5bd54",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/MCHP_1mo_1d.json"
+  }
+]

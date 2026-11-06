@@ -1,0 +1,27 @@
+{
+  "recorded_at_kst": "2026-11-06T09:57:32.368720+09:00",
+  "mcp_available": false,
+  "failure": "MCP initialize failed at http://127.0.0.1:27123/mcp/; direct HTTP and HTTPS MCP connections also refused",
+  "guide_read": false,
+  "review_vault_written": false,
+  "review_target": "PERSONAL/STOCK/KORU/2026-11-05-review-codex-astra-max.md",
+  "review_fallback": "automation/runs/20261106-094235/vault-fallback/koru-review-codex.md",
+  "review_fallback_sha256": "9ad74151a78d575838005f02187fbc75fd08fa00e2787bbac66453c72aeab04b",
+  "own_repo_updated": true,
+  "own_vault_updated": false,
+  "own_note_updated": false,
+  "own_vault_candidates": [
+    "PERSONAL/STOCK/KORU/2026-11-05-codex.md",
+    "PERSONAL/STOCK/KORU/2026-11-05-codex-astra-max.md"
+  ],
+  "own_vault_version": null,
+  "own_vault_ifMatch_used": null,
+  "instructions": [
+    "vault_list로 직전 본인 노트의 실제 경로를 확인한다.",
+    "vault_read로 원문 및 version을 받아 원문의 사후 결과 복기 절과 status만 갱신한다. candidate 전체로 무조건 덮어쓰지 않는다.",
+    "vault_write의 ifMatch에는 그 읽기에서 얻은 version을 전달한다.",
+    "vault_read 재검증 후 own_note_updated를 true로 바꾼다."
+  ],
+  "candidate": "research/2026-11-06/koru-data/codex/own_forecast_vault_candidate.md",
+  "section": "research/2026-11-06/koru-data/codex/own_forecast_review_section.md"
+}

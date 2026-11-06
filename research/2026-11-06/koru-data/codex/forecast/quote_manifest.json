@@ -1,0 +1,668 @@
+[
+  {
+    "symbol": "EWY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EWY?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:06.727911+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "EWY",
+      "exchangeName": "PCX",
+      "fullExchangeName": "NYSEArca",
+      "instrumentType": "ETF",
+      "firstTradeDate": 958138200,
+      "regularMarketTime": 1793912400,
+      "hasPrePostMarketData": true,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 131.65,
+      "regularMarketChangePercent": -13.457,
+      "fulldayPrice": 134.25,
+      "fulldayChange": -17.87,
+      "fulldayChangePercent": -11.747,
+      "fiftyTwoWeekHigh": 220.89,
+      "fiftyTwoWeekLow": 86.9,
+      "regularMarketDayHigh": 145.73,
+      "regularMarketDayLow": 131.65,
+      "regularMarketVolume": 43478191,
+      "longName": "iShares MSCI South Korea ETF",
+      "shortName": "iShares MSCI South Korea ETF",
+      "chartPreviousClose": 161.83,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "start": 1793869200,
+          "end": 1793889000,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "start": 1793889000,
+          "end": 1793912400,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "start": 1793912400,
+          "end": 1793926800,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "SOXX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:06.728203+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "SOXX",
+      "exchangeName": "NGM",
+      "fullExchangeName": "NasdaqGM",
+      "instrumentType": "ETF",
+      "firstTradeDate": 995031000,
+      "regularMarketTime": 1793912400,
+      "hasPrePostMarketData": true,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 131.9,
+      "regularMarketChangePercent": -12.147,
+      "fulldayPrice": 134.07,
+      "fulldayChange": -16.067,
+      "fulldayChangePercent": -10.702,
+      "fiftyTwoWeekHigh": 479.92,
+      "fiftyTwoWeekLow": 86.813,
+      "regularMarketDayHigh": 143.725,
+      "regularMarketDayLow": 130.75,
+      "regularMarketVolume": 65770030,
+      "longName": "iShares Semiconductor ETF",
+      "shortName": "iShares PHLX SOX Semiconductor ",
+      "chartPreviousClose": 171.287,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "end": 1793889000,
+          "start": 1793869200,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "end": 1793912400,
+          "start": 1793889000,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "end": 1793926800,
+          "start": 1793912400,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "MU",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:06.728472+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "MU",
+      "exchangeName": "NMS",
+      "fullExchangeName": "NasdaqGS",
+      "instrumentType": "EQUITY",
+      "firstTradeDate": 454944600,
+      "regularMarketTime": 1793912402,
+      "hasPrePostMarketData": true,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 656.39,
+      "regularMarketChangePercent": -17.459,
+      "fulldayPrice": 680.0,
+      "fulldayChange": -115.23,
+      "fulldayChangePercent": -14.49,
+      "fiftyTwoWeekHigh": 1255.0,
+      "fiftyTwoWeekLow": 192.59,
+      "regularMarketDayHigh": 761.81,
+      "regularMarketDayLow": 650.0,
+      "regularMarketVolume": 76138480,
+      "longName": "Micron Technology, Inc.",
+      "shortName": "Micron Technology, Inc.",
+      "chartPreviousClose": 934.27,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "end": 1793889000,
+          "start": 1793869200,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "end": 1793912400,
+          "start": 1793889000,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "end": 1793926800,
+          "start": 1793912400,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "NVDA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:06.728738+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "NVDA",
+      "exchangeName": "NMS",
+      "fullExchangeName": "NasdaqGS",
+      "instrumentType": "EQUITY",
+      "firstTradeDate": 917015400,
+      "regularMarketTime": 1793912401,
+      "hasPrePostMarketData": true,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 181.6,
+      "regularMarketChangePercent": -9.259,
+      "fulldayPrice": 184.64,
+      "fulldayChange": -15.49,
+      "fulldayChangePercent": -7.74,
+      "fiftyTwoWeekHigh": 243.37,
+      "fiftyTwoWeekLow": 164.27,
+      "regularMarketDayHigh": 196.25,
+      "regularMarketDayLow": 181.462,
+      "regularMarketVolume": 301617834,
+      "longName": "NVIDIA Corporation",
+      "shortName": "NVIDIA Corporation",
+      "chartPreviousClose": 213.66,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "end": 1793889000,
+          "start": 1793869200,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "end": 1793912400,
+          "start": 1793889000,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "end": 1793926800,
+          "start": 1793912400,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "SKHY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SKHY?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:06.729156+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "SKHY",
+      "exchangeName": "NMS",
+      "fullExchangeName": "NasdaqGS",
+      "instrumentType": "EQUITY",
+      "firstTradeDate": 1783690200,
+      "regularMarketTime": 1793912401,
+      "hasPrePostMarketData": true,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 123.9,
+      "regularMarketChangePercent": -13.399,
+      "fulldayPrice": 124.88,
+      "fulldayChange": -18.19,
+      "fulldayChangePercent": -12.714,
+      "fiftyTwoWeekHigh": 199.87,
+      "fiftyTwoWeekLow": 122.5,
+      "regularMarketDayHigh": 134.07,
+      "regularMarketDayLow": 122.5,
+      "regularMarketVolume": 51082598,
+      "longName": "SK hynix Inc.",
+      "shortName": "SK hynix Inc.",
+      "chartPreviousClose": 162.09,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "start": 1793869200,
+          "end": 1793889000,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "start": 1793889000,
+          "end": 1793912400,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "start": 1793912400,
+          "end": 1793926800,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "SMSN.IL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMSN.IL?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:07.129751+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "SMSN.IL",
+      "exchangeName": "IOB",
+      "fullExchangeName": "IOB",
+      "instrumentType": "EQUITY",
+      "firstTradeDate": 989823600,
+      "regularMarketTime": 1793896653,
+      "hasPrePostMarketData": false,
+      "gmtoffset": 0,
+      "timezone": "GMT",
+      "exchangeTimezoneName": "Europe/London",
+      "regularMarketPrice": 3578.0,
+      "regularMarketChangePercent": -10.773,
+      "fulldayPrice": 3578.0,
+      "fulldayChange": -432.0,
+      "fulldayChangePercent": -10.773,
+      "fiftyTwoWeekHigh": 6055.0,
+      "fiftyTwoWeekLow": 0.0,
+      "regularMarketDayHigh": 0.0,
+      "regularMarketDayLow": 0.0,
+      "regularMarketVolume": 0,
+      "longName": "Samsung Electronics Co., Ltd.",
+      "shortName": "SAMSUNG ELECTRONICS CO LTD (ATT",
+      "chartPreviousClose": 4316.0,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "GMT",
+          "start": 1793949300,
+          "end": 1793952000,
+          "gmtoffset": 0
+        },
+        "regular": {
+          "timezone": "GMT",
+          "start": 1793952000,
+          "end": 1793982600,
+          "gmtoffset": 0
+        },
+        "post": {
+          "timezone": "GMT",
+          "start": 1793982600,
+          "end": 1793985300,
+          "gmtoffset": 0
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "^GSPC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^GSPC?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:07.159778+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "^GSPC",
+      "exchangeName": "SNP",
+      "fullExchangeName": "SNP",
+      "instrumentType": "INDEX",
+      "firstTradeDate": -1325583000,
+      "regularMarketTime": 1793914448,
+      "hasPrePostMarketData": false,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 7353.73,
+      "regularMarketChangePercent": -4.356,
+      "fulldayPrice": 7353.73,
+      "fulldayChange": -334.89,
+      "fulldayChangePercent": -4.356,
+      "fiftyTwoWeekHigh": 7844.52,
+      "fiftyTwoWeekLow": 6316.91,
+      "regularMarketDayHigh": 7681.29,
+      "regularMarketDayLow": 7350.35,
+      "regularMarketVolume": 5039705000,
+      "longName": "S&P 500",
+      "shortName": "S&P 500",
+      "chartPreviousClose": 7720.39,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "start": 1793869200,
+          "end": 1793889000,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "start": 1793889000,
+          "end": 1793912400,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "start": 1793912400,
+          "end": 1793926800,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "^IXIC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^IXIC?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:07.170774+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "^IXIC",
+      "exchangeName": "NIM",
+      "fullExchangeName": "Nasdaq GIDS",
+      "instrumentType": "INDEX",
+      "firstTradeDate": 34612200,
+      "regularMarketTime": 1793916959,
+      "hasPrePostMarketData": false,
+      "gmtoffset": -18000,
+      "timezone": "EST",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketPrice": 24314.998,
+      "regularMarketChangePercent": -5.523,
+      "fulldayPrice": 24314.998,
+      "fulldayChange": -1421.516,
+      "fulldayChangePercent": -5.523,
+      "fiftyTwoWeekHigh": 27722.75,
+      "fiftyTwoWeekLow": 20690.25,
+      "regularMarketDayHigh": 25559.031,
+      "regularMarketDayLow": 24262.145,
+      "regularMarketVolume": 10902980000,
+      "longName": "NASDAQ Composite",
+      "shortName": "NASDAQ Composite",
+      "chartPreviousClose": 26184.72,
+      "priceHint": 2,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "EST",
+          "end": 1793889000,
+          "start": 1793869200,
+          "gmtoffset": -18000
+        },
+        "regular": {
+          "timezone": "EST",
+          "end": 1793912400,
+          "start": 1793889000,
+          "gmtoffset": -18000
+        },
+        "post": {
+          "timezone": "EST",
+          "end": 1793926800,
+          "start": 1793912400,
+          "gmtoffset": -18000
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "^TNX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/^TNX?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:07.177667+09:00",
+    "meta": {
+      "currency": "USD",
+      "symbol": "^TNX",
+      "exchangeName": "CGI",
+      "fullExchangeName": "Cboe Indices",
+      "instrumentType": "INDEX",
+      "firstTradeDate": -252326400,
+      "regularMarketTime": 1793908794,
+      "hasPrePostMarketData": false,
+      "gmtoffset": -21600,
+      "timezone": "CST",
+      "exchangeTimezoneName": "America/Chicago",
+      "regularMarketPrice": 4.837,
+      "regularMarketChangePercent": -1.165,
+      "fulldayPrice": 4.837,
+      "fulldayChange": -0.057,
+      "fulldayChangePercent": -1.165,
+      "fiftyTwoWeekHigh": 5.364,
+      "fiftyTwoWeekLow": 3.956,
+      "regularMarketDayHigh": 4.917,
+      "regularMarketDayLow": 4.814,
+      "regularMarketVolume": 0,
+      "longName": "CBOE Interest Rate 10 Year T Note",
+      "shortName": "10-Year Bond",
+      "chartPreviousClose": 4.929,
+      "priceHint": 4,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "CST",
+          "end": 1793884800,
+          "start": 1793884800,
+          "gmtoffset": -21600
+        },
+        "regular": {
+          "timezone": "CST",
+          "end": 1793908800,
+          "start": 1793884800,
+          "gmtoffset": -21600
+        },
+        "post": {
+          "timezone": "CST",
+          "end": 1793908800,
+          "start": 1793908800,
+          "gmtoffset": -21600
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  },
+  {
+    "symbol": "KRW=X",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW=X?range=5d&interval=1d&includePrePost=false",
+    "checked_at_kst": "2026-11-06T10:46:07.257992+09:00",
+    "meta": {
+      "currency": "KRW",
+      "symbol": "KRW=X",
+      "exchangeName": "CCY",
+      "fullExchangeName": "CCY",
+      "instrumentType": "CURRENCY",
+      "firstTradeDate": 1070236800,
+      "regularMarketTime": 1793929566,
+      "hasPrePostMarketData": false,
+      "gmtoffset": 0,
+      "timezone": "GMT",
+      "exchangeTimezoneName": "Europe/London",
+      "regularMarketPrice": 1355.18,
+      "regularMarketChangePercent": -0.1106,
+      "fulldayPrice": 1355.18,
+      "fulldayChange": -1.5,
+      "fulldayChangePercent": -0.1106,
+      "fiftyTwoWeekHigh": 1587.7,
+      "fiftyTwoWeekLow": 1319.52,
+      "regularMarketDayHigh": 1357.98,
+      "regularMarketDayLow": 1353.98,
+      "regularMarketVolume": 0,
+      "longName": "USD/KRW",
+      "shortName": "USD/KRW",
+      "chartPreviousClose": 1325.52,
+      "priceHint": 4,
+      "currentTradingPeriod": {
+        "pre": {
+          "timezone": "GMT",
+          "end": 1793923200,
+          "start": 1793923200,
+          "gmtoffset": 0
+        },
+        "regular": {
+          "timezone": "GMT",
+          "end": 1794009540,
+          "start": 1793923200,
+          "gmtoffset": 0
+        },
+        "post": {
+          "timezone": "GMT",
+          "end": 1794009540,
+          "start": 1794009540,
+          "gmtoffset": 0
+        }
+      },
+      "dataGranularity": "1d",
+      "range": "5d",
+      "validRanges": [
+        "1d",
+        "5d",
+        "1mo",
+        "3mo",
+        "6mo",
+        "1y",
+        "2y",
+        "5y",
+        "10y",
+        "ytd",
+        "max"
+      ]
+    }
+  }
+]

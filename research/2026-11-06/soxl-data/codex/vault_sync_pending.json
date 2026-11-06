@@ -1,0 +1,19 @@
+{
+  "reason": "Obsidian MCP unavailable; no fresh read/version; no write attempted",
+  "review": {
+    "target": "PERSONAL/STOCK/SOXL/2026-11-05-review-codex-astra-max.md",
+    "full_content_fallback": "automation/runs/20261106-094235/vault-fallback/soxl-review-codex.md",
+    "vault_written": false,
+    "vault_readback_verified": false
+  },
+  "previous_forecast": {
+    "target": "PERSONAL/STOCK/SOXL/2026-11-05-codex.md",
+    "repo_updated": true,
+    "vault_updated": false,
+    "section_file": "research/2026-11-06/soxl-data/codex/own_forecast_review_section.md",
+    "full_candidate_file": "research/2026-11-06/soxl-data/codex/own_forecast_vault_updated.md",
+    "required_procedure": "vault_read current content/version; preserve all sections except section 6 and status; set status completed; vault_write with ifMatch = returned version; vault_read verify",
+    "ifMatch": null
+  },
+  "own_note_updated_meaning": "False because both repository and vault completion were requested; repository alone is complete."
+}

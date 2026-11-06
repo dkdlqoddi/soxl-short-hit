@@ -1,0 +1,17 @@
+{
+  "checked_at_kst": "2026-11-06T09:51:02.893784+09:00",
+  "tool_discovery": "No obsidian, vault_read, vault_write, vault_list or search_simple tool in ALL_TOOLS",
+  "mcp_resource_attempts": [
+    "resources/list: startup handshake failed for http://127.0.0.1:27123/mcp/",
+    "resources/templates/list: same startup handshake failure"
+  ],
+  "direct_initialize_attempt": "http://127.0.0.1:27123/mcp/: Connection refused (Errno 111)",
+  "guide_read": false,
+  "reference_review_read": false,
+  "prior_vault_list_read": false,
+  "own_previous_vault_path_evidence": "research/2026-11-05/data/obsidian_save_receipt.json",
+  "own_previous_vault_path": "PERSONAL/STOCK/SOXL/2026-11-05-codex.md",
+  "review_vault_written": false,
+  "own_previous_vault_updated": false,
+  "fallback_authorization": "User section 4: use automation/runs/20261106-094235/vault-fallback/soxl-review-codex.md when MCP unavailable"
+}

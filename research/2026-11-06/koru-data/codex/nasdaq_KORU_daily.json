@@ -1,0 +1,49 @@
+{
+  "data": {
+    "symbol": "KORU",
+    "totalRecords": 3,
+    "tradesTable": {
+      "asOf": null,
+      "headers": {
+        "date": "Date",
+        "close": "Close/Last",
+        "volume": "Volume",
+        "open": "Open",
+        "high": "High",
+        "low": "Low"
+      },
+      "rows": [
+        {
+          "date": "11/04/2026",
+          "close": "10.43",
+          "volume": "58,880,840",
+          "open": "10.85",
+          "high": "11.55",
+          "low": "10.225"
+        },
+        {
+          "date": "11/03/2026",
+          "close": "11.01",
+          "volume": "31,271,660",
+          "open": "11.12",
+          "high": "11.34",
+          "low": "10.83"
+        },
+        {
+          "date": "11/02/2026",
+          "close": "10.37",
+          "volume": "36,278,060",
+          "open": "11.75",
+          "high": "11.855",
+          "low": "10.315"
+        }
+      ]
+    }
+  },
+  "message": null,
+  "status": {
+    "rCode": 200,
+    "bCodeMessage": null,
+    "developerMessage": null
+  }
+}

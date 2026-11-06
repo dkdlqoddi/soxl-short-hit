@@ -1,0 +1,871 @@
+{
+  "fetched_at_kst": "2026-11-06 10:45:17",
+  "KOSPI": {
+    "stockEndType": "index",
+    "itemCode": "KOSPI",
+    "reutersCode": "KOSPI",
+    "symbolCode": "KOSPI",
+    "stockName": "코스피",
+    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/index/IndexKOSPI.svg",
+    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/index/IndexKOSPI.png",
+    "closePrice": "4,994.94",
+    "compareToPreviousClosePrice": "-388.86",
+    "compareToPreviousPrice": {
+      "code": "5",
+      "text": "하락",
+      "name": "FALLING"
+    },
+    "fluctuationsRatio": "-7.22",
+    "marketStatus": "OPEN",
+    "localTradedAt": "2026-11-06T10:45:00+09:00",
+    "stockExchangeType": {
+      "code": "KS",
+      "zoneId": "Asia/Seoul",
+      "nationType": "KOR",
+      "delayTime": 0,
+      "startTime": "0900",
+      "endTime": "1530",
+      "closePriceSendTime": "1630",
+      "nameKor": "코스피",
+      "nameEng": "KOSPI",
+      "stockType": "domestic",
+      "nationCode": "KOR",
+      "nationName": "대한민국",
+      "name": "KOSPI"
+    },
+    "imageCharts": {
+      "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSPI_transparent.png",
+      "areaYearThree": "https://financial-vn.pstatic.net/chart/mobile/area/year3/KOSPI_end.png",
+      "candleWeek": "https://financial-vn.pstatic.net/chart/mobile/candle/week/KOSPI_end.png",
+      "candleMonth": "https://financial-vn.pstatic.net/chart/mobile/candle/month/KOSPI_end.png",
+      "areaYearTen": "https://financial-vn.pstatic.net/chart/mobile/area/year10/KOSPI_end.png",
+      "candleDay": "https://financial-vn.pstatic.net/chart/mobile/candle/day/KOSPI_end.png",
+      "day": "https://financial-vn.pstatic.net/chart/mobile/day/KOSPI_end.png",
+      "day_up_tablet": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSPI_end_up_tablet.png",
+      "areaYear": "https://financial-vn.pstatic.net/chart/mobile/area/year/KOSPI_end.png",
+      "day_up": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSPI_end_up.png",
+      "areaMonthThree": "https://financial-vn.pstatic.net/chart/mobile/area/month3/KOSPI_end.png"
+    },
+    "scriptChartTypes": [
+      "candleMinuteFive",
+      "candleDay",
+      "candleWeek",
+      "candleMonth",
+      "day",
+      "areaMonthThree",
+      "areaYear",
+      "areaYearThree",
+      "areaYearTen"
+    ],
+    "delayTime": 0,
+    "delayTimeName": "실시간",
+    "endUrl": "https://m.stock.naver.com/domestic/index/KOSPI",
+    "newPcUrl": "https://stock.naver.com/domestic/index/KOSPI",
+    "chartIqEndUrl": "https://m.stock.naver.com/fchart/domestic/index/KOSPI",
+    "nationType": "KOR",
+    "nationName": "대한민국",
+    "imageChartUrlInfo": {
+      "line": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/day/KOSPI_end.png",
+        "month3": "https://financial-vn.pstatic.net/chart/mobile/area/month3/KOSPI_end.png",
+        "year": "https://financial-vn.pstatic.net/chart/mobile/area/year/KOSPI_end.png",
+        "year3": "https://financial-vn.pstatic.net/chart/mobile/area/year3/KOSPI_end.png",
+        "year5": "https://financial-vn.pstatic.net/chart/mobile/area/year5/KOSPI_end.png",
+        "year10": "https://financial-vn.pstatic.net/chart/mobile/area/year10/KOSPI_end.png"
+      },
+      "candle": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/candle/day/KOSPI_end.png",
+        "week": "https://financial-vn.pstatic.net/chart/mobile/candle/week/KOSPI_end.png",
+        "month": "https://financial-vn.pstatic.net/chart/mobile/candle/month/KOSPI_end.png"
+      },
+      "mini": {
+        "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSPI_transparent.png",
+        "dayUp": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSPI_end_up.png",
+        "dayUpTablet": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSPI_end_up_tablet.png"
+      }
+    }
+  },
+  "KOSDAQ": {
+    "stockEndType": "index",
+    "itemCode": "KOSDAQ",
+    "reutersCode": "KOSDAQ",
+    "symbolCode": "KOSDAQ",
+    "stockName": "코스닥",
+    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/index/IndexKOSDAQ.svg",
+    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/index/IndexKOSDAQ.png",
+    "closePrice": "636.37",
+    "compareToPreviousClosePrice": "-42.04",
+    "compareToPreviousPrice": {
+      "code": "5",
+      "text": "하락",
+      "name": "FALLING"
+    },
+    "fluctuationsRatio": "-6.20",
+    "marketStatus": "OPEN",
+    "localTradedAt": "2026-11-06T10:44:00+09:00",
+    "stockExchangeType": {
+      "code": "KQ",
+      "zoneId": "Asia/Seoul",
+      "nationType": "KOR",
+      "delayTime": 0,
+      "startTime": "0900",
+      "endTime": "1530",
+      "closePriceSendTime": "1630",
+      "nameKor": "코스닥",
+      "nameEng": "KOSDAQ",
+      "stockType": "domestic",
+      "nationCode": "KOR",
+      "nationName": "대한민국",
+      "name": "KOSDAQ"
+    },
+    "imageCharts": {
+      "areaYearTen": "https://financial-vn.pstatic.net/chart/mobile/area/year10/KOSDAQ_end.png",
+      "areaYearThree": "https://financial-vn.pstatic.net/chart/mobile/area/year3/KOSDAQ_end.png",
+      "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSDAQ_transparent.png",
+      "candleDay": "https://financial-vn.pstatic.net/chart/mobile/candle/day/KOSDAQ_end.png",
+      "day_up_tablet": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSDAQ_end_up_tablet.png",
+      "day": "https://financial-vn.pstatic.net/chart/mobile/day/KOSDAQ_end.png",
+      "areaYear": "https://financial-vn.pstatic.net/chart/mobile/area/year/KOSDAQ_end.png",
+      "candleWeek": "https://financial-vn.pstatic.net/chart/mobile/candle/week/KOSDAQ_end.png",
+      "candleMonth": "https://financial-vn.pstatic.net/chart/mobile/candle/month/KOSDAQ_end.png",
+      "areaMonthThree": "https://financial-vn.pstatic.net/chart/mobile/area/month3/KOSDAQ_end.png",
+      "day_up": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSDAQ_end_up.png"
+    },
+    "scriptChartTypes": [
+      "candleMinuteFive",
+      "candleDay",
+      "candleWeek",
+      "candleMonth",
+      "day",
+      "areaMonthThree",
+      "areaYear",
+      "areaYearThree",
+      "areaYearTen"
+    ],
+    "delayTime": 0,
+    "delayTimeName": "실시간",
+    "endUrl": "https://m.stock.naver.com/domestic/index/KOSDAQ",
+    "newPcUrl": "https://stock.naver.com/domestic/index/KOSDAQ",
+    "chartIqEndUrl": "https://m.stock.naver.com/fchart/domestic/index/KOSDAQ",
+    "nationType": "KOR",
+    "nationName": "대한민국",
+    "imageChartUrlInfo": {
+      "line": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/day/KOSDAQ_end.png",
+        "month3": "https://financial-vn.pstatic.net/chart/mobile/area/month3/KOSDAQ_end.png",
+        "year": "https://financial-vn.pstatic.net/chart/mobile/area/year/KOSDAQ_end.png",
+        "year3": "https://financial-vn.pstatic.net/chart/mobile/area/year3/KOSDAQ_end.png",
+        "year5": "https://financial-vn.pstatic.net/chart/mobile/area/year5/KOSDAQ_end.png",
+        "year10": "https://financial-vn.pstatic.net/chart/mobile/area/year10/KOSDAQ_end.png"
+      },
+      "candle": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/candle/day/KOSDAQ_end.png",
+        "week": "https://financial-vn.pstatic.net/chart/mobile/candle/week/KOSDAQ_end.png",
+        "month": "https://financial-vn.pstatic.net/chart/mobile/candle/month/KOSDAQ_end.png"
+      },
+      "mini": {
+        "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSDAQ_transparent.png",
+        "dayUp": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSDAQ_end_up.png",
+        "dayUpTablet": "https://financial-vn.pstatic.net/chart/mobile/mini/KOSDAQ_end_up_tablet.png"
+      }
+    }
+  },
+  "005930_Samsung": {
+    "stockEndType": "stock",
+    "itemCode": "005930",
+    "reutersCode": "005930",
+    "stockName": "삼성전자",
+    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock005930.svg",
+    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock005930.png",
+    "sosok": "0",
+    "closePrice": "185,800",
+    "compareToPreviousClosePrice": "-15,700",
+    "compareToPreviousPrice": {
+      "code": "5",
+      "text": "하락",
+      "name": "FALLING"
+    },
+    "fluctuationsRatio": "-7.79",
+    "marketStatus": "OPEN",
+    "marketStatusDetailType": "open",
+    "localTradedAt": "2026-11-06T10:45:16+09:00",
+    "tradeStopType": {
+      "code": "1",
+      "text": "운영.Trading",
+      "name": "TRADING"
+    },
+    "tradableStatus": "tradable",
+    "tradableStatusCode": "ok",
+    "tradableStatusUpdatedAt": "2026-11-06T09:24:10.3+09:00",
+    "stockExchangeType": {
+      "code": "KS",
+      "zoneId": "Asia/Seoul",
+      "nationType": "KOR",
+      "delayTime": 0,
+      "startTime": "0900",
+      "endTime": "1530",
+      "closePriceSendTime": "1630",
+      "nameKor": "코스피",
+      "nameEng": "KOSPI",
+      "stockType": "domestic",
+      "nationCode": "KOR",
+      "nationName": "대한민국",
+      "name": "KOSPI"
+    },
+    "stockExchangeName": "KOSPI",
+    "imageCharts": {
+      "candleWeek": "https://financial-vn.pstatic.net/chart/mobile/candle/week/005930_end.png",
+      "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_transparent.png",
+      "day_up": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_end_up.png",
+      "areaYearTen": "https://financial-vn.pstatic.net/chart/mobile/area/year10/005930_end.png",
+      "candleMonth": "https://financial-vn.pstatic.net/chart/mobile/candle/month/005930_end.png",
+      "candleDay": "https://financial-vn.pstatic.net/chart/mobile/candle/day/005930_end.png",
+      "day": "https://financial-vn.pstatic.net/chart/mobile/day/krx/005930_end.png",
+      "areaYearThree": "https://financial-vn.pstatic.net/chart/mobile/area/year3/005930_end.png",
+      "day_up_tablet": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_end_up_tablet.png",
+      "areaMonthThree": "https://financial-vn.pstatic.net/chart/mobile/area/month3/005930_end.png",
+      "areaYear": "https://financial-vn.pstatic.net/chart/mobile/area/year/005930_end.png"
+    },
+    "imageChartUrlInfo": {
+      "line": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/day/krx/005930_end.png",
+        "month3": "https://financial-vn.pstatic.net/chart/mobile/area/month3/005930_end.png",
+        "year": "https://financial-vn.pstatic.net/chart/mobile/area/year/005930_end.png",
+        "year3": "https://financial-vn.pstatic.net/chart/mobile/area/year3/005930_end.png",
+        "year5": "https://financial-vn.pstatic.net/chart/mobile/area/year5/005930_end.png",
+        "year10": "https://financial-vn.pstatic.net/chart/mobile/area/year10/005930_end.png"
+      },
+      "candle": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/candle/day/005930_end.png",
+        "week": "https://financial-vn.pstatic.net/chart/mobile/candle/week/005930_end.png",
+        "month": "https://financial-vn.pstatic.net/chart/mobile/candle/month/005930_end.png"
+      },
+      "mini": {
+        "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_transparent.png",
+        "dayUp": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_end_up.png",
+        "dayUpTablet": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/005930_end_up_tablet.png"
+      }
+    },
+    "scriptChartTypes": [
+      "candleMinuteFive",
+      "candleDay",
+      "candleWeek",
+      "candleMonth",
+      "day",
+      "areaMonthThree",
+      "areaYear",
+      "areaYearThree",
+      "areaYearTen"
+    ],
+    "delayTime": 0,
+    "delayTimeName": "실시간",
+    "endUrl": "https://m.stock.naver.com/domestic/stock/005930",
+    "newPcUrl": "https://stock.naver.com/domestic/stock/005930",
+    "chartIqEndUrl": "https://m.stock.naver.com/fchart/domestic/stock/005930",
+    "newlyListed": false,
+    "nationType": "KOR",
+    "nationName": "대한민국",
+    "overMarketPriceInfo": {
+      "tradingSessionType": "REGULAR_MARKET",
+      "overMarketStatus": "OPEN",
+      "overPrice": "185,700",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "compareToPreviousClosePrice": "-15,800",
+      "fluctuationsRatio": "-7.84",
+      "localTradedAt": "2026-11-06T10:45:18.096+09:00",
+      "tradeStopType": {
+        "code": "1",
+        "text": "운영.Trading",
+        "name": "TRADING"
+      },
+      "tradableStatus": "tradable",
+      "tradableStatusCode": "ok",
+      "tradableStatusUpdatedAt": "2026-11-06T09:34:03.748+09:00"
+    },
+    "marketSessionType": "regularMarket"
+  },
+  "000660_SKHynix": {
+    "stockEndType": "stock",
+    "itemCode": "000660",
+    "reutersCode": "000660",
+    "stockName": "SK하이닉스",
+    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock000660.svg",
+    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock000660.png",
+    "sosok": "0",
+    "closePrice": "1,131,000",
+    "compareToPreviousClosePrice": "-133,000",
+    "compareToPreviousPrice": {
+      "code": "5",
+      "text": "하락",
+      "name": "FALLING"
+    },
+    "fluctuationsRatio": "-10.52",
+    "marketStatus": "OPEN",
+    "marketStatusDetailType": "open",
+    "localTradedAt": "2026-11-06T10:44:21+09:00",
+    "tradeStopType": {
+      "code": "1",
+      "text": "운영.Trading",
+      "name": "TRADING"
+    },
+    "tradableStatus": "tradable",
+    "tradableStatusCode": "ok",
+    "tradableStatusUpdatedAt": "2026-11-06T09:24:08.227+09:00",
+    "stockExchangeType": {
+      "code": "KS",
+      "zoneId": "Asia/Seoul",
+      "nationType": "KOR",
+      "delayTime": 0,
+      "startTime": "0900",
+      "endTime": "1530",
+      "closePriceSendTime": "1630",
+      "nameKor": "코스피",
+      "nameEng": "KOSPI",
+      "stockType": "domestic",
+      "nationCode": "KOR",
+      "nationName": "대한민국",
+      "name": "KOSPI"
+    },
+    "stockExchangeName": "KOSPI",
+    "imageCharts": {
+      "areaYearThree": "https://financial-vn.pstatic.net/chart/mobile/area/year3/000660_end.png",
+      "candleDay": "https://financial-vn.pstatic.net/chart/mobile/candle/day/000660_end.png",
+      "day_up_tablet": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_end_up_tablet.png",
+      "areaYear": "https://financial-vn.pstatic.net/chart/mobile/area/year/000660_end.png",
+      "day_up": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_end_up.png",
+      "candleWeek": "https://financial-vn.pstatic.net/chart/mobile/candle/week/000660_end.png",
+      "day": "https://financial-vn.pstatic.net/chart/mobile/day/krx/000660_end.png",
+      "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_transparent.png",
+      "candleMonth": "https://financial-vn.pstatic.net/chart/mobile/candle/month/000660_end.png",
+      "areaMonthThree": "https://financial-vn.pstatic.net/chart/mobile/area/month3/000660_end.png",
+      "areaYearTen": "https://financial-vn.pstatic.net/chart/mobile/area/year10/000660_end.png"
+    },
+    "imageChartUrlInfo": {
+      "line": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/day/krx/000660_end.png",
+        "month3": "https://financial-vn.pstatic.net/chart/mobile/area/month3/000660_end.png",
+        "year": "https://financial-vn.pstatic.net/chart/mobile/area/year/000660_end.png",
+        "year3": "https://financial-vn.pstatic.net/chart/mobile/area/year3/000660_end.png",
+        "year5": "https://financial-vn.pstatic.net/chart/mobile/area/year5/000660_end.png",
+        "year10": "https://financial-vn.pstatic.net/chart/mobile/area/year10/000660_end.png"
+      },
+      "candle": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/candle/day/000660_end.png",
+        "week": "https://financial-vn.pstatic.net/chart/mobile/candle/week/000660_end.png",
+        "month": "https://financial-vn.pstatic.net/chart/mobile/candle/month/000660_end.png"
+      },
+      "mini": {
+        "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_transparent.png",
+        "dayUp": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_end_up.png",
+        "dayUpTablet": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/000660_end_up_tablet.png"
+      }
+    },
+    "scriptChartTypes": [
+      "candleMinuteFive",
+      "candleDay",
+      "candleWeek",
+      "candleMonth",
+      "day",
+      "areaMonthThree",
+      "areaYear",
+      "areaYearThree",
+      "areaYearTen"
+    ],
+    "delayTime": 0,
+    "delayTimeName": "실시간",
+    "endUrl": "https://m.stock.naver.com/domestic/stock/000660",
+    "newPcUrl": "https://stock.naver.com/domestic/stock/000660",
+    "chartIqEndUrl": "https://m.stock.naver.com/fchart/domestic/stock/000660",
+    "newlyListed": false,
+    "nationType": "KOR",
+    "nationName": "대한민국",
+    "stockDividendEvent": {
+      "eventStartDateTime": "2026-08-28T21:00:00",
+      "dividendPaymentDate": "2026-09-30",
+      "exDividendDate": "2026-08-28",
+      "dps": 375.0,
+      "currencyCode": "KRW"
+    },
+    "overMarketPriceInfo": {
+      "tradingSessionType": "REGULAR_MARKET",
+      "overMarketStatus": "OPEN",
+      "overPrice": "1,131,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "compareToPreviousClosePrice": "-133,000",
+      "fluctuationsRatio": "-10.52",
+      "localTradedAt": "2026-11-06T10:45:18.139+09:00",
+      "tradeStopType": {
+        "code": "1",
+        "text": "운영.Trading",
+        "name": "TRADING"
+      },
+      "tradableStatus": "tradable",
+      "tradableStatusCode": "ok",
+      "tradableStatusUpdatedAt": "2026-11-06T09:34:02.958+09:00"
+    },
+    "marketSessionType": "regularMarket"
+  },
+  "042700_HanmiSemi": {
+    "stockEndType": "stock",
+    "itemCode": "042700",
+    "reutersCode": "042700",
+    "stockName": "한미반도체",
+    "itemLogoUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/stock/Stock042700.svg",
+    "itemLogoPngUrl": "https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock042700.png",
+    "sosok": "0",
+    "closePrice": "153,100",
+    "compareToPreviousClosePrice": "-16,000",
+    "compareToPreviousPrice": {
+      "code": "5",
+      "text": "하락",
+      "name": "FALLING"
+    },
+    "fluctuationsRatio": "-9.46",
+    "marketStatus": "OPEN",
+    "marketStatusDetailType": "open",
+    "localTradedAt": "2026-11-06T10:45:08+09:00",
+    "tradeStopType": {
+      "code": "1",
+      "text": "운영.Trading",
+      "name": "TRADING"
+    },
+    "tradableStatus": "tradable",
+    "tradableStatusCode": "ok",
+    "tradableStatusUpdatedAt": "2026-11-06T09:24:04.104+09:00",
+    "stockExchangeType": {
+      "code": "KS",
+      "zoneId": "Asia/Seoul",
+      "nationType": "KOR",
+      "delayTime": 0,
+      "startTime": "0900",
+      "endTime": "1530",
+      "closePriceSendTime": "1630",
+      "nameKor": "코스피",
+      "nameEng": "KOSPI",
+      "stockType": "domestic",
+      "nationCode": "KOR",
+      "nationName": "대한민국",
+      "name": "KOSPI"
+    },
+    "stockExchangeName": "KOSPI",
+    "imageCharts": {
+      "areaYear": "https://financial-vn.pstatic.net/chart/mobile/area/year/042700_end.png",
+      "areaYearTen": "https://financial-vn.pstatic.net/chart/mobile/area/year10/042700_end.png",
+      "candleWeek": "https://financial-vn.pstatic.net/chart/mobile/candle/week/042700_end.png",
+      "candleMonth": "https://financial-vn.pstatic.net/chart/mobile/candle/month/042700_end.png",
+      "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/042700_transparent.png",
+      "day_up": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/042700_end_up.png",
+      "day": "https://financial-vn.pstatic.net/chart/mobile/day/krx/042700_end.png",
+      "candleDay": "https://financial-vn.pstatic.net/chart/mobile/candle/day/042700_end.png",
+      "day_up_tablet": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/042700_end_up_tablet.png",
+      "areaYearThree": "https://financial-vn.pstatic.net/chart/mobile/area/year3/042700_end.png",
+      "areaMonthThree": "https://financial-vn.pstatic.net/chart/mobile/area/month3/042700_end.png"
+    },
+    "imageChartUrlInfo": {
+      "line": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/day/krx/042700_end.png",
+        "month3": "https://financial-vn.pstatic.net/chart/mobile/area/month3/042700_end.png",
+        "year": "https://financial-vn.pstatic.net/chart/mobile/area/year/042700_end.png",
+        "year3": "https://financial-vn.pstatic.net/chart/mobile/area/year3/042700_end.png",
+        "year5": "https://financial-vn.pstatic.net/chart/mobile/area/year5/042700_end.png",
+        "year10": "https://financial-vn.pstatic.net/chart/mobile/area/year10/042700_end.png"
+      },
+      "candle": {
+        "day": "https://financial-vn.pstatic.net/chart/mobile/candle/day/042700_end.png",
+        "week": "https://financial-vn.pstatic.net/chart/mobile/candle/week/042700_end.png",
+        "month": "https://financial-vn.pstatic.net/chart/mobile/candle/month/042700_end.png"
+      },
+      "mini": {
+        "transparent": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/042700_transparent.png",
+        "dayUp": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/042700_end_up.png",
+        "dayUpTablet": "https://financial-vn.pstatic.net/chart/mobile/mini/krx/042700_end_up_tablet.png"
+      }
+    },
+    "scriptChartTypes": [
+      "candleMinuteFive",
+      "candleDay",
+      "candleWeek",
+      "candleMonth",
+      "day",
+      "areaMonthThree",
+      "areaYear",
+      "areaYearThree",
+      "areaYearTen"
+    ],
+    "delayTime": 0,
+    "delayTimeName": "실시간",
+    "endUrl": "https://m.stock.naver.com/domestic/stock/042700",
+    "newPcUrl": "https://stock.naver.com/domestic/stock/042700",
+    "chartIqEndUrl": "https://m.stock.naver.com/fchart/domestic/stock/042700",
+    "newlyListed": false,
+    "nationType": "KOR",
+    "nationName": "대한민국",
+    "stockDividendEvent": {
+      "eventStartDateTime": "2026-03-05T21:00:00",
+      "dividendPaymentDate": "2026-03-27",
+      "exDividendDate": "2026-03-05",
+      "dps": 800.0,
+      "currencyCode": "KRW"
+    },
+    "overMarketPriceInfo": {
+      "tradingSessionType": "REGULAR_MARKET",
+      "overMarketStatus": "OPEN",
+      "overPrice": "152,300",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "compareToPreviousClosePrice": "-16,800",
+      "fluctuationsRatio": "-9.93",
+      "localTradedAt": "2026-11-06T10:45:18.181+09:00",
+      "tradeStopType": {
+        "code": "1",
+        "text": "운영.Trading",
+        "name": "TRADING"
+      },
+      "tradableStatus": "tradable",
+      "tradableStatusCode": "ok",
+      "tradableStatusUpdatedAt": "2026-11-06T09:34:04.129+09:00"
+    },
+    "marketSessionType": "regularMarket"
+  },
+  "KOSPI_trend": {
+    "bizdate": "20261106",
+    "personalValue": "+2,730",
+    "foreignValue": "-9,654",
+    "institutionalValue": "+5,675"
+  },
+  "005930_trend": [
+    {
+      "itemCode": "005930",
+      "bizdate": "20261105",
+      "foreignerPureBuyQuant": "-5,772,197",
+      "foreignerHoldRatio": "45.95%",
+      "organPureBuyQuant": "+75,714",
+      "individualPureBuyQuant": "+6,012,006",
+      "closePrice": "201,500",
+      "compareToPreviousClosePrice": "-16,500",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "24,657,743"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261104",
+      "foreignerPureBuyQuant": "-3,828,533",
+      "foreignerHoldRatio": "46.06%",
+      "organPureBuyQuant": "+770,856",
+      "individualPureBuyQuant": "+3,260,043",
+      "closePrice": "221,500",
+      "compareToPreviousClosePrice": "2,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "22,248,738"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261103",
+      "foreignerPureBuyQuant": "-953,731",
+      "foreignerHoldRatio": "46.14%",
+      "organPureBuyQuant": "-157,913",
+      "individualPureBuyQuant": "+1,289,652",
+      "closePrice": "222,000",
+      "compareToPreviousClosePrice": "-7,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "13,391,670"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261102",
+      "foreignerPureBuyQuant": "+515,900",
+      "foreignerHoldRatio": "46.16%",
+      "organPureBuyQuant": "+733,138",
+      "individualPureBuyQuant": "-1,810,914",
+      "closePrice": "230,000",
+      "compareToPreviousClosePrice": "5,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "14,537,981"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261030",
+      "foreignerPureBuyQuant": "-1,072,820",
+      "foreignerHoldRatio": "46.15%",
+      "organPureBuyQuant": "+1,742,739",
+      "individualPureBuyQuant": "-85,248",
+      "closePrice": "220,500",
+      "compareToPreviousClosePrice": "-11,500",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "19,668,075"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261029",
+      "foreignerPureBuyQuant": "-518,762",
+      "foreignerHoldRatio": "46.17%",
+      "organPureBuyQuant": "+245,680",
+      "individualPureBuyQuant": "+614,637",
+      "closePrice": "230,500",
+      "compareToPreviousClosePrice": "-11,500",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "24,975,596"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261028",
+      "foreignerPureBuyQuant": "+1,522,344",
+      "foreignerHoldRatio": "46.19%",
+      "organPureBuyQuant": "+1,620,180",
+      "individualPureBuyQuant": "-3,084,370",
+      "closePrice": "245,000",
+      "compareToPreviousClosePrice": "23,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "17,840,544"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261027",
+      "foreignerPureBuyQuant": "+1,052,520",
+      "foreignerHoldRatio": "46.15%",
+      "organPureBuyQuant": "+412,198",
+      "individualPureBuyQuant": "-1,576,114",
+      "closePrice": "225,000",
+      "compareToPreviousClosePrice": "12,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "14,196,879"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261026",
+      "foreignerPureBuyQuant": "-984,399",
+      "foreignerHoldRatio": "46.10%",
+      "organPureBuyQuant": "+627,948",
+      "individualPureBuyQuant": "+324,939",
+      "closePrice": "213,500",
+      "compareToPreviousClosePrice": "-2,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "11,376,006"
+    },
+    {
+      "itemCode": "005930",
+      "bizdate": "20261023",
+      "foreignerPureBuyQuant": "-868,997",
+      "foreignerHoldRatio": "46.11%",
+      "organPureBuyQuant": "+627,670",
+      "individualPureBuyQuant": "-61,043",
+      "closePrice": "213,500",
+      "compareToPreviousClosePrice": "-1,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "16,145,972"
+    }
+  ],
+  "000660_trend": [
+    {
+      "itemCode": "000660",
+      "bizdate": "20261105",
+      "foreignerPureBuyQuant": "-1,179,521",
+      "foreignerHoldRatio": "48.27%",
+      "organPureBuyQuant": "+233,663",
+      "individualPureBuyQuant": "+692,872",
+      "closePrice": "1,262,000",
+      "compareToPreviousClosePrice": "-134,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "4,281,006"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261104",
+      "foreignerPureBuyQuant": "-835,459",
+      "foreignerHoldRatio": "48.46%",
+      "organPureBuyQuant": "+197,941",
+      "individualPureBuyQuant": "+372,428",
+      "closePrice": "1,420,000",
+      "compareToPreviousClosePrice": "22,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "4,591,188"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261103",
+      "foreignerPureBuyQuant": "-454,726",
+      "foreignerHoldRatio": "48.58%",
+      "organPureBuyQuant": "-192,661",
+      "individualPureBuyQuant": "+389,306",
+      "closePrice": "1,414,000",
+      "compareToPreviousClosePrice": "-58,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "2,304,051"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261102",
+      "foreignerPureBuyQuant": "-160,311",
+      "foreignerHoldRatio": "48.66%",
+      "organPureBuyQuant": "+171,970",
+      "individualPureBuyQuant": "-256,933",
+      "closePrice": "1,480,000",
+      "compareToPreviousClosePrice": "62,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "2,594,536"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261030",
+      "foreignerPureBuyQuant": "-300,349",
+      "foreignerHoldRatio": "48.68%",
+      "organPureBuyQuant": "-131,567",
+      "individualPureBuyQuant": "+191,452",
+      "closePrice": "1,391,000",
+      "compareToPreviousClosePrice": "-135,000",
+      "compareToPreviousPrice": {
+        "code": "5",
+        "text": "하락",
+        "name": "FALLING"
+      },
+      "accumulatedTradingVolume": "3,859,903"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261029",
+      "foreignerPureBuyQuant": "+295,478",
+      "foreignerHoldRatio": "48.72%",
+      "organPureBuyQuant": "-167,108",
+      "individualPureBuyQuant": "-371,519",
+      "closePrice": "1,516,000",
+      "compareToPreviousClosePrice": "29,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "4,549,384"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261028",
+      "foreignerPureBuyQuant": "+258,356",
+      "foreignerHoldRatio": "48.66%",
+      "organPureBuyQuant": "+149,385",
+      "individualPureBuyQuant": "-406,617",
+      "closePrice": "1,508,000",
+      "compareToPreviousClosePrice": "167,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "4,244,800"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261027",
+      "foreignerPureBuyQuant": "-51,049",
+      "foreignerHoldRatio": "48.61%",
+      "organPureBuyQuant": "+113,396",
+      "individualPureBuyQuant": "-67,933",
+      "closePrice": "1,374,000",
+      "compareToPreviousClosePrice": "99,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "3,136,495"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261026",
+      "foreignerPureBuyQuant": "-310,340",
+      "foreignerHoldRatio": "48.66%",
+      "organPureBuyQuant": "+236,302",
+      "individualPureBuyQuant": "+62,517",
+      "closePrice": "1,290,000",
+      "compareToPreviousClosePrice": "13,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "2,681,007"
+    },
+    {
+      "itemCode": "000660",
+      "bizdate": "20261023",
+      "foreignerPureBuyQuant": "-470,048",
+      "foreignerHoldRatio": "48.69%",
+      "organPureBuyQuant": "+483,193",
+      "individualPureBuyQuant": "+1,428",
+      "closePrice": "1,263,000",
+      "compareToPreviousClosePrice": "40,000",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "accumulatedTradingVolume": "3,941,446"
+    }
+  ]
+}

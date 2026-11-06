@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>코스피 야간선물·주간선물 실시간 시세 | 지수·미국증시·환율</title>
+  <meta name="description" content="코스피200 야간선물·주간선물 실시간 시세를 회원가입 없이 무료로 확인하세요. 주간(09:00~15:45)과 야간(18:00~익일 06:00) 세션이 자동으로 전환되며, 미국 증시·환율·유가와 밤사이 핵심 뉴스를 출처와 함께 한 화면에서 봅니다." />
+  <meta name="keywords" content="코스피 야간선물, 코스피 야간선물 실시간, 야간선물, 야간선물 실시간, 야간선물 시세, 야간선물 보는법, 야간선물 어디서 보는지, 야간선물 뜻, 야간선물 거래시간, 야선, 야선 시세, 야선 실시간, KOSPI200 야간선물, 코스피200 선물, 코스피 선물 시세, 미니 코스피200 선물, 시간외 코스피 파생상품, 밤사이 코스피, 코스피 시초가 예측, 갭상승 갭하락, 미국증시, 나스닥 선물, FOMC, 원달러 환율, 야간 트레이딩, 코스피 주간선물, 주간선물, 주간선물 실시간, 코스피200 주간선물, 코스피 폭락, 코스피 폭등, 코스피 급등, 코스피 급락, 야간선물 폭락, 야간선물 폭등, 삼전닉스, 삼전, 하닉, 증시 폭락, 코스피 전망" />
+  <meta name="author" content="kospi-night" />
+  <!-- 네이버 서치어드바이저 소유확인 -->
+  <meta name="naver-site-verification" content="071ff87676694be9fdc44684254f992aafada821" />
+  <link rel="canonical" href="https://mkospi.com/" />
+  <!-- RSS 피드 (네이버/구글 색인·신선도 신호) -->
+  <link rel="alternate" type="application/rss+xml" title="코스피 야간선물 — 밤사이 시장 요약" href="/rss.xml" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="코스피 야간선물·주간선물 실시간 시세 | 지수·미국증시·환율" />
+  <meta property="og:description" content="코스피200 야간선물 실시간 시세와 밤사이 미국증시·환율·뉴스를 한 화면에서 무료로." />
+  <meta property="og:image" content="/assets/og-image.png" />
+  <meta property="og:locale" content="ko_KR" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="코스피 야간선물·주간선물 실시간 시세 | 지수·미국증시·환율" />
+  <meta name="twitter:description" content="코스피200 야간선물 실시간 시세·미국증시·뉴스를 한 화면에서 무료로." />
+
+  <!-- Google AdSense -->
+  <meta name="google-adsense-account" content="ca-pub-8405522712428363" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8405522712428363" crossorigin="anonymous"></script>
+
+  <!-- Google Analytics (자기 측정 ID로 교체) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <!-- Favicon (달+별 야간 테마) -->
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="style.css?v=20260923a" />
+
+  <!-- 구조화 데이터 (검색 식별·리치결과) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "코스피 야간선물",
+      "alternateName": "MIDNIGHT KOSPI",
+      "url": "https://mkospi.com/",
+      "inLanguage": "ko",
+      "description": "코스피200 야간선물·주간선물 실시간 시세와 밤사이 핵심 뉴스를 한 페이지에서 확인하는 정보 사이트. 세션에 따라 주간·야간 시세가 자동으로 전환됩니다.",
+      "publisher": { "@id": "https://mkospi.com/#org" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://mkospi.com/#org",
+      "name": "코스피 야간선물",
+      "url": "https://mkospi.com/",
+      "logo": { "@type": "ImageObject", "url": "https://mkospi.com/apple-touch-icon.png" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "코스피 야간선물이란 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "코스피200 지수를 기초자산으로 하는 선물의 야간 거래 세션입니다. 한국 정규장이 끝난 뒤에도 미국 증시·환율·국제 이슈를 즉시 가격에 반영하기 때문에, 다음 날 코스피가 어느 방향으로 출발할지 가늠하는 선행 지표로 자주 쓰입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "야간선물 거래시간은 언제인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "한국시간 기준 평일 저녁 6시(18:00)부터 다음 날 새벽 6시(익일 06:00)까지입니다. 주간 정규장(09:00~15:45)이 끝난 뒤 이어서 열리며, 주말과 휴장일에는 거래되지 않습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "야간선물을 보면 다음 날 코스피를 알 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "방향을 가늠하는 데는 도움이 되지만 확정된 예측은 아닙니다. 밤사이 미국 증시가 강하면 야간선물도 올라 다음 날 갭 상승 가능성을 시사하지만, 개장 직전 뉴스나 외국인·기관 수급에 따라 방향이 바뀌기도 합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "이 사이트 시세는 실시간인가요? 무료인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "회원가입 없이 무료로 제공하며, 야간세션 중에는 실시간 체결 데이터를 받아 약 1분 간격으로 갱신합니다. 다만 지연되거나 오차가 있을 수 있으므로 실제 주문은 본인 증권사의 정식 시세를 확인하고 진행하세요."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "밤사이 뉴스 요약은 어떻게 만들어지나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공개된 언론 보도를 자동으로 수집한 뒤 AI가 주제별(미국 증시·환율·원자재·FOMC 등)로 요약합니다. 각 요약에는 출처와 원문 링크를 함께 표시하며, 야간세션 중에는 약 1시간 간격으로 갱신됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "개인 투자자도 야간선물을 거래할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "가능하지만 일반 주식 계좌가 아닌 파생상품 계좌가 필요하고, 사전교육·모의거래 이수와 기본예탁금 요건이 있습니다. 거래 단위가 큰 편이라 미니 선물부터 접근하는 경우가 많습니다."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">코스피 야간선물 · 주간선물</h1>
+      <div class="status-bar">
+        <span id="trading-status" class="status-pill">● 야간선물 거래 중 (KST 18:00~06:00)</span>
+        <label class="auto-refresh">
+          <input type="checkbox" id="auto-refresh-toggle" />
+          <span>자동 갱신 (시세 1분 / 뉴스 30분)</span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <!-- 상단 광고 슬롯 (카카오 애드핏 320x100) -->
+  <div class="ad-slot ad-slot--top" id="ad-top" aria-label="광고">
+    <ins class="kakao_ad_area" style="display:none;"
+         data-ad-unit="DAN-9fqJx95MTsTiElGp"
+         data-ad-width="320"
+         data-ad-height="100"></ins>
+  </div>
+
+  <main class="container">
+    <!-- 메인 시세 — 코스피200 야간선물 (Hero) -->
+    <section class="section section--hero" aria-labelledby="quote-heading">
+      <h2 id="quote-heading" class="visually-hidden">코스피200 야간선물·주간선물 실시간 시세</h2>
+
+      <!-- 주간/야간 전환 탭 — 열려 있는 세션이 기본 선택됨(script.js) -->
+      <div class="quote-tabs" id="quote-tabs" role="tablist" aria-label="선물 세션 선택" hidden>
+        <button type="button" class="quote-tab" data-tab="day" role="tab" aria-selected="false">주간선물</button>
+        <button type="button" class="quote-tab is-active" data-tab="night" role="tab" aria-selected="true">야간선물</button>
+      </div>
+
+      <article class="hero-card is-down" id="hero-card" aria-live="polite">
+        <header class="hero-card__head">
+          <span class="hero-card__label">코스피200 야간선물</span>
+          <div class="hero-card__head-right">
+            <span class="fetch-badge" id="hero-fetch-badge"></span>
+          </div>
+        </header>
+
+        <div class="hero-card__body">
+          <div class="hero-card__price" id="hero-price">877.32</div>
+          <div class="hero-card__change" id="hero-change"><span class="change-arrow">▼</span> <span class="change-abs">-13.12</span> <span class="change-pct">(-1.47%)</span></div>
+        </div>
+
+        <!-- 야간선물 인트라데이 차트 (script.js 가 SVG 주입; 데이터 없으면 숨김) -->
+        <div class="hero-chart" id="hero-chart" hidden></div>
+
+        <!-- OHLC + 전일 종가 + 추가 정보 -->
+        <dl class="hero-card__stats" id="hero-stats"><div class="stat"><dt>시가</dt><dd id="stat-open">894.68</dd></div><div class="stat"><dt>고가</dt><dd id="stat-high">907.48</dd></div><div class="stat"><dt>저가</dt><dd id="stat-low">871.12</dd></div><div class="stat"><dt>전일</dt><dd id="stat-prev">890.44</dd></div><div class="stat"><dt>거래량</dt><dd id="stat-vol">51,798</dd></div><div class="stat"><dt>미결제</dt><dd id="stat-oi">—</dd></div></dl>
+
+        <footer class="hero-card__foot">
+          <span class="hero-card__time" id="hero-time">마지막 갱신 05:20 KST · 거래중</span>
+        </footer>
+      </article>
+    </section>
+
+    <!-- 내일 코스피 최대 영향 뉴스 한 줄 (AI 종합) -->
+    <section class="section section--impact" aria-labelledby="impact-heading" id="impact-section">
+      <h2 id="impact-heading" class="visually-hidden">내일 코스피 핵심 변수</h2>
+      <div class="impact-headline" id="impact-headline" aria-live="polite">
+        <span class="impact-headline__tag">내일 코스피 핵심</span>
+        <p class="impact-headline__text" id="impact-headline-text">코스피200 야간선물, 미국 중간선거 민주당 승리 및 유가 급락에 하락세 지속</p>
+        <span class="impact-headline__time muted small" id="impact-headline-time"></span>
+        <div class="impact-headline__sources" id="impact-headline-sources"></div>
+      </div>
+    </section>
+
+    <!-- 주요 대형주 — 값이 없으면 script.js 가 섹션째 숨김.
+         지수 다음으로 관심도가 높아 참고 지표보다 위에 둔다.
+         반도체 6종 + 현대차. 현대차가 들어가면서 '반도체 대형주'로는 이름이 맞지 않아
+         '주요 대형주'로 바꿨다(id/클래스는 semi* 를 유지 — CSS·JS 전반이 물려 있다). -->
+    <section class="section" aria-labelledby="semis-heading" id="semis-section" hidden>
+      <h2 id="semis-heading">주요 대형주</h2>
+      <div class="semi-grid" id="semi-grid" aria-live="polite"></div>
+    </section>
+
+    <!-- 밤사이 브리핑 — script.js 가 briefings/index.json 으로 채운다.
+         가장 새 콘텐츠인데 여태 푸터 링크 하나뿐이라 홈에서 보이지 않았다.
+         채우기 전까지 hidden 이라 브리핑이 없으면 빈 상자가 남지 않는다. -->
+    <a class="brief-teaser" id="brief-teaser" href="/news" hidden>
+      <div class="brief-teaser__head">
+        <span class="brief-teaser__label" id="brief-label">밤사이 요약</span>
+        <span class="brief-teaser__date" id="brief-date">—</span>
+      </div>
+      <dl class="brief-teaser__nums" id="brief-nums"></dl>
+      <div class="brief-teaser__more" id="brief-more">브리핑 읽기 ›</div>
+    </a>
+
+    <!-- 밤사이 통계 한 줄 — 홈에 주장을 크게 박으면 시세 사이트가 아니라
+         주장 사이트가 된다. 한 줄만 걸고 본문은 전용 페이지에서 읽게 한다. -->
+    <a class="stat-teaser" href="content/overnight-effect">
+      <div class="stat-teaser__head">코스피200 상승분의 대부분은 밤사이에 만들어졌습니다</div>
+      <div class="stat-teaser__sub">567거래일을 '밤사이'와 '장중'으로 나눠 누적한 결과 — 계산 방법과 한계도 함께 정리했습니다</div>
+      <div class="stat-teaser__more">분석 보기 ›</div>
+    </a>
+
+    <!-- 보조 지표 그리드 (해외증시 / 환율 / 원자재) -->
+    <section class="section" aria-labelledby="indicators-heading">
+      <h2 id="indicators-heading">참고 지표</h2>
+      <div class="indicator-grid" id="indicator-grid" aria-live="polite">
+        <!-- script.js 가 채웁니다 -->
+        <article class="indicator-card is-up"><h3 class="indicator-card__label">코스피200</h3><div class="indicator-card__price">889.25</div><div class="indicator-card__change"><span class="change-arrow">▲</span> <span class="change-pct">+0.40%</span></div></article><article class="indicator-card is-up"><h3 class="indicator-card__label">S&amp;P 500</h3><div class="indicator-card__price">7,702.94</div><div class="indicator-card__change"><span class="change-arrow">▲</span> <span class="change-pct">+1.77%</span></div></article><article class="indicator-card is-up"><h3 class="indicator-card__label">나스닥</h3><div class="indicator-card__price">25,801.86</div><div class="indicator-card__change"><span class="change-arrow">▲</span> <span class="change-pct">+1.69%</span></div></article><article class="indicator-card is-up"><h3 class="indicator-card__label">다우</h3><div class="indicator-card__price">53,374.94</div><div class="indicator-card__change"><span class="change-arrow">▲</span> <span class="change-pct">+3.07%</span></div></article><article class="indicator-card is-down"><h3 class="indicator-card__label">VIX</h3><div class="indicator-card__price">16.83</div><div class="indicator-card__change"><span class="change-arrow">▼</span> <span class="change-pct">-19.20%</span></div></article><article class="indicator-card is-flat"><h3 class="indicator-card__label">USD/KRW</h3><div class="indicator-card__price">1,341.30</div><div class="indicator-card__change"><span class="change-arrow">▬</span> <span class="change-pct">-0.35%</span></div></article><article class="indicator-card is-down"><h3 class="indicator-card__label">WTI 원유</h3><div class="indicator-card__price">88.49</div><div class="indicator-card__change"><span class="change-arrow">▼</span> <span class="change-pct">-7.91%</span></div></article>
+      </div>
+      <p class="muted small">
+        시세는 약 60초 캐시 기준으로 갱신됩니다.
+      </p>
+    </section>
+
+    <!-- 뉴스 요약 섹션 (AI 요약, 주제별 카드) -->
+    <section class="section" aria-labelledby="news-heading">
+      <div class="news-head">
+        <h2 id="news-heading">밤사이 시장 요약</h2>
+        <div class="news-head__meta">
+          <span class="news-meta-line muted small" id="news-asof">갱신 기준 05:03 KST</span>
+          <span class="fetch-badge" id="news-fetch-badge"></span>
+        </div>
+      </div>
+      <div id="news-topics" class="news-topics" aria-live="polite">
+        <!-- script.js 가 주제별 카드를 채움 -->
+        <article class="news-topic"><header class="news-topic__head"><h3 class="news-topic__title">미국 증시</h3></header><ul class="news-topic__bullets"><li>미국 중간선거에서 민주당이 상·하원을 모두 장악하며 달러 약세 및 금값 2%대 급등</li><li>S&amp;P 500은 7,702.99로 1.77% 상승, 나스닥은 25,800.05로 1.69% 상승하며 거래 중</li></ul></article><article class="news-topic"><header class="news-topic__head"><h3 class="news-topic__title">원자재</h3></header><ul class="news-topic__bullets"><li>WTI 원유는 중동 전쟁 위험 프리미엄 축소로 7.91% 급락한 88.49달러에 거래 중</li></ul></article><article class="news-topic"><header class="news-topic__head"><h3 class="news-topic__title">환율</h3></header><ul class="news-topic__bullets"><li>원/달러 환율은 1,341.8원으로 0.31% 하락하며 달러 약세 지속</li></ul></article>
+      </div>
+      <p class="muted small">
+        뉴스는 공개된 언론 보도를 자동 수집해 AI로 주제별 요약하며, 각 요약에는 출처와 원문 링크를 함께 제공합니다.
+        야간세션 1시간 / 주간 2시간 간격 자동 갱신. 정보 제공 목적이며 투자 권유가 아닙니다.
+      </p>
+    </section>
+
+    <!-- 홈 안내 콘텐츠 (정적 원문 — 처음 방문자를 위한 가이드) -->
+    <section class="section" aria-labelledby="guide-heading">
+      <article class="content-article">
+        <h2 id="guide-heading">코스피200 야간선물, 처음이라면 여기부터</h2>
+        <p class="lead">
+          이 페이지는 한국 정규장이 끝난 밤사이 코스피200 야간선물이 어떻게 움직이는지를 한 화면에서 보여주기 위해 만들었습니다.
+          위쪽의 실시간 시세와 차트는 현재가를, 아래 안내는 그 숫자를 어떻게 읽고 무엇을 참고하면 되는지를 설명합니다.
+          야간선물이 처음이라면 아래 내용을 먼저 읽고 나서 시세를 보면 훨씬 이해가 빠릅니다.
+        </p>
+
+        <h3>야간선물이 정규장 마감 뒤에도 거래되는 이유</h3>
+        <p>
+          코스피200 선물은 코스피200 지수를 기초자산으로 하는 파생상품으로, 한국거래소(KRX) 정규장에서는 평일 오전 9시부터
+          오후 3시 45분까지 거래됩니다. 문제는 한국이 잠든 사이에도 미국 증시가 열리고 환율·국제유가·지정학 이슈가 계속 움직인다는 점입니다.
+          야간선물은 이 "공백 시간"을 메우는 시장으로, 밤사이 쏟아지는 글로벌 변수를 가격에 실시간으로 반영해 다음 날 코스피가 어느 방향으로
+          출발할지 가늠하는 선행 지표로 쓰입니다. 2025년 6월 9일부터는 과거의 EUREX(유렉스) 연계가 종료되고 한국거래소가 직접 운영하는
+          야간시장(나이트세션)으로 바뀌어, 평소 쓰던 국내 선물·옵션 계좌로 그대로 거래합니다. 더 자세한 개념과 구조는
+          <a href="content/about">야간선물이란?</a>
+        <a href="content/overnight-effect">밤사이 통계</a> 페이지에 정리해 두었습니다.
+        </p>
+
+        <h3>거래 시간 — 저녁 6시부터 다음 날 새벽 6시까지</h3>
+        <p>
+          야간선물은 평일 저녁 6시(18:00)부터 다음 날 새벽 6시(익일 06:00)까지 거래됩니다(한국 시간 기준). 이 시간대는 유럽 장 후반부터
+          미국 정규장 전체를 포괄하기 때문에 글로벌 증시의 핵심 변동성을 대부분 담아냅니다. 특히 미국 연준(Fed)의 FOMC 결과처럼 한국 새벽에
+          발표되는 중대한 이벤트도 즉시 가격에 반영됩니다. 정규장·미국 증시 시간과 함께 본 시간표 비교는
+          <a href="content/trading-hours">거래 시간대</a> 페이지에서 확인할 수 있습니다.
+        </p>
+
+        <h3>시세 화면을 읽는 법</h3>
+        <p>
+          화면 상단의 큰 숫자가 현재가이고, 그 아래 등락 폭과 등락률이 전일 정산가 대비 얼마나 오르내렸는지를 보여줍니다.
+          상승은 빨강, 하락은 파랑으로 표시되며, 차트의 점선은 전일 정산가(음양 기준선)입니다. 시가·고가·저가·거래량·미결제약정 같은
+          보조 수치가 무엇을 뜻하는지, 거래승수 1포인트당 25만 원이 손익에 어떻게 연결되는지는
+          <a href="content/how-to-read">시세 보는 법</a>과 <a href="content/how-to-trade">거래 방법</a> 페이지에서 자세히 설명합니다.
+          실제로 거래를 시작하려면 무엇이 필요한지(사전교육·모의거래·기본예탁금)와 증권사를 고르는 기준은
+          <a href="content/broker-guide">거래 시작하기</a> 페이지에 정리했습니다.
+        </p>
+
+        <h3>무엇이 야간선물을 움직이나 — 미국 증시·FOMC·환율</h3>
+        <p>
+          밤사이 미국 증시가 강하게 오르면 야간선물도 상승해 다음 날 코스피의 갭 상승 가능성을 시사하고, 반대로 미국 증시 급락이나 악재가
+          나오면 야간선물이 먼저 하락해 위험 신호를 보냅니다. 원/달러 환율 급변과 국제유가 충격도 빠르게 선반영됩니다. 미국 통화정책이
+          야간선물에 미치는 영향은 <a href="content/fomc-impact">FOMC 영향</a>, 환율과의 관계는
+          <a href="content/fx-and-night-futures">환율과 야간선물</a> 페이지에서 다룹니다. 다만 야간선물의 방향이 다음 날 코스피와 항상
+          일치하는 것은 아니므로, "확정된 예측"이 아니라 "방향을 읽는 참고 지표"로 보는 것이 맞습니다.
+        </p>
+
+        <p>
+          이 사이트의 시세·뉴스는 정보 제공을 위한 것이며 투자 자문이나 매매 권유가
+          아닙니다. 모든 투자 판단과 책임은 이용자 본인에게 있으니, 실제 거래 전에는 한국거래소와 본인 증권사의 최신 공지를 반드시 확인하시기 바랍니다.
+        </p>
+      </article>
+    </section>
+
+    <!-- 자주 묻는 질문 (홈 노출 — 상세는 /content/faq) -->
+    <section class="section" aria-labelledby="home-faq-heading">
+      <h2 id="home-faq-heading">야간선물 자주 묻는 질문</h2>
+
+      <details class="faq-item" open>
+        <summary>Q. 코스피 야간선물이란 무엇인가요?</summary>
+        <div class="faq-body">
+          <p>
+            코스피200 지수를 기초자산으로 하는 선물의 야간 거래 세션입니다. 한국 정규장이 끝난 뒤에도
+            미국 증시·환율·국제 이슈를 즉시 가격에 반영하기 때문에, 다음 날 코스피가 어느 방향으로 출발할지
+            가늠하는 선행 지표로 자주 쓰입니다. 자세한 설명은 <a href="content/about">야간선물이란?</a> 페이지에 있습니다.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Q. 야간선물 거래시간은 언제인가요?</summary>
+        <div class="faq-body">
+          <p>
+            한국시간 기준 평일 저녁 6시(18:00)부터 다음 날 새벽 6시(익일 06:00)까지입니다.
+            주간 정규장(09:00~15:45)이 끝난 뒤 이어서 열리며, 주말과 휴장일에는 거래되지 않습니다.
+            정규장·미국 증시 시간과 비교한 표는 <a href="content/trading-hours">거래 시간대</a> 페이지에 정리했습니다.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Q. 야간선물을 보면 다음 날 코스피를 알 수 있나요?</summary>
+        <div class="faq-body">
+          <p>
+            방향을 가늠하는 데는 도움이 되지만 확정된 예측은 아닙니다. 밤사이 미국 증시가 강하면 야간선물도
+            올라 다음 날 갭 상승 가능성을 시사하지만, 개장 직전 뉴스나 외국인·기관 수급에 따라 방향이 바뀌기도 합니다.
+            어디까지나 참고 지표로 보시는 것이 맞습니다.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Q. 이 사이트 시세는 실시간인가요? 무료인가요?</summary>
+        <div class="faq-body">
+          <p>
+            회원가입 없이 무료로 제공하며, 야간세션 중에는 실시간 체결 데이터를 받아 약 1분 간격으로 갱신합니다.
+            다만 네트워크·캐시 사정에 따라 지연되거나 오차가 있을 수 있으므로, 실제 주문은 반드시 본인 증권사의
+            정식 시세를 확인하고 진행하세요.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Q. 밤사이 뉴스 요약은 어떻게 만들어지나요?</summary>
+        <div class="faq-body">
+          <p>
+            공개된 언론 보도를 자동으로 수집한 뒤 AI가 주제별(미국 증시·환율·원자재·FOMC 등)로 요약합니다.
+            각 요약에는 출처와 원문 링크를 함께 표시하며, 야간세션 중에는 약 1시간 간격으로 갱신됩니다.
+            정보 제공 목적이며 투자 권유가 아닙니다.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Q. 개인 투자자도 야간선물을 거래할 수 있나요?</summary>
+        <div class="faq-body">
+          <p>
+            가능하지만 일반 주식 계좌가 아닌 파생상품 계좌가 필요하고, 사전교육·모의거래 이수와
+            기본예탁금 요건이 있습니다. 거래 단위가 큰 편이라 미니 선물부터 접근하는 경우가 많습니다.
+            요건과 증권사 선택 기준은 <a href="content/broker-guide">거래 시작하기</a> 페이지를 참고하세요.
+          </p>
+        </div>
+      </details>
+
+      <p class="muted small">
+        더 많은 질문과 자세한 답변은 <a href="content/faq">FAQ 페이지</a>에 정리해 두었습니다.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-nav" aria-label="콘텐츠 페이지">
+        <a href="/news">지난 브리핑</a>
+        <a href="content/about">야간선물이란?</a>
+        <a href="content/how-to-read">시세 보는 법</a>
+        <a href="content/how-to-trade">거래 방법</a>
+        <a href="content/broker-guide">거래 시작하기</a>
+        <a href="content/fomc-impact">FOMC 영향</a>
+        <a href="content/fx-and-night-futures">환율과 야간선물</a>
+        <a href="content/trading-hours">거래 시간대</a>
+        <a href="content/glossary">용어 사전</a>
+        <a href="content/cautions">투자 주의점</a>
+        <a href="content/faq">FAQ</a>
+        <a href="content/about-us">운영자 소개</a>
+        <a href="content/privacy">개인정보처리방침</a>
+      </nav>
+      <nav class="footer-nav footer-nav--stocks" aria-label="종목별 야간 시세">
+        <span class="footer-nav__label">종목별 야간 시세</span>
+        <a href="content/samsung-night">삼성전자</a>
+        <a href="content/skhynix-night">SK하이닉스</a>
+        <a href="content/hanmi-night">한미반도체</a>
+        <a href="content/semco-night">삼성전기</a>
+        <a href="content/sk-square-night">SK스퀘어</a>
+        <a href="content/lg-innotek-night">LG이노텍</a>
+        <a href="content/hyundai-night">현대차</a>
+        <a href="content/lgensol-night">LG에너지솔루션</a>
+      </nav>
+      <p class="disclaimer">
+        본 사이트는 정보 제공 목적이며 투자 자문이나 매매 권유가 아닙니다. 모든 투자 판단과 책임은 이용자 본인에게 있습니다.
+        시세·뉴스 데이터는 외부 출처에서 제공되며 지연되거나 부정확할 수 있습니다.
+      </p>
+      <p class="copyright">© <span id="year"></span> kospi-night. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js?v=20260923a"></script>
+  <!-- 카카오 애드핏 로더 (모든 .kakao_ad_area 단위 공통) -->
+  <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
+</body>
+</html>

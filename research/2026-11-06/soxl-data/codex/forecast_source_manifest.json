@@ -1,0 +1,114 @@
+[
+  {
+    "name": "stockanalysis_soxl",
+    "url": "https://stockanalysis.com/etf/soxl/history/",
+    "checked_kst": "2026-11-06T10:46:23.799354+09:00",
+    "status": 403,
+    "bytes": 5469,
+    "sha256": "757c22491f77dcbeb3c18f5741343fa58e7fafe241fb4a2b4f84f4a42389fd14"
+  },
+  {
+    "name": "direxion",
+    "url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs",
+    "checked_kst": "2026-11-06T10:46:23.799715+09:00",
+    "status": 403,
+    "bytes": 5595,
+    "sha256": "38e3289d4a94a08547dba0bc18f3b74ba9a69de9c5f4d1446b9a5fe508f3ed0e"
+  },
+  {
+    "name": "bls_schedule",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "checked_kst": "2026-11-06T10:46:23.799964+09:00",
+    "status": 403,
+    "bytes": 1323,
+    "sha256": "debfc8022acba36276f468d289b2b3b14cb74b34152999316102ce15898c9f69"
+  },
+  {
+    "name": "fed_schedule",
+    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "checked_kst": "2026-11-06T10:46:23.800500+09:00",
+    "status": 200,
+    "bytes": 103938,
+    "sha256": "9e388cd7d46d39caa4a21c12bca03536d4426cd914f7dde9bbc64100439ef8ed"
+  },
+  {
+    "name": "umich",
+    "url": "https://www.sca.isr.umich.edu/",
+    "checked_kst": "2026-11-06T10:46:23.800836+09:00",
+    "status": 200,
+    "bytes": 7198,
+    "sha256": "2ee1a2922178dfbc899e52dce328300f9fa023f8990a5441a0883d613e195fac"
+  },
+  {
+    "name": "qcom",
+    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom092726erex991.htm",
+    "checked_kst": "2026-11-06T10:46:23.917193+09:00",
+    "status": 403,
+    "bytes": 4819,
+    "sha256": "2c094e42f8d5b12f7a1929d04ac4e8e16964eb52a4074090613b8e3ed270b64a"
+  },
+  {
+    "name": "arm",
+    "url": "https://newsroom.arm.com/news/arm-q2-fye27-results",
+    "checked_kst": "2026-11-06T10:46:23.996437+09:00",
+    "status": 200,
+    "bytes": 627333,
+    "sha256": "ddb4b472a62c822dbfbe199d59d7b388d650d0d333e8a68144a984b2d5c7da1b"
+  },
+  {
+    "name": "microchip",
+    "url": "https://ir.microchip.com/news-events/press-releases/detail/1426/microchip-technology-announces-financial-results-for-second-quarter-of-fiscal-year-2027",
+    "checked_kst": "2026-11-06T10:46:24.106462+09:00",
+    "status": 200,
+    "bytes": 331063,
+    "sha256": "110f990535bd7d9400efd70418ca694bb2eb4e296775defd0acb76a077c1703f"
+  },
+  {
+    "name": "reuters_close",
+    "url": "https://ca.marketscreener.com/news/trading-day-a-november-5-market-bonfire-ce785fddda8ff126",
+    "checked_kst": "2026-11-06T10:46:24.151514+09:00",
+    "status": 403,
+    "bytes": 466,
+    "sha256": "ebcbd23d94ebd9dc577926ba607222d00e84e2394ca78d5dc83662dcaee7eb09"
+  },
+  {
+    "name": "soxx_split",
+    "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526430480/d156277d497.htm",
+    "checked_kst": "2026-11-06T10:46:24.196858+09:00",
+    "status": 403,
+    "bytes": 4819,
+    "sha256": "246410dfad7df0462e43bf4a9c3dff84118bcd1b1fc10be8a763d76feb963eb0"
+  },
+  {
+    "name": "bis_policy",
+    "url": "https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+    "checked_kst": "2026-11-06T10:46:24.282357+09:00",
+    "status": 200,
+    "bytes": 63334,
+    "sha256": "78a277398331138009759d7a750e272d53435f76abbffff0b299198bd1943c10"
+  },
+  {
+    "name": "nyse",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "checked_kst": "2026-11-06T10:46:24.302791+09:00",
+    "status": 200,
+    "bytes": 125149,
+    "sha256": "2c6f8ae8dd967da402318e46b20c98a30e20b551ce7482ce8d6d7a15a059eadd"
+  },
+  {
+    "name": "nasdaq_info",
+    "url": "https://api.nasdaq.com/api/quote/SOXL/info?assetclass=etf",
+    "checked_kst": "2026-11-06T10:46:24.347750+09:00",
+    "status": 200,
+    "bytes": 913,
+    "sha256": "ccddab43c059f88d372f0ae5fc435d797bb252ddd3982a54b041ab8518cb415a"
+  },
+  {
+    "name": "nasdaq_summary",
+    "url": "https://api.nasdaq.com/api/quote/SOXL/summary?assetclass=etf",
+    "checked_kst": "2026-11-06T10:46:24.596934+09:00",
+    "status": 200,
+    "bytes": 1163,
+    "sha256": "a1f69356297310ea505827d97ee90e5e0679b47a349d2093a4f25938bd1ad243"
+  }
+]

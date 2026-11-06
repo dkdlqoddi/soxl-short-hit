@@ -1,0 +1,59 @@
+{
+  "job_id": "koru-review-codex",
+  "kind": "review",
+  "ticker": "KORU",
+  "model": "Codex Astra Max",
+  "date": "2026-11-06",
+  "reviewed_date": "2026-11-05",
+  "repo_path": "research/2026-11-06/koru-review-codex.md",
+  "vault_path": "PERSONAL/STOCK/KORU/2026-11-05-review-codex-astra-max.md",
+  "vault_written": false,
+  "title": "[KORU] 2026-11-05 24시간 예측 사후 평가 — Codex Astra Max",
+  "summary": "만기 전 마지막 완료 1분봉은 Claude $6.38(-39.92%), Codex $6.34(-40.19%), Argon $6.3501(-39.98%)로 세 모델 모두 방향은 적중했지만 중심가·하방 가격 범위는 미적중했다. 한국장 급락과 미국 반도체 추가 충격을 분리하고 재검토선 이탈 시 가격 범위를 다시 산정해야 한다.",
+  "scores": [
+    {
+      "model": "Claude Fable Max",
+      "note": "research/2026-11-05/koru-forecast-24h-claude.md",
+      "base_time_kst": "2026-11-05 07:38",
+      "base_price": 10.62,
+      "call": "하락 소폭 우세 (상승 약 45%)",
+      "expiry_kst": "2026-11-06 07:40",
+      "expiry_price": 6.38,
+      "change_pct": -39.92467,
+      "verdict": "적중",
+      "comment": "방향 적중; 중심·종가 대비 상승은 미적중. D 조건은 발생했으나 $8.80 하단도 미달; 원문 만기 24시간 2분."
+    },
+    {
+      "model": "Codex Astra Max",
+      "note": "research/2026-11-05/koru-forecast-24h-codex.md",
+      "base_time_kst": "2026-11-05 07:33",
+      "base_price": 10.6,
+      "call": "중립에 가까운 약한 하락 우세 (상승 약 45%)",
+      "expiry_kst": "2026-11-06 07:33",
+      "expiry_price": 6.34,
+      "change_pct": -40.188679,
+      "verdict": "적중",
+      "comment": "방향 적중; 중심·종가 대비 중립은 미적중. 하락 분류와 두 15분봉 확인은 성립했으나 $9.20 대표 하단을 크게 하회."
+    },
+    {
+      "model": "Antigravity Argon High",
+      "note": "research/2026-11-05/koru-forecast-24h-argon.md",
+      "base_time_kst": "2026-11-05 07:31",
+      "base_price": 10.58,
+      "call": "하락 소폭 우세 (상승 약 44%)",
+      "expiry_kst": "2026-11-06 07:31",
+      "expiry_price": 6.3501,
+      "change_pct": -39.980151,
+      "verdict": "적중",
+      "comment": "방향 적중; 중심·종가 대비 중립은 미적중. $10.23/$10.03 이탈은 유효했으나 $9.10 하방 범위도 하회."
+    }
+  ],
+  "lessons": [
+    "한국장 마감과 미국장 첫 두 15분봉 뒤에 새 기준가·중심가·범위를 별도 예측으로 저장한다.",
+    "하방 분류 적중과 가격 범위 적중을 분리하고, 범위 하단 이탈 시 기존 범위의 무효를 기록한다.",
+    "과매도 반등에는 한국 반도체·외국인 현물 수급·EWY·분할 보정 SOXX의 회복 확인 조건을 붙인다.",
+    "만기 전 마지막 완료봉·KST/EST·시장·공급자·분할을 고정하고 시세 공백과 종가 차이를 공개한다.",
+    "방향 적중과 매매 성과를 분리하고 왕복 비용 0.5% 및 실제 체결 여부를 함께 기록한다."
+  ],
+  "own_note_updated": false
+}

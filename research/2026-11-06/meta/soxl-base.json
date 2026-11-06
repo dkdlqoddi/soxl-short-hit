@@ -1,0 +1,17 @@
+{
+  "ticker": "SOXL",
+  "base_time_kst": "2026-11-06 10:42",
+  "expiry_kst": "2026-11-07 10:42",
+  "base_session": "closed",
+  "snapshot": {
+    "symbol": "SOXL",
+    "price": 43.5901,
+    "bar_time_kst": "2026-11-06 09:59",
+    "bar_time_et": "11/05 19:59 EST",
+    "session": "aftermarket",
+    "prev_close": NaN,
+    "prev_close_date": "2026-11-05",
+    "vs_prev_close_pct": NaN
+  },
+  "run_id": "20261106-094235"
+}

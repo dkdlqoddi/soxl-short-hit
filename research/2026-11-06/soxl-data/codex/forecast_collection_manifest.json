@@ -1,0 +1,1230 @@
+[
+  {
+    "symbol": "AMD",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:39.891726+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4444,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {},
+    "sha256": "e48f5970632ba0cb2690d5e2203e4fd9a3387609f38e75491ff2ab64826d13ad",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/AMD_5d_1m.json"
+  },
+  {
+    "symbol": "NVDA",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:39.867723+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4627,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:58+00:00",
+    "events": {},
+    "sha256": "d694a32f064c55467cc1df7147c47fe1584486894dfc0c7c8582c0c95b0f99bf",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/NVDA_5d_1m.json"
+  },
+  {
+    "symbol": "AVGO",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:39.829568+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 3974,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {},
+    "sha256": "5c215b82d3abd082aee8b0769264cb71aa24b5835829c52858efc35d2826e1c0",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/AVGO_5d_1m.json"
+  },
+  {
+    "symbol": "SOXX",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:39.906394+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4073,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {
+      "splits": {
+        "1793889000": {
+          "date": 1793889000,
+          "numerator": 3.0,
+          "denominator": 1.0,
+          "splitRatio": "3:1"
+        }
+      }
+    },
+    "sha256": "61612182c226f1cce3ec93ac3b2fe2af665c43d44d01115af0ed7f24306b494f",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXX_5d_1m.json"
+  },
+  {
+    "symbol": "SMH",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:39.859396+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 3726,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:48+00:00",
+    "events": {},
+    "sha256": "37580d5c59204fa000a5e4055b2541548cd1bffc40586b2b59d6eebe6fd60fe0",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SMH_5d_1m.json"
+  },
+  {
+    "symbol": "SOXL",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:39.879130+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4670,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {},
+    "sha256": "6802c938673747953c0bbaf06018dae26c4c52c075df69e0629a4535d789f182",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXL_5d_1m.json"
+  },
+  {
+    "symbol": "TSM",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:40.749536+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4236,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:52+00:00",
+    "events": {},
+    "sha256": "9fe43e2bc073c56c42c6ee119bc3a45a4dbfc2c61ba3d1b8de2c2c92daf06653",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/TSM_5d_1m.json"
+  },
+  {
+    "symbol": "QCOM",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:40.827434+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 3016,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:50+00:00",
+    "events": {},
+    "sha256": "f716abec1edbacf1d58cde92047610ea44a36538cd0bd75d43a020eae90b0bca",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/QCOM_5d_1m.json"
+  },
+  {
+    "symbol": "ARM",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:40.839089+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 3464,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:51+00:00",
+    "events": {},
+    "sha256": "7869b0330feead2f2e8893f63e770c2f2dd33fcc4a5ea98002f363fc577cab86",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/ARM_5d_1m.json"
+  },
+  {
+    "symbol": "MU",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:40.849878+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4675,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:58+00:00",
+    "events": {},
+    "sha256": "1ffe9f13840093fc246ce1e0f6e90e54a40b4d158397a155443912b37e86b4b6",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/MU_5d_1m.json"
+  },
+  {
+    "symbol": "QQQ",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:40.844179+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 4630,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {},
+    "sha256": "46bd76fc002512ce436d280be7feaa8220f15429fcf7dcc9a543653a1bfe389f",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/QQQ_5d_1m.json"
+  },
+  {
+    "symbol": "^VIX",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.379509+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 3961,
+    "first": "2026-10-30 07:15:00+00:00",
+    "last": "2026-11-05 21:15:00+00:00",
+    "events": {},
+    "sha256": "ca1400ed35c2e6af52a004a2d07dc021e9f87795ea1657dc31492aa1dad4cf08",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/VIX_5d_1m.json"
+  },
+  {
+    "symbol": "^TNX",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.442250+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 2000,
+    "first": "2026-10-30 12:20:00+00:00",
+    "last": "2026-11-05 19:59:00+00:00",
+    "events": {},
+    "sha256": "7a94960e1210d09d3abaac8f776d64ff33d4349b002d0c4237ef26550276df57",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/TNX_5d_1m.json"
+  },
+  {
+    "symbol": "NQ=F",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.392051+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ%3DF?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 5902,
+    "first": "2026-11-01 23:10:00+00:00",
+    "last": "2026-11-06 01:34:39+00:00",
+    "events": {},
+    "sha256": "1f06e1abfced76a8a209240d4586395e5a8a9088ab93b21325bfe314a92a6182",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/NQ_F_5d_1m.json"
+  },
+  {
+    "symbol": "DX-Y.NYB",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.557833+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 5912,
+    "first": "2026-11-01 23:00:00+00:00",
+    "last": "2026-11-06 01:34:39+00:00",
+    "events": {},
+    "sha256": "11258e0dec828f3d3bf1aa979c3c4eb6516c792dd5422da4ed62e8a394c57504",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/DX-Y_NYB_5d_1m.json"
+  },
+  {
+    "symbol": "KRW=X",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.569328+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 5862,
+    "first": "2026-11-02 00:00:00+00:00",
+    "last": "2026-11-06 01:44:36+00:00",
+    "events": {},
+    "sha256": "7f2bed838f41111a3d8b95e4fa18150a0b79d27f420cf80d45acbb81cde6016e",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/KRW_X_5d_1m.json"
+  },
+  {
+    "symbol": "ASML",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.930253+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 3401,
+    "first": "2026-10-30 08:00:00+00:00",
+    "last": "2026-11-06 00:57:18+00:00",
+    "events": {},
+    "sha256": "5690f14e400529d12291983395f5561b55ba71edb67c2b7d3fb9d38616eb7c7b",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/ASML_5d_1m.json"
+  },
+  {
+    "symbol": "005930.KS",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:41.975623+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 1526,
+    "first": "2026-11-02 00:00:00+00:00",
+    "last": "2026-11-06 01:24:41+00:00",
+    "events": {},
+    "sha256": "f16b005b7657736565246caa182eae72a30845ead6752f0d71f114c2b6700b1f",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/005930_KS_5d_1m.json"
+  },
+  {
+    "symbol": "^KS11",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:42.007970+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 1526,
+    "first": "2026-11-02 00:00:00+00:00",
+    "last": "2026-11-06 01:24:30+00:00",
+    "events": {},
+    "sha256": "d1ba9e55987013a3152926097273064a03abc4b37a20922125d0d74e0547080e",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/KS11_5d_1m.json"
+  },
+  {
+    "symbol": "000660.KS",
+    "period": "5d",
+    "interval": "1m",
+    "fetched_kst": "2026-11-06T10:44:42.116681+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=1m&includePrePost=true&events=div%2Csplits",
+    "rows": 1526,
+    "first": "2026-11-02 00:00:00+00:00",
+    "last": "2026-11-06 01:24:40+00:00",
+    "events": {},
+    "sha256": "41c9c7aaa046bee9c4e6409a1562deb0fc4fe3b558356f5dcbb785c0a8c847b6",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/000660_KS_5d_1m.json"
+  },
+  {
+    "symbol": "SOXX",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.147936+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {
+      "splits": {
+        "1793889000": {
+          "date": 1793889000,
+          "numerator": 3.0,
+          "denominator": 1.0,
+          "splitRatio": "3:1"
+        }
+      }
+    },
+    "sha256": "5170ba19f814f723ac02b6b0461c2b1587570397f7238508632c71671cf7bee5",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXX_1mo_1d.json"
+  },
+  {
+    "symbol": "SOXL",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.214637+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "d1afb064c4b02ac1338389c73a3bc0fbe116d40b28990e63a5dc40e5cd07e852",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXL_1mo_1d.json"
+  },
+  {
+    "symbol": "SMH",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.341720+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "a6715750bb225a9c0550fa74af19f28870fabbf75b6bb4703869f760f7097a4c",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SMH_1mo_1d.json"
+  },
+  {
+    "symbol": "AMD",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.355770+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "302dba7a8a0276c51e600ce7ff3323c85dc9eb15974d28d787e72c42ae24dedb",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/AMD_1mo_1d.json"
+  },
+  {
+    "symbol": "NVDA",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.409078+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "077883274c2b85aa8cb9d28317d1423bf35ceea8e5d8b07731326fd66d7bc611",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/NVDA_1mo_1d.json"
+  },
+  {
+    "symbol": "MU",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.505778+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {
+      "dividends": {
+        "1791984600": {
+          "amount": 0.15,
+          "date": 1791984600
+        }
+      }
+    },
+    "sha256": "a6859e76682a2a4d6567dc4dd766dc817bce609dd02497967a947f62e1063e02",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/MU_1mo_1d.json"
+  },
+  {
+    "symbol": "AVGO",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.509762+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "a4e1e6c602bad6ede0c1104ddc41b4b6d27cf9154d0b90a83b27d63211829386",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/AVGO_1mo_1d.json"
+  },
+  {
+    "symbol": "TSM",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.563204+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "4d1c22accfa08265dbd6d15b4285d091bd7366d590cb523402b8754d912eaeb6",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/TSM_1mo_1d.json"
+  },
+  {
+    "symbol": "ASML",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.716204+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {
+      "dividends": {
+        "1793107800": {
+          "amount": 2.096,
+          "date": 1793107800
+        }
+      }
+    },
+    "sha256": "ddc9ea30e1ba93b130b8611e67d62f1e753be6376dca55d00b69a1b877f0f9e3",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/ASML_1mo_1d.json"
+  },
+  {
+    "symbol": "ARM",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.751143+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "740d744c26a1ff33c47f38723c8c81a36bbae732e6ad5a783a185fef97c23b92",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/ARM_1mo_1d.json"
+  },
+  {
+    "symbol": "QCOM",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.825477+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QCOM?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "5d958109db7257b3fccffd206ac4d18b3d1195f7a0f5ebc307339fd2f114b048",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/QCOM_1mo_1d.json"
+  },
+  {
+    "symbol": "NQ=F",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.832890+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ%3DF?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 25,
+    "first": "2026-10-05 04:00:00+00:00",
+    "last": "2026-11-06 01:34:41+00:00",
+    "events": {},
+    "sha256": "37445df3be992ed525db226a9de8c1d354a542fd5f21780dd1db6bdf2402d97e",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/NQ_F_1mo_1d.json"
+  },
+  {
+    "symbol": "QQQ",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.847819+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 13:30:00+00:00",
+    "last": "2026-11-05 14:30:00+00:00",
+    "events": {},
+    "sha256": "2f6796b614f01a5eb05ed9dc722aac36ae7f2601c5e4409b03bc1022f8b90489",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/QQQ_1mo_1d.json"
+  },
+  {
+    "symbol": "^VIX",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:42.872701+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 24,
+    "first": "2026-10-05 07:00:00+00:00",
+    "last": "2026-11-05 08:00:00+00:00",
+    "events": {},
+    "sha256": "ab63aebcc0dd9aa4432395f92c1bdf5b03f6cc6659e8d8c380d752a96c8607d3",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/VIX_1mo_1d.json"
+  },
+  {
+    "symbol": "^TNX",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.035457+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 24,
+    "first": "2026-10-05 12:20:00+00:00",
+    "last": "2026-11-05 13:20:00+00:00",
+    "events": {},
+    "sha256": "04fbee643b080d03ef0cb72bbce1abb0f0eac648865ae127d96d3623196cc734",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/TNX_1mo_1d.json"
+  },
+  {
+    "symbol": "KRW=X",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.046661+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KRW%3DX?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 24,
+    "first": "2026-10-05 23:00:00+00:00",
+    "last": "2026-11-06 00:00:00+00:00",
+    "events": {},
+    "sha256": "571d509a22c2fd87c2041f92e70dfac9ce77a8ccb876e1a2199a8985820ec5e3",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/KRW_X_1mo_1d.json"
+  },
+  {
+    "symbol": "DX-Y.NYB",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.175593+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 29,
+    "first": "2026-10-05 04:00:00+00:00",
+    "last": "2026-11-06 01:34:41+00:00",
+    "events": {},
+    "sha256": "d56d7bdc90808bca7e592c835d92d9aa693e500dd01deb58f78f1ae4b7b0b165",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/DX-Y_NYB_1mo_1d.json"
+  },
+  {
+    "symbol": "005930.KS",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.200555+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 00:00:00+00:00",
+    "last": "2026-11-06 00:00:00+00:00",
+    "events": {},
+    "sha256": "efdece5023dc7d9d7f3b04646202e4305ef52af02801efc8ed84db35608a96eb",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/005930_KS_1mo_1d.json"
+  },
+  {
+    "symbol": "000660.KS",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.214235+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 00:00:00+00:00",
+    "last": "2026-11-06 00:00:00+00:00",
+    "events": {},
+    "sha256": "327c4f300d52260d488ac37dd02980ebfe3a1deefb222fb0bfd6db0c49631f54",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/000660_KS_1mo_1d.json"
+  },
+  {
+    "symbol": "^KS11",
+    "period": "1mo",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.220030+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=1mo&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 23,
+    "first": "2026-10-06 00:00:00+00:00",
+    "last": "2026-11-06 00:00:00+00:00",
+    "events": {},
+    "sha256": "f5ace5cac8e013608b45af574e4aadca3bbc9025dfa6b4fe96f864e747636128",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/KS11_1mo_1d.json"
+  },
+  {
+    "symbol": "SOXL",
+    "period": "max",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.428794+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=max&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 201,
+    "first": "2010-04-01 04:00:00+00:00",
+    "last": "2026-11-05 21:00:00+00:00",
+    "events": {
+      "dividends": {
+        "1283313600": {
+          "amount": 0.000133,
+          "date": 1285162200
+        },
+        "1417410000": {
+          "amount": 8.3e-05,
+          "date": 1419345000
+        },
+        "1480568400": {
+          "amount": 0.184267,
+          "date": 1482244200
+        },
+        "1512104400": {
+          "amount": 0.008067,
+          "date": 1513693800
+        },
+        "1527825600": {
+          "amount": 0.0234,
+          "date": 1529415000
+        },
+        "1535774400": {
+          "amount": 0.030133,
+          "date": 1537882200
+        },
+        "1543640400": {
+          "amount": 0.018867,
+          "date": 1545921000
+        },
+        "1551416400": {
+          "amount": 0.0162,
+          "date": 1553002200
+        },
+        "1559361600": {
+          "amount": 0.012933,
+          "date": 1561469400
+        },
+        "1567310400": {
+          "amount": 0.020867,
+          "date": 1569331800
+        },
+        "1575176400": {
+          "amount": 0.0192,
+          "date": 1577111400
+        },
+        "1583038800": {
+          "amount": 0.005267,
+          "date": 1585056600
+        },
+        "1590984000": {
+          "amount": 0.006267,
+          "date": 1592919000
+        },
+        "1606798800": {
+          "amount": 0.0034,
+          "date": 1608647400
+        },
+        "1614574800": {
+          "amount": 0.016,
+          "date": 1616506200
+        },
+        "1638334800": {
+          "amount": 0.014,
+          "date": 1640097000
+        },
+        "1646110800": {
+          "amount": 0.007,
+          "date": 1647955800
+        },
+        "1654056000": {
+          "amount": 0.019,
+          "date": 1655904600
+        },
+        "1662004800": {
+          "amount": 0.04,
+          "date": 1663680600
+        },
+        "1669870800": {
+          "amount": 0.038,
+          "date": 1671546600
+        },
+        "1677646800": {
+          "amount": 0.025,
+          "date": 1679405400
+        },
+        "1685592000": {
+          "amount": 0.038,
+          "date": 1687354200
+        },
+        "1693540800": {
+          "amount": 0.033,
+          "date": 1695130200
+        },
+        "1701406800": {
+          "amount": 0.063,
+          "date": 1703169000
+        },
+        "1709269200": {
+          "amount": 0.035,
+          "date": 1710855000
+        },
+        "1717214400": {
+          "amount": 0.149,
+          "date": 1719322200
+        },
+        "1725163200": {
+          "amount": 0.06,
+          "date": 1727184600
+        },
+        "1733029200": {
+          "amount": 0.077,
+          "date": 1734964200
+        },
+        "1740805200": {
+          "amount": 0.065,
+          "date": 1742909400
+        },
+        "1748750400": {
+          "amount": 0.068,
+          "date": 1750771800
+        },
+        "1756699200": {
+          "amount": 0.01,
+          "date": 1758634200
+        },
+        "1788235200": {
+          "amount": 0.093,
+          "date": 1790083800
+        }
+      },
+      "splits": {
+        "1430452800": {
+          "date": 1432128600,
+          "numerator": 4.0,
+          "denominator": 1.0,
+          "splitRatio": "4:1"
+        },
+        "1614574800": {
+          "date": 1614695400,
+          "numerator": 15.0,
+          "denominator": 1.0,
+          "splitRatio": "15:1"
+        }
+      }
+    },
+    "sha256": "33d4d54a5957daee20b8d1b4d4e2871396ce9a3463bc856b8ffc1ad10997b096",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXL_max_1d.json"
+  },
+  {
+    "symbol": "SMH",
+    "period": "max",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.552540+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=max&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 318,
+    "first": "2000-07-01 04:00:00+00:00",
+    "last": "2026-11-05 21:00:01+00:00",
+    "events": {
+      "dividends": {
+        "1354338000": {
+          "amount": 0.35,
+          "date": 1356359400
+        },
+        "1385874000": {
+          "amount": 0.3295,
+          "date": 1387809000
+        },
+        "1417410000": {
+          "amount": 0.316,
+          "date": 1419258600
+        },
+        "1448946000": {
+          "amount": 0.5705,
+          "date": 1450708200
+        },
+        "1480568400": {
+          "amount": 0.288,
+          "date": 1482157800
+        },
+        "1512104400": {
+          "amount": 0.698,
+          "date": 1513607400
+        },
+        "1543640400": {
+          "amount": 0.819,
+          "date": 1545316200
+        },
+        "1575176400": {
+          "amount": 1.061,
+          "date": 1577111400
+        },
+        "1606798800": {
+          "amount": 0.751,
+          "date": 1608561000
+        },
+        "1638334800": {
+          "amount": 0.7865,
+          "date": 1640010600
+        },
+        "1669870800": {
+          "amount": 1.2005,
+          "date": 1671460200
+        },
+        "1701406800": {
+          "amount": 1.043,
+          "date": 1702909800
+        },
+        "1733029200": {
+          "amount": 1.071,
+          "date": 1734964200
+        },
+        "1764565200": {
+          "amount": 1.105,
+          "date": 1766413800
+        }
+      },
+      "splits": {
+        "1682913600": {
+          "date": 1683293400,
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      }
+    },
+    "sha256": "f6ea9239c143a4ec54301fae5555c7deeb67c94d4de8b1bf42312b2716db4ea3",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SMH_max_1d.json"
+  },
+  {
+    "symbol": "SOXX",
+    "period": "max",
+    "interval": "1d",
+    "fetched_kst": "2026-11-06T10:44:43.606623+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=max&interval=1d&includePrePost=true&events=div%2Csplits",
+    "rows": 305,
+    "first": "2001-08-01 04:00:00+00:00",
+    "last": "2026-11-05 21:00:00+00:00",
+    "events": {
+      "dividends": {
+        "1062388800": {
+          "amount": 0.001333,
+          "date": 1063632600
+        },
+        "1125547200": {
+          "amount": 0.009667,
+          "date": 1127741400
+        },
+        "1149134400": {
+          "amount": 0.012333,
+          "date": 1151069400
+        },
+        "1157083200": {
+          "amount": 0.016667,
+          "date": 1159363800
+        },
+        "1164949200": {
+          "amount": 0.003333,
+          "date": 1166711400
+        },
+        "1172725200": {
+          "amount": 0.021667,
+          "date": 1174915800
+        },
+        "1180670400": {
+          "amount": 0.030667,
+          "date": 1183123800
+        },
+        "1188619200": {
+          "amount": 0.027,
+          "date": 1190813400
+        },
+        "1196485200": {
+          "amount": 0.025,
+          "date": 1198765800
+        },
+        "1212292800": {
+          "amount": 0.046667,
+          "date": 1214227800
+        },
+        "1228107600": {
+          "amount": 0.083,
+          "date": 1229956200
+        },
+        "1243828800": {
+          "amount": 0.042333,
+          "date": 1245677400
+        },
+        "1259643600": {
+          "amount": 0.074,
+          "date": 1261405800
+        },
+        "1275364800": {
+          "amount": 0.071667,
+          "date": 1277127000
+        },
+        "1298955600": {
+          "amount": 0.029667,
+          "date": 1301059800
+        },
+        "1306900800": {
+          "amount": 0.035667,
+          "date": 1308835800
+        },
+        "1314849600": {
+          "amount": 0.042,
+          "date": 1317043800
+        },
+        "1322715600": {
+          "amount": 0.031333,
+          "date": 1324564200
+        },
+        "1330578000": {
+          "amount": 0.035,
+          "date": 1332768600
+        },
+        "1338523200": {
+          "amount": 0.039333,
+          "date": 1340112600
+        },
+        "1346472000": {
+          "amount": 0.078333,
+          "date": 1348579800
+        },
+        "1354338000": {
+          "amount": 0.062667,
+          "date": 1355927400
+        },
+        "1362114000": {
+          "amount": 0.066333,
+          "date": 1364218200
+        },
+        "1370059200": {
+          "amount": 0.043667,
+          "date": 1372253400
+        },
+        "1378008000": {
+          "amount": 0.100333,
+          "date": 1380029400
+        },
+        "1385874000": {
+          "amount": 0.076333,
+          "date": 1387809000
+        },
+        "1393650000": {
+          "amount": 0.069667,
+          "date": 1395754200
+        },
+        "1401595200": {
+          "amount": 0.080667,
+          "date": 1403616600
+        },
+        "1409544000": {
+          "amount": 0.08,
+          "date": 1411565400
+        },
+        "1417410000": {
+          "amount": 0.253667,
+          "date": 1419431400
+        },
+        "1425186000": {
+          "amount": 0.086333,
+          "date": 1427290200
+        },
+        "1433131200": {
+          "amount": 0.085,
+          "date": 1435152600
+        },
+        "1441080000": {
+          "amount": 0.149333,
+          "date": 1443187800
+        },
+        "1448946000": {
+          "amount": 0.064333,
+          "date": 1450967400
+        },
+        "1456808400": {
+          "amount": 0.092,
+          "date": 1458739800
+        },
+        "1464753600": {
+          "amount": 0.099667,
+          "date": 1466515800
+        },
+        "1472702400": {
+          "amount": 0.152333,
+          "date": 1474896600
+        },
+        "1480568400": {
+          "amount": 0.096667,
+          "date": 1482330600
+        },
+        "1488344400": {
+          "amount": 0.117667,
+          "date": 1490362200
+        },
+        "1496289600": {
+          "amount": 0.12,
+          "date": 1498570200
+        },
+        "1504238400": {
+          "amount": 0.166333,
+          "date": 1506432600
+        },
+        "1512104400": {
+          "amount": 0.105667,
+          "date": 1513693800
+        },
+        "1519880400": {
+          "amount": 0.125,
+          "date": 1521725400
+        },
+        "1527825600": {
+          "amount": 0.206667,
+          "date": 1530019800
+        },
+        "1535774400": {
+          "amount": 0.272333,
+          "date": 1537968600
+        },
+        "1543640400": {
+          "amount": 0.113,
+          "date": 1545057000
+        },
+        "1551416400": {
+          "amount": 0.173333,
+          "date": 1553088600
+        },
+        "1559361600": {
+          "amount": 0.252333,
+          "date": 1560778200
+        },
+        "1567310400": {
+          "amount": 0.32,
+          "date": 1569331800
+        },
+        "1575176400": {
+          "amount": 0.287333,
+          "date": 1576506600
+        },
+        "1583038800": {
+          "amount": 0.232,
+          "date": 1585143000
+        },
+        "1590984000": {
+          "amount": 0.187667,
+          "date": 1592227800
+        },
+        "1598932800": {
+          "amount": 0.356333,
+          "date": 1600867800
+        },
+        "1606798800": {
+          "amount": 0.249,
+          "date": 1607956200
+        },
+        "1614574800": {
+          "amount": 0.252,
+          "date": 1616679000
+        },
+        "1622520000": {
+          "amount": 0.170667,
+          "date": 1623331800
+        },
+        "1630468800": {
+          "amount": 0.385667,
+          "date": 1632490200
+        },
+        "1638334800": {
+          "amount": 0.291,
+          "date": 1639405800
+        },
+        "1641013200": {
+          "amount": 0.051667,
+          "date": 1640874600
+        },
+        "1646110800": {
+          "amount": 0.291667,
+          "date": 1648128600
+        },
+        "1654056000": {
+          "amount": 0.209333,
+          "date": 1654781400
+        },
+        "1662004800": {
+          "amount": 0.600667,
+          "date": 1664199000
+        },
+        "1669870800": {
+          "amount": 0.354,
+          "date": 1670941800
+        },
+        "1677646800": {
+          "amount": 0.357333,
+          "date": 1679578200
+        },
+        "1685592000": {
+          "amount": 0.217,
+          "date": 1686144600
+        },
+        "1693540800": {
+          "amount": 0.555333,
+          "date": 1695735000
+        },
+        "1701406800": {
+          "amount": 0.374333,
+          "date": 1703082600
+        },
+        "1709269200": {
+          "amount": 0.225,
+          "date": 1711027800
+        },
+        "1717214400": {
+          "amount": 0.31,
+          "date": 1718112600
+        },
+        "1725163200": {
+          "amount": 0.552,
+          "date": 1727271000
+        },
+        "1733029200": {
+          "amount": 0.358,
+          "date": 1734445800
+        },
+        "1740805200": {
+          "amount": 0.261,
+          "date": 1742304600
+        },
+        "1748750400": {
+          "amount": 0.483,
+          "date": 1750080600
+        },
+        "1756699200": {
+          "amount": 0.541,
+          "date": 1758029400
+        },
+        "1764565200": {
+          "amount": 0.436,
+          "date": 1765895400
+        },
+        "1772341200": {
+          "amount": 0.208,
+          "date": 1773754200
+        },
+        "1780286400": {
+          "amount": 0.283,
+          "date": 1781530200
+        },
+        "1788235200": {
+          "amount": 0.325,
+          "date": 1789479000
+        }
+      },
+      "splits": {
+        "1709269200": {
+          "date": 1709821800,
+          "numerator": 3.0,
+          "denominator": 1.0,
+          "splitRatio": "3:1"
+        },
+        "1793505600": {
+          "date": 1793889000,
+          "numerator": 3.0,
+          "denominator": 1.0,
+          "splitRatio": "3:1"
+        }
+      }
+    },
+    "sha256": "4f918fd510ffddeb33edcfda4c9ef4ac3e7e08c2bea8684547b0b00b950f8d38",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXX_max_1d.json"
+  },
+  {
+    "symbol": "SOXL",
+    "period": "60d",
+    "interval": "5m",
+    "fetched_kst": "2026-11-06T10:44:44.089835+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=60d&interval=5m&includePrePost=true&events=div%2Csplits",
+    "rows": 11067,
+    "first": "2026-08-13 08:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {
+      "dividends": {
+        "1790083800": {
+          "amount": 0.093,
+          "date": 1790083800
+        }
+      }
+    },
+    "sha256": "389475ab39474844eaa510ff468ae93c1352ef15f173d42d06e2072551f49607",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXL_60d_5m.json"
+  },
+  {
+    "symbol": "SOXL",
+    "period": "730d",
+    "interval": "1h",
+    "fetched_kst": "2026-11-06T10:44:44.226169+09:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=730d&interval=1h&includePrePost=true&events=div%2Csplits",
+    "rows": 12139,
+    "first": "2023-12-08 09:00:00+00:00",
+    "last": "2026-11-06 00:59:59+00:00",
+    "events": {
+      "dividends": {
+        "1703169000": {
+          "amount": 0.063,
+          "date": 1703169000
+        },
+        "1710855000": {
+          "amount": 0.035,
+          "date": 1710855000
+        },
+        "1719322200": {
+          "amount": 0.149,
+          "date": 1719322200
+        },
+        "1727184600": {
+          "amount": 0.06,
+          "date": 1727184600
+        },
+        "1734964200": {
+          "amount": 0.077,
+          "date": 1734964200
+        },
+        "1742909400": {
+          "amount": 0.065,
+          "date": 1742909400
+        },
+        "1750771800": {
+          "amount": 0.068,
+          "date": 1750771800
+        },
+        "1758634200": {
+          "amount": 0.01,
+          "date": 1758634200
+        },
+        "1790083800": {
+          "amount": 0.093,
+          "date": 1790083800
+        }
+      }
+    },
+    "sha256": "e6d9f8adb57b424f7658146fd2b1a3deacf0c8afaf939a8dd87259930544cc50",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/SOXL_730d_1h.json"
+  },
+  {
+    "name": "naver_kospi",
+    "url": "https://m.stock.naver.com/api/index/KOSPI/basic",
+    "fetched_kst": "2026-11-06T10:44:44.497039+09:00",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/naver_kospi.json"
+  },
+  {
+    "name": "naver_samsung",
+    "url": "https://m.stock.naver.com/api/stock/005930/basic",
+    "fetched_kst": "2026-11-06T10:44:44.559259+09:00",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/naver_samsung.json"
+  },
+  {
+    "name": "naver_hynix",
+    "url": "https://m.stock.naver.com/api/stock/000660/basic",
+    "fetched_kst": "2026-11-06T10:44:44.651447+09:00",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/naver_hynix.json"
+  },
+  {
+    "name": "nasdaq_soxl",
+    "url": "https://api.nasdaq.com/api/quote/SOXL/historical?assetclass=etf&fromdate=2010-01-01&todate=2026-11-05&limit=10000",
+    "fetched_kst": "2026-11-06T10:44:45.260952+09:00",
+    "path": "/home/dkdlqoddi/012_gemini/soxl-short-hit/research/2026-11-06/soxl-data/codex/forecast_raw/nasdaq_soxl.json"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "vault_path": "PERSONAL/STOCK/SOXL/2026-11-06-codex-astra-max.md",
+  "version": "d4a7e2",
+  "verified_utc": "2026-11-06 02:04:54 UTC",
+  "readback_equal": true,
+  "character_count": 25529,
+  "frontmatter": {
+    "type": "stock-forecast-model",
+    "ticker": "SOXL",
+    "date": "2026-11-06",
+    "horizon": "24h",
+    "model": "Codex Astra Max",
+    "base_time_kst": "2026-11-06 10:42",
+    "base_session": "closed",
+    "base_price": 43.59,
+    "prev_close": 40.87,
+    "forecast_end_kst": "2026-11-07 10:42",
+    "information_cutoff_kst": "2026-11-06 10:42",
+    "stance": "하락 소폭 우세",
+    "up_prob": "45%",
+    "up_prob_vs_prev_close": "62%",
+    "confidence": "낮음",
+    "status": "pending",
+    "tags": [
+      "stock",
+      "forecast-24h",
+      "SOXL",
+      "codex-astra-max"
+    ]
+  },
+  "sha256": "d4a7e25d41f76540c6fc8c60db138641b726ba59edc8a3058432c9f5dd13e343",
+  "verified_kst": "2026-11-06T11:04:54+09:00"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2026-10-30",
+    "old_after_close": 78.0099,
+    "one_min_after_close": 78.0099,
+    "one_min_bar": "2026-10-30 19:59:00-04:00",
+    "added_missing_session": false
+  },
+  {
+    "date": "2026-11-02",
+    "old_after_close": null,
+    "one_min_after_close": 69.76,
+    "one_min_bar": "2026-11-02 19:59:00-05:00",
+    "added_missing_session": true
+  },
+  {
+    "date": "2026-11-03",
+    "old_after_close": null,
+    "one_min_after_close": 72.7,
+    "one_min_bar": "2026-11-03 19:59:00-05:00",
+    "added_missing_session": true
+  },
+  {
+    "date": "2026-11-04",
+    "old_after_close": null,
+    "one_min_after_close": 64.0099,
+    "one_min_bar": "2026-11-04 19:59:00-05:00",
+    "added_missing_session": true
+  },
+  {
+    "date": "2026-11-05",
+    "old_after_close": 43.5901,
+    "one_min_after_close": 43.5901,
+    "one_min_bar": "2026-11-05 19:59:00-05:00",
+    "added_missing_session": false
+  }
+]

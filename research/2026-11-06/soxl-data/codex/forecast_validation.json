@@ -1,0 +1,208 @@
+{
+  "validated_kst": "2026-11-06T11:04:54.694067+09:00",
+  "passed": true,
+  "checks": [
+    {
+      "check": "Metadata exactly matches requested field set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Numeric metadata is finite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Forecast expiry exactly 24 hours after base",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Base and expiry EST conversions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "H1 agrees with metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exactly seven guide sections",
+      "passed": true,
+      "detail": [
+        [
+          "1",
+          "핵심 결론 요약"
+        ],
+        [
+          "2",
+          "시세 및 기술적·구조적 현황"
+        ],
+        [
+          "3",
+          "정량 백테스트 및 레짐 대조"
+        ],
+        [
+          "4",
+          "핵심 근거 및 향후 24시간 일정"
+        ],
+        [
+          "5",
+          "시나리오 및 재검토 기준"
+        ],
+        [
+          "6",
+          "사후 결과 복기"
+        ],
+        [
+          "7",
+          "출처 및 원본 참조"
+        ]
+      ]
+    },
+    {
+      "check": "Repository and vault frontmatter agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Forecast remains pending",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Frontmatter prices and probabilities agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Vault full body equals repository except wiki header",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Required wiki links present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Scenario sum and both threshold probabilities",
+      "passed": true,
+      "detail": [
+        15,
+        23,
+        17,
+        30,
+        15
+      ]
+    },
+    {
+      "check": "All source references defined",
+      "passed": true,
+      "detail": [
+        "arm",
+        "bis",
+        "calendar",
+        "direxion",
+        "fed",
+        "history",
+        "hours",
+        "korea",
+        "macro",
+        "mchp",
+        "prices",
+        "qcom",
+        "reuters",
+        "split",
+        "umich"
+      ]
+    },
+    {
+      "check": "All external source URLs grouped in section 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unique daily sessions and no missing close",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Recomputed daily count/win/mean/median",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Current session has no invented outcome",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "1h: one row per session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "1h: every scored endpoint is 24h apart and known by cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "1h: reported statistics recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "1h: missing endpoint repairs came from 1m bars",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "5m: one row per session",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "5m: every scored endpoint is 24h apart and known by cutoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "5m: reported statistics recomputed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "5m: missing endpoint repairs came from 1m bars",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Base snapshot verified against exact completed 1m row",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Previous close verified against stamped metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every new data/script artifact is below 10 MB",
+      "passed": true,
+      "detail": {
+        "files": 161,
+        "max_bytes": 1912670
+      }
+    },
+    {
+      "check": "Vault was read back and matched byte-for-byte",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "repo_sha256": "4f4f20a0ab69ba9e51bba19d1d7c2c3cadc807857052cb28fdca9deafdf25d17",
+  "vault_sha256": "d4a7e25d41f76540c6fc8c60db138641b726ba59edc8a3058432c9f5dd13e343",
+  "vault_written": true
+}

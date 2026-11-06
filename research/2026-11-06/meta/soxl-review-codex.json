@@ -1,0 +1,59 @@
+{
+  "job_id": "soxl-review-codex",
+  "kind": "review",
+  "ticker": "SOXL",
+  "model": "Codex Astra Max",
+  "date": "2026-11-06",
+  "reviewed_date": "2026-11-05",
+  "repo_path": "research/2026-11-06/soxl-review-codex.md",
+  "vault_path": "PERSONAL/STOCK/SOXL/2026-11-05-review-codex-astra-max.md",
+  "vault_written": false,
+  "title": "[SOXL] 2026-11-05 24시간 예측 사후 평가 — Codex Astra Max",
+  "summary": "공통 만기 개장가는 $56.95(−18.68%), Codex 주 만기는 직전 완성 1분봉 대용 $51.17(−26.90%)이다. Claude는 부분 적중, Codex·Argon은 미적중이다. 핵심 교훈은 만기·봉 경계 고정, 무효화 후 확률 갱신, 하방 꼬리와 분할 보정의 명시다.",
+  "scores": [
+    {
+      "model": "Claude Fable Max",
+      "note": "research/2026-11-05/forecast-24h-claude.md",
+      "base_time_kst": "2026-11-04 23:30",
+      "base_price": 70.03,
+      "call": "하락 소폭 우세 (상승 42%)",
+      "expiry_kst": "2026-11-05 23:30",
+      "expiry_price": 56.95,
+      "change_pct": -18.677708,
+      "verdict": "부분 적중",
+      "comment": "하락 방향·직전 종가 미회복 적중, 중심 $67~70과 최하방 $60 이탈; 첫 1시간 버킷은 재조회 분봉에서 재현되지 않음."
+    },
+    {
+      "model": "Codex Astra Max",
+      "note": "research/2026-11-05/forecast-24h-codex.md",
+      "base_time_kst": "2026-11-04 23:30",
+      "base_price": 70,
+      "call": "개장가 대비 소폭 상승 우세 (상승 55%)",
+      "expiry_kst": "2026-11-06 00:05:06",
+      "expiry_price": 51.17,
+      "change_pct": -26.900003,
+      "verdict": "미적중",
+      "comment": "주 만기는 00:05:06 KST; 원문 규칙에 따른 00:04~00:05 완성 1분봉 대용값. 방향·중심 미적중, 철회 조건은 01:00 KST에 확정."
+    },
+    {
+      "model": "Antigravity Argon High",
+      "note": "research/2026-11-04/soxl-forecast-24h-argon.md",
+      "base_time_kst": "2026-11-04 23:30",
+      "base_price": 70.03,
+      "call": "완만한 상승 우위 (상승 합산 59%, 원문 요약 58~60%)",
+      "expiry_kst": "2026-11-05 23:30",
+      "expiry_price": 56.95,
+      "change_pct": -18.677708,
+      "verdict": "미적중",
+      "comment": "상승 59%·중심 $71.5~74 미적중, 직전 종가 미회복과 붕괴 경고 유효; 최하방 $61도 이탈."
+    }
+  ],
+  "lessons": [
+    "기준 시각·정보 마감·만기·가격 측정법을 별도 고정하고 개장 Open과 만기 뒤 봉을 구분한다.",
+    "첫 1시간은 09:30≤t<10:30 EST로 집계하고 10:29 분봉까지 완성된 뒤 통계를 적용하며 시가 근처에서는 중립 완충 구간을 둔다.",
+    "업종 상대 약세와 무효화선이 동반되면 확률 변경 시각·가격을 기록하고 VIX 하락만으로 반등 가중치를 유지하지 않는다.",
+    "실적 후 가격 반응·한국장·다음 프리마켓을 순서대로 재평가하고 대표 가격대 밖 하방 꼬리를 별도 표시한다.",
+    "분할 보정·누락 봉·출처 차이를 검증하고 기준가별 수익률과 왕복 비용 0.5%를 분리 기록한다."
+  ],
+  "own_note_updated": false
+}

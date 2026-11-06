@@ -1,0 +1,115 @@
+[
+  {
+    "file": "naver_KOSPI_daily.json",
+    "url": "https://m.stock.naver.com/api/index/KOSPI/price?pageSize=10",
+    "requested_at_kst": "2026-11-06T09:45:48.267571+09:00",
+    "http_status": 200,
+    "bytes": 2606,
+    "content_type": "application/json;charset=UTF-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.376451+09:00"
+  },
+  {
+    "file": "naver_005930_daily.json",
+    "url": "https://m.stock.naver.com/api/stock/005930/price?pageSize=10",
+    "requested_at_kst": "2026-11-06T09:45:48.266784+09:00",
+    "http_status": 200,
+    "bytes": 2926,
+    "content_type": "application/json;charset=UTF-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.365219+09:00"
+  },
+  {
+    "file": "naver_000660_daily.json",
+    "url": "https://m.stock.naver.com/api/stock/000660/price?pageSize=10",
+    "requested_at_kst": "2026-11-06T09:45:48.267055+09:00",
+    "http_status": 200,
+    "bytes": 2998,
+    "content_type": "application/json;charset=UTF-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.365342+09:00"
+  },
+  {
+    "file": "yahoo_KORU_1m_raw.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=5d&interval=1m&includePrePost=true",
+    "requested_at_kst": "2026-11-06T09:45:48.267419+09:00",
+    "http_status": 200,
+    "bytes": 278554,
+    "content_type": "application/json;charset=utf-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.789127+09:00"
+  },
+  {
+    "file": "nasdaq_KORU_info.json",
+    "url": "https://api.nasdaq.com/api/quote/KORU/info?assetclass=etf",
+    "requested_at_kst": "2026-11-06T09:45:48.365905+09:00",
+    "http_status": 200,
+    "bytes": 901,
+    "content_type": "application/json; charset=utf-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.531323+09:00"
+  },
+  {
+    "file": "korea_close_asiae.html",
+    "url": "https://www.asiae.co.kr/article/2026110515540205579",
+    "requested_at_kst": "2026-11-06T09:45:48.367213+09:00",
+    "http_status": 200,
+    "bytes": 169881,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.874678+09:00"
+  },
+  {
+    "file": "korea_close_seoulfn.html",
+    "url": "https://www.seoulfn.com/news/articleView.html?idxno=642052",
+    "requested_at_kst": "2026-11-06T09:45:48.376929+09:00",
+    "http_status": 200,
+    "bytes": 142031,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.537259+09:00"
+  },
+  {
+    "file": "reuters_ai_rout.html",
+    "url": "https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818",
+    "requested_at_kst": "2026-11-06T09:45:48.531775+09:00",
+    "http_status": 403,
+    "error": "403 Client Error: Forbidden for url: https://ca.investing.com/news/stock-market-news/techstock-rout-accelerates-retreat-from-the-ai-trade-4935818",
+    "retrieved_at_kst": "2026-11-06T09:45:48.672349+09:00"
+  },
+  {
+    "file": "us_live_yahoo.html",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+    "requested_at_kst": "2026-11-06T09:45:48.537722+09:00",
+    "http_status": 200,
+    "bytes": 964102,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_at_kst": "2026-11-06T09:45:50.251576+09:00"
+  },
+  {
+    "file": "night_futures.html",
+    "url": "https://www.prekospi.com/",
+    "requested_at_kst": "2026-11-06T09:45:48.672972+09:00",
+    "http_status": 200,
+    "bytes": 213237,
+    "content_type": "text/html; charset=utf-8",
+    "retrieved_at_kst": "2026-11-06T09:45:48.979613+09:00"
+  },
+  {
+    "file": "soxx_split_sec.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526430480/d156277d497.htm",
+    "requested_at_kst": "2026-11-06T09:45:48.790018+09:00",
+    "http_status": 403,
+    "error": "403 Client Error: Forbidden for url: https://www.sec.gov/Archives/edgar/data/1100663/000119312526430480/d156277d497.htm",
+    "retrieved_at_kst": "2026-11-06T09:45:48.976276+09:00"
+  },
+  {
+    "file": "productivity_bls.html",
+    "url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm",
+    "requested_at_kst": "2026-11-06T09:45:48.875516+09:00",
+    "http_status": 403,
+    "error": "403 Client Error: Forbidden for url: https://www.bls.gov/news.release/archives/prod2_11052026.htm",
+    "retrieved_at_kst": "2026-11-06T09:45:49.687722+09:00"
+  },
+  {
+    "file": "claims_dol.pdf",
+    "url": "https://www.dol.gov/ui/data.pdf",
+    "requested_at_kst": "2026-11-06T09:45:48.976865+09:00",
+    "http_status": 403,
+    "error": "403 Client Error: Forbidden for url: https://www.dol.gov/ui/data.pdf",
+    "retrieved_at_kst": "2026-11-06T09:45:49.334743+09:00"
+  }
+]

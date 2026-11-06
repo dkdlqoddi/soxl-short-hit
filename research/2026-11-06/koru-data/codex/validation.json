@@ -1,0 +1,233 @@
+{
+  "validated_at_kst": "2026-11-06T09:58:14.567293+09:00",
+  "passed": true,
+  "checks": [
+    {
+      "check": "metadata exact required keys",
+      "passed": true
+    },
+    {
+      "check": "title equals repository H1",
+      "passed": true
+    },
+    {
+      "check": "review date and write date remain distinct",
+      "passed": true
+    },
+    {
+      "check": "all three model scores",
+      "passed": true
+    },
+    {
+      "check": "three to five lessons",
+      "passed": true
+    },
+    {
+      "check": "five standard top-level sections",
+      "passed": true
+    },
+    {
+      "check": "no unrendered placeholders",
+      "passed": true
+    },
+    {
+      "check": "vault frontmatter completed",
+      "passed": true
+    },
+    {
+      "check": "vault target round",
+      "passed": true
+    },
+    {
+      "check": "vault wikilink header",
+      "passed": true
+    },
+    {
+      "check": "vault no repository-relative markdown links",
+      "passed": true
+    },
+    {
+      "check": "fallback equals prepared vault body",
+      "passed": true
+    },
+    {
+      "check": "vault availability flags honest",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max as-of price",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max no future bar",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max direct raw crosscheck",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max return arithmetic",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max direction label",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max central range miss",
+      "passed": true
+    },
+    {
+      "check": "Claude Fable Max expiry passed",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max as-of price",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max no future bar",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max direct raw crosscheck",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max return arithmetic",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max direction label",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max central range miss",
+      "passed": true
+    },
+    {
+      "check": "Codex Astra Max expiry passed",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High as-of price",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High no future bar",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High direct raw crosscheck",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High return arithmetic",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High direction label",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High central range miss",
+      "passed": true
+    },
+    {
+      "check": "Antigravity Argon High expiry passed",
+      "passed": true
+    },
+    {
+      "check": "own status completed",
+      "passed": true
+    },
+    {
+      "check": "own only status and review section changed",
+      "passed": true
+    },
+    {
+      "check": "own original base and probability preserved",
+      "passed": true
+    },
+    {
+      "check": "own original hash verified",
+      "passed": true
+    },
+    {
+      "check": "own recovery files exist",
+      "passed": true
+    },
+    {
+      "check": "raw KORU minute data has no split in review window",
+      "passed": true
+    },
+    {
+      "check": "both two-bar confirmations at midnight",
+      "passed": true
+    },
+    {
+      "check": "SOXX split-adjusted calculation",
+      "passed": true
+    },
+    {
+      "check": "local link koru-data/codex/koru_path.png",
+      "passed": true
+    },
+    {
+      "check": "local link ../2026-11-05/koru-forecast-24h-claude.md",
+      "passed": true
+    },
+    {
+      "check": "local link ../2026-11-05/koru-forecast-24h-codex.md",
+      "passed": true
+    },
+    {
+      "check": "local link ../2026-11-05/koru-forecast-24h-argon.md",
+      "passed": true
+    },
+    {
+      "check": "local link ../2026-11-05/koru-review-codex.md",
+      "passed": true
+    },
+    {
+      "check": "local link koru-data/codex/analysis.json",
+      "passed": true
+    },
+    {
+      "check": "local link koru-data/codex/scores.csv",
+      "passed": true
+    },
+    {
+      "check": "local link koru-data/codex/checkpoints.csv",
+      "passed": true
+    },
+    {
+      "check": "local link koru-data/codex/collection_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local link koru-data/codex/crosscheck_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "every artifact below 10 MB",
+      "passed": true
+    },
+    {
+      "check": "plot artifact exists",
+      "passed": true
+    }
+  ],
+  "artifact_count": 75,
+  "max_file": [
+    "research/2026-11-06/koru-data/codex/us_live_yahoo.html",
+    964102
+  ],
+  "known_limitations": [
+    "Obsidian MCP unavailable: review fallback created, own previous vault sync pending.",
+    "Expiry prices are last completed one-minute aggregates; exact tick timestamps and executable bid/ask unavailable.",
+    "Daily closing prices differ across providers; expiry scoring unchanged.",
+    "No new backtest or trading execution was performed."
+  ]
+}

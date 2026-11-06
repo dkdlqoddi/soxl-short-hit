@@ -1,0 +1,182 @@
+[
+  {
+    "model": "Claude Fable Max",
+    "note": "research/2026-11-05/koru-forecast-24h-claude.md",
+    "base_time_kst": "2026-11-05 07:38:00",
+    "base_price": 10.62,
+    "call": "하락 소폭 우세 (상승 약 45%)",
+    "expiry_kst": "2026-11-06 07:40:00",
+    "expiry_price": 6.38,
+    "change_pct": -39.924670433145,
+    "prev_close_change_pct": -38.830297219558965,
+    "verdict": "적중",
+    "center": [
+      10.1,
+      10.7
+    ],
+    "center_hit": false,
+    "center_lower_shortfall": 3.7199999999999998,
+    "center_midpoint_error": 4.019999999999999,
+    "center_midpoint_error_pct_of_base": 37.85310734463276,
+    "full_range_lower_shortfall": 2.420000000000001,
+    "long_net_return_approx_pct": -40.424670433145,
+    "expiry_quote": {
+      "price": 6.38,
+      "bar_start_kst": "2026-11-06 07:39:00+09:00",
+      "bar_start_est": "2026-11-05 17:39:00-05:00",
+      "bar_end_kst": "2026-11-06 07:40:00+09:00",
+      "age_from_bar_end_seconds": 0.0,
+      "volume": 0.0,
+      "ohlc": {
+        "Open": 6.39,
+        "High": 6.4,
+        "Low": 6.3797,
+        "Close": 6.38
+      }
+    },
+    "elapsed_hours": 24.033333333333335,
+    "strict_24h_quote": {
+      "price": 6.39,
+      "bar_start_kst": "2026-11-06 07:37:00+09:00",
+      "bar_start_est": "2026-11-05 17:37:00-05:00",
+      "bar_end_kst": "2026-11-06 07:38:00+09:00",
+      "age_from_bar_end_seconds": 0.0,
+      "volume": 0.0,
+      "ohlc": {
+        "Open": 6.37,
+        "High": 6.39,
+        "Low": 6.36,
+        "Close": 6.39
+      }
+    },
+    "expiry_label_bar_close": 6.37,
+    "expiry_label_bar_low": 6.37,
+    "expiry_label_bar_high": 6.38,
+    "maximum": 10.7199,
+    "maximum_at_kst": "2026-11-05 07:58:00+09:00",
+    "minimum": 6.24,
+    "minimum_at_kst": "2026-11-06 07:09:00+09:00",
+    "regular_close_verdict": "미적중",
+    "scenario_verdict": "부분 적중"
+  },
+  {
+    "model": "Codex Astra Max",
+    "note": "research/2026-11-05/koru-forecast-24h-codex.md",
+    "base_time_kst": "2026-11-05 07:33:38",
+    "base_price": 10.6,
+    "call": "중립에 가까운 약한 하락 우세 (상승 약 45%)",
+    "expiry_kst": "2026-11-06 07:33:38",
+    "expiry_price": 6.34,
+    "change_pct": -40.18867924528302,
+    "prev_close_change_pct": -39.21380632790029,
+    "verdict": "적중",
+    "center": [
+      10.3,
+      10.55
+    ],
+    "center_hit": false,
+    "center_lower_shortfall": 3.960000000000001,
+    "center_midpoint_error": 4.085000000000001,
+    "center_midpoint_error_pct_of_base": 38.53773584905662,
+    "full_range_lower_shortfall": 2.8599999999999994,
+    "long_net_return_approx_pct": -40.68867924528302,
+    "expiry_quote": {
+      "price": 6.34,
+      "bar_start_kst": "2026-11-06 07:32:00+09:00",
+      "bar_start_est": "2026-11-05 17:32:00-05:00",
+      "bar_end_kst": "2026-11-06 07:33:00+09:00",
+      "age_from_bar_end_seconds": 38.0,
+      "volume": 0.0,
+      "ohlc": {
+        "Open": 6.3302,
+        "High": 6.3628,
+        "Low": 6.33,
+        "Close": 6.34
+      }
+    },
+    "elapsed_hours": 24.0,
+    "strict_24h_quote": {
+      "price": 6.34,
+      "bar_start_kst": "2026-11-06 07:32:00+09:00",
+      "bar_start_est": "2026-11-05 17:32:00-05:00",
+      "bar_end_kst": "2026-11-06 07:33:00+09:00",
+      "age_from_bar_end_seconds": 38.0,
+      "volume": 0.0,
+      "ohlc": {
+        "Open": 6.3302,
+        "High": 6.3628,
+        "Low": 6.33,
+        "Close": 6.34
+      }
+    },
+    "expiry_label_bar_close": 6.3399,
+    "expiry_label_bar_low": 6.33,
+    "expiry_label_bar_high": 6.34,
+    "maximum": 10.7199,
+    "maximum_at_kst": "2026-11-05 07:58:00+09:00",
+    "minimum": 6.24,
+    "minimum_at_kst": "2026-11-06 07:09:00+09:00",
+    "regular_close_verdict": "미적중",
+    "scenario_verdict": "부분 적중"
+  },
+  {
+    "model": "Antigravity Argon High",
+    "note": "research/2026-11-05/koru-forecast-24h-argon.md",
+    "base_time_kst": "2026-11-05 07:31:00",
+    "base_price": 10.58,
+    "call": "하락 소폭 우세 (상승 약 44%)",
+    "expiry_kst": "2026-11-06 07:31:00",
+    "expiry_price": 6.3501,
+    "change_pct": -39.980151228733455,
+    "prev_close_change_pct": -39.11697027804409,
+    "verdict": "적중",
+    "center": [
+      10.15,
+      10.6
+    ],
+    "center_hit": false,
+    "center_lower_shortfall": 3.7999,
+    "center_midpoint_error": 4.0249,
+    "center_midpoint_error_pct_of_base": 38.04253308128544,
+    "full_range_lower_shortfall": 2.7498999999999993,
+    "long_net_return_approx_pct": -40.480151228733455,
+    "expiry_quote": {
+      "price": 6.3501,
+      "bar_start_kst": "2026-11-06 07:30:00+09:00",
+      "bar_start_est": "2026-11-05 17:30:00-05:00",
+      "bar_end_kst": "2026-11-06 07:31:00+09:00",
+      "age_from_bar_end_seconds": 0.0,
+      "volume": 0.0,
+      "ohlc": {
+        "Open": 6.3,
+        "High": 6.37,
+        "Low": 6.3,
+        "Close": 6.3501
+      }
+    },
+    "elapsed_hours": 24.0,
+    "strict_24h_quote": {
+      "price": 6.3501,
+      "bar_start_kst": "2026-11-06 07:30:00+09:00",
+      "bar_start_est": "2026-11-05 17:30:00-05:00",
+      "bar_end_kst": "2026-11-06 07:31:00+09:00",
+      "age_from_bar_end_seconds": 0.0,
+      "volume": 0.0,
+      "ohlc": {
+        "Open": 6.3,
+        "High": 6.37,
+        "Low": 6.3,
+        "Close": 6.3501
+      }
+    },
+    "expiry_label_bar_close": 6.34,
+    "expiry_label_bar_low": 6.3298,
+    "expiry_label_bar_high": 6.38,
+    "maximum": 10.7199,
+    "maximum_at_kst": "2026-11-05 07:58:00+09:00",
+    "minimum": 6.24,
+    "minimum_at_kst": "2026-11-06 07:09:00+09:00",
+    "regular_close_verdict": "미적중",
+    "scenario_verdict": "부분 적중"
+  }
+]

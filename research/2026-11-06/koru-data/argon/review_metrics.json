@@ -1,0 +1,183 @@
+{
+  "generated_at_kst": "2026-11-06 09:54:00 KST",
+  "reviewed_round": "2026-11-05",
+  "prev_regular_close_1104": {
+    "koru": 10.43,
+    "ewy": 152.12,
+    "soxx_presplit": 450.41,
+    "soxx_split_adj": 150.1367,
+    "sox_index": 10268.65,
+    "mu": 795.23,
+    "nvda": 200.13,
+    "qcom": 173.19,
+    "arm": 191.80,
+    "vix": 16.61
+  },
+  "regular_close_1105": {
+    "koru": 6.53,
+    "koru_change_pct": -37.39,
+    "ewy": 131.65,
+    "ewy_change_pct": -13.46,
+    "soxx": 131.90,
+    "soxx_change_pct": -12.15,
+    "sox_index": 9011.14,
+    "sox_change_pct": -12.25,
+    "soxl": 40.87,
+    "soxl_change_pct": -38.71,
+    "mu": 656.39,
+    "mu_change_pct": -17.46,
+    "amd": 404.40,
+    "amd_change_pct": -17.26,
+    "nvda": 181.60,
+    "nvda_change_pct": -9.26,
+    "qcom": 156.75,
+    "qcom_change_pct": -9.49,
+    "arm": 166.72,
+    "arm_change_pct": -13.08,
+    "gspc": 7353.73,
+    "gspc_change_pct": -4.36,
+    "ixic": 24315.00,
+    "ixic_change_pct": -5.52,
+    "dji": 51523.06,
+    "dji_change_pct": -3.44,
+    "vix": 28.18,
+    "vix_change_pct": 69.66,
+    "skhy": 123.90,
+    "skhy_change_pct": -13.40
+  },
+  "korea_sessions": {
+    "2026-11-05": {
+      "kospi_open": 5580.09,
+      "kospi_high": 5586.46,
+      "kospi_low": 5336.88,
+      "kospi_close": 5383.80,
+      "kospi_change_pct": -5.28,
+      "kosdaq_close": 678.41,
+      "kosdaq_change_pct": -5.11,
+      "foreign_net_krw_billion": -3424.2,
+      "samsung_close": 201500,
+      "samsung_change_pct": -7.57,
+      "hynix_krx_close": 1264000,
+      "hynix_krx_change_pct": -9.46,
+      "hynix_nxt_close": 1262000,
+      "msci_tr_278540_close": 30005,
+      "msci_tr_278540_change_pct": -5.53,
+      "krw_1530": 1341.58,
+      "sell_sidecar_kst": "10:16 (KOSPI) / 14:27 (KOSDAQ)"
+    },
+    "2026-11-06_intraday_0944_kst": {
+      "kospi_open": 5263.26,
+      "kospi_cb_low": 4911.28,
+      "kospi_0903_cb": 4923.47,
+      "kospi_0944": 5014.54,
+      "kospi_0944_change_pct": -6.86,
+      "circuit_breaker_kst": "09:03 (KOSPI Level 1, -8.52%, 20min halt) / 09:06 (KOSDAQ sell sidecar)",
+      "samsung_low": 175300,
+      "samsung_0944": 187400,
+      "hynix_low": 1070000,
+      "hynix_0944": 1153000,
+      "msci_tr_278540_low": 26845,
+      "msci_tr_278540_0944": 27750,
+      "krw_0940": 1356.58
+    }
+  },
+  "inav_decomposition": {
+    "calibration_20d_median_ratio": 6.4268,
+    "fv_1104_1530_usd": 152.21,
+    "fv_1105_1530_usd": 143.74,
+    "fv_1105_fx0600_usd": 142.18,
+    "ewy_1105_open": 144.935,
+    "ewy_1105_open_gap_vs_1530_fv_pct": 0.83,
+    "ewy_1105_close": 131.65,
+    "realized_kr_fx_component_pct": -6.53,
+    "forward_discount_component_pct": -7.41,
+    "fv_1106_cb_low_usd": 127.23,
+    "fv_1106_0944_usd": 131.47
+  },
+  "model_evaluations": [
+    {
+      "model": "Antigravity Argon High",
+      "base_time_kst": "2026-11-05 07:31",
+      "base_price": 10.58,
+      "expiry_time_kst": "2026-11-06 07:31",
+      "expiry_1m_ohlc": [6.3500, 6.3800, 6.3298, 6.3400],
+      "expiry_price": 6.34,
+      "change_vs_base_pct": -40.08,
+      "change_vs_prev_close_pct": -39.21,
+      "brier_vs_base": 0.1936,
+      "brier_vs_prev_close": 0.2601,
+      "sub_verdicts": {
+        "direction_vs_base": "적중",
+        "center_range": "미적중",
+        "vs_prev_close": "미적중",
+        "scenarios_and_levels": "부분 적중"
+      },
+      "overall_verdict": "부분 적중"
+    },
+    {
+      "model": "Codex Astra Max",
+      "base_time_kst": "2026-11-05 07:33:38",
+      "base_price": 10.60,
+      "expiry_time_kst": "2026-11-06 07:33:38",
+      "expiry_1m_0732_close": 6.3400,
+      "expiry_1m_0733_ohlc": [6.3400, 6.3400, 6.3300, 6.3399],
+      "expiry_price": 6.34,
+      "change_vs_base_pct": -40.19,
+      "change_vs_prev_close_pct": -39.21,
+      "brier_vs_base": 0.2025,
+      "sub_verdicts": {
+        "direction_vs_base": "적중",
+        "center_range": "미적중",
+        "vs_prev_close": "미적중",
+        "scenarios_and_levels": "부분 적중"
+      },
+      "overall_verdict": "부분 적중"
+    },
+    {
+      "model": "Claude Fable Max",
+      "base_time_kst": "2026-11-05 07:38",
+      "base_price": 10.62,
+      "expiry_time_kst": "2026-11-06 07:40",
+      "expiry_1m_0740_ohlc": [6.3800, 6.3800, 6.3700, 6.3700],
+      "expiry_1m_0738_close_ref": 6.3900,
+      "expiry_price": 6.37,
+      "change_vs_base_pct": -40.02,
+      "change_vs_prev_close_pct": -38.93,
+      "brier_vs_base": 0.2025,
+      "brier_vs_prev_close": 0.3025,
+      "sub_verdicts": {
+        "direction_vs_base": "적중",
+        "center_range": "미적중",
+        "vs_prev_close": "미적중",
+        "scenarios_and_levels": "부분 적중"
+      },
+      "overall_verdict": "부분 적중"
+    }
+  ],
+  "backtests": {
+    "low_clv_oversold_10y": {
+      "condition": "KORU <= -4% & CLV <= 0.20",
+      "all": {"N": 170, "up_pct": 62.4, "mean_pct": 1.97, "median_pct": 1.22, "min_pct": -37.39},
+      "next_open_holds_within_1pct_of_low": {"N": 128, "up_pct": 78.1, "mean_pct": 4.20, "median_pct": 2.81},
+      "next_open_gaps_over_1pct_below_low": {"N": 41, "up_pct": 14.6, "mean_pct": -4.05, "median_pct": -3.49},
+      "kospi_d1_above_minus_1pct": {"N": 94, "up_pct": 73.4, "mean_pct": 3.74, "median_pct": 2.80},
+      "kospi_d1_below_minus_2pct": {"N": 28, "up_pct": 32.1, "mean_pct": -1.67, "median_pct": -3.11, "p10_pct": -9.82}
+    },
+    "ewy_intraday_sox_beta_shift": {
+      "2016_2025": {"N": 2300, "ewy_beta": 0.362, "r2": 0.558, "koru_beta": 1.065},
+      "2026_oos_thru_1104": {"N": 212, "ewy_beta": 0.930, "r2": 0.643, "koru_beta": 2.802},
+      "2026_all_thru_1105": {"N": 213, "ewy_beta": 0.946, "r2": 0.667, "koru_beta": 2.843}
+    },
+    "two_day_consecutive_sox_drop": {
+      "after_sox_le_minus_2_5_all": {"N": 239, "up_pct": 57.7, "mean_pct": 1.14, "median_pct": 0.90},
+      "day2_sox_rebound_gt_0": {"N": 142, "up_pct": 75.4, "mean_pct": 3.94, "median_pct": 2.85},
+      "day2_sox_le_minus_2_5": {"N": 23, "up_pct": 4.3, "mean_pct": -8.89, "median_pct": -7.63},
+      "day2_sox_le_minus_5_0": {"N": 8, "up_pct": 0.0, "mean_pct": -17.08, "median_pct": -12.17}
+    },
+    "vix_crush_le_minus_12pct": {
+      "N": 84,
+      "next_day_koru_up_pct": 42.9,
+      "next_day_koru_median_pct": -1.11
+    }
+  }
+}
